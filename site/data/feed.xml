@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 14:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 14:46:50 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>公告新闻</title>
@@ -352,6 +352,14 @@
       <description>10月20日下午，合肥工业大学智能软件工程学院在宣城校区行政楼102会议室开展“智心同行逐梦起航——朋辈骨干心理帮扶胜任力提升”专题培训，培训由学院团委书记丁宏霈老师主讲，学院“智荟领航营”学生骨干能力提升训练营学员参加。</description>
     </item>
     <item>
+      <title>土木与水利工程学院第二十三届研究生会新生见面会暨“砼研之星”颁奖仪式顺利举行</title>
+      <link>https://civil.hfut.edu.cn/2026/1023/c12331a324044/page.htm</link>
+      <guid isPermaLink="false">web-b88c7d0ed2841419</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0000</pubDate>
+      <category>departments</category>
+      <description>土木与水利工程学院第二十三届研究生会新生见面会暨“砼研之星”颁奖仪式顺利举行</description>
+    </item>
+    <item>
       <title>我校关工委获评全国教育系统关心下一代工作突出贡献集体</title>
       <link>https://www.hfut.edu.cn/info/1127/13229.htm</link>
       <guid isPermaLink="false">web-5794ca1be0dee99b</guid>
@@ -638,14 +646,6 @@
       <pubDate>Tue, 20 Oct 2026 09:00:00 +0000</pubDate>
       <category>recruitment</category>
       <description>10月16日晚，化学与化工学院在翡翠湖校区开展“凝青春力量，筑团学新篇”团学组织全员大会，团学组织全体成员参加会议，共同开启新学年团学工作新篇章。</description>
-    </item>
-    <item>
-      <title>关于我校参与申报2026年度湖南省科技奖的公示</title>
-      <link>https://kyy.hfut.edu.cn/2026/1020/c3310a323950/page.htm</link>
-      <guid isPermaLink="false">web-ee25d2ec77d2ad8e</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>关于我校参与申报2026年度湖南省科技奖的公示</description>
     </item>
   </channel>
 </rss>
