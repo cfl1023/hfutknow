@@ -16,7 +16,13 @@ NAV_WORDS = {
     "首页", "上一页", "下一页", "更多", "返回", "登录", "注册", "English", "联系我们",
     "网站地图", "友情链接", "设为首页", "加入收藏", "机构设置", "师资队伍", "人才培养",
     "科学研究", "招生就业", "党建工作", "学生工作", "信息公开", "搜索结果", "全站搜索",
+    "相关链接", "学院新闻", "通知公告", "公告新闻", "新闻动态", "工作动态", "学院动态",
+    "通知中心", "栏目名称", "更多新闻", "全部新闻", "标题", "正文", "上一篇", "下一篇",
 }
+BAD_TITLE_PATTERNS = [
+    "副教授（", "教授（", "讲师（", "研究员（", "高级实验师",
+    "师资队伍", "教师名录", "员工名录", "正高", "副高", "列表", "栏目",
+]
 
 LEAD_DATE = re.compile(r"^\s*(?:20\d{2}[-/.年]\d{1,2}[-/.月]\d{1,2}日?|\d{1,2}[-/月]\d{1,2}日?)\s*")
 TRAIL_DATE = re.compile(r"\s*(?:20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}|\d{1,2}[-/月]\d{1,2}日?)\s*$")
@@ -160,6 +166,8 @@ def fetch_html_list(feed: dict[str, Any], limit: int = 12) -> list[dict[str, Any
                 continue
             title = clean_title(a.get("title") or a.text_content() or "")
             if len(title) < 6 or title in NAV_WORDS:
+                continue
+            if any(b in title for b in BAD_TITLE_PATTERNS):
                 continue
             if title.startswith(("返回", "首页", "更多", "上一页", "下一页")):
                 continue

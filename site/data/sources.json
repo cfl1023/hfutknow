@@ -43,7 +43,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 0
   },
   {
    "id": "hfut-jwc",
@@ -135,7 +135,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-xcb",
@@ -201,7 +201,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-yjsy",
@@ -223,7 +223,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 6
   },
   {
    "id": "hfut-ic",
@@ -268,7 +268,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 7
   },
   {
    "id": "hfut-civil",
@@ -290,7 +290,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 10
   },
   {
    "id": "hfut-jxjy",
@@ -400,7 +400,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-me",
@@ -444,7 +444,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-mks",
@@ -536,7 +536,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-hgxy",
@@ -651,7 +651,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 0
   },
   {
    "id": "hfut-jxxy",
@@ -674,7 +674,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 11
   },
   {
    "id": "hfut-tuanwei",
@@ -722,7 +722,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 12
   },
   {
    "id": "wx-hfut",
