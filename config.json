@@ -762,6 +762,28 @@
       }
     },
     {
+      "id": "hfut-jxxy",
+      "name": "机械工程学院",
+      "type": "official",
+      "url": "https://jxxy.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://jxxy.hfut.edu.cn/",
+        "urls": [
+          "https://jxxy.hfut.edu.cn/"
+        ],
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
       "id": "hfut-tuanwei",
       "name": "共青团合肥工业大学委员会",
       "type": "official",
