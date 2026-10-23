@@ -537,10 +537,10 @@
     document.querySelectorAll('#mainnav a').forEach((a) => { const k = a.dataset.nav; if (L.nav[k]) a.textContent = L.nav[k]; });
     $('#searchInput').placeholder = L.searchPh;
     $('#langBtn').textContent = S.lang === 'en' ? '中' : 'EN';
-    const ageH = S.generatedAt ? (Date.now() - new Date(S.generatedAt).getTime()) / 36e5 : 99;
+    const freshAge = S.generatedAt ? (Date.now() - new Date(S.generatedAt).getTime()) / 36e5 : 99;
     const dot = $('#freshDot');
     if (dot) {
-      dot.className = 'fresh-dot ' + (ageH < 2 ? 'ok' : ageH < 12 ? 'warn' : 'bad');
+      dot.className = 'fresh-dot ' + (freshAge < 2 ? 'ok' : freshAge < 12 ? 'warn' : 'bad');
       dot.title = (S.lang === 'en' ? 'Updated ' : '更新于 ') + (S.generatedAt || '').replace('T', ' ').slice(5, 16);
     }
     const demoPart = S.demoCount ? ` · ${L.demoNote.replace('{n}', S.demoCount)}` : '';
