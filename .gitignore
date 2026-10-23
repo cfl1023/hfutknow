@@ -4,3 +4,4 @@ dist/
 .chrome-profile/
 _*.html
 .DS_Store
+_apk/
