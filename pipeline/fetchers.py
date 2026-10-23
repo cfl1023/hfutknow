@@ -146,6 +146,8 @@ def fetch_html_list(feed: dict[str, Any], limit: int = 12) -> list[dict[str, Any
             title = clean_title(a.get("title") or a.text_content() or "")
             if len(title) < 6 or title in NAV_WORDS:
                 continue
+            if title.startswith(("返回", "首页", "更多", "上一页", "下一页")):
+                continue
             seen.add(href)
             parent = a.getparent()
             context = " ".join(parent.text_content().split())[:240] if parent is not None else title
