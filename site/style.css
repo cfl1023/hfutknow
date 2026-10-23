@@ -357,3 +357,8 @@ mark { background: var(--accent-soft); color: var(--accent-2); border-radius: 2p
   .drawer-body { padding: 18px 16px 40px; }
   .foot-links { margin-left: 0; width: 100%; }
 }
+
+.person .rc {
+  font-size: 11px; color: var(--text-2); line-height: 1.5; margin-top: 3px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}

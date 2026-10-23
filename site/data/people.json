@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T15:43",
+ "generatedAt": "2026-10-23T16:02",
  "college": {
   "id": "ic",
   "name": "集成电路创新学院",
@@ -12,7 +12,7 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "http://faculty.hfut.edu.cn/xgb/zh_CN/index.htm",
-   "kind": "全职"
+   "research": "（主页关键词：集成电路）"
   },
   {
    "name": "张鹏",
@@ -20,7 +20,7 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "http://faculty.hfut.edu.cn/zhangpeng1/zh_CN/index.htm",
-   "kind": "全职"
+   "research": "为MEMS非制冷红外探测器、红外偏振/多光谱成像及半导体光学检测，相关研究成果已发表在IEEE JMEMS，ACS Photonics, Advanced Science, Optics and Lasers in Enginee..."
   },
   {
    "name": "王庆贺",
@@ -28,7 +28,7 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "http://faculty.hfut.edu.cn/~fu2MBf/zh_CN/index.htm",
-   "kind": "全职"
+   "research": "包括：1）高k栅控薄膜晶体管（TFT）器件与物理；2）超宽禁带Ga2O3器件与应用；3）新型非晶氧化物半导体器件与集成。"
   },
   {
    "name": "赵若兰（特任）",
@@ -36,7 +36,7 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "http://faculty.hfut.edu.cn/zhaoruolan/zh_CN/index.htm",
-   "kind": "全职"
+   "research": "（主页关键词：微电子）"
   },
   {
    "name": "苏子佳",
@@ -44,7 +44,7 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "http://faculty.hfut.edu.cn/~Bvqu2i/zh_CN/index.htm",
-   "kind": "全职"
+   "research": "（主页关键词：微电子）"
   },
   {
    "name": "陶韦臣",
@@ -52,7 +52,7 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "https://faculty.hfut.edu.cn/taoweichen/zh_CN/zhym/533328/list/index.htm",
-   "kind": "全职"
+   "research": "（主页关键词：集成电路）"
   },
   {
    "name": "潘尚杰（特任）",
@@ -60,39 +60,15 @@
    "college": "集成电路创新学院",
    "collegeId": "ic",
    "url": "http://faculty.hfut.edu.cn/panshangjie/zh_CN/index.htm",
-   "kind": "全职"
-  },
-  {
-   "name": "马敏",
-   "title": "行政管理人员",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/MaMin/zh_CN/index.htm",
-   "kind": "全职"
-  },
-  {
-   "name": "李骏",
-   "title": "行政管理人员",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/lijun269/zh_CN/index.htm",
-   "kind": "全职"
-  },
-  {
-   "name": "朱文拿",
-   "title": "行政管理人员",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/zhuwenna/zh_CN/index.htm",
-   "kind": "全职"
+   "research": "（主页关键词：集成电路）"
   }
  ],
  "groups": [
   "教授",
   "副教授",
-  "讲师",
   "研究员",
   "副研究员",
+  "讲师",
   "兼职"
  ]
 }

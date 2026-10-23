@@ -500,7 +500,8 @@
           <span class="ava">${esc(p.name.slice(0, 1))}</span>
           <span class="meta"><span class="nm">${esc(p.name)}</span>
           <span class="tt">${esc(p.title)}</span>
-          <span class="cl">${esc(p.college)} · ${L.peopleLink} ↗</span></span></a>`).join('')}</div>`).join('')
+          <span class="cl">${esc(p.college)} · ${L.peopleLink} ↗</span>
+          ${p.research ? `<span class="rc">${esc(p.research)}</span>` : ''}</span></a>`).join('')}</div>`).join('')
       : `<div class="empty"><b>${L.peopleEmpty}</b></div>`;
     document.title = `${L.peopleTitle} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
     app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>${body}`;
