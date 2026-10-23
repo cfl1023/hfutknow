@@ -369,3 +369,8 @@ mark { background: var(--accent-soft); color: var(--accent-2); border-radius: 2p
 .plan:hover { border-color: var(--accent); }
 .plan .pn { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .plan .pa { font-size: 11px; color: var(--accent-2); white-space: nowrap; }
+
+.fresh-dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; margin-left: -2px; }
+.fresh-dot.ok { background: var(--ok); box-shadow: 0 0 0 3px var(--ok-soft); }
+.fresh-dot.warn { background: var(--warn); box-shadow: 0 0 0 3px color-mix(in srgb, var(--warn) 18%, transparent); }
+.fresh-dot.bad { background: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
