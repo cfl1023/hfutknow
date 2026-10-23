@@ -2,7 +2,7 @@ name: update
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -29,8 +29,8 @@ jobs:
       - name: Install deps
         run: pip install lxml
 
-      - name: Crawl sources
-        run: python -m pipeline.sync --limit 15 --enrich
+      - name: Crawl sources (fast)
+        run: python -m pipeline.sync --limit 8 --fast
 
       - name: Build RSS
         run: python tools/make_rss.py

@@ -628,6 +628,17 @@
       lastLoad = Date.now();
       if (await refreshData()) route();
     });
+    // 每隔 3 分钟静默拉一次最新数据（页面保持前台时）
+    setInterval(async () => {
+      if (document.visibilityState !== 'visible') return;
+      if (Date.now() - lastLoad < 3 * 60 * 1000) return;
+      lastLoad = Date.now();
+      const updated = await refreshData();
+      if (updated) {
+        const { path, params } = parseHash();
+        if (path !== 'i') route();   // 详情抽屉打开时不打断阅读
+      }
+    }, 60 * 1000);
   }
 
   function registerSW() {

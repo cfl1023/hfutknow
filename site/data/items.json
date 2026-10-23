@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T16:41",
+ "generatedAt": "2026-10-23T22:11",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -139,6 +139,105 @@
   }
  ],
  "items": [
+  {
+   "id": "web-706119cb42145034",
+   "title": "第二届全国人工智能逻辑大会暨CAAI人工智能逻辑专业委员会学术年会会议通知",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1063/16614.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "第二届全国人工智能逻辑大会暨CAAI人工智能逻辑专业委员会学术年会会议通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>第二届全国人工智能逻辑大会暨CAAI人工智能逻辑专业委员会学术年会会议通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-517fc3e92d05ce4e",
+   "title": "研究生院赴南京组织召开研究生教育专题研讨会",
+   "sourceId": "hfut-yjsy",
+   "sourceName": "合肥工业大学研究生院",
+   "sourceType": "official",
+   "url": "https://yjsy.hfut.edu.cn/info/1004/1633.htm",
+   "publishedAt": "2026-10-23T22:11",
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "研究生院赴南京组织召开研究生教育专题研讨会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "研讨会"
+   ],
+   "content": [
+    "<p>研究生院赴南京组织召开研究生教育专题研讨会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-f270ac487d08ffa1",
+   "title": "研究生院赴西安组织召开研究生教育专题研讨会",
+   "sourceId": "hfut-yjsy",
+   "sourceName": "合肥工业大学研究生院",
+   "sourceType": "official",
+   "url": "https://yjsy.hfut.edu.cn/info/1004/1632.htm",
+   "publishedAt": "2026-10-23T22:11",
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "研究生院赴西安组织召开研究生教育专题研讨会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "研讨会"
+   ],
+   "content": [
+    "<p>研究生院赴西安组织召开研究生教育专题研讨会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-2c0778b21558a916",
+   "title": "树立和践行正确政绩观学习教育",
+   "sourceId": "hfut-tiyu",
+   "sourceName": "合肥工业大学体育部",
+   "sourceType": "official",
+   "url": "https://tiyu.hfut.edu.cn/info/1013/2016.htm",
+   "publishedAt": "2026-10-23T22:11",
+   "intent": "information",
+   "category": "campus",
+   "summary": "树立和践行正确政绩观学习教育",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>树立和践行正确政绩观学习教育</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-15706a9c82dd49b8",
+   "title": "2026年校医院国庆假期值班安排",
+   "sourceId": "hfut-xyy",
+   "sourceName": "校医院",
+   "sourceType": "official",
+   "url": "https://xyy.hfut.edu.cn/2026/0930/c4798a323536/page.htm",
+   "publishedAt": "2026-10-23T22:11",
+   "intent": "information",
+   "category": "campus",
+   "summary": "2026年校医院国庆假期值班安排",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>2026年校医院国庆假期值班安排</p>"
+   ],
+   "demo": false
+  },
   {
    "id": "web-4c1c42cdf949ab83",
    "title": "关于2026-2027学年“合肥工业大学-人本滴水奖学金”评选的通知-机械工程学院",
@@ -819,6 +918,69 @@
    "demo": false
   },
   {
+   "id": "web-775b02f81dfe03bb",
+   "title": "我校师生参加“砺剑江淮·研学共进”军地高校研学交流活动",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1012/20181.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "我校师生参加“砺剑江淮·研学共进”军地高校研学交流活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>我校师生参加“砺剑江淮·研学共进”军地高校研学交流活动</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-c7882f27c3d4a418",
+   "title": "智能软件工程学院开展新生心理健康教育专题讲座",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1016/3734.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "智能软件工程学院开展新生心理健康教育专题讲座",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "讲座",
+    "学院"
+   ],
+   "content": [
+    "<p>智能软件工程学院开展新生心理健康教育专题讲座</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-3a264bfc87381eb2",
+   "title": "智能软件工程学院朋辈骨干心理帮扶胜任力提升培训顺利开展",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1016/3733.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "智能软件工程学院朋辈骨干心理帮扶胜任力提升培训顺利开展",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院",
+    "培训"
+   ],
+   "content": [
+    "<p>智能软件工程学院朋辈骨干心理帮扶胜任力提升培训顺利开展</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-5794ca1be0dee99b",
    "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
    "sourceId": "hfut-edu",
@@ -1406,6 +1568,50 @@
    "demo": false
   },
   {
+   "id": "web-25f89a95cc0d1bbe",
+   "title": "关于我校发明专利的专利权转让公示（2026-29）",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1021/c3310a323997/page.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "关于我校发明专利的专利权转让公示（2026-29）",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "专利"
+   ],
+   "content": [
+    "<p>关于我校发明专利的专利权转让公示（2026-29）</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-91ad8d9f904ec2d0",
+   "title": "学院飞行器创新实验室在中国大学生飞行器设计创新大赛全国总决赛中再创佳绩",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1016/3725.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "学院飞行器创新实验室在中国大学生飞行器设计创新大赛全国总决赛中再创佳绩",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "实验室",
+    "学院",
+    "大赛"
+   ],
+   "content": [
+    "<p>学院飞行器创新实验室在中国大学生飞行器设计创新大赛全国总决赛中再创佳绩</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-4e26b97fca7755f7",
    "title": "关于到期科研项目办理结题工作的通知",
    "sourceId": "hfut-kyy",
@@ -1627,6 +1833,25 @@
     "<p>年9月1日之后)：12月中旬前</p>",
     "<p>完成获奖成果填报和学院审核。</p>",
     "<p>1.为避免重复填报，由获奖项目的</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-ee25d2ec77d2ad8e",
+   "title": "关于我校参与申报2026年度湖南省科技奖的公示",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1020/c3310a323950/page.htm",
+   "publishedAt": "2026-10-20T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于我校参与申报2026年度湖南省科技奖的公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>关于我校参与申报2026年度湖南省科技奖的公示</p>"
    ],
    "demo": false
   },
@@ -2079,6 +2304,89 @@
    "demo": false
   },
   {
+   "id": "web-828c9e848b8b10bc",
+   "title": "一周会议（10月19日-10月25日）",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1011&wbnewsid=20132",
+   "publishedAt": "2026-10-19T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "10月19日",
+   "event": {
+    "start": "2026-10-19T19:00:00",
+    "location": null
+   },
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>10月19日</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-bccc9ff1fd2e5461",
+   "title": "我校两项成果入选2026年中国教科文卫体系统职工优秀“五小”创新成果名单",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79417.htm",
+   "publishedAt": "2026-10-19T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "我校两项成果入选2026年中国教科文卫体系统职工优秀“五小”创新成果名单",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "成果"
+   ],
+   "content": [
+    "<p>我校两项成果入选2026年中国教科文卫体系统职工优秀“五小”创新成果名单</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-0fde5f48bc348479",
+   "title": "2026 openJiuwen开源领航高校行走进合肥工业大学",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1065/16635.htm",
+   "publishedAt": "2026-10-19T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "2026 openJiuwen开源领航高校行走进合肥工业大学",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>2026 openJiuwen开源领航高校行走进合肥工业大学</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-2e2fd887b3349e23",
+   "title": "学院举办2026级全校山东籍新生见面会",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1065/16634.htm",
+   "publishedAt": "2026-10-19T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "学院举办2026级全校山东籍新生见面会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "content": [
+    "<p>学院举办2026级全校山东籍新生见面会</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-520b63bc7a747eec",
    "title": "机械工程学院第76期发展对象班开展“铭记渡江峥嵘岁月，践行青年报国初心”主题实践活动-机械工程学院",
    "sourceId": "hfut-jxxy",
@@ -2106,6 +2414,25 @@
    "demo": false
   },
   {
+   "id": "web-0c0e1132148b2d0b",
+   "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79483.htm",
+   "publishedAt": "2026-10-18T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>我校关工委获评全国教育系统关心下一代工作突出贡献集体</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-f150952544f77cc5",
    "title": "九三学社合工大基层委组织开展",
    "sourceId": "hfut-tzb",
@@ -2127,6 +2454,25 @@
     "<p>在中国农村包产到户纪念馆，社员们认真阅读改革故事，回顾那段敢为人先、为民造福的探索历程，体悟扎根群众、求真务实的价值取向，深入领会因地制宜、尊重群众首创精神的实践意蕴。在刘铭传纪念馆，大家细致观看展陈史料，追忆先贤守卫疆土、兴学兴业的爱国作为，厚植家国情怀。</p>",
     "<p>通过此次活动，社员们进一步落实“学思想、讲大局、重实干、出实绩”总要求，深化理论学习，坚守合作初心，厚植为民情怀，强化实干担当，弘扬践行教育家精神，进一步激发了干事创业、担当作为的内生动力。大家一致表示，要把学习成果转化为立足岗位、履职实践的动力，牢记工业报国初心使命，强化实干担当，积极建言资政，以实干实绩服务地方高质量发展。</p>",
     "<p>(陈雁翔/文 综合/图 李钦/审核)</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-6119bf4d765cbdbe",
+   "title": "陆军兵种大学学员成长中心师生来校调研交流",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1020/79470.htm",
+   "publishedAt": "2026-10-17T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "陆军兵种大学学员成长中心师生来校调研交流",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>陆军兵种大学学员成长中心师生来校调研交流</p>"
    ],
    "demo": false
   },
@@ -2318,6 +2664,92 @@
     "<p>杨华勇院士为大会作主旨报告</p>",
     "<p>学院教师参与大会邀请报告</p>",
     "<p>机械工程学院师生积极参与大会学术组织与会务。韩江教授担任大会学术委员会副主任，祖磊教授、黄海鸿教授、赵萍教授、田晓青教授等参与学术委员会工作；田晓青教授担任大会组织委员会主任，黄康教授、田杰教授、董方方教授等参与组织委员会工作。学校会务组与大会秘书处协同推进会议筹备，为主旨报告、专题分论坛及相关活动的开展提供支持。学院30余位研究生参与会议志愿者活动，为会议成功举办做出重要贡献。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-e685644f724fa4ff",
+   "title": "2026年中国机械工程学会机械传动分会年会在我校召开",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79454.htm",
+   "publishedAt": "2026-10-16T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "2026年中国机械工程学会机械传动分会年会在我校召开",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>2026年中国机械工程学会机械传动分会年会在我校召开</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-12bf2ea7f002d8a6",
+   "title": "土木与水利工程学院与中国电子系统工程第三建设有限公司共建大学生就业实习基地",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1020/79467.htm",
+   "publishedAt": "2026-10-16T09:00:00",
+   "intent": "activity",
+   "category": "careers",
+   "summary": "土木与水利工程学院与中国电子系统工程第三建设有限公司共建大学生就业实习基地",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "实习",
+    "就业",
+    "学院"
+   ],
+   "content": [
+    "<p>土木与水利工程学院与中国电子系统工程第三建设有限公司共建大学生就业实习基地</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-27153be1fa6298f8",
+   "title": "学院召开2026年第三季度全体教职工大会",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1065/16632.htm",
+   "publishedAt": "2026-10-16T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "学院召开2026年第三季度全体教职工大会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "content": [
+    "<p>学院召开2026年第三季度全体教职工大会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-2e7735d3679f1531",
+   "title": "计算机与信息学院多媒体认知计算实验室团队科研助理招聘启事",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1063/16633.htm",
+   "publishedAt": "2026-10-16T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "计算机与信息学院多媒体认知计算实验室团队科研助理招聘启事",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "招聘",
+    "科研",
+    "实验室"
+   ],
+   "content": [
+    "<p>计算机与信息学院多媒体认知计算实验室团队科研助理招聘启事</p>"
    ],
    "demo": false
   },
@@ -2547,6 +2979,27 @@
    "demo": false
   },
   {
+   "id": "web-7679670684c7a527",
+   "title": "学校与安徽海华科技集团有限公司举行战略合作签约仪式",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79463.htm",
+   "publishedAt": "2026-10-15T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "学校与安徽海华科技集团有限公司举行战略合作签约仪式",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "举行"
+   ],
+   "content": [
+    "<p>学校与安徽海华科技集团有限公司举行战略合作签约仪式</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-aa8b2b780ba23483",
    "title": "我校举办青年教师教学基本功比赛备赛培训会",
    "sourceId": "hfut-jwc",
@@ -2718,6 +3171,27 @@
     "<p>仿真验证平台，重点开展</p>",
     "<p>扫描链测试、故障检测与定位等工作，通过构建测试用例、分析仿真波形及比对故障数据，对关键测试场景进行了系统验证。在备赛过程中，团队成员分工协作，积极解决仿真验证中的技术问题，不断优化测试方案、完善验证流程，最终取得二等奖的优异成绩。</p>",
     "<p>此次获奖充分展现了我校学子扎实的专业素养、良好的团队协作能力和工程实践水平，也是学校深化产学研融合、加强集成电路领域创新人才培养的积极成果。未来，团队将继续面向集成电路前沿技术与产业发展需求，深化专业学习与科研实践，不断提升创新能力和工程技术水平，为我国集成电路产业高质量发展贡献青春力量。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-4b67a2685b743128",
+   "title": "宁德时代新能源科技股份有限公司到访机械工程学院开展交流座谈",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1020/79442.htm",
+   "publishedAt": "2026-10-13T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "宁德时代新能源科技股份有限公司到访机械工程学院开展交流座谈",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "content": [
+    "<p>宁德时代新能源科技股份有限公司到访机械工程学院开展交流座谈</p>"
    ],
    "demo": false
   },
@@ -3047,6 +3521,28 @@
     "<p>持之以恒推进全面从严治党</p>",
     "<p>；深入推进科技创新与产业创新深度融合，提升人才培养质量，培育更多服务国家重大战略需求和区域经济社会发展的高素质人才。</p>",
     "<p>(倪记来 文/图 蔡伟伟 审核)</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a3fc2b3dcba60829",
+   "title": "合肥工业大学2026年实验教师招聘公告",
+   "sourceId": "hfut-rsc",
+   "sourceName": "党委教师工作部、人力资源处",
+   "sourceType": "official",
+   "url": "https://rsc.hfut.edu.cn/info/1027/1987.htm",
+   "publishedAt": "2026-10-12T09:00:00",
+   "intent": "activity",
+   "category": "careers",
+   "summary": "合肥工业大学2026年实验教师招聘公告",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "招聘",
+    "教师"
+   ],
+   "content": [
+    "<p>合肥工业大学2026年实验教师招聘公告</p>"
    ],
    "demo": false
   },
@@ -3674,6 +4170,27 @@
    "demo": false
   },
   {
+   "id": "web-2c21d7be61f6d1fe",
+   "title": "材料科学与工程学院赴上海交通大学开展调研交流与引才工作",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1020/79220.htm",
+   "publishedAt": "2026-09-29T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "材料科学与工程学院赴上海交通大学开展调研交流与引才工作",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "content": [
+    "<p>材料科学与工程学院赴上海交通大学开展调研交流与引才工作</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-7a605959c02f3053",
    "title": "合肥工业大学2027年度接受一般项目国内访问学者的通知",
    "sourceId": "hfut-rsc",
@@ -4152,6 +4669,28 @@
    "demo": false
   },
   {
+   "id": "web-c0f175b2f08fbf72",
+   "title": "计算机与信息学院第四届“院长奖学金”评审通知",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1063/16610.htm",
+   "publishedAt": "2026-09-22T09:00:00",
+   "intent": "information",
+   "category": "scholarships",
+   "summary": "计算机与信息学院第四届“院长奖学金”评审通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "奖学金",
+    "学院"
+   ],
+   "content": [
+    "<p>计算机与信息学院第四届“院长奖学金”评审通知</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-c87a1cbb3314c8cd",
    "title": "中国矿业大学来校调研交流",
    "sourceId": "hfut-cwc",
@@ -4529,6 +5068,28 @@
     "<p>研究生和定向、委培等在职的研究生）。</p>",
     "<p>符合财政部、教育部《研究生学业奖学金实施细则》规定的基本条件。</p>",
     "<p>符合《合肥工业大学研究生学业奖学金评审办法》（合工大政发</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-ade2138342f1a74b",
+   "title": "计算机与信息学院2026年研究生国家奖学金评审通知",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1063/16609.htm",
+   "publishedAt": "2026-09-18T09:00:00",
+   "intent": "information",
+   "category": "scholarships",
+   "summary": "计算机与信息学院2026年研究生国家奖学金评审通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "奖学金",
+    "学院"
+   ],
+   "content": [
+    "<p>计算机与信息学院2026年研究生国家奖学金评审通知</p>"
    ],
    "demo": false
   },
@@ -5090,6 +5651,28 @@
    "demo": false
   },
   {
+   "id": "web-57c1c45f323da3ef",
+   "title": "2026 智能软件工程学院2026年第一次校内转专业拟录取名单公示",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1015/3677.htm",
+   "publishedAt": "2026-09-10T09:00:00",
+   "intent": "information",
+   "category": "academics",
+   "summary": "2026 智能软件工程学院2026年第一次校内转专业拟录取名单公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "转专业",
+    "学院"
+   ],
+   "content": [
+    "<p>2026 智能软件工程学院2026年第一次校内转专业拟录取名单公示</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-4f98c7049374cc1e",
    "title": "时政教育文选第331期 2026年8月-宣传部",
    "sourceId": "hfut-xcb",
@@ -5295,6 +5878,50 @@
    "demo": false
   },
   {
+   "id": "web-765a8489ae5f6889",
+   "title": "土木与水利工程学院赴云南宜良县开展暑期社会实践活动",
+   "sourceId": "hfut-civil",
+   "sourceName": "土木与水利工程学院",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1017/78742.htm",
+   "publishedAt": "2026-09-07T09:00:00",
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "土木与水利工程学院赴云南宜良县开展暑期社会实践活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "社会实践",
+    "学院"
+   ],
+   "content": [
+    "<p>土木与水利工程学院赴云南宜良县开展暑期社会实践活动</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-f35dbdbb9de7e61d",
+   "title": "2025 2025年软件学院本科生转专业拟录取名单公示",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1015/3512.htm",
+   "publishedAt": "2026-09-07T09:00:00",
+   "intent": "information",
+   "category": "academics",
+   "summary": "2025 2025年软件学院本科生转专业拟录取名单公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "转专业",
+    "学院"
+   ],
+   "content": [
+    "<p>2025 2025年软件学院本科生转专业拟录取名单公示</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-b5a04baf7f512aa3",
    "title": "我院2026年国家自然科学基金再创佳绩",
    "sourceId": "hfut-civil",
@@ -5319,6 +5946,27 @@
     "<p>耦合强震周期变形的喜马拉雅东构造结应变分异与深部流变特征研究</p>",
     "<p>风浪扰动下机理约束的多源</p>",
     "<p>北极海冰类型密集度反演</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-02fe768f877bd947",
+   "title": "合肥工业大学智能软件工程学院2027年接收推荐免试研究生预报名通知",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1015/3674.htm",
+   "publishedAt": "2026-09-05T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "合肥工业大学智能软件工程学院2027年接收推荐免试研究生预报名通知",
+   "event": null,
+   "requiresSignup": true,
+   "tags": [
+    "学院"
+   ],
+   "content": [
+    "<p>合肥工业大学智能软件工程学院2027年接收推荐免试研究生预报名通知</p>"
    ],
    "demo": false
   },
@@ -5751,6 +6399,28 @@
    "tags": [],
    "content": [
     "<p>时政教育文选第330期 2026年7月-宣传部</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-07fa92c715dd3524",
+   "title": "土木与水利工程学院赴安徽池州开展暑期社会实践活动",
+   "sourceId": "hfut-civil",
+   "sourceName": "土木与水利工程学院",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1017/78534.htm",
+   "publishedAt": "2026-08-17T09:00:00",
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "土木与水利工程学院赴安徽池州开展暑期社会实践活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "社会实践",
+    "学院"
+   ],
+   "content": [
+    "<p>土木与水利工程学院赴安徽池州开展暑期社会实践活动</p>"
    ],
    "demo": false
   },
@@ -7264,6 +7934,28 @@
    "demo": false
   },
   {
+   "id": "web-bb78c986a5653b91",
+   "title": "喜迎校庆|我校基金会赴西安交通大学学习交...",
+   "sourceId": "hfut-jjh",
+   "sourceName": "合工大教育基金会",
+   "sourceType": "official",
+   "url": "https://jjh.hfut.edu.cn/2025/0328/c13261a311028/page.htm",
+   "publishedAt": "2026-03-20T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "喜迎校庆|我校基金会赴西安交通大学学习交...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "基金",
+    "校庆"
+   ],
+   "content": [
+    "<p>喜迎校庆|我校基金会赴西安交通大学学习交...</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-add2f6923512c79a",
    "title": "学校召开研究生教育教学经验交流会",
    "sourceId": "hfut-yjsy",
@@ -7337,6 +8029,27 @@
     "<p>2026年3月12日上午，为加快推进合肥工业大学新能源高效智能变换与综合利用科学研究中心项目建设，压实前期工作节点、破解关键瓶颈问题，校党委副书记严福平主持召开专题推进会。基建与房屋管理处牵头组织，国有资产管理处、总务部等相关部门负责人共同参会。</p>",
     "<p>围绕项目高质量提速建设目标，会议聚焦落地关键环节，明确了三项重点任务：一是尽快明确取电位置，以保障供电方案科学合规，为工程概算编制及投资测算提供精准依据；二是尽快确定开闭所选址，统筹校园规划、电力负荷及安全规范等多重因素；三是尽快制定三立苑大楼与材料成型实验室搬迁方案，坚持“保障教学科研、平稳有序过渡”原则，细化搬迁时序、场地安置与资产处置等环节，确保项目建设用地按期交付。校党委副书记严福平强调，各单位要强化协同联动、压实工作责任，相关学院要全力配合搬迁筹备，针对会上提出的所有卡点问题，尽快拿出解决方案并落实到位。</p>",
     "<p>会议通过明确任务清单与推进时限，进一步压实了各方责任，凝聚了建设合力。下一步，将紧扣会议部署，倒排工期推进度、挂图作战抓落实，以扎实有力的工作成效推动项目建设提速增效，为持续改善办学条件、服务保障教学科研奠定坚实基础。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-27bdc2c84f55918b",
+   "title": "2026年“中国计算机设计大赛”合肥工业大学校内选拔赛报名通知",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1015/3561.htm",
+   "publishedAt": "2026-03-10T09:00:00",
+   "intent": "activity",
+   "category": "skills",
+   "summary": "2026年“中国计算机设计大赛”合肥工业大学校内选拔赛报名通知",
+   "event": null,
+   "requiresSignup": true,
+   "tags": [
+    "大赛"
+   ],
+   "content": [
+    "<p>2026年“中国计算机设计大赛”合肥工业大学校内选拔赛报名通知</p>"
    ],
    "demo": false
   },
@@ -7419,6 +8132,27 @@
    "demo": false
   },
   {
+   "id": "web-6eb723443f0740db",
+   "title": "学校获安徽省研究生教学成果奖特等奖10项、一等奖11项",
+   "sourceId": "hfut-yjsy",
+   "sourceName": "合肥工业大学研究生院",
+   "sourceType": "official",
+   "url": "https://yjsy.hfut.edu.cn/info/1004/1601.htm",
+   "publishedAt": "2026-01-19T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "学校获安徽省研究生教学成果奖特等奖10项、一等奖11项",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "成果"
+   ],
+   "content": [
+    "<p>学校获安徽省研究生教学成果奖特等奖10项、一等奖11项</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-1479065a6093e5b8",
    "title": "学术动态",
    "sourceId": "hfut-ci",
@@ -7474,6 +8208,27 @@
    "demo": false
   },
   {
+   "id": "web-351155c4f3263bbf",
+   "title": "研究生院党支部与安徽省教育厅科研处党支部、中国科大研究生院党支部开展联学共建",
+   "sourceId": "hfut-yjsy",
+   "sourceName": "合肥工业大学研究生院",
+   "sourceType": "official",
+   "url": "https://yjsy.hfut.edu.cn/info/1004/1595.htm",
+   "publishedAt": "2025-12-08T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "研究生院党支部与安徽省教育厅科研处党支部、中国科大研究生院党支部开展联学共建",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "科研"
+   ],
+   "content": [
+    "<p>研究生院党支部与安徽省教育厅科研处党支部、中国科大研究生院党支部开展联学共建</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-52bd0be62d0ed5cd",
    "title": "【11月21日】Alexandr",
    "sourceId": "hfut-hgxy",
@@ -7522,6 +8277,27 @@
     "<p>：中共安徽省委党史研究院（安徽省地方志研究院）</p>",
     "<p>系统阐述中国共产党人精神谱系，激励大学生成长成才</p>",
     "<p>中共安徽省委党史研究院（安徽省地方志研究院）原副院长（副厅长级），安徽省文史研究馆馆员，安徽省第七届社会科学联合会副主席，安徽省红色资源保护和传承专家委员会副主任委员，安徽省直机关理论宣讲专家库专家，安徽省直机关党的二十届三中全会精神宣讲团成员，安徽省社会组织总会社会组织建设与发展指导委员会主任专家。曾受聘安徽大学马克思主义学院兼职教授。南京大学历史系中国近现代史专业中国革命史方向研究生毕业，法学硕士，多年从事中共党史、“四史”和党的创新理论研究与宣传宣讲。编著《风雨荣光：中国共产党百年探索》（2024年1月中共党史出版社出版，至2025年2月份已第6次印刷，公开发行，畅销全国），主编《中共安徽九十年简史》《新四军和华中抗日根据地廉政建设》，直接主持编纂《中国共产党安徽历史》（第二卷）《安徽上海知识青年口述实录》《上海安徽小三线研究》《安徽改革开放风云人物》《安徽重要党史人物》等上千万字党史图书，顾问指导的《话说红色金寨》获2019年安徽省精神文明建设“五个一工程”特别奖，长期直接主持编发《党史纵览》杂志，监制、撰写、制播、顾问《安徽40年改革风云录》《安徽解放时刻》《抗美援朝中的六安人》《信仰的力量》《燎原星火——安徽早期党组织创建历程》等电视专题片，参加与指导众多爱国主义教育基地展陈的内容建设，审读众多党史题材电视专题片、电视剧、电影、舞台剧、视频等文艺作品，为安徽组织干部学院、安徽省直机关工委党校、合肥市委党校及有关县区党校、安徽金寨干部学院、湖北红安干部学院、中国人保总公司党校、安徽交控集团人才发展研究院（党校）主体班学员和有关省委党校研究生开设党史、“四史”和党的创新理论课程，为省政府党组（2019年，省长主持）和省发改委、省水利厅、合肥市委中心组等省市县乡村（社）百余个党组织作中共党史、新中国史、改革开放史与党的创新理论特别是习近平新时代中国特色社会主义思想和党的十九大、二十大及其历次全会精神学习辅导和宣讲报告。其中受众规模最大的是2025年6月初为省委社工部举办的线上线下结合“全省新兴领域作风建设宣讲会”上作报告，据中央社会工作部网站报道，有55万人参加听课。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-39f65abd5209501a",
+   "title": "2025 软件学院2024年度高级专业技术职务答辩评议会",
+   "sourceId": "hfut-rjxy",
+   "sourceName": "软件学院",
+   "sourceType": "official",
+   "url": "https://rjxy.hfut.edu.cn/info/1015/3535.htm",
+   "publishedAt": "2025-11-04T09:00:00",
+   "intent": "information",
+   "category": "departments",
+   "summary": "2025 软件学院2024年度高级专业技术职务答辩评议会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "content": [
+    "<p>2025 软件学院2024年度高级专业技术职务答辩评议会</p>"
    ],
    "demo": false
   },

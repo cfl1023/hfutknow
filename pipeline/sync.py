@@ -78,6 +78,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--limit", type=int, default=12, help="每个源最多取几条")
     ap.add_argument("--only", default="", help="只抓这些来源 id，逗号分隔")
     ap.add_argument("--enrich", action="store_true", help="逐篇抓正文（慢，但摘要更准）")
+    ap.add_argument("--fast", action="store_true", help="只抓列表不抓正文（最快，用于高频更新）")
     ap.add_argument("--dry-run", action="store_true", help="不写文件")
     ap.add_argument("--drop-demo", action="store_true", help="删除演示数据")
     args = ap.parse_args(argv)
@@ -97,30 +98,51 @@ def main(argv: list[str] | None = None) -> int:
     if only:
         sources = [s for s in sources if s["id"] in only]
 
-    print(f"待抓取来源 {len(sources)} 个，每源上限 {args.limit} 条")
+    enrich = args.enrich and not args.fast
+    if args.fast:
+        print(f"快速模式：不抓正文，逐页只读列表，每源上限 {args.limit} 条")
+    print(f"待抓取来源 {len(sources)} 个")
     total_new = 0
-    for src in sources:
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    def fetch_one(src: dict[str, Any]) -> list[dict[str, Any]]:
         try:
-            entries = fetchers.fetch_source(src, args.limit)
+            return fetchers.fetch_source(src, args.limit)
         except Exception as exc:
             print(f"  × {src['name']}: {exc}")
-            continue
+            return []
+
+    def build_one(src: dict[str, Any], entry: dict[str, Any]):
+        if not entry.get("url") or entry["url"] in existing_urls:
+            return None
+        try:
+            return build_item(src, entry, cfg, enrich)
+        except Exception as exc:
+            print(f"    ! 处理失败 {entry.get('url')}: {exc}")
+            return None
+
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = {pool.submit(fetch_one, src): src for src in sources}
+        fetched: list[tuple[dict, list[dict]]] = []
+        for fut in as_completed(futures):
+            src = futures[fut]
+            fetched.append((src, fut.result()))
+            print(f"  ✓ {src['name']}: 抓到 {len(fetched[-1][1])} 条")
+
+    for src, entries in fetched:
         kept = 0
-        for entry in entries:
-            if not entry.get("url") or entry["url"] in existing_urls:
-                continue
-            try:
-                item = build_item(src, entry, cfg, args.enrich)
-            except Exception as exc:
-                print(f"    ! 处理失败 {entry.get('url')}: {exc}")
-                continue
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            results = list(pool.map(lambda e: build_one(src, e), entries))
+        for item in results:
             if item is None:
                 continue
             existing_urls.add(item["url"])
             items.append(item)
             kept += 1
         total_new += kept
-        print(f"  ✓ {src['name']}: 抓到 {len(entries)}，新增 {kept}")
+        if kept:
+            print(f"  + {src['name']}: 新增 {kept} 条")
 
     items.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     payload["items"] = items
