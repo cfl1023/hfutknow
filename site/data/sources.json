@@ -539,6 +539,121 @@
    "count": 14
   },
   {
+   "id": "hfut-hgxy",
+   "name": "化学与化工学院",
+   "type": "official",
+   "url": "https://hgxy.hfut.edu.cn/",
+   "verified": true,
+   "checkedAt": "2026-10-23",
+   "aff": [
+    "departments",
+    "research",
+    "skills"
+   ],
+   "feed": {
+    "kind": "html_list",
+    "url": "https://hgxy.hfut.edu.cn/",
+    "urls": [
+     "https://hgxy.hfut.edu.cn/"
+    ],
+    "enabled": true,
+    "limit": 10
+   },
+   "count": 12
+  },
+  {
+   "id": "hfut-wlxy",
+   "name": "物理学院",
+   "type": "official",
+   "url": "https://wlxy.hfut.edu.cn/",
+   "verified": true,
+   "checkedAt": "2026-10-23",
+   "aff": [
+    "departments",
+    "research",
+    "lectures"
+   ],
+   "feed": {
+    "kind": "html_list",
+    "url": "https://wlxy.hfut.edu.cn/",
+    "urls": [
+     "https://wlxy.hfut.edu.cn/"
+    ],
+    "enabled": true,
+    "limit": 10
+   },
+   "count": 12
+  },
+  {
+   "id": "hfut-jjxy",
+   "name": "经济学院",
+   "type": "official",
+   "url": "https://jjxy.hfut.edu.cn/",
+   "verified": true,
+   "checkedAt": "2026-10-23",
+   "aff": [
+    "departments",
+    "lectures",
+    "careers"
+   ],
+   "feed": {
+    "kind": "html_list",
+    "url": "https://jjxy.hfut.edu.cn/",
+    "urls": [
+     "https://jjxy.hfut.edu.cn/"
+    ],
+    "enabled": true,
+    "limit": 10
+   },
+   "count": 12
+  },
+  {
+   "id": "hfut-wfxy",
+   "name": "文法学院",
+   "type": "official",
+   "url": "https://wfxy.hfut.edu.cn/",
+   "verified": true,
+   "checkedAt": "2026-10-23",
+   "aff": [
+    "departments",
+    "lectures",
+    "campus"
+   ],
+   "feed": {
+    "kind": "html_list",
+    "url": "https://wfxy.hfut.edu.cn/",
+    "urls": [
+     "https://wfxy.hfut.edu.cn/"
+    ],
+    "enabled": true,
+    "limit": 10
+   },
+   "count": 12
+  },
+  {
+   "id": "hfut-rjxy",
+   "name": "软件学院",
+   "type": "official",
+   "url": "https://rjxy.hfut.edu.cn/",
+   "verified": true,
+   "checkedAt": "2026-10-23",
+   "aff": [
+    "departments",
+    "research",
+    "careers"
+   ],
+   "feed": {
+    "kind": "html_list",
+    "url": "https://rjxy.hfut.edu.cn/",
+    "urls": [
+     "https://rjxy.hfut.edu.cn/"
+    ],
+    "enabled": true,
+    "limit": 10
+   },
+   "count": 12
+  },
+  {
    "id": "hfut-tuanwei",
    "name": "共青团合肥工业大学委员会",
    "type": "official",
