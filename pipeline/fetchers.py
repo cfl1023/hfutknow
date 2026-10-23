@@ -74,7 +74,22 @@ def fetch_source(source: dict[str, Any], limit: int = 12) -> list[dict[str, Any]
     if kind == "rss":
         return fetch_rss(feed["url"], limit)
     if kind == "html_list":
-        return fetch_html_list(feed, limit)
+        urls = feed.get("urls") or ([feed["url"]] if feed.get("url") else [])
+        if len(urls) <= 1:
+            return fetch_html_list(feed, limit)
+        out: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for u in urls:
+            try:
+                rows = fetch_html_list({**feed, "url": u}, limit)
+            except Exception:
+                continue
+            for r in rows:
+                if r["url"] in seen:
+                    continue
+                seen.add(r["url"])
+                out.append(r)
+        return out[:limit]
     if kind == "wechat":
         urls = feed.get("articles") or []
         return [fetch_wechat_article(u) for u in urls[:limit] if u]

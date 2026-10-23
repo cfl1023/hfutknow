@@ -362,3 +362,10 @@ mark { background: var(--accent-soft); color: var(--accent-2); border-radius: 2p
   font-size: 11px; color: var(--text-2); line-height: 1.5; margin-top: 3px;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
+
+.plan-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 8px; padding-bottom: 40px; }
+.plan { display: flex; align-items: center; gap: 10px; padding: 11px 13px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 10px; font-size: 13px; transition: border-color .15s; }
+.plan:hover { border-color: var(--accent); }
+.plan .pn { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.plan .pa { font-size: 11px; color: var(--accent-2); white-space: nowrap; }

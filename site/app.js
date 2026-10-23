@@ -504,7 +504,11 @@
           ${p.research ? `<span class="rc">${esc(p.research)}</span>` : ''}</span></a>`).join('')}</div>`).join('')
       : `<div class="empty"><b>${L.peopleEmpty}</b></div>`;
     document.title = `${L.peopleTitle} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
-    app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>${body}`;
+    const plans = S.plans || [];
+    const planHTML = plans.length ? `<div class="grp-title">培养方案 · ${plans.length}</div>
+      <div class="plan-list">${plans.map((p) => `<a class="plan" href="${esc(p.pdf || p.url)}" target="_blank" rel="noopener">
+        <span class="pn">${esc(p.title)}</span><span class="pa">PDF ↗</span></a>`).join('')}</div>` : '';
+    app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>${body}${planHTML}`;
   }
 
   function renderContribute() {
@@ -623,6 +627,7 @@
         payload = window.__CK_DATA__.items;
         srcPayload = window.__CK_DATA__.sources;
         S.peopleData = window.__CK_DATA__.people || null;
+        S.plansData = window.__CK_DATA__.plans || null;
       } else {
         const [itemsRes, srcRes] = await Promise.all([
           fetch('data/items.json', { cache: 'no-cache' }),
@@ -631,10 +636,12 @@
         if (!itemsRes.ok) throw new Error('items.json ' + itemsRes.status);
         payload = await itemsRes.json();
         srcPayload = await srcRes.json();
-        try {
-          const pr = await fetch('data/people.json', { cache: 'no-cache' });
-          if (pr.ok) S.peopleData = await pr.json();
-        } catch (e) { /* 没有教师数据也能用 */ }
+        for (const [file, key] of [['people.json', 'peopleData'], ['plans.json', 'plansData']]) {
+          try {
+            const res = await fetch('data/' + file, { cache: 'no-cache' });
+            if (res.ok) S[key] = await res.json();
+          } catch (e) { /* 缺文件也能用 */ }
+        }
       }
       S.items = payload.items || [];
       S.categories = payload.categories || [];
@@ -644,6 +651,7 @@
       S.site = payload.site || S.site;
       S.profile = S.site.profile || {};
       S.people = (S.peopleData && S.peopleData.people) || [];
+      S.plans = (S.plansData && S.plansData.plans) || [];
       S.generatedAt = payload.generatedAt || '';
       S.demoCount = S.items.filter((i) => i.demo).length;
       bind();

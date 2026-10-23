@@ -73,6 +73,7 @@ OFFICIAL = [
     ("hfut-mks", "马克思主义学院", ["departments", "lectures"], "https://mks.hfut.edu.cn/"),
     ("hfut-dekt", "第二课堂成绩单专题网站", ["skills", "recruitment", "campus"], "https://dektjy.hfut.edu.cn/"),
     ("hfut-dekt-system", "第二课堂成绩单管理系统", ["skills", "academics"], "https://dekt.hfut.edu.cn/"),
+    ("hfut-wdzxy", "微电子学院", ["departments", "academics", "skills"], "https://wdzxy.hfut.edu.cn/"),
     ("hfut-tuanwei", "共青团合肥工业大学委员会", ["recruitment", "arts", "campus", "skills"], "https://tuanwei.hfut.edu.cn/"),
     ("hfut-xyy", "校医院", ["services", "life"], "https://xyy.hfut.edu.cn/"),
 ]
@@ -207,17 +208,27 @@ WECHAT = [
 ]
 
 
+COLUMN_URLS = {
+    "hfut-tuanwei": ["https://tuanwei.hfut.edu.cn/tzgg/list.htm",
+                     "https://tuanwei.hfut.edu.cn/738/list.htm"],
+    "hfut-kyy": ["https://kyy.hfut.edu.cn/tzgg/list.htm",
+                 "https://kyy.hfut.edu.cn/xwdt/list.htm"],
+    "hfut-wdzxy": ["https://wdzxy.hfut.edu.cn/11462/list.htm",
+                   "https://wdzxy.hfut.edu.cn/11467/list.htm"],
+}
+
+
 def main() -> None:
     sources = []
     for sid, name, aff, url in OFFICIAL:
         sources.append({
             "id": sid, "name": name, "type": "official", "url": url,
             "verified": True, "checkedAt": "2026-10-23", "aff": aff,
-            "feed": {"kind": "html_list", "url": url, "enabled": sid in {
+            "feed": {"kind": "html_list", "url": url, "urls": [url] + COLUMN_URLS.get(sid, []), "enabled": sid in {
                 "hfut-edu", "hfut-news", "hfut-jwc", "hfut-kyy", "hfut-xgb", "hfut-xcb",
                 "hfut-cwc", "hfut-rsc", "hfut-yjsy", "hfut-ic", "hfut-ci", "hfut-civil",
                 "hfut-jxjy", "hfut-jjc", "hfut-tzb", "hfut-jjh", "hfut-me", "hfut-tiyu",
-                "hfut-mks", "hfut-xyy", "hfut-dekt", "hfut-tuanwei",
+                "hfut-mks", "hfut-xyy", "hfut-dekt", "hfut-tuanwei", "hfut-wdzxy",
             }, "limit": 10},
         })
     for sid, name, aff in WECHAT:

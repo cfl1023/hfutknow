@@ -152,6 +152,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://www.hfut.edu.cn/",
+        "urls": [
+          "https://www.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -170,6 +173,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://news.hfut.edu.cn/",
+        "urls": [
+          "https://news.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -188,6 +194,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://jwc.hfut.edu.cn/",
+        "urls": [
+          "https://jwc.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -206,6 +215,11 @@
       "feed": {
         "kind": "html_list",
         "url": "https://kyy.hfut.edu.cn/",
+        "urls": [
+          "https://kyy.hfut.edu.cn/",
+          "https://kyy.hfut.edu.cn/tzgg/list.htm",
+          "https://kyy.hfut.edu.cn/xwdt/list.htm"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -225,6 +239,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://lib.hfut.edu.cn/",
+        "urls": [
+          "https://lib.hfut.edu.cn/"
+        ],
         "enabled": false,
         "limit": 10
       }
@@ -244,6 +261,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://xgb.hfut.edu.cn/",
+        "urls": [
+          "https://xgb.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -262,6 +282,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://xcb.hfut.edu.cn/",
+        "urls": [
+          "https://xcb.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -280,6 +303,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://cwc.hfut.edu.cn/",
+        "urls": [
+          "https://cwc.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -298,6 +324,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://rsc.hfut.edu.cn/",
+        "urls": [
+          "https://rsc.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -316,6 +345,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://yjsy.hfut.edu.cn/",
+        "urls": [
+          "https://yjsy.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -334,6 +366,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://ic.hfut.edu.cn/",
+        "urls": [
+          "https://ic.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -353,6 +388,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://ci.hfut.edu.cn/",
+        "urls": [
+          "https://ci.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -371,6 +409,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://civil.hfut.edu.cn/",
+        "urls": [
+          "https://civil.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -389,6 +430,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://jxjy.hfut.edu.cn/",
+        "urls": [
+          "https://jxjy.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -407,6 +451,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://bkzs.hfut.edu.cn/",
+        "urls": [
+          "https://bkzs.hfut.edu.cn/"
+        ],
         "enabled": false,
         "limit": 10
       }
@@ -425,6 +472,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://jjc.hfut.edu.cn/",
+        "urls": [
+          "https://jjc.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -443,6 +493,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://tzb.hfut.edu.cn/",
+        "urls": [
+          "https://tzb.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -461,6 +514,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://jjh.hfut.edu.cn/",
+        "urls": [
+          "https://jjh.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -479,6 +535,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://me.hfut.edu.cn/",
+        "urls": [
+          "https://me.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -497,6 +556,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://tiyu.hfut.edu.cn/",
+        "urls": [
+          "https://tiyu.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -515,6 +577,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://mks.hfut.edu.cn/",
+        "urls": [
+          "https://mks.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -534,6 +599,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://dektjy.hfut.edu.cn/",
+        "urls": [
+          "https://dektjy.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -552,7 +620,34 @@
       "feed": {
         "kind": "html_list",
         "url": "https://dekt.hfut.edu.cn/",
+        "urls": [
+          "https://dekt.hfut.edu.cn/"
+        ],
         "enabled": false,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-wdzxy",
+      "name": "微电子学院",
+      "type": "official",
+      "url": "https://wdzxy.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "academics",
+        "skills"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://wdzxy.hfut.edu.cn/",
+        "urls": [
+          "https://wdzxy.hfut.edu.cn/",
+          "https://wdzxy.hfut.edu.cn/11462/list.htm",
+          "https://wdzxy.hfut.edu.cn/11467/list.htm"
+        ],
+        "enabled": true,
         "limit": 10
       }
     },
@@ -572,6 +667,11 @@
       "feed": {
         "kind": "html_list",
         "url": "https://tuanwei.hfut.edu.cn/",
+        "urls": [
+          "https://tuanwei.hfut.edu.cn/",
+          "https://tuanwei.hfut.edu.cn/tzgg/list.htm",
+          "https://tuanwei.hfut.edu.cn/738/list.htm"
+        ],
         "enabled": true,
         "limit": 10
       }
@@ -590,6 +690,9 @@
       "feed": {
         "kind": "html_list",
         "url": "https://xyy.hfut.edu.cn/",
+        "urls": [
+          "https://xyy.hfut.edu.cn/"
+        ],
         "enabled": true,
         "limit": 10
       }
