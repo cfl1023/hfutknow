@@ -650,8 +650,8 @@
     if (window.__CK_DATA__) return false;
     try {
       const [a, b] = await Promise.all([
-        fetch('data/items.json', { cache: 'no-cache' }),
-        fetch('data/sources.json', { cache: 'no-cache' })
+        fetch('data/items.json?t=' + Date.now(), { cache: 'no-store' }),
+        fetch('data/sources.json?t=' + Date.now(), { cache: 'no-store' })
       ]);
       if (!a.ok) return false;
       const payload = await a.json();

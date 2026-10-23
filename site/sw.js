@@ -1,7 +1,7 @@
-const CACHE = 'hfutknow-v1';
-const ASSETS = ['./', './index.html', './style.css', './app.js',
-  './data/items.json', './data/sources.json', './manifest.webmanifest', './assets/icon-192.png'];
+const CACHE = 'hfutknow-v2';
+const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.webmanifest', './assets/icon-192.png'];
 
+// 网络优先：在线时永远拿最新数据，离线时才回退缓存。
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()).catch(() => {})
@@ -19,13 +19,17 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then((hit) => {
-      if (hit) return hit;
-      return fetch(event.request).then((resp) => {
+    fetch(event.request)
+      .then((resp) => {
         const copy = resp.clone();
         caches.open(CACHE).then((c) => c.put(event.request, copy)).catch(() => {});
         return resp;
-      }).catch(() => caches.match('./index.html'));
-    })
+      })
+      .catch(() => {
+        if (event.request.mode === 'navigate') {
+          return caches.match('./index.html');
+        }
+        return caches.match(event.request);
+      })
   );
 });
