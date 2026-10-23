@@ -171,12 +171,15 @@
 
     $('#chips').hidden = !(path === '' || path === 'activities' || path === 'information' || path === 'foryou' || head === 'c');
     document.querySelectorAll('#mainnav a').forEach((a) => a.classList.remove('active'));
+    document.querySelectorAll('.tabbar a').forEach((a) => a.classList.remove('active'));
     const navKey = path === '' ? 'all' : path === 'activities' ? 'activities'
       : path === 'information' ? 'information' : head === 'calendar' ? 'calendar'
       : head === 'sources' ? 'sources' : head === 'people' ? 'people'
       : head === 'c' && S.catById[arg] ? S.catById[arg].intent : '';
     const navEl = document.querySelector(`#mainnav a[data-nav="${navKey}"]`);
     if (navEl) navEl.classList.add('active');
+    const tabEl = document.querySelector(`.tabbar a[data-tab="${navKey}"]`);
+    if (tabEl) tabEl.classList.add('active');
 
     if (path === '') renderBrowse({ intent: 'all' });
     else if (path === 'activities') renderBrowse({ intent: 'activity' });
@@ -618,11 +621,40 @@
     });
 
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (!S.theme) applyTheme(); });
+    let lastLoad = Date.now();
+    document.addEventListener('visibilitychange', async () => {
+      if (document.visibilityState !== 'visible') return;
+      if (Date.now() - lastLoad < 5 * 60 * 1000) return;
+      lastLoad = Date.now();
+      if (await refreshData()) route();
+    });
   }
 
   function registerSW() {
     if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
     navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+
+  async function refreshData() {
+    if (window.__CK_DATA__) return false;
+    try {
+      const [a, b] = await Promise.all([
+        fetch('data/items.json', { cache: 'no-cache' }),
+        fetch('data/sources.json', { cache: 'no-cache' })
+      ]);
+      if (!a.ok) return false;
+      const payload = await a.json();
+      const srcPayload = await b.json();
+      S.items = payload.items || [];
+      S.sources = srcPayload.sources || [];
+      S.sources.forEach((s) => { S.srcById[s.id] = s; });
+      S.generatedAt = payload.generatedAt || S.generatedAt;
+      S.demoCount = S.items.filter((i) => i.demo).length;
+      applyLang();
+      return true;
+    } catch (e) {
+      return false;
+    }
   }
 
   async function boot() {

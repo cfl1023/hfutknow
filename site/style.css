@@ -374,3 +374,35 @@ mark { background: var(--accent-soft); color: var(--accent-2); border-radius: 2p
 .fresh-dot.ok { background: var(--ok); box-shadow: 0 0 0 3px var(--ok-soft); }
 .fresh-dot.warn { background: var(--warn); box-shadow: 0 0 0 3px color-mix(in srgb, var(--warn) 18%, transparent); }
 .fresh-dot.bad { background: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+/* ---------- 手机底部标签栏 ---------- */
+.tabbar { display: none; }
+@media (max-width: 780px) {
+  body { padding-bottom: calc(58px + env(safe-area-inset-bottom)); }
+  .mainnav { display: none; }
+  .tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 80;
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    background: color-mix(in srgb, var(--surface) 94%, transparent);
+    backdrop-filter: blur(14px);
+    border-top: 1px solid var(--line);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .tabbar a {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 3px; padding: 8px 4px 7px; font-size: 10.5px; color: var(--muted);
+  }
+  .tabbar a.active { color: var(--accent-2); font-weight: 600; }
+  .tabbar svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.75;
+    stroke-linecap: round; stroke-linejoin: round; }
+  .card { padding: 15px 15px 13px; }
+  .card h3 { font-size: 15.5px; }
+  .toolbar { padding: 10px 0 12px; }
+  .seg button { padding: 7px 11px; }
+  .chip { padding: 7px 11px; font-size: 13px; }
+  .btn { height: 42px; }
+  .foot { margin-bottom: 4px; }
+}
+@media (max-width: 780px) and (display-mode: standalone) {
+  .tabbar { padding-bottom: max(6px, env(safe-area-inset-bottom)); }
+}
