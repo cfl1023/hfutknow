@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>工大知道 · HFUT Know</title>
+<meta name="description" content="合肥工业大学翡翠湖校区讲座、活动、招新、奖学金与教务通知聚合站。">
+<meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="bar-inner">
+    <a class="brand" href="#/">
+      <span class="mark">知</span>
+      <span class="brand-text"><b id="brandName">工大知道</b><em id="brandEn">HFUT Know</em></span>
+    </a>
+    <nav class="mainnav" id="mainnav">
+      <a href="#/" data-nav="all">全部</a>
+      <a href="#/activities" data-nav="activities">活动</a>
+      <a href="#/information" data-nav="information">通知</a>
+      <a href="#/calendar" data-nav="calendar">日历</a>
+      <a href="#/sources" data-nav="sources">来源</a>
+    </nav>
+    <div class="bar-tools">
+      <form class="search" id="searchForm" role="search" autocomplete="off">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5 21 21"></path></svg>
+        <input id="searchInput" type="search" placeholder="搜索标题、公众号或发布单位" aria-label="搜索">
+      </form>
+      <button id="langBtn" class="icon-btn" title="English / 中文">EN</button>
+      <button id="themeBtn" class="icon-btn" aria-label="切换夜间模式" title="切换夜间模式">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.2"></circle><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"></path></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.5 8.5 0 1 0 10.2 10.2Z"></path></svg>
+      </button>
+    </div>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p><b id="footName">工大知道</b> · 合肥工业大学信息聚合示例站</p>
+    <p class="muted" id="footMeta"></p>
+    <p class="foot-links"><a href="data/feed.xml">RSS</a><a href="data/items.json">JSON API</a><a href="#/contribute">信息源补充</a></p>
+  </div>
+</footer>
+
+<div id="drawer" class="drawer" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

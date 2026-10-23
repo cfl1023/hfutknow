@@ -1,0 +1,64 @@
+name: update
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install lxml
+
+      - name: Crawl sources
+        run: python -m pipeline.sync --limit 15 --enrich
+
+      - name: Build RSS
+        run: python tools/make_rss.py
+
+      - name: Commit data
+        run: |
+          git config user.name "hfutknow-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add site/data
+          if ! git diff --cached --quiet; then
+            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no new items"
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

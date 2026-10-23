@@ -1,0 +1,2423 @@
+{
+  "site": {
+    "name": "工大知道",
+    "enName": "HFUT Know",
+    "school": "合肥工业大学",
+    "schoolEn": "Hefei University of Technology",
+    "tagline": "把散落在合工大几百个公众号和官网里的信息，收进同一个页面",
+    "description": "合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。",
+    "url": "https://hfutknow.example",
+    "campuses": [
+      "翡翠湖校区"
+    ],
+    "profile": {
+      "name": "我",
+      "college": "集成电路",
+      "grade": "大一",
+      "major": "集成电路设计与集成系统",
+      "keywords": [
+        "集成电路",
+        "芯片",
+        "半导体",
+        "微电子",
+        "电子科学",
+        "专业分流",
+        "培养方案",
+        "大一",
+        "新生",
+        "军训",
+        "报到",
+        "入学",
+        "选课",
+        "转专业",
+        "奖学金",
+        "竞赛"
+      ],
+      "preferSources": [
+        "hfut-ic",
+        "wx-ic-lab",
+        "wx-micro",
+        "hfut-jwc",
+        "hfut-xgb",
+        "hfut-yjsy"
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "arts",
+      "intent": "activity",
+      "zh": "文体",
+      "en": "Arts & Sports",
+      "desc": "演出、电影、展览、游园与体育赛事"
+    },
+    {
+      "id": "recruitment",
+      "intent": "activity",
+      "zh": "社团",
+      "en": "Clubs",
+      "desc": "社团招新、学生组织、志愿服务与社会实践"
+    },
+    {
+      "id": "lectures",
+      "intent": "activity",
+      "zh": "讲座",
+      "en": "Lectures",
+      "desc": "讲座、论坛、公开课与现场交流活动"
+    },
+    {
+      "id": "skills",
+      "intent": "activity",
+      "zh": "学习",
+      "en": "Workshops",
+      "desc": "技能培训、阅读分享、学科竞赛与课外实践"
+    },
+    {
+      "id": "careers",
+      "intent": "activity",
+      "zh": "就业",
+      "en": "Careers",
+      "desc": "实习招聘、学生助理、选调宣讲与职业发展机会"
+    },
+    {
+      "id": "exchange",
+      "intent": "activity",
+      "zh": "留学",
+      "en": "Exchange",
+      "desc": "交换留学、境外暑校、访学与出国项目申请"
+    },
+    {
+      "id": "campus",
+      "intent": "information",
+      "zh": "校园",
+      "en": "Campus",
+      "desc": "学校新闻、活动回顾、人物故事与校园综合消息"
+    },
+    {
+      "id": "research",
+      "intent": "information",
+      "zh": "科研",
+      "en": "Research",
+      "desc": "科研成果、学术进展、学术会议纪要与研究资讯"
+    },
+    {
+      "id": "departments",
+      "intent": "information",
+      "zh": "院系",
+      "en": "Departments",
+      "desc": "院系通知、院系新闻、培养介绍与单位动态"
+    },
+    {
+      "id": "life",
+      "intent": "information",
+      "zh": "生活",
+      "en": "Life",
+      "desc": "食宿出行、运动入门、假期安全、消费优惠、场馆开放"
+    },
+    {
+      "id": "academics",
+      "intent": "information",
+      "zh": "学业",
+      "en": "Academics",
+      "desc": "选课考试、学籍学位、证书课程与学分办理"
+    },
+    {
+      "id": "scholarships",
+      "intent": "information",
+      "zh": "奖学金",
+      "en": "Scholarships",
+      "desc": "奖学金、助学贷款、补助、综测与荣誉评选办理"
+    },
+    {
+      "id": "services",
+      "intent": "information",
+      "zh": "服务",
+      "en": "Services",
+      "desc": "住宿餐饮、场馆、网络、维修、健康服务及校园卡办理"
+    }
+  ],
+  "sources": [
+    {
+      "id": "hfut-edu",
+      "name": "合肥工业大学官网",
+      "type": "official",
+      "url": "https://www.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "campus",
+        "research",
+        "departments"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://www.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-news",
+      "name": "合肥工业大学新闻网",
+      "type": "official",
+      "url": "https://news.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "campus",
+        "research"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://news.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-jwc",
+      "name": "合肥工业大学教务处",
+      "type": "official",
+      "url": "https://jwc.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "academics",
+        "scholarships"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://jwc.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-kyy",
+      "name": "合肥工业大学科研院",
+      "type": "official",
+      "url": "https://kyy.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "research",
+        "academics"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://kyy.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-lib",
+      "name": "合肥工业大学图书馆",
+      "type": "official",
+      "url": "https://lib.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "academics",
+        "services",
+        "life"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://lib.hfut.edu.cn/",
+        "enabled": false,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-xgb",
+      "name": "党委学生工作部",
+      "type": "official",
+      "url": "https://xgb.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "scholarships",
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://xgb.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-xcb",
+      "name": "党委宣传部",
+      "type": "official",
+      "url": "https://xcb.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "campus",
+        "research"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://xcb.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-cwc",
+      "name": "合肥工业大学财务处",
+      "type": "official",
+      "url": "https://cwc.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "services",
+        "academics"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://cwc.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-rsc",
+      "name": "党委教师工作部、人力资源处",
+      "type": "official",
+      "url": "https://rsc.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "careers"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://rsc.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-yjsy",
+      "name": "合肥工业大学研究生院",
+      "type": "official",
+      "url": "https://yjsy.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "academics",
+        "research"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://yjsy.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-ic",
+      "name": "合肥工业大学集成电路创新学院",
+      "type": "official",
+      "url": "https://ic.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://ic.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-ci",
+      "name": "计算机与信息学院（人工智能学院）",
+      "type": "official",
+      "url": "https://ci.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://ci.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-civil",
+      "name": "土木与水利工程学院",
+      "type": "official",
+      "url": "https://civil.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://civil.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-jxjy",
+      "name": "合肥工业大学继续教育学院",
+      "type": "official",
+      "url": "https://jxjy.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "academics",
+        "services"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://jxjy.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-bkzs",
+      "name": "合肥工业大学本科招生网",
+      "type": "official",
+      "url": "https://bkzs.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "campus",
+        "academics"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://bkzs.hfut.edu.cn/",
+        "enabled": false,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-jjc",
+      "name": "基建与房屋管理处",
+      "type": "official",
+      "url": "https://jjc.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://jjc.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-tzb",
+      "name": "党委统战部",
+      "type": "official",
+      "url": "https://tzb.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "campus"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://tzb.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-jjh",
+      "name": "合工大教育基金会",
+      "type": "official",
+      "url": "https://jjh.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "scholarships",
+        "campus"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://jjh.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-me",
+      "name": "市政工程系",
+      "type": "official",
+      "url": "https://me.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://me.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-tiyu",
+      "name": "合肥工业大学体育部",
+      "type": "official",
+      "url": "https://tiyu.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "arts",
+        "life"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://tiyu.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-mks",
+      "name": "马克思主义学院",
+      "type": "official",
+      "url": "https://mks.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "departments",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://mks.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "hfut-xyy",
+      "name": "校医院",
+      "type": "official",
+      "url": "https://xyy.hfut.edu.cn/",
+      "verified": true,
+      "checkedAt": "2026-10-23",
+      "aff": [
+        "services",
+        "life"
+      ],
+      "feed": {
+        "kind": "html_list",
+        "url": "https://xyy.hfut.edu.cn/",
+        "enabled": true,
+        "limit": 10
+      }
+    },
+    {
+      "id": "wx-hfut",
+      "name": "合肥工业大学",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-youth",
+      "name": "合肥工业大学团委",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "recruitment",
+        "arts"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-su",
+      "name": "合肥工业大学学生会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-gsu",
+      "name": "合肥工业大学研究生会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "careers",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-jobs",
+      "name": "合工大就业",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "careers",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-admission",
+      "name": "合肥工业大学本科招生",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-grad",
+      "name": "合肥工业大学研究生",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-alumni",
+      "name": "合肥工业大学校友总会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-lib",
+      "name": "合工大图书馆",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-jwc",
+      "name": "合工大教务处",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "scholarships"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-hqc",
+      "name": "合工大后勤",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-hospital",
+      "name": "合肥工业大学医院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "services",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-nic",
+      "name": "合工大信息化",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "services",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-cwc",
+      "name": "合工大财务",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "services",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-intl",
+      "name": "合工大国际交流",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "exchange",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-xgb",
+      "name": "合工大学工",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "scholarships",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-sports",
+      "name": "合工大体育",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-security",
+      "name": "平安工大",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hfut-union",
+      "name": "合工大工会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-cme",
+      "name": "合工大机械学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-material",
+      "name": "合工大材料学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-ee",
+      "name": "合工大电气学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-cs",
+      "name": "合工大计算机学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-chem",
+      "name": "合工大化工学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-civil",
+      "name": "合工大土木学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-arch",
+      "name": "合工大建艺学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "arts"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-res",
+      "name": "合工大资环学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-micro",
+      "name": "合工大微电子学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-phy",
+      "name": "合工大物理学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-math",
+      "name": "合工大数学学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-mgmt",
+      "name": "合工大管理学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "lectures",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-econ",
+      "name": "合工大经济学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "lectures",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-law",
+      "name": "合工大文法学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-fl",
+      "name": "合工大外国语学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "exchange",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-marx",
+      "name": "合工大马院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-auto",
+      "name": "合工大汽车学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-food",
+      "name": "合工大食品学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-instrument",
+      "name": "合工大仪器学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-software",
+      "name": "合工大软件学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-volunteer",
+      "name": "合工大青年志愿者联合会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-art-troupe",
+      "name": "合工大艺术团",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-clubs",
+      "name": "合工大社团联合会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-photo",
+      "name": "合工大摄影协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "arts"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-running",
+      "name": "合工大跑步协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-scifi",
+      "name": "合工大科幻协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "arts"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-debate",
+      "name": "合工大辩论队",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-drama",
+      "name": "合工大话剧社",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-astro",
+      "name": "合工大天文社",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-mun",
+      "name": "合工大模拟联合国",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "exchange"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-guitar",
+      "name": "合工大吉他社",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-startup",
+      "name": "合工大创业协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-cs-club",
+      "name": "合工大计算机协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-robot",
+      "name": "合工大机器人协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-electron",
+      "name": "合工大电子协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-mcm",
+      "name": "合工大数学建模协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-english",
+      "name": "合工大英语角",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "exchange"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-redcross",
+      "name": "合工大红十字会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "recruitment",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-mind",
+      "name": "合工大心理健康协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-career-club",
+      "name": "合工大职业发展协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "careers",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-badminton",
+      "name": "合工大羽毛球协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-basketball",
+      "name": "合工大篮球协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-tabletennis",
+      "name": "合工大乒乓球协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-chess",
+      "name": "合工大棋类协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-cycling",
+      "name": "合工大骑行协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-gongdaqingnian",
+      "name": "工大青年",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "arts"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-feicuihu",
+      "name": "翡翠湖青年",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "life"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hubing",
+      "name": "斛兵青年",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-tennis",
+      "name": "合工大网球协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-volleyball",
+      "name": "合工大排球协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-football",
+      "name": "合工大足球协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-swim",
+      "name": "合工大游泳协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-wushu",
+      "name": "合工大武术协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-dance",
+      "name": "合工大街舞社",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-anime",
+      "name": "合工大动漫社",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-hanfu",
+      "name": "合工大汉服社",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-calligraphy",
+      "name": "合工大书法协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "arts",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-speech",
+      "name": "合工大演讲与口才协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-marketing",
+      "name": "合工大营销协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "careers",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-finance",
+      "name": "合工大金融投资协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "careers",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-fsaer",
+      "name": "合工大方程式赛车队",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-acm",
+      "name": "合工大 ACM 集训队",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-security",
+      "name": "合工大网络安全协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-opensource",
+      "name": "合工大开源社区",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-eda",
+      "name": "合工大电子设计协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "recruitment"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-energy",
+      "name": "合工大节能减排协会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-model",
+      "name": "合工大数学建模俱乐部",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "skills",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-ai",
+      "name": "合工大人工智能研究院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-ic-lab",
+      "name": "合工大集成电路研究院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-nev",
+      "name": "合工大新能源汽车研究院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-mfg",
+      "name": "合工大智能制造研究院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "departments"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-iiot",
+      "name": "合工大工业互联网研究院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-quantum",
+      "name": "合工大量子信息实验室",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "lectures"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-bme",
+      "name": "合工大生物医学工程学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "departments"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-ee-lab",
+      "name": "合工大电气工程实验中心",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-chem-eng",
+      "name": "合工大化学工程系",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "departments",
+        "research"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-materials-lab",
+      "name": "合工大材料实验中心",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-audit",
+      "name": "合工大审计处",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "services",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-security-office",
+      "name": "合工大保卫处",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-procurement",
+      "name": "合工大招标采购",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "services",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-archive",
+      "name": "合工大档案馆",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "services",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-journal",
+      "name": "合工大学报",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "research",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-retire",
+      "name": "合工大离退休工作处",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-intl-edu",
+      "name": "合工大国际教育学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "exchange",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-excellent",
+      "name": "合工大卓越工程师学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-innovation",
+      "name": "合工大创新创业学院",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "careers",
+        "skills"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-continuing",
+      "name": "合工大继续教育",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-alumni-fund",
+      "name": "合工大教育基金会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "scholarships",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-dorm",
+      "name": "合工大宿舍管理",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-canteen",
+      "name": "合工大食堂",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-bus",
+      "name": "合工大班车",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-mental",
+      "name": "合工大心理咨询中心",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "life",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-career-center",
+      "name": "合工大学生就业指导中心",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "careers",
+        "academics"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-grad-admission",
+      "name": "合工大研究生招生",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "campus"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-adult-edu",
+      "name": "合工大成人教育",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "academics",
+        "services"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-alumni-hf",
+      "name": "合工大合肥校友会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-alumni-sh",
+      "name": "合工大上海校友会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    },
+    {
+      "id": "wx-alumni-sz",
+      "name": "合工大深圳校友会",
+      "type": "wechat",
+      "url": "",
+      "verified": false,
+      "checkedAt": "",
+      "aff": [
+        "campus",
+        "careers"
+      ],
+      "feed": {
+        "kind": "wechat",
+        "enabled": false
+      }
+    }
+  ]
+}
