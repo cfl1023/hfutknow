@@ -21,7 +21,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 16
   },
   {
    "id": "hfut-news",
@@ -43,7 +43,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 8
+   "count": 15
   },
   {
    "id": "hfut-jwc",
@@ -65,7 +65,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-kyy",
@@ -89,7 +89,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 15
+   "count": 14
   },
   {
    "id": "hfut-lib",
@@ -135,7 +135,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 15
+   "count": 17
   },
   {
    "id": "hfut-xcb",
@@ -157,7 +157,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-cwc",
@@ -179,7 +179,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-rsc",
@@ -201,7 +201,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-yjsy",
@@ -223,7 +223,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 10
+   "count": 14
   },
   {
    "id": "hfut-ic",
@@ -268,7 +268,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-civil",
@@ -290,7 +290,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 15
   },
   {
    "id": "hfut-jxjy",
@@ -312,7 +312,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-bkzs",
@@ -356,7 +356,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-tzb",
@@ -378,7 +378,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-jjh",
@@ -400,7 +400,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-me",
@@ -422,7 +422,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-tiyu",
@@ -444,7 +444,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-mks",
@@ -466,7 +466,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-dekt",
@@ -489,7 +489,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 10
+   "count": 15
   },
   {
    "id": "hfut-dekt-system",
@@ -536,7 +536,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 13
+   "count": 15
   },
   {
    "id": "hfut-hgxy",
@@ -559,7 +559,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 14
   },
   {
    "id": "hfut-wlxy",
@@ -582,7 +582,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 15
   },
   {
    "id": "hfut-jjxy",
@@ -605,7 +605,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 15
   },
   {
    "id": "hfut-wfxy",
@@ -628,7 +628,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 15
   },
   {
    "id": "hfut-rjxy",
@@ -651,7 +651,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 8
+   "count": 15
   },
   {
    "id": "hfut-jxxy",
@@ -674,7 +674,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 11
+   "count": 15
   },
   {
    "id": "hfut-tuanwei",
@@ -722,7 +722,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 13
+   "count": 14
   },
   {
    "id": "wx-hfut",
