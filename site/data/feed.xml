@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 14:11:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 14:13:03 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>公告新闻</title>
@@ -552,6 +552,14 @@
       <description>近日，中国大学生飞行器设计创新大赛全国总决赛在四川省自贡市凤鸣通用机场顺利举办。</description>
     </item>
     <item>
+      <title>关于我校发明专利的专利权转让公示（2026-29）</title>
+      <link>https://kyy.hfut.edu.cn/2026/1021/c3310a323997/page.htm</link>
+      <guid isPermaLink="false">web-25f89a95cc0d1bbe</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
+      <category>research</category>
+      <description>关于我校发明专利的专利权转让公示（2026-29）</description>
+    </item>
+    <item>
       <title>关于到期科研项目办理结题工作的通知</title>
       <link>https://kyy.hfut.edu.cn/2026/1020/c3310a323941/page.htm</link>
       <guid isPermaLink="false">web-4e26b97fca7755f7</guid>
@@ -632,20 +640,12 @@
       <description>10月16日晚，化学与化工学院在翡翠湖校区开展“凝青春力量，筑团学新篇”团学组织全员大会，团学组织全体成员参加会议，共同开启新学年团学工作新篇章。</description>
     </item>
     <item>
-      <title>我校召开2026-2027学年第一学期督导工作会议</title>
-      <link>https://jwc.hfut.edu.cn/info/1245/6145.htm</link>
-      <guid isPermaLink="false">web-bf4ad5230cefe4dc</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0000</pubDate>
-      <category>academics</category>
-      <description>10月16日下午，学校举行2026-2027学年第一学期督导工作会。</description>
-    </item>
-    <item>
-      <title>我校举行2026年新入职教师岗前培训开班仪式</title>
-      <link>https://jwc.hfut.edu.cn/info/1245/6143.htm</link>
-      <guid isPermaLink="false">web-790ce8645ebad126</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0000</pubDate>
-      <category>research</category>
-      <description>10月17日上午，我校举行2026年新入职教师岗前培训开班仪式。他强调，当前高等教育加速转型，教育从单一知识传授向价值创造转变，全体新进教师要直面教育教学要求和产业行业需要，持续调整科研范式，切实增强有组织科研能力。</description>
+      <title>关于我校参与申报2026年度湖南省科技奖的公示</title>
+      <link>https://kyy.hfut.edu.cn/2026/1020/c3310a323950/page.htm</link>
+      <guid isPermaLink="false">web-ee25d2ec77d2ad8e</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>关于我校参与申报2026年度湖南省科技奖的公示</description>
     </item>
   </channel>
 </rss>

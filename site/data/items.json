@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T14:11",
+ "generatedAt": "2026-10-23T14:13",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -1976,6 +1976,27 @@
    "demo": false
   },
   {
+   "id": "web-25f89a95cc0d1bbe",
+   "title": "关于我校发明专利的专利权转让公示（2026-29）",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1021/c3310a323997/page.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "intent": "information",
+   "category": "research",
+   "summary": "关于我校发明专利的专利权转让公示（2026-29）",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "专利"
+   ],
+   "content": [
+    "<p>关于我校发明专利的专利权转让公示（2026-29）</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-4e26b97fca7755f7",
    "title": "关于到期科研项目办理结题工作的通知",
    "sourceId": "hfut-kyy",
@@ -2254,6 +2275,25 @@
     "<p>各社团立足职能依次介绍本学年工作思路、重点任务和活动安排，围绕服务同学需求、提升活动质量、加强组织建设等内容展开交流，进一步明晰发展方向，为深化协作、落实任务奠定基础。</p>",
     "<p>专题培训强本领，分组研讨抓落实。</p>",
     "<p>学生会指导老师开展团学组织专题培训，帮助全体成员进一步明确工作职责、增强服务意识，为规范开展团学工作、提高组织运行效率提供指导</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-ee25d2ec77d2ad8e",
+   "title": "关于我校参与申报2026年度湖南省科技奖的公示",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1020/c3310a323950/page.htm",
+   "publishedAt": "2026-10-20T09:00:00",
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于我校参与申报2026年度湖南省科技奖的公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "content": [
+    "<p>关于我校参与申报2026年度湖南省科技奖的公示</p>"
    ],
    "demo": false
   },
