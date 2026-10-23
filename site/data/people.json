@@ -1,0 +1,98 @@
+{
+ "generatedAt": "2026-10-23T15:43",
+ "college": {
+  "id": "ic",
+  "name": "集成电路创新学院",
+  "short": "集成电路"
+ },
+ "people": [
+  {
+   "name": "许高斌",
+   "title": "教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/xgb/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "张鹏",
+   "title": "副教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/zhangpeng1/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "王庆贺",
+   "title": "副教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/~fu2MBf/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "赵若兰（特任）",
+   "title": "副教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/zhaoruolan/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "苏子佳",
+   "title": "副教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/~Bvqu2i/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "陶韦臣",
+   "title": "副教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "https://faculty.hfut.edu.cn/taoweichen/zh_CN/zhym/533328/list/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "潘尚杰（特任）",
+   "title": "副教授",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/panshangjie/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "马敏",
+   "title": "行政管理人员",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/MaMin/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "李骏",
+   "title": "行政管理人员",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/lijun269/zh_CN/index.htm",
+   "kind": "全职"
+  },
+  {
+   "name": "朱文拿",
+   "title": "行政管理人员",
+   "college": "集成电路创新学院",
+   "collegeId": "ic",
+   "url": "http://faculty.hfut.edu.cn/zhuwenna/zh_CN/index.htm",
+   "kind": "全职"
+  }
+ ],
+ "groups": [
+  "教授",
+  "副教授",
+  "讲师",
+  "研究员",
+  "副研究员",
+  "兼职"
+ ]
+}

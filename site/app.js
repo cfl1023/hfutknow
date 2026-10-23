@@ -11,7 +11,7 @@
 
   const I18N = {
     zh: {
-      nav: { all: '全部', activities: '活动', information: '通知', calendar: '日历', sources: '来源' },
+      nav: { all: '全部', activities: '活动', information: '通知', calendar: '日历', sources: '来源', people: '教师' },
       searchPh: '搜索标题、公众号或发布单位',
       heroTitle: '把散落在合工大几百个公众号和官网里的信息，<span class="hl">收进同一个页面</span>',
       heroSub: '讲座、演出、招新、奖学金、选课通知 —— 翡翠湖校区的信息都在这里，不用一个个关注，打开就能看。',
@@ -32,11 +32,14 @@
       wechat: '公众号', official: '官网', count: '条',
       results: '搜索结果', noSource: '没有找到这个来源',
       profileLine: '为 {college} · {grade} 定制排序',
+      peopleTitle: '教师与课程', peopleSub: '集成电路创新学院师资名录，点击进入教师个人主页。课程数据整理中。',
+      peopleEmpty: '教师数据还没抓取，运行 tools/make_people.py 生成。', peopleLink: '个人主页',
+      newBadge: '新',
       weekdays: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
       relNow: '刚刚', relMin: '{n} 分钟前', relHour: '{n} 小时前', relDay: '昨天', relDays: '{n} 天前'
     },
     en: {
-      nav: { all: 'All', activities: 'Events', information: 'Notices', calendar: 'Calendar', sources: 'Sources' },
+      nav: { all: 'All', activities: 'Events', information: 'Notices', calendar: 'Calendar', sources: 'Sources', people: 'Faculty' },
       searchPh: 'Search title, account or unit',
       heroTitle: 'Every notice scattered across hundreds of HFUT accounts, <span class="hl">in one page</span>',
       heroSub: 'Lectures, shows, recruitment, scholarships, course notices — everything on Feicui Lake campus.',
@@ -57,6 +60,9 @@
       wechat: 'WeChat accounts', official: 'Official sites', count: '',
       results: 'Results', noSource: 'Source not found',
       profileLine: 'Ranked for {college} · {grade}',
+      peopleTitle: 'Faculty & Courses', peopleSub: 'Faculty of the School of Integrated Circuits. Course data coming.',
+      peopleEmpty: 'No faculty data yet. Run tools/make_people.py.', peopleLink: 'Homepage',
+      newBadge: 'NEW',
       weekdays: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
       relNow: 'just now', relMin: '{n}m ago', relHour: '{n}h ago', relDay: 'yesterday', relDays: '{n}d ago'
     }
@@ -167,7 +173,8 @@
     document.querySelectorAll('#mainnav a').forEach((a) => a.classList.remove('active'));
     const navKey = path === '' ? 'all' : path === 'activities' ? 'activities'
       : path === 'information' ? 'information' : head === 'calendar' ? 'calendar'
-      : head === 'sources' ? 'sources' : head === 'c' && S.catById[arg] ? S.catById[arg].intent : '';
+      : head === 'sources' ? 'sources' : head === 'people' ? 'people'
+      : head === 'c' && S.catById[arg] ? S.catById[arg].intent : '';
     const navEl = document.querySelector(`#mainnav a[data-nav="${navKey}"]`);
     if (navEl) navEl.classList.add('active');
 
@@ -221,10 +228,12 @@
       evHTML = `<div class="ev">${bits.join('')}</div>`;
     }
     const rel = S.sort !== 'recommend' && isRelated(item);
+    const fresh = (Date.now() - new Date(item.publishedAt).getTime()) < 6 * 3600e3;
     return `<a class="card" href="#/i/${encodeURIComponent(item.id)}" data-id="${esc(item.id)}" style="--cat:${color}">
       <div class="card-tags">
         ${item.requiresSignup ? `<span class="badge-signup">${t().signup}</span>` : ''}
         ${rel ? `<span class="badge-related">${t().related}</span>` : ''}
+        ${fresh ? `<span class="badge-new">${t().newBadge}</span>` : ''}
       </div>
       <h3>${hl(item.title, S._q)}</h3>
       <p class="sum">${hl(item.summary, S._q)}</p>
@@ -474,6 +483,29 @@
       <div class="src-grid">${groups.official.sort((a, b) => (b.count || 0) - (a.count || 0)).map(row).join('')}</div>`;
   }
 
+  function renderPeople() {
+    $('#chips').hidden = true;
+    const L = t();
+    const people = S.people || [];
+    const order = ['教授', '副教授', '研究员', '副研究员', '讲师', '兼职'];
+    const groups = {};
+    people.forEach((p) => { (groups[p.title] = groups[p.title] || []).push(p); });
+    const keys = Object.keys(groups).sort((a, b) => {
+      const ia = order.indexOf(a), ib = order.indexOf(b);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+    const body = people.length
+      ? keys.map((k) => `<div class="grp-title">${esc(k)} · ${groups[k].length}</div>
+        <div class="people-grid">${groups[k].map((p) => `<a class="person" href="${esc(p.url)}" target="_blank" rel="noopener">
+          <span class="ava">${esc(p.name.slice(0, 1))}</span>
+          <span class="meta"><span class="nm">${esc(p.name)}</span>
+          <span class="tt">${esc(p.title)}</span>
+          <span class="cl">${esc(p.college)} · ${L.peopleLink} ↗</span></span></a>`).join('')}</div>`).join('')
+      : `<div class="empty"><b>${L.peopleEmpty}</b></div>`;
+    document.title = `${L.peopleTitle} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
+    app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>${body}`;
+  }
+
   function renderContribute() {
     $('#chips').hidden = true;
     const L = t();
@@ -589,6 +621,7 @@
       if (window.__CK_DATA__) {
         payload = window.__CK_DATA__.items;
         srcPayload = window.__CK_DATA__.sources;
+        S.peopleData = window.__CK_DATA__.people || null;
       } else {
         const [itemsRes, srcRes] = await Promise.all([
           fetch('data/items.json', { cache: 'no-cache' }),
@@ -597,6 +630,10 @@
         if (!itemsRes.ok) throw new Error('items.json ' + itemsRes.status);
         payload = await itemsRes.json();
         srcPayload = await srcRes.json();
+        try {
+          const pr = await fetch('data/people.json', { cache: 'no-cache' });
+          if (pr.ok) S.peopleData = await pr.json();
+        } catch (e) { /* 没有教师数据也能用 */ }
       }
       S.items = payload.items || [];
       S.categories = payload.categories || [];
@@ -605,6 +642,7 @@
       S.sources.forEach((s) => { S.srcById[s.id] = s; });
       S.site = payload.site || S.site;
       S.profile = S.site.profile || {};
+      S.people = (S.peopleData && S.peopleData.people) || [];
       S.generatedAt = payload.generatedAt || '';
       S.demoCount = S.items.filter((i) => i.demo).length;
       bind();
