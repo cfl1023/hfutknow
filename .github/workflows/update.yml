@@ -38,6 +38,9 @@ jobs:
       - name: Clean junk items
         run: python tools/clean_junk.py
 
+      - name: Track competitions (deadlines)
+        run: python tools/build_tracking.py
+
       - name: Commit data
         run: |
           git config user.name "hfutknow-bot"
