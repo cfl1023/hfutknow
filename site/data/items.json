@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
  "generatedAt": "2026-10-24T14:04",
+=======
+ "generatedAt": "2026-10-24T22:06",
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -140,6 +144,167 @@
  ],
  "items": [
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV1epnz6pEd6",
+   "title": "包大人今晚拦我三次 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1epnz6pEd6",
+   "publishedAt": "2026-10-24T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "#校园网络文明月#\n视频巧妙借用了大众熟知的文化符号作为警醒的化身\n生动刻画了在面对诱惑与陷阱时，理智与贪念之间的反复拉扯\n旨在用一种极具记忆点的方式告诫雪梨们：\n网络世界迷雾重重，当你即将踏入深渊时，请让“包大人”及时将你拦下！\nvia.经济学院\n作者：秦朵言 高雨桐 颜翊宸",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>#校园网络文明月#\n视频巧妙借用了大众熟知的文化符号作为警醒的化身\n生动刻画了在面对诱惑与陷阱时，理智与贪念之间的反复拉扯\n旨在用一种极具记忆点的方式告诫雪梨们：\n网络世界迷雾重重，当你即将踏入深渊时，请让“包大人”及时将你拦下！\nvia.经济学院\n作者：秦朵言 高雨桐 颜翊宸</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 453
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1QbHP6sEyb",
+   "title": "合肥工业大学cuadc无人机定点空投项目（3kg）赛后总结",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1QbHP6sEyb",
+   "publishedAt": "2026-10-24T16:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "-",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "PEK的守望者"
+   ],
+   "competition": null,
+   "content": [
+    "<p>-</p>"
+   ],
+   "bili": {
+    "author": "PEK的守望者",
+    "play": 652
+   },
+   "demo": false
+  },
+  {
+   "id": "web-9e7b407af6e33dcb",
+   "title": "科研院领导莅临我院调研指导科研工作",
+   "sourceId": "hfut-wdzxy",
+   "sourceName": "微电子学院",
+   "sourceType": "official",
+   "url": "https://wdzxy.hfut.edu.cn/2026/1024/c5628a324068/page.htm",
+   "publishedAt": "2026-10-24T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "科研院领导莅临我院调研指导科研工作",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "科研"
+   ],
+   "competition": null,
+   "content": [
+    "<p>科研院领导莅临我院调研指导科研工作</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "bili-BV1Cbnh6jEUa",
+   "title": "目标合肥工业大学！28考研最新考情+就业前景+备考规划一站式解析｜择校第一课，少走备考弯路！",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1Cbnh6jEUa",
+   "publishedAt": "2026-10-23T20:06",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "关于更多本院校的细节可看评论区加入我们的qq chat群！\n\n28考研入门：BV1PcNM6VEmd\n\n关于up：BV1iT816cE5X\n本科→考研→就业网站：BV1FKbC6FEsd\n0854专业方向介绍：BV16czFBFEMS\n通信电子区域择校汇总：BV1EptF6iEVw\n通信电子大类各阶段规划：BV1Ltu",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "一只通信考研的er"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于更多本院校的细节可看评论区加入我们的qq chat群！\n\n28考研入门：BV1PcNM6VEmd\n\n关于up：BV1iT816cE5X\n本科→考研→就业网站：BV1FKbC6FEsd\n0854专业方向介绍：BV16czFBFEMS\n通信电子区域择校汇总：BV1EptF6iEVw\n通信电子大类各阶段规划：BV1Ltut6cE8E\n考研真题免费送：BV1rMu26dEXg\n通信电子就业大科普：BV1iR6hB7EbU</p>"
+   ],
+   "bili": {
+    "author": "一只通信考研的er",
+    "play": 751
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1eWnz6QEKC",
+   "title": "老汉差点遭AI骗！老妈一招识破骗局 | 合肥工业大学校园网络文明月系列系列短视频 @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1eWnz6QEKC",
+   "publishedAt": "2026-10-23T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "#校园网络文明月#\n视频贴近生活，充满家庭温情与智慧\n作品聚焦长辈群体在面对新型技术时的脆弱性，同时展现了家庭内部防线的力量\n通过生活化的场景，强调了亲情互助与日常提醒在雪梨们防范电信网络诈骗中的关键作用\nvia.计算机与信息学院\n作者：廖瑜琦",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>#校园网络文明月#\n视频贴近生活，充满家庭温情与智慧\n作品聚焦长辈群体在面对新型技术时的脆弱性，同时展现了家庭内部防线的力量\n通过生活化的场景，强调了亲情互助与日常提醒在雪梨们防范电信网络诈骗中的关键作用\nvia.计算机与信息学院\n作者：廖瑜琦</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 526
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1ksnb63EtC",
+   "title": "24年合工大超越卷六第13题（二重积分的定义求极限）",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1ksnb63EtC",
+   "publishedAt": "2026-10-23T16:42",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "御坂11408 发布的 B 站视频",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "御坂11408"
+   ],
+   "competition": null,
+   "content": [
+    "<p>御坂11408 发布的 B 站视频</p>"
+   ],
+   "bili": {
+    "author": "御坂11408",
+    "play": 313
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-4c1c42cdf949ab83",
    "title": "关于2026-2027学年“合肥工业大学-人本滴水奖学金”评选的通知-机械工程学院",
    "sourceId": "hfut-jxxy",
@@ -190,6 +355,36 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV1uJnH6aE7k",
+   "title": "【合肥工业大学830电路】第5章5.1 正弦量的基本概念 || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1uJnH6aE7k",
+   "publishedAt": "2026-10-23T16:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "张哥讲电路"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~</p>"
+   ],
+   "bili": {
+    "author": "张哥讲电路",
+    "play": 23
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-507547c467840751",
    "title": "“三下乡”支教大学生与村小学生跨越十二年重逢",
    "sourceId": "hfut-tuanwei",
@@ -1258,6 +1453,117 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV1bPns6uEdg",
+   "title": "【大肉嘎】合工大的学弟还在吗  帮主播个忙",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1bPns6uEdg",
+   "publishedAt": "2026-10-23T07:48",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "切片为本人主观剪辑，有断章取义行为，并不代表大肉嘎观点。\nB站直播间号： 21737720（大肉嘎） 每周周一~周五20:00\n音乐切片小号：小肉嘎233\n大肉嘎歌单：https://www.darouga.cn",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "疯狂矿泉水"
+   ],
+   "competition": null,
+   "content": [
+    "<p>切片为本人主观剪辑，有断章取义行为，并不代表大肉嘎观点。\nB站直播间号： 21737720（大肉嘎） 每周周一~周五20:00\n音乐切片小号：小肉嘎233\n大肉嘎歌单：https://www.darouga.cn</p>"
+   ],
+   "bili": {
+    "author": "疯狂矿泉水",
+    "play": 1227
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1DPnm6qEyx",
+   "title": "从一枚鱼钩到一支粉笔，一场“大手拉小手”的班会为合肥工业大学四位学生在贵州省丹寨县金钟第一小学的支教时光写下圆满的句号。#石榴信箱 #纪念红军长征胜利90周年",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1DPnm6qEyx",
+   "publishedAt": "2026-10-22T19:07",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "从一枚鱼钩到一支粉笔，一场“大手拉小手”的班会为合肥工业大学四位学生在贵州省丹寨县金钟第一小学的支教时光写下圆满的句号。#石榴信箱 #纪念红军长征胜利90周年",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "育见新闻"
+   ],
+   "competition": null,
+   "content": [
+    "<p>从一枚鱼钩到一支粉笔，一场“大手拉小手”的班会为合肥工业大学四位学生在贵州省丹寨县金钟第一小学的支教时光写下圆满的句号。#石榴信箱 #纪念红军长征胜利90周年</p>"
+   ],
+   "bili": {
+    "author": "育见新闻",
+    "play": 2
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1Cone69EnS",
+   "title": "大圣反诈识破AI骗局 | 合肥工业大学校园网络文明月系列短视频  @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1Cone69EnS",
+   "publishedAt": "2026-10-22T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "#校园网络文明月#\n巧妙结合经典文化符号与前沿科技，展开了一场传统智慧与现代骗术的跨时空交锋\n作品聚焦人工智能时代的新型诈骗手段，以生动新颖的视角\n警示雪梨们在面对高科技伪装时需保持火眼金睛，提高辨别能力\nvia.经济学院\n作者：姚皓文 郭博威",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>#校园网络文明月#\n巧妙结合经典文化符号与前沿科技，展开了一场传统智慧与现代骗术的跨时空交锋\n作品聚焦人工智能时代的新型诈骗手段，以生动新颖的视角\n警示雪梨们在面对高科技伪装时需保持火眼金睛，提高辨别能力\nvia.经济学院\n作者：姚皓文 郭博威</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 1313
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1vbn16kEy5",
+   "title": "【赛雷】合工大金融专硕，券商求职思路",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1vbn16kEy5",
+   "publishedAt": "2026-10-22T14:09",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "好赛雷切片 发布的 B 站视频",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "好赛雷切片"
+   ],
+   "competition": null,
+   "content": [
+    "<p>好赛雷切片 发布的 B 站视频</p>"
+   ],
+   "bili": {
+    "author": "好赛雷切片",
+    "play": 536
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-5794ca1be0dee99b",
    "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
    "sourceId": "hfut-edu",
@@ -1697,6 +2003,140 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "web-b29e51c3c8362263",
+   "title": "学院开展第二届“斛兵外语”奖教金评审会",
+   "sourceId": "hfut-wgyxy",
+   "sourceName": "外国语学院",
+   "sourceType": "official",
+   "url": "https://wgyxy.hfut.edu.cn/2026/1022/c11993a324026/page.htm",
+   "publishedAt": "2026-10-22T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "学院开展第二届“斛兵外语”奖教金评审会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学院开展第二届“斛兵外语”奖教金评审会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "bili-BV1WpnB6eEYH",
+   "title": "若不是你突然闯进HFUT",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1WpnB6eEYH",
+   "publishedAt": "2026-10-21T20:41",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "我只是想发这些gif了",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "星鑫猩猩"
+   ],
+   "competition": null,
+   "content": [
+    "<p>我只是想发这些gif了</p>"
+   ],
+   "bili": {
+    "author": "星鑫猩猩",
+    "play": 372
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1zNnv6EEnN",
+   "title": "二十元的诱饵 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1zNnv6EEnN",
+   "publishedAt": "2026-10-21T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "以小见大，见微知著\n作品通过生活中看似微不足道的微小利益作为切入点，深刻剖析了贪小便宜背后可能隐藏的巨大陷阱\n旨在提醒雪梨们，防范诈骗需从拒绝每一个微小的诱惑开始，筑牢心理防线 \n\nvia.党委学生工作会\n作者：赵子淇 左静怡 唐真真 周思嫄 方琴琴 曹蕊",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>以小见大，见微知著\n作品通过生活中看似微不足道的微小利益作为切入点，深刻剖析了贪小便宜背后可能隐藏的巨大陷阱\n旨在提醒雪梨们，防范诈骗需从拒绝每一个微小的诱惑开始，筑牢心理防线 \n\nvia.党委学生工作会\n作者：赵子淇 左静怡 唐真真 周思嫄 方琴琴 曹蕊</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 630
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1CFnA6aEwK",
+   "title": "机甲之梦：与合工大WDR团队对话",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1CFnA6aEwK",
+   "publishedAt": "2026-10-21T11:30",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "从一颗螺丝的反复调试，到一台机甲的蓄势待发；从实验室的日夜钻研，到春茧赛场的全力以赴。热爱在试错中沉淀，答案在实践中诞生。本期视频走进合肥工业大学WDR战队，看这群硬核青年如何用代码编织逻辑，用焊锡连接梦想，在机械与代码的交响中，书写合工大学子的科创答卷。\n采访：张彤奕佳 鲍沁茹 李佳瑜 舒馨雅\n拍摄：钟宇豪  王恒 ",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>从一颗螺丝的反复调试，到一台机甲的蓄势待发；从实验室的日夜钻研，到春茧赛场的全力以赴。热爱在试错中沉淀，答案在实践中诞生。本期视频走进合肥工业大学WDR战队，看这群硬核青年如何用代码编织逻辑，用焊锡连接梦想，在机械与代码的交响中，书写合工大学子的科创答卷。\n采访：张彤奕佳 鲍沁茹 李佳瑜 舒馨雅\n拍摄：钟宇豪  王恒  张鑫怡   蔡家行\n剪辑：钟宇豪</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 1879
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1svnv6ZEG4",
+   "title": "合工大旧品发布会｜高等数学：重新定义，你的极限",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1svnv6ZEG4",
+   "publishedAt": "2026-10-21T11:18",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "-",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "未眠人张怀民"
+   ],
+   "competition": null,
+   "content": [
+    "<p>-</p>"
+   ],
+   "bili": {
+    "author": "未眠人张怀民",
+    "play": 308
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-b68c7b7499be75b3",
    "title": "国家科技重大专项：智能电网重大专项发布专题攻关公开项目申报指南的通知",
    "sourceId": "hfut-kyy",
@@ -2059,6 +2499,63 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV1H6nc6tEyh",
+   "title": "据说，弹一下纸片，就能来到合工大？",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1H6nc6tEyh",
+   "publishedAt": "2026-10-20T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "拍摄：韩思佳\n剪辑：韩思佳\n指导：吕昊波 李睿涵",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>拍摄：韩思佳\n剪辑：韩思佳\n指导：吕昊波 李睿涵</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 2642
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1XinF6gEMn",
+   "title": "#校园网络文明月#    最好的“学长”| 合工大网络安全教育短视频  @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1XinF6gEMn",
+   "publishedAt": "2026-10-20T11:22",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合工大校园网络文明月网络安全教育短片，聚焦高校高频网络安全隐患，用贴近校园生活的案例普及网安防护技巧，号召工大学子文明上网、安全用网，共同守护清朗校园网络环境。",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合工大校园网络文明月网络安全教育短片，聚焦高校高频网络安全隐患，用贴近校园生活的案例普及网安防护技巧，号召工大学子文明上网、安全用网，共同守护清朗校园网络环境。</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 1081
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-4e26b97fca7755f7",
    "title": "关于到期科研项目办理结题工作的通知",
    "sourceId": "hfut-kyy",
@@ -2360,6 +2857,63 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV1p4Jo6SEqG",
+   "title": "F5青松甲鱼！当我和朋友们一起在迎新晚会上唱《新世界》",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1p4Jo6SEqG",
+   "publishedAt": "2026-10-20T01:59",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "2026.10.10现场\nup与朋友们一起在合肥工业大学经济学院第七届国风音乐节上演唱华晨宇的《新世界》\n因为舒适音区不同，所以权衡后选择了降2key的版本\n（中间欧黑鸭环节下台没录上哈哈哈）",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "樟陟淵"
+   ],
+   "competition": null,
+   "content": [
+    "<p>2026.10.10现场\nup与朋友们一起在合肥工业大学经济学院第七届国风音乐节上演唱华晨宇的《新世界》\n因为舒适音区不同，所以权衡后选择了降2key的版本\n（中间欧黑鸭环节下台没录上哈哈哈）</p>"
+   ],
+   "bili": {
+    "author": "樟陟淵",
+    "play": 184
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1hRnJ6fEnV",
+   "title": "武汉理工大学vs合肥工业大学，哪个更好？",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1hRnJ6fEnV",
+   "publishedAt": "2026-10-19T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "吕品的家长学院 发布的 B 站视频",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "吕品的家长学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>吕品的家长学院 发布的 B 站视频</p>"
+   ],
+   "bili": {
+    "author": "吕品的家长学院",
+    "play": 3395
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-bf4ad5230cefe4dc",
    "title": "我校召开2026-2027学年第一学期督导工作会议",
    "sourceId": "hfut-jwc",
@@ -2934,6 +3488,83 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "web-828c9e848b8b10bc",
+   "title": "一周会议（10月19日-10月25日）",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1011&wbnewsid=20132",
+   "publishedAt": "2026-10-19T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "10月19日",
+   "event": {
+    "start": "2026-10-19T19:00:00",
+    "location": null
+   },
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>10月19日</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-2e2fd887b3349e23",
+   "title": "学院举办2026级全校山东籍新生见面会",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1065/16634.htm",
+   "publishedAt": "2026-10-19T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "学院举办2026级全校山东籍新生见面会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学院举办2026级全校山东籍新生见面会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "bili-BV1jSHX6KEUo",
+   "title": "【合肥工业大学830电路】第4章4.4 阶跃响应与冲激响应（下） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1jSHX6KEUo",
+   "publishedAt": "2026-10-18T16:30",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "张哥讲电路"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~</p>"
+   ],
+   "bili": {
+    "author": "张哥讲电路",
+    "play": 171
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-520b63bc7a747eec",
    "title": "机械工程学院第76期发展对象班开展“铭记渡江峥嵘岁月，践行青年报国初心”主题实践活动-机械工程学院",
    "sourceId": "hfut-jxxy",
@@ -2981,6 +3612,93 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "web-2c0778b21558a916",
+   "title": "树立和践行正确政绩观学习教育",
+   "sourceId": "hfut-tiyu",
+   "sourceName": "合肥工业大学体育部",
+   "sourceType": "official",
+   "url": "https://tiyu.hfut.edu.cn/info/1013/2016.htm",
+   "publishedAt": "2026-10-17T22:05",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "树立和践行正确政绩观学习教育",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>树立和践行正确政绩观学习教育</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-26e601c8e38010c4",
+   "title": "2022年度工程跟踪审计项目一览表",
+   "sourceId": "hfut-sjc",
+   "sourceName": "合肥工业大学审计处",
+   "sourceType": "official",
+   "url": "https://sjc.hfut.edu.cn/2022/0428/c7799a273395/page.htm",
+   "publishedAt": "2026-10-17T22:05",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "2022年度工程跟踪审计项目一览表",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>2022年度工程跟踪审计项目一览表</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a37b07516c8cf9bf",
+   "title": "中国科学技术大学审计处一行来我校调研",
+   "sourceId": "hfut-sjc",
+   "sourceName": "合肥工业大学审计处",
+   "sourceType": "official",
+   "url": "https://sjc.hfut.edu.cn/2026/0125/c7800a317460/page.htm",
+   "publishedAt": "2026-10-17T22:05",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "中国科学技术大学审计处一行来我校调研",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>中国科学技术大学审计处一行来我校调研</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-15706a9c82dd49b8",
+   "title": "2026年校医院国庆假期值班安排",
+   "sourceId": "hfut-xyy",
+   "sourceName": "校医院",
+   "sourceType": "official",
+   "url": "https://xyy.hfut.edu.cn/2026/0930/c4798a323536/page.htm",
+   "publishedAt": "2026-10-17T22:05",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "2026年校医院国庆假期值班安排",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>2026年校医院国庆假期值班安排</p>"
+   ],
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-517fc3e92d05ce4e",
    "title": "研究生院赴南京组织召开研究生教育专题研讨会",
    "sourceId": "hfut-yjsy",
@@ -3247,6 +3965,36 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV19dHX6cETs",
+   "title": "【合肥工业大学830电路】第4章4.4 阶跃响应与冲激响应（上） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV19dHX6cETs",
+   "publishedAt": "2026-10-17T16:30",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "张哥讲电路"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~</p>"
+   ],
+   "bili": {
+    "author": "张哥讲电路",
+    "play": 149
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-f150952544f77cc5",
    "title": "九三学社合工大基层委组织开展",
    "sourceId": "hfut-tzb",
@@ -3319,6 +4067,36 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "bili-BV11dJX65Ep3",
+   "title": "合肥工业大学通用学术PPT模板2（开题报告+中期汇报+毕业答辩+学术讲座+工程硕士+考研+复试）",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV11dJX65Ep3",
+   "publishedAt": "2026-10-16T15:46",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合肥工业大学通用学术PPT模板2（开题报告+中期汇报+毕业答辩+学术讲座+工程硕士+考研+复试）",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "vanvanni"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学通用学术PPT模板2（开题报告+中期汇报+毕业答辩+学术讲座+工程硕士+考研+复试）</p>"
+   ],
+   "bili": {
+    "author": "vanvanni",
+    "play": 5
+   },
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-23b69bc50f421a40",
    "title": "陕西省教育厅调研组来校调研交流",
    "sourceId": "hfut-jwc",
@@ -4422,6 +5200,33 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "web-a3fc2b3dcba60829",
+   "title": "合肥工业大学2026年实验教师招聘公告",
+   "sourceId": "hfut-rsc",
+   "sourceName": "党委教师工作部、人力资源处",
+   "sourceType": "official",
+   "url": "https://rsc.hfut.edu.cn/info/1027/1987.htm",
+   "publishedAt": "2026-10-12T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "careers",
+   "summary": "合肥工业大学2026年实验教师招聘公告",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "招聘",
+    "教师"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学2026年实验教师招聘公告</p>"
+   ],
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-18c8d50d1178f536",
    "title": "学校举行弘扬伟大长征精神主题宣讲报告会",
    "sourceId": "hfut-xgb",
@@ -6762,6 +7567,32 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "web-15adb470ff917001",
+   "title": "外国语学院开展新生党史学习教育第一课",
+   "sourceId": "hfut-wgyxy",
+   "sourceName": "外国语学院",
+   "sourceType": "official",
+   "url": "https://wgyxy.hfut.edu.cn/2026/0917/c6442a323329/page.htm",
+   "publishedAt": "2026-09-11T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "外国语学院开展新生党史学习教育第一课",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>外国语学院开展新生党史学习教育第一课</p>"
+   ],
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-89aa5c770c05012a",
    "title": "【新闻动态】科技部2026年“根在基层”调研团一行来校调研座谈",
    "sourceId": "hfut-kyy",
@@ -9710,6 +10541,32 @@
    "demo": false
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "web-4cf897b7370e56eb",
+   "title": "材料科学与工程学院诚聘天下英才",
+   "sourceId": "hfut-mse",
+   "sourceName": "材料科学与工程学院",
+   "sourceType": "official",
+   "url": "https://mse.hfut.edu.cn/info/1046/6352.htm",
+   "publishedAt": "2026-01-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "材料科学与工程学院诚聘天下英才",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>材料科学与工程学院诚聘天下英才</p>"
+   ],
+   "demo": false
+  },
+  {
+>>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-6eb723443f0740db",
    "title": "学校获安徽省研究生教学成果奖特等奖10项、一等奖11项",
    "sourceId": "hfut-yjsy",

@@ -16,7 +16,7 @@ import sys
 from datetime import datetime, timedelta
 from typing import Any
 
-from . import classify, common, competitions, fetchers, summarize
+from . import bili, classify, common, competitions, fetchers, summarize
 
 CAT_INTENT = {c["id"]: c["intent"] for c in common.load_config()["categories"]}
 
@@ -151,6 +151,19 @@ def main(argv: list[str] | None = None) -> int:
         if kept:
             print(f"  + {src['name']}: 新增 {kept} 条")
 
+    # B 站：真人学生视频（约每 3 小时刷一次，见 pipeline/bili.py）
+    bili_items = bili.fetch_items(cfg.get("biliKeywords") or ["合肥工业大学", "合工大"])
+    bili_new = 0
+    for it in bili_items:
+        if it["url"] in existing_urls:
+            continue
+        existing_urls.add(it["url"])
+        items.append(it)
+        bili_new += 1
+    if bili_new:
+        print(f"  + B站: 新增 {bili_new} 条")
+    total_new += bili_new
+
     items.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     payload["items"] = items
     payload["generatedAt"] = datetime.now().isoformat(timespec="minutes")
@@ -164,6 +177,15 @@ def main(argv: list[str] | None = None) -> int:
     for it in items:
         counts[it["sourceId"]] = counts.get(it["sourceId"], 0) + 1
     sources_out = [{**s, "count": counts.get(s["id"], 0)} for s in cfg["sources"]]
+    seen = {s["id"] for s in sources_out}
+    for b_id, n in counts.items():
+        if b_id.startswith("bili-") and b_id not in seen:
+            name = next((i["sourceName"] for i in items if i["sourceId"] == b_id), "B站")
+            kw = name.replace("B站 · ", "")
+            sources_out.append({"id": b_id, "name": name, "type": "bili",
+                                "url": f"https://search.bilibili.com/all?keyword={kw}",
+                                "category": "life", "count": n,
+                                "feed": {"type": "bili", "url": "", "enabled": True}})
 
     if args.dry_run:
         print(f"\n[dry-run] 新增 {total_new} 条，未写入文件")

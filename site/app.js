@@ -221,6 +221,12 @@
     return out;
   }
 
+  function fmtPlay(n) {
+    n = Number(n) || 0;
+    if (n >= 10000) return (n / 10000).toFixed(1).replace('.0', '') + '万';
+    return String(n);
+  }
+
   function cardHTML(item) {
     const color = catColor(item.category);
     const ev = item.event;
@@ -251,6 +257,7 @@
         <span class="srcname">${esc(item.sourceName)}</span>
         <span class="dot"></span>
         <span>${catName(item.category)}</span>
+        ${item.bili ? `<span class="dot"></span><span>${esc(item.bili.author)} · ▶${fmtPlay(item.bili.play)}</span>` : ''}
         <span class="time">${relTime(item.publishedAt)}</span>
       </div>
     </a>`;
@@ -409,7 +416,7 @@
       <aside class="drawer-panel" role="dialog" aria-modal="true">
         <div class="drawer-bar">
           <button class="icon-btn" data-close aria-label="${t().close}">✕</button>
-          <span class="drawer-hint">${esc(item.sourceName)}</span>
+          <span class="drawer-hint">${esc(item.sourceName)}${item.bili ? ' · ' + esc(item.bili.author) + ' · ▶' + fmtPlay(item.bili.play) : ''}</span>
         </div>
         <div class="drawer-body">${detailHTML(item)}</div>
       </aside>`;
