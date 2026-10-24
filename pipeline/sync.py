@@ -16,7 +16,7 @@ import sys
 from datetime import datetime, timedelta
 from typing import Any
 
-from . import classify, common, fetchers, summarize
+from . import classify, common, competitions, fetchers, summarize
 
 CAT_INTENT = {c["id"]: c["intent"] for c in common.load_config()["categories"]}
 
@@ -74,6 +74,7 @@ def build_item(src: dict[str, Any], entry: dict[str, Any], cfg: dict[str, Any], 
         "event": event,
         "requiresSignup": classify.needs_signup(f"{title} {text}"),
         "tags": classify.keywords(title),
+        "competition": competitions.detect_competition(title, text),
         "content": content,
         "demo": False,
     }

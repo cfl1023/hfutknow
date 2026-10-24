@@ -1,0 +1,571 @@
+{
+ "generatedAt": "2026-10-24",
+ "source": "合肥工业大学学科竞赛赛事列表（2026年版）.docx",
+ "total": 87,
+ "items": [
+  {
+   "tier": "三大赛",
+   "name": "中国国际大学生创新大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "三大赛",
+   "name": "“挑战杯”全国大学生课外学术科技作品竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "三大赛",
+   "name": "“挑战杯”中国大学生创业计划竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "中国大学生工程实践与创新能力大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生电子设计竞赛",
+   "related": true,
+   "keywords": [
+    "电子设计"
+   ]
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生广告艺术大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生化学实验竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生机械创新设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生交通运输科技大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生节能减排社会实践与科技竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生结构设计竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生数学建模竞赛",
+   "related": true,
+   "keywords": [
+    "数学建模"
+   ]
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生物理实验竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生物流设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "全国大学生智能汽车竞赛",
+   "related": true,
+   "keywords": [
+    "智能汽车"
+   ]
+  },
+  {
+   "tier": "A类",
+   "name": "全国高校“创意创新创业”电子商务挑战赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "A类",
+   "name": "“西门子杯”中国智能制造挑战赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "中国大学生服务外包创新创业大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "中国大学生机械工程创新创意大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "中国大学生计算机设计大赛",
+   "related": true,
+   "keywords": [
+    "计算机"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "中国大学生物理学术竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "中国高校计算机大赛",
+   "related": true,
+   "keywords": [
+    "计算机"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "中国好创意暨全国数字艺术设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "中国机器人大赛暨RoboCup机器人世界杯中国赛",
+   "related": true,
+   "keywords": [
+    "机器人"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "中国机器人及人工智能大赛",
+   "related": true,
+   "keywords": [
+    "人工智能",
+    "机器人"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "中国高校智能机器人创意大赛",
+   "related": true,
+   "keywords": [
+    "机器人"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生GIS应用技能大赛/全国高校GIS技能大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生创新创业训练计划年会展示",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生职业规划大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生测绘学科创新创业智能大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生地质技能竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生给排水科技创新大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生工业设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生光电设计竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生花园设计建造竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生化工设计竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生化工实验大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生化学实验创新设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生机器人大赛",
+   "related": true,
+   "keywords": [
+    "机器人"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生集成电路创新创业大赛",
+   "related": true,
+   "keywords": [
+    "集成电路"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生计算机系统能力大赛",
+   "related": true,
+   "keywords": [
+    "计算机"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生金相技能大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生能源经济学术创意大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生汽车方程式大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生嵌入式芯片与系统设计竞赛",
+   "related": true,
+   "keywords": [
+    "芯片",
+    "嵌入式"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生生命科学竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生市场调查与分析大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生数学竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生数字媒体科技作品及创意竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生水利创新设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生统计建模大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生物联网设计竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生先进成图技术与产品信息建模创新大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生信息安全竞赛",
+   "related": true,
+   "keywords": [
+    "信息安全"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生英语竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国大学生智能建造竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国高校BIM毕业设计创新大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国高校商业精英挑战赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国企业竞争模拟大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国三维数字化创新设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "全国周培源大学生力学竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "美国大学生数学建模竞赛",
+   "related": true,
+   "keywords": [
+    "数学建模"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "大学生新一代信息通信技术大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "蓝桥杯全国大学生软件和信息技术大赛",
+   "related": true,
+   "keywords": [
+    "蓝桥杯"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "两岸新锐设计竞赛·华灿奖",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "米兰设计周-中国高校设计学科师生优秀作品展",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "睿抗机器人开发者大赛",
+   "related": true,
+   "keywords": [
+    "机器人"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "未来设计师·全国高校数字艺术设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "“21世纪杯”全国英语演讲比赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "“工行杯”全国大学生金融科技创新大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "“外教社杯”全国高校学生跨文化能力大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "“中国软件杯”大学生软件设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "国际大学生程序设计竞赛",
+   "related": true,
+   "keywords": [
+    "程序设计"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "iCAN大学生创新创业大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "“创新创业”全国管理决策模拟大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "长三角地区大学生创新创业实践赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省AI大模型创新应用竞赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省大数据与人工智能应用竞赛",
+   "related": true,
+   "keywords": [
+    "人工智能"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省大学生AI+信息素养大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省大学生ERP数智化运营大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省大学生创意设计大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省大学生模拟法庭比赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省大学生智慧财税创新大赛",
+   "related": false,
+   "keywords": []
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省机器人大赛",
+   "related": true,
+   "keywords": [
+    "机器人"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省集成电路精英赛",
+   "related": true,
+   "keywords": [
+    "集成电路"
+   ]
+  },
+  {
+   "tier": "B类",
+   "name": "安徽省医药院校药学专业大学生实验技能大赛",
+   "related": false,
+   "keywords": []
+  }
+ ]
+}

@@ -406,3 +406,21 @@ mark { background: var(--accent-soft); color: var(--accent-2); border-radius: 2p
 @media (max-width: 780px) and (display-mode: standalone) {
   .tabbar { padding-bottom: max(6px, env(safe-area-inset-bottom)); }
 }
+
+/* ---------- 竞赛 ---------- */
+.comp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; padding-bottom: 30px; }
+.comp { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 10px; font-size: 13.5px; }
+.comp.rel { border-color: color-mix(in srgb, var(--ok) 45%, var(--line)); background: color-mix(in srgb, var(--ok-soft) 45%, var(--surface)); }
+.comp .cn { font-weight: 500; }
+.comp .cr { font-size: 11px; color: var(--ok); }
+
+.badge-comp {
+  display: inline-flex; align-items: center; font-size: 10px; font-weight: 700;
+  padding: 2px 6px; border-radius: 4px; letter-spacing: .02em; line-height: 1.6;
+  background: color-mix(in srgb, #3f7a5a 14%, transparent); color: #3f7a5a;
+  max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.badge-comp.ic { background: var(--accent-soft); color: var(--accent-2); }
+html[data-theme="dark"] .badge-comp { color: #8ec5a6; }
+html[data-theme="dark"] .badge-comp.ic { color: var(--accent-2); }

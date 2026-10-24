@@ -139,6 +139,8 @@
     if (prefer.includes(item.sourceId)) score += 5;
     if (item.category === 'academics' || item.category === 'scholarships') score += 2;
     if (item.category === 'lectures') score += 1;
+    if (item.competition && item.competition.ic) score += 6;
+    else if (item.competition) score += 3;
     if (item.requiresSignup) score += 1;
     if (item.event && item.event.start) {
       const start = new Date(item.event.start).getTime();
@@ -175,6 +177,7 @@
     const navKey = path === '' ? 'all' : path === 'activities' ? 'activities'
       : path === 'information' ? 'information' : head === 'calendar' ? 'calendar'
       : head === 'sources' ? 'sources' : head === 'people' ? 'people'
+      : head === 'competitions' ? 'competitions'
       : head === 'c' && S.catById[arg] ? S.catById[arg].intent : '';
     const navEl = document.querySelector(`#mainnav a[data-nav="${navKey}"]`);
     if (navEl) navEl.classList.add('active');
@@ -189,6 +192,8 @@
     else if (head === 'i') renderDetail(arg);
     else if (head === 'calendar') renderCalendar(parseInt(params.get('w') || '0', 10));
     else if (head === 'sources') renderSources();
+    else if (head === 'people') renderPeople();
+    else if (head === 'competitions') renderCompetitions();
     else if (head === 's') renderBrowse({ sourceId: arg });
     else if (head === 'search') renderSearch(params.get('q') || '');
     else if (head === 'contribute') renderContribute();
@@ -236,6 +241,7 @@
       <div class="card-tags">
         ${item.requiresSignup ? `<span class="badge-signup">${t().signup}</span>` : ''}
         ${rel ? `<span class="badge-related">${t().related}</span>` : ''}
+        ${item.competition ? `<span class="badge-comp${item.competition.ic ? ' ic' : ''}">${esc(item.competition.ic ? '★ ' + item.competition.name : item.competition.name)}</span>` : ''}
         ${fresh ? `<span class="badge-new">${t().newBadge}</span>` : ''}
       </div>
       <h3>${hl(item.title, S._q)}</h3>
@@ -361,6 +367,7 @@
         <span class="tag cat" style="background:${catColor(item.category)}1a;color:${catColor(item.category)}">${catName(item.category)}</span>
         ${item.requiresSignup ? `<span class="tag">${L.signup}</span>` : ''}
         ${tags}
+        ${item.competition ? `<span class="tag cat" style="background:#3f7a5a1a;color:#3f7a5a">竞赛：${esc(item.competition.name)}</span>` : ''}
       </div>
       <h1 class="dt-title">${esc(item.title)}</h1>
       <div class="dt-meta">
@@ -512,6 +519,25 @@
       <div class="plan-list">${plans.map((p) => `<a class="plan" href="${esc(p.pdf || p.url)}" target="_blank" rel="noopener">
         <span class="pn">${esc(p.title)}</span><span class="pa">PDF ↗</span></a>`).join('')}</div>` : '';
     app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>${body}${planHTML}`;
+  }
+
+  function renderCompetitions() {
+    $('#chips').hidden = true;
+    const L = t();
+    const comps = S.competitions || [];
+    const tiers = ['三大赛', 'A类', 'B类'];
+    const groups = {};
+    comps.forEach((c) => { (groups[c.tier] = groups[c.tier] || []).push(c); });
+    const body = comps.length
+      ? tiers.filter((tr) => groups[tr]).map((tr) => `<div class="grp-title">${esc(tr)} · ${groups[tr].length}</div>
+        <div class="comp-grid">${groups[tr].map((c) => `<div class="comp${c.related ? ' rel' : ''}">
+          <span class="cn">${esc(c.name)}</span>
+          ${c.related ? '<span class="cr">★ 与集成电路相关</span>' : ''}</div>`).join('')}</div>`).join('')
+      : `<div class="empty"><b>${L.peopleEmpty}</b></div>`;
+    document.title = '学科竞赛 · ' + (S.lang === 'en' ? S.site.enName : S.site.name);
+    app().innerHTML = `<section class="src-head"><h1>学科竞赛</h1>
+      <p>依据《合肥工业大学学科竞赛赛事列表（2026年版）》，共 ${comps.length} 项。带 ★ 的与你（集成电路）相关。</p>
+      </section>${body}`;
   }
 
   function renderContribute() {
@@ -685,7 +711,7 @@
         if (!itemsRes.ok) throw new Error('items.json ' + itemsRes.status);
         payload = await itemsRes.json();
         srcPayload = await srcRes.json();
-        for (const [file, key] of [['people.json', 'peopleData'], ['plans.json', 'plansData']]) {
+        for (const [file, key] of [['people.json', 'peopleData'], ['plans.json', 'plansData'], ['competitions.json', 'competitionsData']]) {
           try {
             const res = await fetch('data/' + file, { cache: 'no-cache' });
             if (res.ok) S[key] = await res.json();
@@ -701,6 +727,7 @@
       S.profile = S.site.profile || {};
       S.people = (S.peopleData && S.peopleData.people) || [];
       S.plans = (S.plansData && S.plansData.plans) || [];
+      S.competitions = (S.competitionsData && S.competitionsData.items) || [];
       S.generatedAt = payload.generatedAt || '';
       S.demoCount = S.items.filter((i) => i.demo).length;
       bind();
