@@ -342,6 +342,7 @@
         <h1>${L.heroTitle}</h1>
         <p>${L.heroSub}</p>
         ${profileLine}
+        <p class="quick-links"><a href="#/calendar">📅 ${L.calendar}</a><a href="#/competitions">🏆 学科竞赛</a><a href="#/people">👤 ${L.nav.people}</a></p>
         <div class="stats">
           <div class="stat"><b>${S.items.length}</b><span>${L.items}</span></div>
           <div class="stat"><b>${S.sources.length}</b><span>${L.sourcesN}</span></div>
@@ -513,7 +514,11 @@
   function renderPeople() {
     $('#chips').hidden = true;
     const L = t();
-    const people = S.people || [];
+    const { params } = parseHash();
+    const colId = params.get('college') || '';
+    const colleges = (S.peopleColleges && S.peopleColleges.length)
+      ? S.peopleColleges : (S.colleges || []);
+    const people = (S.people || []).filter((p) => !colId || p.collegeId === colId);
     const order = ['教授', '副教授', '研究员', '副研究员', '讲师', '兼职'];
     const groups = {};
     people.forEach((p) => { (groups[p.title] = groups[p.title] || []).push(p); });
@@ -527,7 +532,7 @@
           <span class="ava">${esc(p.name.slice(0, 1))}</span>
           <span class="meta"><span class="nm">${esc(p.name)}</span>
           <span class="tt">${esc(p.title)}</span>
-          <span class="cl">${esc(p.college)} · ${L.peopleLink} ↗</span>
+          <span class="cl">${esc(p.college)}${p.dept ? ' · ' + esc(p.dept) : ''} · ${L.peopleLink} ↗</span>
           ${p.research ? `<span class="rc">${esc(p.research)}</span>` : ''}</span></a>`).join('')}</div>`).join('')
       : `<div class="empty"><b>${L.peopleEmpty}</b></div>`;
     document.title = `${L.peopleTitle} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
@@ -535,7 +540,17 @@
     const planHTML = plans.length ? `<div class="grp-title">培养方案 · ${plans.length}</div>
       <div class="plan-list">${plans.map((p) => `<a class="plan" href="${esc(p.pdf || p.url)}" target="_blank" rel="noopener">
         <span class="pn">${esc(p.title)}</span><span class="pa">PDF ↗</span></a>`).join('')}</div>` : '';
-    app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>${body}${planHTML}`;
+    const colChips = colleges.map((c) => `<button class="chip${colId === c.id ? ' on' : ''}" data-college="${esc(c.id)}">${esc(c.name)}</button>`).join('');
+    app().innerHTML = `<section class="src-head"><h1>${L.peopleTitle}</h1><p>${L.peopleSub}</p></section>
+      <div class="chip-row" id="peopleCols"><button class="chip${colId ? '' : ' on'}" data-college="">全部</button>${colChips}</div>
+      ${body}${planHTML}`;
+    const row = $('#peopleCols');
+    if (row) row.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-college]');
+      if (!b) return;
+      const id = b.getAttribute('data-college');
+      go(`/people${id ? '?college=' + encodeURIComponent(id) : ''}`);
+    });
   }
 
   function renderCompetitions() {
@@ -721,6 +736,7 @@
         srcPayload = window.__CK_DATA__.sources;
         S.peopleData = window.__CK_DATA__.people || null;
         S.plansData = window.__CK_DATA__.plans || null;
+        S.competitionsData = window.__CK_DATA__.competitions || null;
       } else {
         const [itemsRes, srcRes] = await Promise.all([
           fetch('data/items.json', { cache: 'no-cache' }),
@@ -744,6 +760,7 @@
       S.site = payload.site || S.site;
       S.profile = S.site.profile || {};
       S.people = (S.peopleData && S.peopleData.people) || [];
+      S.peopleColleges = (S.peopleData && S.peopleData.colleges) || [];
       S.plans = (S.plansData && S.plansData.plans) || [];
       S.competitions = (S.competitionsData && S.competitionsData.items) || [];
       S.generatedAt = payload.generatedAt || '';

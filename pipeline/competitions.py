@@ -71,8 +71,41 @@ def detect_competition(title: str, text: str = "") -> dict | None:
         elif full in haystack:
             hits.append((len(full), full))
     if not hits:
-        return None
+        return _generic_competition(title)
     hits.sort(reverse=True)
     name = hits[0][1]
     ic = any(k in name for k in IC_KEYS)
     return {"name": name, "ic": ic}
+
+# 列表之外的竞赛消息：从标题里抓「第X届…大赛 / …竞赛」这类名字（best effort）
+GENERIC_RE = re.compile(r"([\u4e00-\u9fa5A-Za-z0-9（）()·\-—\s]{2,26}?(?:大赛|竞赛|选拔赛))")
+SKIP_GENERIC = ("成果", "获奖名单", "评审结果", "评审公示", "获奖情况", "党支部", "教研室", "知识竞赛")
+CLEAN_LEAD = re.compile(
+    r"^(?:关于|举办|开展|参加|推荐|组织|我校|我院|学子|学院|实验室|代表队|"
+    r"[\u4e00-\u9fa5]{2,8}(?:学院|大学|系|支部)(?:学子|代表队|实验室)?(?:在|于)?)")
+
+
+def _generic_competition(title: str) -> dict | None:
+    if any(k in title for k in SKIP_GENERIC):
+        return None
+    m = GENERIC_RE.search(title)
+    if not m:
+        return None
+    name = m.group(1).strip(" 《》“”")
+    # 「…文化节暨…大赛」只留暨字后面那段
+    if "暨" in name:
+        name = name.split("暨")[-1]
+    # 去掉「学子在/学院实验室在」这类前缀
+    for _ in range(3):
+        new = CLEAN_LEAD.sub("", name).strip()
+        if new == name:
+            break
+        name = new
+    # 仍在名字中间的「在/于」当作分界
+    if "在" in name and len(name.split("在")[-1]) >= 5:
+        name = name.split("在")[-1]
+    name = name.strip(" 的")
+    if len(name) < 5:
+        return None
+    ic = any(k in name for k in IC_KEYS)
+    return {"name": name, "ic": ic, "generic": True}

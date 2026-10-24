@@ -23,6 +23,8 @@ def main() -> None:
     people = json.loads(people_path.read_text(encoding="utf-8")) if people_path.exists() else None
     plans_path = SITE / "data" / "plans.json"
     plans = json.loads(plans_path.read_text(encoding="utf-8")) if plans_path.exists() else None
+    comp_path = SITE / "data" / "competitions.json"
+    comps = json.loads(comp_path.read_text(encoding="utf-8")) if comp_path.exists() else None
 
     html = html.replace('<link rel="stylesheet" href="style.css">', f"<style>\n{css}\n</style>")
     html = html.replace('<link rel="manifest" href="manifest.webmanifest">\n', "")
@@ -30,7 +32,7 @@ def main() -> None:
 
     data_js = (
         "<script>window.__CK_DATA__="
-        + json.dumps({"items": items, "sources": sources, "people": people, "plans": plans}, ensure_ascii=False, separators=(",", ":"))
+        + json.dumps({"items": items, "sources": sources, "people": people, "plans": plans, "competitions": comps}, ensure_ascii=False, separators=(",", ":"))
         + ";</script>\n"
     )
     html = html.replace('<script src="app.js"></script>', data_js + f"<script>\n{js}\n</script>")

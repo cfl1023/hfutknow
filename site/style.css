@@ -424,3 +424,9 @@ mark { background: var(--accent-soft); color: var(--accent-2); border-radius: 2p
 .badge-comp.ic { background: var(--accent-soft); color: var(--accent-2); }
 html[data-theme="dark"] .badge-comp { color: #8ec5a6; }
 html[data-theme="dark"] .badge-comp.ic { color: var(--accent-2); }
+
+/* ---- 多学院师资 / 首页快捷入口 ---- */
+.quick-links{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.quick-links a{font-size:12.5px;color:var(--t2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 13px;background:var(--surface)}
+.quick-links a:hover{color:var(--accent);border-color:var(--accent-ach)}
+.chip-row{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 16px}

@@ -1,66 +1,15 @@
 {
- "generatedAt": "2026-10-23T16:02",
- "college": {
-  "id": "ic",
-  "name": "集成电路创新学院",
-  "short": "集成电路"
- },
- "people": [
+ "generatedAt": "2026-10-24T23:08",
+ "colleges": [
   {
-   "name": "许高斌",
-   "title": "教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/xgb/zh_CN/index.htm",
-   "research": "（主页关键词：集成电路）"
+   "id": "ic",
+   "name": "集成电路创新学院",
+   "short": "集创院"
   },
   {
-   "name": "张鹏",
-   "title": "副教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/zhangpeng1/zh_CN/index.htm",
-   "research": "为MEMS非制冷红外探测器、红外偏振/多光谱成像及半导体光学检测，相关研究成果已发表在IEEE JMEMS，ACS Photonics, Advanced Science, Optics and Lasers in Enginee..."
-  },
-  {
-   "name": "王庆贺",
-   "title": "副教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/~fu2MBf/zh_CN/index.htm",
-   "research": "包括：1）高k栅控薄膜晶体管（TFT）器件与物理；2）超宽禁带Ga2O3器件与应用；3）新型非晶氧化物半导体器件与集成。"
-  },
-  {
-   "name": "赵若兰（特任）",
-   "title": "副教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/zhaoruolan/zh_CN/index.htm",
-   "research": "（主页关键词：微电子）"
-  },
-  {
-   "name": "苏子佳",
-   "title": "副教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/~Bvqu2i/zh_CN/index.htm",
-   "research": "（主页关键词：微电子）"
-  },
-  {
-   "name": "陶韦臣",
-   "title": "副教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "https://faculty.hfut.edu.cn/taoweichen/zh_CN/zhym/533328/list/index.htm",
-   "research": "（主页关键词：集成电路）"
-  },
-  {
-   "name": "潘尚杰（特任）",
-   "title": "副教授",
-   "college": "集成电路创新学院",
-   "collegeId": "ic",
-   "url": "http://faculty.hfut.edu.cn/panshangjie/zh_CN/index.htm",
-   "research": "（主页关键词：集成电路）"
+   "id": "wdz",
+   "name": "微电子学院",
+   "short": "微电子"
   }
  ],
  "groups": [
@@ -69,6 +18,615 @@
   "研究员",
   "副研究员",
   "讲师",
-  "兼职"
+  "其他"
+ ],
+ "people": [
+  {
+   "name": "许高斌",
+   "title": "教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/xgb/zh_CN/index.htm"
+  },
+  {
+   "name": "张鹏",
+   "title": "副教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/zhangpeng1/zh_CN/index.htm",
+   "research": "为MEMS非制冷红外探测器、红外偏振/多光谱成像及半导体光学检测，相关研究成果已发表在IEEE JMEMS，ACS Photonics, Advanced Science, Optics and Lasers in Enginee..."
+  },
+  {
+   "name": "潘尚杰（特任）",
+   "title": "副教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/panshangjie/zh_CN/index.htm"
+  },
+  {
+   "name": "王庆贺",
+   "title": "副教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/~fu2MBf/zh_CN/index.htm",
+   "research": "包括：1）高k栅控薄膜晶体管（TFT）器件与物理；2）超宽禁带Ga2O3器件与应用；3）新型非晶氧化物半导体器件与集成。"
+  },
+  {
+   "name": "苏子佳",
+   "title": "副教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/~Bvqu2i/zh_CN/index.htm"
+  },
+  {
+   "name": "赵若兰（特任）",
+   "title": "副教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/zhaoruolan/zh_CN/index.htm"
+  },
+  {
+   "name": "陶韦臣",
+   "title": "副教授",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "https://faculty.hfut.edu.cn/taoweichen/zh_CN/zhym/533328/list/index.htm"
+  },
+  {
+   "name": "朱文拿",
+   "title": "行政管理人员",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/zhuwenna/zh_CN/index.htm",
+   "research": "思想政治教育、心理健康教育等。"
+  },
+  {
+   "name": "李骏",
+   "title": "行政管理人员",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/lijun269/zh_CN/index.htm"
+  },
+  {
+   "name": "马敏",
+   "title": "行政管理人员",
+   "collegeId": "ic",
+   "college": "集成电路创新学院",
+   "dept": "",
+   "url": "http://faculty.hfut.edu.cn/MaMin/zh_CN/index.htm",
+   "research": "Research Focus"
+  },
+  {
+   "name": "吴春艳",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11719a249756/page.htm",
+   "research": "1、新型高性能光电探测器件与系统应用研究2、低功耗光电突触器件与机器视觉系统应用研究3、氧化镓基功率半导体器件仿真与设计4、先进封装设计与可靠性研究开设课程：本科课程：《薄膜物理与技术》、《微电子封装技术》、《微电子/电科专业实训》研究生课"
+  },
+  {
+   "name": "唐荣风",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2026/0302/c11719a317638/page.htm",
+   "research": "1） 半导体光伏器件2） 器件物理3） 半导体光电转换器件 开设课程（本科生、研究生）：《微机电系统（MEMS）》科研项目：1) 合肥工业大学“人才引进”计划专项经费，2026/02-2030/01，30.0万，在研，主持。2) 国家自"
+  },
+  {
+   "name": "宋玲玲",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11719a247819/page.htm",
+   "research": "纳米器件结构设计及性能调控；计算电磁学；数字电路设计开设课程（本科生、研究生）：本科生课程《电磁场与电磁波》、《计算机体系组织与体系架构》研究生课程《高等电磁场论》科研项目：1．新型石墨烯与类石墨烯横向异质结界面效应的第一性原理研究JZ20"
+  },
+  {
+   "name": "张章",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://wdzxy.hfut.edu.cn/2020/1105/c11719a249753/page.htm",
+   "research": "（1）混合信号芯片，包括数据转换器，电源管理芯片等，主要针对高速高精度低功耗和极温环境开展研究；（2）基于混合器件的AI神经形态芯片，包括感存算一体、深度学习。开设课程（本科生、研究生）:本科生课程《CMOS模拟集成电路设计》 研究生课《工"
+  },
+  {
+   "name": "杜高明",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247641/page.htm",
+   "research": "1. 基于多核/众核SoC、片上网络NoC的集成电路设计2. 深度学习硬件加速器芯片设计3. 面向云计算的下一代安全芯片设计开设课程（本科生、研究生）：1. 《SoC设计导论》（本科课程，侧重单核SoC基础设计方法）2.《SoC设计与实现》"
+  },
+  {
+   "name": "梁凤霞",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2022/0902/c11548a282450/page.htm",
+   "research": "FPGA嵌入式系统设计和光电集成技术；基于嵌入式系统和智能算法的红外光谱检测技术；基于新结构的高性能光电探测器的研究。开设课程（本科生、研究生）：本科生课程《集成电路制造技术基础》科研项目：曾主持国家自然科学基金面上项目、青年项目、中国博士"
+  },
+  {
+   "name": "梁华国",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247640/page.htm",
+   "research": "容错计算与硬件安全、嵌入式系统综合与测试、智能控制系统开设课程（本科生、研究生）：本科生课程《数字逻辑电路》研究生课程《超大规模集成电路测试基础》科研项目：1.纳米集成电路边缘缺陷测试分析仪研制（基金委国家重大科研仪器研制项目，主持，No."
+  },
+  {
+   "name": "罗林保",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11548a247672/page.htm"
+  },
+  {
+   "name": "肖昊",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247638/page.htm",
+   "research": "1、专用硬件加速器、多核片上系统(MPSoC)设计 2、机器视觉、人工智能芯片 3、信息安全、可信计算芯片开设课程： 本科生课程：《微处理器体系结构及设计》、《数字图像处理原理与实现》科研项目： 1、国家自然科学基金面"
+  },
+  {
+   "name": "许俊",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://wdzxy.hfut.edu.cn/2020/1105/c11719a249750/page.htm"
+  },
+  {
+   "name": "闫爱斌",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://wdzxy.hfut.edu.cn/2023/0221/c11719a288740/page.htm",
+   "research": "宇航芯片抗辐射加固、集成电路软错误率计算、三维芯片硅通孔簇故障容忍、可信芯片设计与测试、量子电路设计技术、基于RRAM/MRAM/FeRAM的新型存储技术、机器学习与存算一体技术等。开设课程（本科生、研究生）：本科生课程《软件工程综合实践》"
+  },
+  {
+   "name": "黄文",
+   "title": "教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11719a249761/page.htm",
+   "research": "芯片工艺制程、片上微波无源元器件设计、射频前端芯片设计。开设课程（本科生、研究生）：微电子器件与工艺基础（本科生课程，校级“课程思政”精品课程建设项目）微波毫米波电路（研究生课程）科研项目（部分，经费到账>2300万元）：1. 科技部，“变"
+  },
+  {
+   "name": "尹勇生",
+   "title": "研究员",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247643/page.htm",
+   "research": "模拟混合信号集成电路设计、可重构计算技术等，当前研究重点在模拟电路的数字化辅助设计方面。开设课程（本科生、研究生）： 本科生课程《混合信号集成电路》 研究生课程《大规模模拟/混合信号集成电路》科研项目： 在研主持重点研发计划子课"
+  },
+  {
+   "name": "张多利",
+   "title": "研究员",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247639/page.htm",
+   "research": "多核/众核处理器体系结构及设计方法、通信及信号处理算法加速器芯片设计科研项目： 1、军委科技委重点项目，“智能可重构******关键技术研究”，2019.12-2023.12，（参与，本单位负责人） 2、安徽省工业技术协同重大专项项"
+  },
+  {
+   "name": "胡俊",
+   "title": "研究员",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2021/1112/c11719a267593/page.htm",
+   "research": "（1）新型可重构/有源相控阵及系统级封装（SiP） 包括相控阵单元、射频前端、FPGA波控系统开发（2）毫米波雷达探测感知及系统应用 包括雷达硬件系统、信号处理算法及嵌入式/FPGA实现（招生名额充足，欢迎对上述方向感兴趣的"
+  },
+  {
+   "name": "倪伟",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11727a247803/page.htm",
+   "research": "数字集成电路设计、可重构计算、人工智能（深度学习）、RISC-V处理器、数字集成电路验证技术开设课程（本科生、研究生）：本科生课程：“数字信号处理及实现”和“微处理器架构及设计”科研项目：主持项目：1.国家自然科学青年科学基金 “基于自相似"
+  },
+  {
+   "name": "冯建国",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2021/0525/c11548a257298/page.htm",
+   "research": "生物MEMS，微流控技术，生物传感技术1. 基于微流控技术的生物细胞操控芯片，包括聚焦、分离、分选、富集等；2. 基于微流控技术的生物细胞检测技术，荧光检测、电阻抗检测、细胞成像等；3. 面向人体健康监控的即时诊断芯片与系统，血球分析"
+  },
+  {
+   "name": "刘士兴",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c14765a247671/page.htm",
+   "research": "光电探测技术，集成电路测试技术，机器视觉与智能制造、电子测量及核电子学、可编程器件与集成系统设计。开设课程： 本科生：模拟电子技术基础、电子线路课程设计、光电子技术。 研究生：现代电子线路（学位课）。科研项目： 1、基于微波等手"
+  },
+  {
+   "name": "刘平",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://wdzxy.hfut.edu.cn/2020/1105/c11727a247841/page.htm"
+  },
+  {
+   "name": "刘波",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://wdzxy.hfut.edu.cn/2021/1117/c11727a267756/page.htm",
+   "research": "（1）高性能MEMS/半导体气体传感器芯片及其系统应用；（2）信号处理及人工智能算法；（3）基于STM32/FPGA的硬件传感电路设计；（4）人工智能嗅觉系统搭建及其应用等。开设课程：本科生课程：《数字逻辑电路》科研项目：1、国家自然科学基"
+  },
+  {
+   "name": "吴昊",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2025/0521/c11727a312476/page.htm",
+   "research": "1、基于光场调制的超快激光微纳加工2、柔性电子器件的设计制备及其应用3、无掩膜光刻技术开设课程（本科生、研究生）：《单片机与嵌入式系统》、《单片机与嵌入式系统课程设计》科研项目：1、博士后创新人才支持计划，2023-2025年度，64万元，"
+  },
+  {
+   "name": "孟煦",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247628/page.htm",
+   "research": "模拟集成电路设计： 高性能时钟产生及频率综合电路研发；高性能时间域电路研发开设课程（本科生、研究生）：本科生课程《信号与系统》、《射频集成电路设计基础》科研项目：1、国家自然科学青年科学基金项目，低噪声无电感小数频率综合器研究与设计，201"
+  },
+  {
+   "name": "宋宇鲲",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247633/page.htm",
+   "research": "多核系统架构、可重构计算系统、高速复杂信号处理算法硬件实现等科研项目：1.主持军科委创新特区项目1项、安徽省军民融合项目1项，中电科某所委托项目。2.曾合作主持国基金面上项目1项、参与装发预研项目、科工局基础科研、航天预研项目等、航天科技某"
+  },
+  {
+   "name": "张彦",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://wdzxy.hfut.edu.cn/2020/1105/c11727a247834/page.htm",
+   "research": "（1）光电探测与智能硬件系统：面向智能检测、传感与成像等应用领域，基于先进半导体设计高性能光电探测器件，结合FPGA硬件加速和深度学习算法，开展高性能核心元器件及设备的开发、信号处理与分析、硬件电路设计及系统集成。（2）仿生光电神经形态硬件"
+  },
+  {
+   "name": "张永强",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247624/page.htm",
+   "research": "数字电路设计，随机计算，图像处理开设课程（本科生、研究生）：本科课程《量子力学》、《数字逻辑电路》科研项目：[1] 用于图像处理的高能效随机计算芯片关键技术研究（JZ2025HGTB0231），学术新人提升计划B项目，主持。[2"
+  },
+  {
+   "name": "张祥",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2021/1110/c14765a267533/page.htm",
+   "research": "（1）信号处理与电路集成应用研究：面向光电器件在健康监测、信息加密光通信和成像等领域应用，开展信号处理、电路设计与集成等研究，协同人工智能算法，实现光电器件的系统级应用。（2）光探测与光发射器件研究：面向高性能和集成化需求，开展新型光电探测"
+  },
+  {
+   "name": "杨依忠",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://wdzxy.hfut.edu.cn/2021/0301/c11727a289016/page.htm"
+  },
+  {
+   "name": "杨俊杰",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2026/0928/c14765a323510/page.htm",
+   "research": "1. 新型半导体材料与微纳电子器件2. 半导体缺陷物理与调控3. 光电器件设计与数值仿真研究生招生欢迎微电子科学与工程、电子科学与技术、材料科学与工程、物理学、化学等相关专业的优秀学生报考硕士研究生。欢迎对新型半导体器件、半导体缺陷物理及光"
+  },
+  {
+   "name": "汪壮兵",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11548a247669/page.htm",
+   "research": "纳米材料、纳米器件的制备与表征开设课程（本科生、研究生）： 《薄膜物理与技术》，《微波技术》代表成果（著作、论文、专利等，限10项）： 1、Anomalous transport characteristics of FexCu1-"
+  },
+  {
+   "name": "汪涛",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://wdzxy.hfut.edu.cn/2020/1105/c11727a247817/page.htm",
+   "research": "集成电路设计、射频集成电路和器件开设课程（本科生、研究生）： 本科生课程《射频集成电路设计》、《半导体集成电路》、《ASIC设计课程设计》、《微波技术》 研究生课程《CMOS集成电路原理与设计》科研项目：在研企业委托培养"
+  },
+  {
+   "name": "王晓蕾",
+   "title": "副研究员",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247642/page.htm",
+   "research": "消费类电子集成电路芯片设计开设课程（本科生、研究生）： 数字集成电路分析与设计，集成电路版图设计科研项目： 一项成果（MCU-IP）通过信息产业部的技术鉴定，军方产品协处理器80C287通过军方的型号产品鉴定。曾参加苏州国芯公司的税"
+  },
+  {
+   "name": "王燕",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2022/0324/c11727a271995/page.htm",
+   "research": "方向A｜忆阻器/闪存的器件建模与电路级验证（1）忆阻器建模：多物理/等效电路/统计分布建模，面向阵列与计算精度评估（2）神经元与突触电路：LIF神经元、脉冲编码与STDP/在线学习电路框架（SPICE/Cadence）（3）存内计算（CIM"
+  },
+  {
+   "name": "程心",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247631/page.htm",
+   "research": "主要研究方向为集成电路设计，包括电源管理芯片、功率器件驱动芯片等。主持或参加国家自然科学基金、国家重点实验室开放课题、安徽省科技重大专项等项目。发表学术论文四十余篇，其中SCI、EI检索三十余篇。申请发明专利十一项，已授权七项。开设课程（本"
+  },
+  {
+   "name": "邓红辉",
+   "title": "副研究员",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247635/page.htm",
+   "research": "模拟/混合信号集成电路的理论研究与电路设计：混合架构A/D转换器，模拟电路的数字校准技术，低功耗电路设计等研究；高性能A/D转换器、D/A转换器，电源管理/驱动类芯片，PLL等模拟/混合信号集成电路设计。开设课程： 本科生课程《模拟集成"
+  },
+  {
+   "name": "陈俊伟",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://wdzxy.hfut.edu.cn/2022/0329/c11727a272208/page.htm",
+   "research": "1. 信号处理与分析2. 电路设计及集成3. 半导体光电转换器件开设课程（本科生、研究生）：《热力学与统计物理》、《微机电系统（MEMS）》科研项目：(1) 安徽省自然科学基金，面上项目，2024/09-2027/08，8.0万，在研，主持"
+  },
+  {
+   "name": "陈红梅",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://wdzxy.hfut.edu.cn/2023/0227/c11727a288923/page.htm",
+   "research": "主要研究方向为集成电路设计，包括模数/数模转换器芯片、传感器调理芯片、低噪声放大器芯片等。主持装发部预研基金项目，参与“十一五”“十二五”装发部预研项目、国家自然科学基金面上项目、重点研发计划子课题等项目，并主持多项横向项目。发表学术论文二"
+  },
+  {
+   "name": "鲁迎春",
+   "title": "副教授",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://wdzxy.hfut.edu.cn/2022/0309/c11727a271367/page.htm",
+   "research": "集成电路硬件安全技术研究（FPGA、ASIC设计）、集成电路测试技术研究开设课程（本科生、研究生）：本科生课程：《VLSI设计及EDA技术》、《FPGA综合实践》研究生课程：《论文写作》、《公共实验》科研项目：1. 主持国家重点实验室开放基"
+  },
+  {
+   "name": "刘光柱",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11547a247626/page.htm",
+   "research": "智能计算，电子电路与系统，量子信息及控制。开设课程（本科生、研究生）： 集成电路与集成系统专业本科课程《电路分析基础》。科研项目：1). 2009/07--2010/07，“干线智能交通控制系统的开发”，参加。2). 2009/07--2"
+  },
+  {
+   "name": "吴良威",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2025/0115/c11548a309962/page.htm",
+   "research": "智能电磁超表面、数字编码超表面、可重构反射/透射阵天线等。开设课程（本科生、研究生）：本科生课程《单片机与嵌入式系统》、《单片机与嵌入式系统课程设计》科研项目：1、在研主持国家自然科学基金青年项目1项。2、在研主持科技部国重实验室开放课题1"
+  },
+  {
+   "name": "张玉刚",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c14765a247647/page.htm",
+   "research": "机器人柔性敏感皮肤、半导体纳米发光材料、发光二极管器件 教学科研： 主要教授数学物理方法、微机原理、大学物理实验等课程 2007年9月至2009年6月在合肥工业大学攻读微电子学与固体电子学硕士学位，期间主要从事机器人"
+  },
+  {
+   "name": "李桢旻",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1231/c11547a249635/page.htm",
+   "research": "时间可预测软硬件设计、众核片上网络技术，智能医疗辅助诊断技术，可重构众核处理器技术，机器学习、深度学习、加密算法研究与硬件实现，室内三维定位技术等。开设课程（本科生、研究生）：本科生课程：《离散数学》、《SystemC系统级建模语言》（双语"
+  },
+  {
+   "name": "李良英",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2025/0827/c11548a314210/page.htm",
+   "research": "微波/毫米波天线理论与技术宽角扫描相控阵天线理论与技术高集成封装天线及微系统开设课程（本科生、研究生）：科研项目：1. 参与国家自然科学基金 | 毫米波伪曲面共形宽角扫描相控阵天线研究 | 时间：2023.1-2026.122. 参与广东省"
+  },
+  {
+   "name": "杨小平",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c14765a247664/page.htm",
+   "research": "电子技术应用教学科研： 电路分析基础, 高频电子线路等"
+  },
+  {
+   "name": "陈士荣",
+   "title": "讲师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c14765a247649/page.htm",
+   "research": "芯片制造、封装及半导体材料 开设课程： 《微电子工艺》和《微电子封装》 科研项目： 1、委托类，5G通信厚薄膜片式电子元器件研发，W2020JSKF0006，2019- 12至2024-12，15万元"
+  },
+  {
+   "name": "于永强",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://faculty.hfut.edu.cn/~ZR3uQz/zh_CN/index.htm",
+   "research": "本课题组聚焦国家战略与产业前沿，依托省级重大科研项目及头部企业合作资源，致力于培养兼具学术深度与工程视野的拔尖人才。现有两大核心研究方向：（1）半导体光电器件与智能健康监测系统打通“光电器件-硬件电路-智能算法”全链条：做的不只是发论文，更"
+  },
+  {
+   "name": "叶加久",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2026/0429/c14765a318784/page.htm"
+  },
+  {
+   "name": "唐飞翔",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://faculty.hfut.edu.cn/~RNrqmq/zh_CN/index.htm",
+   "research": "社会兼职教育经历工作经历团队成员 var u_u13_pic = new ImageScale(\"u_u13_\",130,150,true,true)"
+  },
+  {
+   "name": "张永亮",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://faculty.hfut.edu.cn/zhangyongliang1/zh_CN/index.htm",
+   "research": "社会兼职教育经历工作经历团队成员 var u_u13_pic = new ImageScale(\"u_u13_\",130,150,true,true)"
+  },
+  {
+   "name": "徐赛琴",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电路系统系",
+   "url": "http://faculty.hfut.edu.cn/xusaiqin/zh_CN/index.htm",
+   "research": "雷达系统设计（硬件-电路-算法 一体化设计）雷达信号处理、目标检测与定位，以及面向物理层的无线通信感知与安全"
+  },
+  {
+   "name": "杜平",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://faculty.hfut.edu.cn/DuPing/zh_CN/index.htm",
+   "research": "包括计算电磁学及应用、目标识别、电磁超材料和天线设计等"
+  },
+  {
+   "name": "梁竟程",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://faculty.hfut.edu.cn/liangjingcheng/zh_CN/index.htm",
+   "research": "社会兼职教育经历工作经历团队成员 var u_u13_pic = new ImageScale(\"u_u13_\",130,150,true,true)"
+  },
+  {
+   "name": "涂昊",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://faculty.hfut.edu.cn/tuhao/zh_CN/index.htm",
+   "research": "[1] 毫米波太赫兹成像 var u_u21_pic = new ImageScale(\"u_u21_\",130,100,true,true)"
+  },
+  {
+   "name": "王秀娟",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://faculty.hfut.edu.cn/~myqIF3/zh_CN/index.htm",
+   "research": "人工智能与嵌入式系统的交叉融合"
+  },
+  {
+   "name": "王莉",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "http://faculty.hfut.edu.cn/wl4/zh_CN/index.htm"
+  },
+  {
+   "name": "蔡庆东",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2026/0724/c11548a322716/page.htm",
+   "research": "可重构电磁材料、柔性电磁材料、智能超表面、多模态传感器教育&工作经历：2011-2015：南京邮电大学 | 生物医学工程专业 | 生物电子方向 | 本科2015-2018：东南大学 | 生物医学工程专业 | 生物电子方向 | 硕士"
+  },
+  {
+   "name": "邢琨",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://faculty.hfut.edu.cn/xingkun/zh_CN/index.htm",
+   "research": "Research Focus 社会兼职Social Affiliations 暂无内容 暂无内容 jQuery(document).ready(function"
+  },
+  {
+   "name": "陈兴",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "电子科学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c11548a247646/page.htm"
+  },
+  {
+   "name": "陈威",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "http://faculty.hfut.edu.cn/chenwei1234/zh_CN/index.htm",
+   "research": "Research Focus 社会兼职Social Affiliations 暂无内容 暂无内容 jQuery(document).ready(function"
+  },
+  {
+   "name": "马渊明",
+   "title": "教师",
+   "collegeId": "wdz",
+   "college": "微电子学院",
+   "dept": "微电子学系",
+   "url": "https://wdzxy.hfut.edu.cn/2020/1105/c14765a247648/page.htm"
+  }
  ]
 }
