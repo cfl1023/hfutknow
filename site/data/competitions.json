@@ -12,7 +12,7 @@
    "tracking": {
     "status": "open",
     "deadline": "2026-10-28",
-    "daysLeft": 3,
+    "daysLeft": 4,
     "eventAt": "",
     "snippet": "10月28日前",
     "how": {
@@ -41,7 +41,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-07-01",
-    "daysLeft": -116,
+    "daysLeft": -115,
     "eventAt": "",
     "snippet": "7 月 1 日之前",
     "how": {
@@ -68,7 +68,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-09-23",
-    "daysLeft": -32,
+    "daysLeft": -31,
     "eventAt": "",
     "snippet": "截止时间：2026年9月23",
     "how": {
@@ -97,7 +97,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-10-10",
-    "daysLeft": -15,
+    "daysLeft": -14,
     "eventAt": "",
     "snippet": "10月10日，发布赛题，举行赛前",
     "how": {
@@ -1498,5 +1498,5 @@
    }
   }
  ],
- "trackedAt": "2026-10-25T00:09"
+ "trackedAt": "2026-10-24T16:10"
 }
