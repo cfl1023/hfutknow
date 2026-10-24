@@ -43,7 +43,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 0
+   "count": 8
   },
   {
    "id": "hfut-jwc",
@@ -223,7 +223,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 6
+   "count": 10
   },
   {
    "id": "hfut-ic",
@@ -268,7 +268,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 8
+   "count": 13
   },
   {
    "id": "hfut-civil",
@@ -290,7 +290,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 13
   },
   {
    "id": "hfut-jxjy",
@@ -400,7 +400,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-me",
@@ -651,7 +651,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 0
+   "count": 8
   },
   {
    "id": "hfut-jxxy",
