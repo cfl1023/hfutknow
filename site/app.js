@@ -224,6 +224,11 @@
     return out;
   }
 
+  function srcTypeName(type) {
+    const L = t();
+    return type === 'wechat' ? L.wechat : type === 'bili' ? 'B站' : L.official;
+  }
+
   function fmtPlay(n) {
     n = Number(n) || 0;
     if (n >= 10000) return (n / 10000).toFixed(1).replace('.0', '') + '万';
@@ -348,7 +353,7 @@
     } else if (sourceId) {
       const s = S.srcById[sourceId];
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(s ? s.name : L.noSource)}</h1>
-        <p>${s ? (s.type === 'wechat' ? L.wechat : L.official) : ''}</p></section>`;
+        <p>${s ? srcTypeName(s.type) : ''}</p></section>`;
     } else if (q) {
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(title)}</h1><p>${list.length} ${L.items}</p></section>`;
     } else {
@@ -385,7 +390,7 @@
       <div class="dt-meta">
         <span>${L.source}：<a href="#/s/${encodeURIComponent(item.sourceId)}">${esc(item.sourceName)}</a></span>
         <span>${L.published} ${fmtDate(item.publishedAt)}</span>
-        ${s ? `<span>${s.type === 'wechat' ? L.wechat : L.official}</span>` : ''}
+        ${s ? `<span>${srcTypeName(s.type)}</span>` : ''}
       </div>
       <div class="ai-box">
         <span class="lab">${L.summary}</span>
@@ -495,7 +500,7 @@
     S.sources.forEach((s) => { (groups[s.type] || groups.wechat).push(s); });
     const row = (s) => `<a class="src-row" href="#/s/${encodeURIComponent(s.id)}">
       <span class="avatar ${s.type === 'official' ? 'official' : ''}">${esc(s.name.slice(0, 1))}</span>
-      <span class="nm">${esc(s.name)}<em class="st ${s.verified ? 'ok' : 'pending'}">${s.verified ? L.verified : L.toVerify} · ${s.type === 'wechat' ? L.wechat : L.official}</em></span>
+      <span class="nm">${esc(s.name)}<em class="st ${s.verified ? 'ok' : 'pending'}">${s.verified ? L.verified : L.toVerify} · ${srcTypeName(s.type)}</em></span>
       <span class="cnt">${s.count || 0}</span></a>`;
     document.title = `${L.sourcesTitle} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
     app().innerHTML = `<section class="src-head"><h1>${L.sourcesTitle}</h1><p>${L.sourcesSub}</p></section>
