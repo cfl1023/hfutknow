@@ -188,6 +188,7 @@
     else if (path === 'activities') renderBrowse({ intent: 'activity' });
     else if (path === 'information') renderBrowse({ intent: 'information' });
     else if (path === 'foryou') renderBrowse({ forYou: true });
+    else if (path === 'bili') renderBrowse({ bili: true });
     else if (head === 'c') renderBrowse({ cat: arg });
     else if (head === 'i') renderDetail(arg);
     else if (head === 'calendar') renderCalendar(parseInt(params.get('w') || '0', 10));
@@ -218,6 +219,8 @@
     S.categories.forEach((c, idx) => {
       out += `<a class="chip${idx === 0 ? ' group-start' : ''}${activeCat === c.id ? ' active' : ''}" href="#/c/${c.id}">${S.lang === 'en' ? c.en : c.zh}<span class="n">${counts[c.id] || 0}</span></a>`;
     });
+    const nb = S.items.filter((i) => i.sourceType === 'bili').length;
+    if (nb) out += `<a class="chip chip-bili${S.route === 'bili' ? ' active' : ''}" href="#/bili">B站<span class="n">${nb}</span></a>`;
     return out;
   }
 
@@ -300,9 +303,10 @@
   }
 
   /* ---------------- views ---------------- */
-  function renderBrowse({ intent = null, cat = null, sourceId = null, q = '', forYou = false }) {
+  function renderBrowse({ intent = null, cat = null, sourceId = null, q = '', forYou = false, bili = false }) {
     S._q = q;
     let list = S.items.slice();
+    if (bili) list = list.filter((i) => i.sourceType === 'bili');
     if (forYou) list = list.filter(isRelated);
     if (intent && intent !== 'all') list = list.filter((i) => i.intent === intent);
     if (cat) list = list.filter((i) => i.category === cat);
@@ -315,10 +319,11 @@
 
     $('#chips').innerHTML = chipsHTML(cat, intent, forYou);
     const L = t();
-    const isHome = !cat && !sourceId && !q && (!intent || intent === 'all') && !forYou;
+    const isHome = !cat && !sourceId && !q && !bili && (!intent || intent === 'all') && !forYou;
     const title = cat ? (S.lang === 'en' ? S.catById[cat].en : S.catById[cat].zh)
       : sourceId ? (S.srcById[sourceId] || {}).name
       : q ? `${L.results} · ${q}`
+      : bili ? 'B站 · 真人内容'
       : forYou ? L.forYou
       : intent === 'activity' ? L.activity : intent === 'information' ? L.information : '';
 
@@ -348,7 +353,7 @@
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(title)}</h1><p>${list.length} ${L.items}</p></section>`;
     } else {
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(title)}</h1>
-        <p>${forYou ? L.heroSub : ''}</p></section>`;
+        <p>${bili ? '从 B 站搜到的学生 / UP 主视频，按发布时间倒序。不是官方通稿。' : forYou ? L.heroSub : ''}</p></section>`;
     }
 
     html += toolbarHTML(list.length);
@@ -644,6 +649,7 @@
         else if (path === 'activities') renderBrowse({ intent: 'activity' });
         else if (path === 'information') renderBrowse({ intent: 'information' });
         else if (path === 'foryou') renderBrowse({ forYou: true });
+    else if (path === 'bili') renderBrowse({ bili: true });
         else if (path.startsWith('c/')) renderBrowse({ cat: path.split('/')[1] });
         else if (path.startsWith('s/')) renderBrowse({ sourceId: path.split('/')[1] });
         else if (path.startsWith('search')) renderSearch(params.get('q') || '');
