@@ -5,11 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-<<<<<<< HEAD
-    <lastBuildDate>Sat, 24 Oct 2026 14:04:27 +0000</lastBuildDate>
-=======
-    <lastBuildDate>Sat, 24 Oct 2026 22:08:42 +0800</lastBuildDate>
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
+    <lastBuildDate>Sat, 24 Oct 2026 22:16:56 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>包大人今晚拦我三次 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线</title>
@@ -32,14 +28,6 @@ via.经济学院
       <pubDate>Sat, 24 Oct 2026 16:14:00 +0800</pubDate>
       <category>life</category>
       <description>-</description>
-    </item>
-    <item>
-      <title>科研院领导莅临我院调研指导科研工作</title>
-      <link>https://wdzxy.hfut.edu.cn/2026/1024/c5628a324068/page.htm</link>
-      <guid isPermaLink="false">web-9e7b407af6e33dcb</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0800</pubDate>
-      <category>research</category>
-      <description>科研院领导莅临我院调研指导科研工作</description>
     </item>
     <item>
       <title>目标合肥工业大学！28考研最新考情+就业前景+备考规划一站式解析｜择校第一课，少走备考弯路！</title>
@@ -599,14 +587,6 @@ via.经济学院
       <description>学院举办2026年斛兵外语讲坛“科研产出大家说”</description>
     </item>
     <item>
-      <title>学院开展第二届“斛兵外语”奖教金评审会</title>
-      <link>https://wgyxy.hfut.edu.cn/2026/1022/c11993a324026/page.htm</link>
-      <guid isPermaLink="false">web-b29e51c3c8362263</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0800</pubDate>
-      <category>departments</category>
-      <description>学院开展第二届“斛兵外语”奖教金评审会</description>
-    </item>
-    <item>
       <title>若不是你突然闯进HFUT</title>
       <link>https://www.bilibili.com/video/BV1WpnB6eEYH</link>
       <guid isPermaLink="false">bili-BV1WpnB6eEYH</guid>
@@ -684,6 +664,22 @@ via.党委学生工作会
       <pubDate>Wed, 21 Oct 2026 09:00:00 +0800</pubDate>
       <category>research</category>
       <description>10月16日。现将有关事项通知如下：一、申报条件和要求申报方向：重点支持双碳环保、公共安全、文化旅游、卫生健康、现代农业等民生重点领域科技攻关，申报指南见附件项目申报单位为安徽省内企事业单位和民非性质的新型研发机构等有一定的研发投入，信用记录良好</description>
+    </item>
+    <item>
+      <title>关于开展合肥工业大学“启航工大</title>
+      <link>https://xgb.hfut.edu.cn/info/1058/20150.htm</link>
+      <guid isPermaLink="false">web-d6b8038d6264f0c9</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0800</pubDate>
+      <category>lectures</category>
+      <description>现将相关事宜通知如下：启航工大挺膺担当生各班级班长、团支书合肥工业大学翡翠湖校区日前，各学院须上报学工部学生事务管理科邮箱xgbglb@hfut.edu.cn报名表、汇总表）。</description>
+    </item>
+    <item>
+      <title>关于2026级新生体检费和军训服装费缴纳的通知</title>
+      <link>https://cwc.hfut.edu.cn/info/1019/3451.htm</link>
+      <guid isPermaLink="false">web-21b7bc7bf8ae0445</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0800</pubDate>
+      <category>services</category>
+      <description>级本科及研究生新生：依据自愿参加体检和领取军训服装用品的学生名单，财务处拟定于级本科生及研究生新生体检费（85元/生）、202级本科生新生军训服装费（/生）进行批扣，请尚未缴纳体检费、军训服装费的同学提前将款项足额存入本人的农行卡</description>
     </item>
   </channel>
 </rss>

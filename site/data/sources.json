@@ -135,7 +135,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 17
+   "count": 16
   },
   {
    "id": "hfut-xcb",
@@ -201,7 +201,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 15
+   "count": 14
   },
   {
    "id": "hfut-yjsy",
@@ -268,7 +268,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-civil",
@@ -451,7 +451,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 15
+   "count": 14
   },
   {
    "id": "hfut-mks",
@@ -557,7 +557,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 13
   },
   {
    "id": "hfut-hgxy",
@@ -766,7 +766,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 13
+   "count": 12
   },
   {
    "id": "hfut-wgyxy",
@@ -799,7 +799,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 11
+   "count": 9
   },
   {
    "id": "hfut-mse",
@@ -821,7 +821,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 12
+   "count": 11
   },
   {
    "id": "hfut-sjc",
@@ -846,7 +846,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 10
+   "count": 8
   },
   {
    "id": "wx-hfut",

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
- "generatedAt": "2026-10-24T14:04",
-=======
- "generatedAt": "2026-10-24T22:06",
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
+ "generatedAt": "2026-10-24T22:16",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -144,8 +140,6 @@
  ],
  "items": [
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV1epnz6pEd6",
    "title": "包大人今晚拦我三次 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
    "sourceId": "bili-54958542",
@@ -195,31 +189,8 @@
    ],
    "bili": {
     "author": "PEK的守望者",
-    "play": 652
+    "play": 658
    },
-   "demo": false
-  },
-  {
-   "id": "web-9e7b407af6e33dcb",
-   "title": "科研院领导莅临我院调研指导科研工作",
-   "sourceId": "hfut-wdzxy",
-   "sourceName": "微电子学院",
-   "sourceType": "official",
-   "url": "https://wdzxy.hfut.edu.cn/2026/1024/c5628a324068/page.htm",
-   "publishedAt": "2026-10-24T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "research",
-   "summary": "科研院领导莅临我院调研指导科研工作",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "科研"
-   ],
-   "competition": null,
-   "content": [
-    "<p>科研院领导莅临我院调研指导科研工作</p>"
-   ],
    "demo": false
   },
   {
@@ -245,7 +216,7 @@
    ],
    "bili": {
     "author": "一只通信考研的er",
-    "play": 751
+    "play": 752
    },
    "demo": false
   },
@@ -272,7 +243,7 @@
    ],
    "bili": {
     "author": "合肥工业大学",
-    "play": 526
+    "play": 527
    },
    "demo": false
   },
@@ -304,7 +275,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-4c1c42cdf949ab83",
    "title": "关于2026-2027学年“合肥工业大学-人本滴水奖学金”评选的通知-机械工程学院",
    "sourceId": "hfut-jxxy",
@@ -355,8 +325,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV1uJnH6aE7k",
    "title": "【合肥工业大学830电路】第5章5.1 正弦量的基本概念 || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
    "sourceId": "bili-54958542",
@@ -384,7 +352,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-507547c467840751",
    "title": "“三下乡”支教大学生与村小学生跨越十二年重逢",
    "sourceId": "hfut-tuanwei",
@@ -1453,8 +1420,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV1bPns6uEdg",
    "title": "【大肉嘎】合工大的学弟还在吗  帮主播个忙",
    "sourceId": "bili-ff6ead9d",
@@ -1477,7 +1442,7 @@
    ],
    "bili": {
     "author": "疯狂矿泉水",
-    "play": 1227
+    "play": 1229
    },
    "demo": false
   },
@@ -1558,12 +1523,11 @@
    ],
    "bili": {
     "author": "好赛雷切片",
-    "play": 536
+    "play": 537
    },
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-5794ca1be0dee99b",
    "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
    "sourceId": "hfut-edu",
@@ -2003,31 +1967,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
-   "id": "web-b29e51c3c8362263",
-   "title": "学院开展第二届“斛兵外语”奖教金评审会",
-   "sourceId": "hfut-wgyxy",
-   "sourceName": "外国语学院",
-   "sourceType": "official",
-   "url": "https://wgyxy.hfut.edu.cn/2026/1022/c11993a324026/page.htm",
-   "publishedAt": "2026-10-22T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "学院开展第二届“斛兵外语”奖教金评审会",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>学院开展第二届“斛兵外语”奖教金评审会</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "bili-BV1WpnB6eEYH",
    "title": "若不是你突然闯进HFUT",
    "sourceId": "bili-54958542",
@@ -2077,7 +2016,7 @@
    ],
    "bili": {
     "author": "合肥工业大学",
-    "play": 630
+    "play": 632
    },
    "demo": false
   },
@@ -2104,7 +2043,7 @@
    ],
    "bili": {
     "author": "合肥工业大学",
-    "play": 1879
+    "play": 1882
    },
    "demo": false
   },
@@ -2136,7 +2075,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-b68c7b7499be75b3",
    "title": "国家科技重大专项：智能电网重大专项发布专题攻关公开项目申报指南的通知",
    "sourceId": "hfut-kyy",
@@ -2499,8 +2437,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV1H6nc6tEyh",
    "title": "据说，弹一下纸片，就能来到合工大？",
    "sourceId": "bili-54958542",
@@ -2555,7 +2491,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-4e26b97fca7755f7",
    "title": "关于到期科研项目办理结题工作的通知",
    "sourceId": "hfut-kyy",
@@ -2857,8 +2792,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV1p4Jo6SEqG",
    "title": "F5青松甲鱼！当我和朋友们一起在迎新晚会上唱《新世界》",
    "sourceId": "bili-ff6ead9d",
@@ -2908,12 +2841,11 @@
    ],
    "bili": {
     "author": "吕品的家长学院",
-    "play": 3395
+    "play": 3396
    },
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-bf4ad5230cefe4dc",
    "title": "我校召开2026-2027学年第一学期督导工作会议",
    "sourceId": "hfut-jwc",
@@ -3488,55 +3420,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
-   "id": "web-828c9e848b8b10bc",
-   "title": "一周会议（10月19日-10月25日）",
-   "sourceId": "hfut-xgb",
-   "sourceName": "党委学生工作部",
-   "sourceType": "official",
-   "url": "https://xgb.hfut.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1011&wbnewsid=20132",
-   "publishedAt": "2026-10-19T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "campus",
-   "summary": "10月19日",
-   "event": {
-    "start": "2026-10-19T19:00:00",
-    "location": null
-   },
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>10月19日</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-2e2fd887b3349e23",
-   "title": "学院举办2026级全校山东籍新生见面会",
-   "sourceId": "hfut-ci",
-   "sourceName": "计算机与信息学院（人工智能学院）",
-   "sourceType": "official",
-   "url": "https://ci.hfut.edu.cn/info/1065/16634.htm",
-   "publishedAt": "2026-10-19T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "学院举办2026级全校山东籍新生见面会",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>学院举办2026级全校山东籍新生见面会</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "bili-BV1jSHX6KEUo",
    "title": "【合肥工业大学830电路】第4章4.4 阶跃响应与冲激响应（下） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
    "sourceId": "bili-54958542",
@@ -3564,7 +3447,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-520b63bc7a747eec",
    "title": "机械工程学院第76期发展对象班开展“铭记渡江峥嵘岁月，践行青年报国初心”主题实践活动-机械工程学院",
    "sourceId": "hfut-jxxy",
@@ -3612,93 +3494,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
-   "id": "web-2c0778b21558a916",
-   "title": "树立和践行正确政绩观学习教育",
-   "sourceId": "hfut-tiyu",
-   "sourceName": "合肥工业大学体育部",
-   "sourceType": "official",
-   "url": "https://tiyu.hfut.edu.cn/info/1013/2016.htm",
-   "publishedAt": "2026-10-17T22:05",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "树立和践行正确政绩观学习教育",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>树立和践行正确政绩观学习教育</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-26e601c8e38010c4",
-   "title": "2022年度工程跟踪审计项目一览表",
-   "sourceId": "hfut-sjc",
-   "sourceName": "合肥工业大学审计处",
-   "sourceType": "official",
-   "url": "https://sjc.hfut.edu.cn/2022/0428/c7799a273395/page.htm",
-   "publishedAt": "2026-10-17T22:05",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "2022年度工程跟踪审计项目一览表",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>2022年度工程跟踪审计项目一览表</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-a37b07516c8cf9bf",
-   "title": "中国科学技术大学审计处一行来我校调研",
-   "sourceId": "hfut-sjc",
-   "sourceName": "合肥工业大学审计处",
-   "sourceType": "official",
-   "url": "https://sjc.hfut.edu.cn/2026/0125/c7800a317460/page.htm",
-   "publishedAt": "2026-10-17T22:05",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "中国科学技术大学审计处一行来我校调研",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>中国科学技术大学审计处一行来我校调研</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-15706a9c82dd49b8",
-   "title": "2026年校医院国庆假期值班安排",
-   "sourceId": "hfut-xyy",
-   "sourceName": "校医院",
-   "sourceType": "official",
-   "url": "https://xyy.hfut.edu.cn/2026/0930/c4798a323536/page.htm",
-   "publishedAt": "2026-10-17T22:05",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "2026年校医院国庆假期值班安排",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>2026年校医院国庆假期值班安排</p>"
-   ],
-   "demo": false
-  },
-  {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-517fc3e92d05ce4e",
    "title": "研究生院赴南京组织召开研究生教育专题研讨会",
    "sourceId": "hfut-yjsy",
@@ -3965,8 +3760,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV19dHX6cETs",
    "title": "【合肥工业大学830电路】第4章4.4 阶跃响应与冲激响应（上） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
    "sourceId": "bili-54958542",
@@ -3994,7 +3787,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-f150952544f77cc5",
    "title": "九三学社合工大基层委组织开展",
    "sourceId": "hfut-tzb",
@@ -4067,8 +3859,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
    "id": "bili-BV11dJX65Ep3",
    "title": "合肥工业大学通用学术PPT模板2（开题报告+中期汇报+毕业答辩+学术讲座+工程硕士+考研+复试）",
    "sourceId": "bili-54958542",
@@ -4096,7 +3886,6 @@
    "demo": false
   },
   {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-23b69bc50f421a40",
    "title": "陕西省教育厅调研组来校调研交流",
    "sourceId": "hfut-jwc",
@@ -5200,33 +4989,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
-   "id": "web-a3fc2b3dcba60829",
-   "title": "合肥工业大学2026年实验教师招聘公告",
-   "sourceId": "hfut-rsc",
-   "sourceName": "党委教师工作部、人力资源处",
-   "sourceType": "official",
-   "url": "https://rsc.hfut.edu.cn/info/1027/1987.htm",
-   "publishedAt": "2026-10-12T09:00:00",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "careers",
-   "summary": "合肥工业大学2026年实验教师招聘公告",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "招聘",
-    "教师"
-   ],
-   "competition": null,
-   "content": [
-    "<p>合肥工业大学2026年实验教师招聘公告</p>"
-   ],
-   "demo": false
-  },
-  {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-18c8d50d1178f536",
    "title": "学校举行弘扬伟大长征精神主题宣讲报告会",
    "sourceId": "hfut-xgb",
@@ -7567,32 +7329,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
-   "id": "web-15adb470ff917001",
-   "title": "外国语学院开展新生党史学习教育第一课",
-   "sourceId": "hfut-wgyxy",
-   "sourceName": "外国语学院",
-   "sourceType": "official",
-   "url": "https://wgyxy.hfut.edu.cn/2026/0917/c6442a323329/page.htm",
-   "publishedAt": "2026-09-11T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "外国语学院开展新生党史学习教育第一课",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>外国语学院开展新生党史学习教育第一课</p>"
-   ],
-   "demo": false
-  },
-  {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-89aa5c770c05012a",
    "title": "【新闻动态】科技部2026年“根在基层”调研团一行来校调研座谈",
    "sourceId": "hfut-kyy",
@@ -10541,32 +10277,6 @@
    "demo": false
   },
   {
-<<<<<<< HEAD
-=======
-   "id": "web-4cf897b7370e56eb",
-   "title": "材料科学与工程学院诚聘天下英才",
-   "sourceId": "hfut-mse",
-   "sourceName": "材料科学与工程学院",
-   "sourceType": "official",
-   "url": "https://mse.hfut.edu.cn/info/1046/6352.htm",
-   "publishedAt": "2026-01-27T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "材料科学与工程学院诚聘天下英才",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>材料科学与工程学院诚聘天下英才</p>"
-   ],
-   "demo": false
-  },
-  {
->>>>>>> 823d64e (feat: 接入 B 站真人内容源（wbi 签名搜索，21 条/轮）；README 记录贴吧/小红书/抖音/微博抓取结论)
    "id": "web-6eb723443f0740db",
    "title": "学校获安徽省研究生教学成果奖特等奖10项、一等奖11项",
    "sourceId": "hfut-yjsy",
