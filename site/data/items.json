@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T06:49",
+ "generatedAt": "2026-10-24T07:24",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -1304,6 +1304,28 @@
    ],
    "content": [
     "<p>土木与水利工程学院第二十三届研究生会新生见面会暨“砼研之星”颁奖仪式顺利举行</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-d8479c14ee3598b9",
+   "title": "我校“智慧教学+WorkBuddy”精英训练营圆满结营",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1245/6150.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "intent": "activity",
+   "category": "skills",
+   "summary": "我校“智慧教学+WorkBuddy”精英训练营圆满结营",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "训练营",
+    "圆满"
+   ],
+   "content": [
+    "<p>我校“智慧教学+WorkBuddy”精英训练营圆满结营</p>"
    ],
    "demo": false
   },
