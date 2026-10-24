@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">工大知道</string>
+    <string name="error_network">网络开小差了\n\n请检查网络连接后重试。\n（校园官网部分内容可能需要校园网）</string>
+    <string name="btn_retry">重新加载</string>
+</resources>

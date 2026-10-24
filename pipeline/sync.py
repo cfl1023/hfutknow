@@ -13,7 +13,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any
 
 from . import classify, common, fetchers, summarize
@@ -54,6 +54,11 @@ def build_item(src: dict[str, Any], entry: dict[str, Any], cfg: dict[str, Any], 
     if not content:
         content = [f"<p>{summary}</p>"]
 
+    # 没有日期的条目：发布日期用「抓取时刻减 7 天」近似，并打 estimated 标记，
+    # 避免无日期内容被当成“刚刚发布”永远钉在列表顶部。
+    estimated = not published
+    fallback = datetime.now() - timedelta(days=7)
+
     return {
         "id": make_id(url),
         "title": title.strip(),
@@ -61,7 +66,8 @@ def build_item(src: dict[str, Any], entry: dict[str, Any], cfg: dict[str, Any], 
         "sourceName": src["name"],
         "sourceType": src["type"],
         "url": url,
-        "publishedAt": published or datetime.now().isoformat(timespec="minutes"),
+        "publishedAt": published or fallback.isoformat(timespec="minutes"),
+        "dateEstimated": estimated,
         "intent": intent,
         "category": category,
         "summary": summary,

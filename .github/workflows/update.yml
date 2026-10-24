@@ -35,6 +35,9 @@ jobs:
       - name: Build RSS
         run: python tools/make_rss.py
 
+      - name: Clean junk items
+        run: python tools/clean_junk.py
+
       - name: Commit data
         run: |
           git config user.name "hfutknow-bot"

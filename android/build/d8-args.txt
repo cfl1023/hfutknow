@@ -1,0 +1,17 @@
+--min-api
+21
+--lib
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/.android-build/sdk/platforms/android-34/android.jar
+--output
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/dex
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/MainActivity$1.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/MainActivity$2.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/MainActivity$3.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/MainActivity.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R$color.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R$drawable.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R$id.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R$layout.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R$string.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R$style.class
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes/com/cfl1023/hfutknow/R.class

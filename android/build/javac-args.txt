@@ -1,0 +1,15 @@
+-encoding
+UTF-8
+-source
+8
+-target
+8
+-bootclasspath
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/.android-build/sdk/platforms/android-34/android.jar
+-classpath
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/.android-build/sdk/platforms/android-34/android.jar
+-d
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/classes
+-nowarn
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/app/src/com/cfl1023/hfutknow/MainActivity.java
+C:/Users/lenovo/Documents/deepseek-harness/default-workspace/campusknow/android/build/gen/com/cfl1023/hfutknow/R.java

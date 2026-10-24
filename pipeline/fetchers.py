@@ -52,15 +52,23 @@ DATE_PATTERNS = [
 
 
 def parse_date(text: str, now: datetime | None = None) -> str | None:
-    """从一段文本里找日期，返回 ISO 时间；找不到返回 None。"""
+    """从一段文本里找日期，返回 ISO 时间；找不到返回 None。
+
+    关键规则：日期部分不得晚于今天 + 1 天——官网列表页有时把「活动举办日期」
+    当成「发布日期」混进来，这类未来日期一律拒绝，避免被误当成最新发布钉顶。
+    """
     now = now or datetime.now()
+    max_day = now.date() + timedelta(days=1)
     m = DATE_PATTERNS[0].search(text)
     if m:
         y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
         try:
-            return datetime(y, mo, d, 9, 0).isoformat()
+            dt = datetime(y, mo, d, 9, 0)
         except ValueError:
             return None
+        if dt.date() > max_day:
+            return None
+        return dt.isoformat()
     m = DATE_PATTERNS[1].search(text)
     if m:
         mo, d = int(m.group(1)), int(m.group(2))
@@ -68,8 +76,8 @@ def parse_date(text: str, now: datetime | None = None) -> str | None:
             dt = datetime(now.year, mo, d, 9, 0)
         except ValueError:
             return None
-        if dt > now + timedelta(days=2):
-            dt = dt.replace(year=now.year - 1)
+        if dt.date() > max_day:
+            return None
         return dt.isoformat()
     return None
 
