@@ -185,7 +185,7 @@ def _items_from_topics(tk: str, op) -> list[dict[str, Any]]:
         col = (t.get("columnName") or "").strip()
         gkey, glabel = _group_of(col)
         subs = _subtags(title)
-        created = (t.get("createTime") or "").replace(" ", "T")[:16]
+        created = _loc((t.get("createTime") or "").replace(" ", "T")[:16])
         views = t.get("views") or 0
         comments = t.get("commentNum") or 0
         likes = t.get("likeNum") or 0
