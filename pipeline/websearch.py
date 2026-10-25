@@ -46,6 +46,8 @@ CHANNEL = {
 }
 
 CAMPUS_RE = re.compile(r"合肥工业|合工大|HFUT|斛兵|翡翠湖")
+# 官网已有专门抓取，搜索结果里再出现就是重复
+SKIP_HOSTS = ("hfut.edu.cn", "bing.com", "microsoft.com")
 
 
 def _due() -> bool:
@@ -88,6 +90,8 @@ def _search(q: str) -> list[dict[str, Any]]:
         title = html.unescape(title).strip()
         desc = html.unescape(desc).strip()
         if not title or not CAMPUS_RE.search(title + desc):
+            continue
+        if any(h in href for h in SKIP_HOSTS):
             continue
         ch = _channel(href)
         out.append({"title": title[:100], "url": href, "desc": desc[:160], "channel": ch})

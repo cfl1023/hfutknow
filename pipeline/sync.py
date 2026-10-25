@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timedelta
 from typing import Any
 
-from . import bili, classify, common, competitions, fetchers, summarize
+from . import bili, classify, common, competitions, fetchers, summarize, websearch
 
 CAT_INTENT = {c["id"]: c["intent"] for c in common.load_config()["categories"]}
 
@@ -102,10 +102,10 @@ def main(argv: list[str] | None = None) -> int:
         items = [i for i in items if not i.get("demo")]
         print(f"已移除演示数据 {before - len(items)} 条")
 
-    existing_urls = {i[url] for i in items if i.get(url)}
-    jbk = common.DATA_DIR / junk_urls.txt
+    existing_urls = {i["url"] for i in items if i.get("url")}
+    jbk = common.DATA_DIR / "junk_urls.txt"
     if jbk.exists():
-        existing_urls |= set(jbk.read_text(encoding=utf-8).split())
+        existing_urls |= set(jbk.read_text(encoding="utf-8").split())
     only = {x.strip() for x in args.only.split(",") if x.strip()}
     sources = [s for s in cfg["sources"] if (s.get("feed") or {}).get("enabled")]
     if only:
@@ -181,6 +181,23 @@ def main(argv: list[str] | None = None) -> int:
     if bili_new:
         print(f"  + B站: 新增 {bili_new} 条")
     total_new += bili_new
+
+    # 互联网搜索（Bing，约 2 小时一次；海外 runner 上稳定，本机可能被墙）
+    try:
+        web_items = websearch.fetch_items()
+    except Exception as exc:
+        print(f"  × 互联网搜索整体失败: {str(exc)[:80]}")
+        web_items = []
+    web_new = 0
+    for it in web_items:
+        if it["url"] in existing_urls or it["id"] in {i["id"] for i in items}:
+            continue
+        existing_urls.add(it["url"])
+        items.append(it)
+        web_new += 1
+    if web_new:
+        print(f"  + 互联网: 新增 {web_new} 条")
+    total_new += web_new
 
     items.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     payload["items"] = items
