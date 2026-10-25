@@ -10,6 +10,28 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
+<style>
+  /* 首页「今天值得看的」讨论带 */
+  #pickBand { margin: 8px 0 34px; padding: 18px 20px 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+  .pk-head { display: flex; align-items: baseline; gap: 14px; justify-content: space-between; flex-wrap: wrap; margin-bottom: 10px; }
+  .pk-head h2 { font-size: 15.5px; margin: 0; letter-spacing: .01em; font-weight: 650; }
+  .pk-sub { display: block; font-size: 12px; color: var(--muted); font-weight: 400; margin-top: 4px; letter-spacing: 0; }
+  .pk-all { font-size: 12.5px; color: var(--accent); white-space: nowrap; }
+  .pk-list { list-style: none; margin: 0; padding: 0; }
+  .pk-list li { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0; border-top: 1px solid var(--line); transition: opacity .2s; }
+  .pk-list li:first-child { border-top: 0; }
+  .pk-list li.pk-gone { opacity: 0; }
+  .pk-n { flex: 0 0 18px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
+  .pk-body { flex: 1; min-width: 0; }
+  .pk-body > a { font-size: 14px; line-height: 1.45; color: var(--text); border-bottom: 1px solid color-mix(in srgb, var(--accent) 24%, transparent); }
+  .pk-body > a:hover { color: var(--accent-2); }
+  .pk-meta { font-size: 11.5px; color: var(--muted); margin-top: 3px; display: flex; gap: 5px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+  .pk-src { color: var(--text-2); }
+  .pk-read { flex: 0 0 auto; border: 1px solid var(--line); background: var(--bg); color: var(--text-2); border-radius: 999px; padding: 3px 10px; font: inherit; font-size: 11.5px; cursor: pointer; opacity: 0; transition: opacity .15s, background .15s, color .15s; }
+  .pk-list li:hover .pk-read, .pk-read:focus-visible { opacity: 1; }
+  .pk-read:hover { background: var(--text); color: var(--bg); border-color: transparent; }
+  @media (hover: none) { .pk-read { opacity: 1; } }
+</style>
 </head>
 <body>
 <header class="topbar">
@@ -47,6 +69,8 @@
 </header>
 
 <main class="wrap" id="app"></main>
+
+<section class="wrap" id="pickBand" hidden></section>
 
 <footer class="foot">
   <div class="wrap foot-inner">
