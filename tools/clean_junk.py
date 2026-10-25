@@ -18,7 +18,7 @@ BAD_PATTERNS = ["副教授（", "教授（", "讲师（", "研究员（", "高�
 
 def is_junk(it: dict, max_day) -> bool:
     # 互联网渠道（贴吧/B站/搜索）的正文本来就短，不按官网标准清理
-    if it.get("sourceType") == "net":
+    if it.get("sourceType") in ("net", "gg", "bili"):
         return False
     title = it.get("title", "").strip()
     if not title:

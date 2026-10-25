@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T18:31Z",
+ "generatedAt": "2026-10-25T10:32Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -2716,6 +2716,33 @@
    "demo": false
   },
   {
+   "id": "gg-1233228110485520384",
+   "title": "2027年CUPT校赛宣讲会",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-22T09:28",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "科技创新｜主办 物理学院｜限 200 人",
+   "event": {
+    "start": "2026-10-22T09:28",
+    "location": "安徽省合肥市蜀山区合肥工业大学翡翠湖校区翠一教101教室"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "科技创新",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>科技创新｜主办 物理学院｜限 200 人</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-5794ca1be0dee99b",
    "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
    "sourceId": "hfut-edu",
@@ -3280,6 +3307,168 @@
    "demo": false
   },
   {
+   "id": "gg-1232965758162829312",
+   "title": "10月31日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-21T16:05",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜限 30 人",
+   "event": {
+    "start": "2026-10-21T16:05",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 校医院｜限 30 人</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-1232965168917643264",
+   "title": "10月30日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-21T16:03",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜限 30 人",
+   "event": {
+    "start": "2026-10-21T16:03",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 校医院｜限 30 人</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-1232964558172454912",
+   "title": "10月29日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-21T16:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜限 30 人",
+   "event": {
+    "start": "2026-10-21T16:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 校医院｜限 30 人</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-1232962749647290368",
+   "title": "10月28日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-21T15:53",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜限 30 人",
+   "event": {
+    "start": "2026-10-21T15:53",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 校医院｜限 30 人</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-1232962244632117248",
+   "title": "10月27日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-21T15:51",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜限 30 人",
+   "event": {
+    "start": "2026-10-21T15:51",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 校医院｜限 30 人</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-1232961593621610496",
+   "title": "10月26日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-21T15:49",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜限 30 人",
+   "event": {
+    "start": "2026-10-21T15:49",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 校医院｜限 30 人</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "tb-11123354076",
    "title": "伴读可有带的",
    "sourceId": "tieba-合肥工业大学",
@@ -3766,6 +3955,33 @@
     "ic": false,
     "generic": true
    }
+  },
+  {
+   "id": "gg-1232640600415928320",
+   "title": "第八届“斛兵杯”新媒体文化节暨新媒体创意产品设计大赛（第一期）",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-20T18:33",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "campus",
+   "summary": "文艺活动｜主办 团委｜限 500 人",
+   "event": {
+    "start": "2026-10-20T18:33",
+    "location": null
+   },
+   "requiresSignup": true,
+   "tags": [
+    "文艺活动",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>文艺活动｜主办 团委｜限 500 人</p>"
+   ],
+   "demo": false
   },
   {
    "id": "bl-BV1H6nc6tEyh",
@@ -5006,6 +5222,33 @@
    },
    "content": [
     "<p>关于举办2027年中国大学生物理学术竞赛（CUPT）合肥工业大学校内选拔赛的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-1231972115742457856",
+   "title": "2027年中国大学生物理学术竞赛校赛",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-18T22:17",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "科技创新｜主办 物理学院｜限 1000 人",
+   "event": {
+    "start": "2026-10-18T22:17",
+    "location": null
+   },
+   "requiresSignup": true,
+   "tags": [
+    "科技创新",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>科技创新｜主办 物理学院｜限 1000 人</p>"
    ],
    "demo": false
   },
@@ -13526,6 +13769,33 @@
     "author": "沫羽同学MOYU",
     "play": 5182
    },
+   "demo": false
+  },
+  {
+   "id": "gg-1223190865011539968",
+   "title": "唇语识别数据录制",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-24T16:43",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 智能软件工程学院｜限 100 人",
+   "event": {
+    "start": "2026-09-24T16:43",
+    "location": "安徽省合肥市蜀山区合肥工大翡翠湖校区"
+   },
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区"
+   ],
+   "competition": null,
+   "content": [
+    "<p>公益服务｜主办 智能软件工程学院｜限 100 人</p>"
+   ],
    "demo": false
   },
   {

@@ -2848,6 +2848,19 @@
    "count": 0
   },
   {
+   "id": "gg-activity",
+   "name": "逛逛 · 校园活动",
+   "type": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "category": "campus",
+   "count": 10,
+   "feed": {
+    "type": "gg",
+    "url": "",
+    "enabled": true
+   }
+  },
+  {
    "id": "bili-54958542",
    "name": "B站 · 合肥工业大学",
    "type": "bili",

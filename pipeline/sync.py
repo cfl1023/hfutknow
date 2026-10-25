@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timedelta
 from typing import Any
 
-from . import bili, classify, common, competitions, fetchers, summarize, websearch
+from . import bili, classify, common, competitions, fetchers, guang, summarize, websearch
 
 CAT_INTENT = {c["id"]: c["intent"] for c in common.load_config()["categories"]}
 
@@ -182,6 +182,24 @@ def main(argv: list[str] | None = None) -> int:
         print(f"  + B站: 新增 {bili_new} 条")
     total_new += bili_new
 
+    # 逛逛/社区活动（CAS 免登，本机专属；无凭据自动跳过）
+    try:
+        gg_items = guang.fetch_items()
+    except Exception as exc:
+        print(f"  × 逛逛: {exc}")
+        gg_items = []
+    gg_new = 0
+    gg_ids = {i["id"] for i in items}
+    for it in gg_items:
+        if it["id"] in gg_ids:
+            continue
+        gg_ids.add(it["id"])
+        items.append(it)
+        gg_new += 1
+    if gg_new:
+        print(f"  + 逛逛: 新增 {gg_new} 条")
+    total_new += gg_new
+
     # 互联网搜索（Bing，约 2 小时一次；海外 runner 上稳定，本机可能被墙）
     try:
         web_items = websearch.fetch_items()
@@ -213,6 +231,12 @@ def main(argv: list[str] | None = None) -> int:
         counts[it["sourceId"]] = counts.get(it["sourceId"], 0) + 1
     sources_out = [{**s, "count": counts.get(s["id"], 0)} for s in cfg["sources"]]
     seen = {s["id"] for s in sources_out}
+    if counts.get("gg-activity"):
+        sources_out.append({"id": "gg-activity", "name": "逛逛 · 校园活动", "type": "gg",
+                            "url": "https://community.hfut.edu.cn/", "category": "campus",
+                            "count": counts["gg-activity"],
+                            "feed": {"type": "gg", "url": "", "enabled": True}})
+        seen.add("gg-activity")
     for b_id, n in counts.items():
         if b_id.startswith("bili-") and b_id not in seen:
             name = next((i["sourceName"] for i in items if i["sourceId"] == b_id), "B站")
