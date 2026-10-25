@@ -96,10 +96,20 @@
   const PREFS_KEY = 'ck-prefs-v1';
   const readSet = (k) => { try { return new Set((JSON.parse(localStorage.getItem(k) || '[]') || []).map(String)); } catch (e) { return new Set(); } };
   const STAR = readSet(STAR_KEY);
+  // 与首页 app.js 共用 ck-prefs-v1：形状必须是 { up:{ id:[词…] }, down:{ id:[词…] }, …其他字段保留 }
   let PREFS = { up: {}, down: {} };
   try { PREFS = JSON.parse(localStorage.getItem(PREFS_KEY) || 'null') || { up: {}, down: {} }; } catch (e) { PREFS = { up: {}, down: {} }; }
-  if (!PREFS.up) PREFS.up = {};
-  if (!PREFS.down) PREFS.down = {};
+  if (!PREFS.up || typeof PREFS.up !== 'object') PREFS.up = {};
+  if (!PREFS.down || typeof PREFS.down !== 'object') PREFS.down = {};
+  // 迁移：早期版本把票写成 1，首页 tokenWeights() 会对数字调用 .forEach 抛错 → 统一修成数组
+  let dirty = false;
+  ['up', 'down'].forEach((k) => {
+    const m = PREFS[k];
+    Object.keys(m || {}).forEach((id) => {
+      if (!Array.isArray(m[id])) { m[id] = []; dirty = true; }
+    });
+  });
+  if (dirty) { try { localStorage.setItem(PREFS_KEY, JSON.stringify(PREFS)); } catch (e) {} }
   const savePrefs = () => { try { localStorage.setItem(PREFS_KEY, JSON.stringify(PREFS)); } catch (e) { /* 忽略 */ } };
   const saveStar = () => { try { localStorage.setItem(STAR_KEY, JSON.stringify([...STAR])); } catch (e) { /* 忽略 */ } };
 
@@ -422,7 +432,7 @@
       const other = kind === 'like' ? 'down' : 'up';
       if (PREFS[mine][id]) { delete PREFS[mine][id]; toast('已取消'); }
       else {
-        PREFS[mine][id] = 1;
+        PREFS[mine][id] = (it.cat ? [String(it.cat)] : []).concat(it.src === 'bili' ? ['B站'] : ['贴吧']);
         delete PREFS[other][id];
         toast(kind === 'like' ? '记下了：这类多给你推' : '记下了：这类少给你推');
       }
