@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 01:27:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 01:55:55 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>学术报告通知：计算科学与计算思维</title>
@@ -615,14 +615,6 @@ via.经济学院
       <description>学院开展第二届“斛兵外语”奖教金评审会</description>
     </item>
     <item>
-      <title>【赛雷】合工大金融专硕，券商求职思路</title>
-      <link>https://www.bilibili.com/video/BV1vbn16kEy5</link>
-      <guid isPermaLink="false">bili-BV1vbn16kEy5</guid>
-      <pubDate>Thu, 22 Oct 2026 06:09:00 +0000</pubDate>
-      <category>life</category>
-      <description>好赛雷切片 发布的 B 站视频</description>
-    </item>
-    <item>
       <title>二十元的诱饵 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线</title>
       <link>https://www.bilibili.com/video/BV1zNnv6EEnN</link>
       <guid isPermaLink="false">bili-BV1zNnv6EEnN</guid>
@@ -634,14 +626,6 @@ via.经济学院
 
 via.党委学生工作会
 作者：赵子淇 左静怡 唐真真 周思嫄 方琴琴 曹蕊</description>
-    </item>
-    <item>
-      <title>若不是你突然闯进HFUT</title>
-      <link>https://www.bilibili.com/video/BV1WpnB6eEYH</link>
-      <guid isPermaLink="false">bili-BV1WpnB6eEYH</guid>
-      <pubDate>Wed, 21 Oct 2026 12:41:00 +0000</pubDate>
-      <category>life</category>
-      <description>我只是想发这些gif了</description>
     </item>
     <item>
       <title>机甲之梦：与合工大WDR团队对话</title>
@@ -684,6 +668,22 @@ via.党委学生工作会
       <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
       <category>research</category>
       <description>10月15日下午，学校化学与化工学院与安徽海华科技集团有限公司举行战略合作签约仪式。</description>
+    </item>
+    <item>
+      <title>国家科技重大专项：智能电网重大专项发布专题攻关公开项目申报指南的通知</title>
+      <link>http://kyy.hfut.edu.cn/2026/1021/c3310a323977/page.htm</link>
+      <guid isPermaLink="false">web-379356026f355f14</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
+      <category>research</category>
+      <description>10月30日。请各有关单位、各位老师仔细研读申报通知和指南，明确申请资格和形式审查条件要求等，积极联系相关单位联合申报。现将有关事宜通知如下：一、项目申报要求申报单位根据指南相关申报要求，通过国家科技管理信息系统公共服务平台（http://ser</description>
+    </item>
+    <item>
+      <title>省科技厅组织申报2026年科技赋能社会民生项目</title>
+      <link>http://kyy.hfut.edu.cn/2026/1021/c3310a323967/page.htm</link>
+      <guid isPermaLink="false">web-b9f6d77a0fd78f35</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
+      <category>research</category>
+      <description>10月16日。现将有关事项通知如下：一、申报条件和要求申报方向：重点支持双碳环保、公共安全、文化旅游、卫生健康、现代农业等民生重点领域科技攻关，申报指南见附件项目申报单位为安徽省内企事业单位和民非性质的新型研发机构等有一定的研发投入，信用记录良好</description>
     </item>
   </channel>
 </rss>
