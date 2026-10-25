@@ -40,6 +40,10 @@
       peopleTitle: '教师与课程', peopleSub: '集成电路创新学院师资名录，点击进入教师个人主页。课程数据整理中。',
       peopleEmpty: '教师数据还没抓取，运行 tools/make_people.py 生成。', peopleLink: '个人主页',
       newBadge: '新',
+      voteUp: '推荐', voteDown: '不感兴趣', votedUp: '已推荐', votedDown: '已屏蔽',
+      prefsTitle: '我的偏好', prefsHint: '你在卡片上点的 👍/ 会被记下来：命中的词加分，屏蔽的词降权。只存在这台设备上，不上传。',
+      prefsUp: '推荐过', prefsDown: '屏蔽过', prefsTokens: '学到的关键词（数字=权重）', prefsClear: '清空全部偏好', prefsEmpty: '还没有点过任何 👍/。去列表里点几下，排序就会变成你的口味。',
+
       weekdays: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
       relNow: '刚刚', relMin: '{n} 分钟前', relHour: '{n} 小时前', relDay: '昨天', relDays: '{n} 天前'
     },
@@ -73,6 +77,10 @@
       peopleTitle: 'Faculty & Courses', peopleSub: 'Faculty of the School of Integrated Circuits. Course data coming.',
       peopleEmpty: 'No faculty data yet. Run tools/make_people.py.', peopleLink: 'Homepage',
       newBadge: 'NEW',
+      voteUp: 'Like', voteDown: 'Not interested', votedUp: 'Liked', votedDown: 'Hidden',
+      prefsTitle: 'My preferences', prefsHint: 'Your 👍/👎 taps are learned locally: matching words boost, blocked words demote. Stored on this device only.',
+      prefsUp: 'liked', prefsDown: 'hidden', prefsTokens: 'Learned keywords (weight)', prefsClear: 'Clear all', prefsEmpty: 'No votes yet. Tap 👍/👎 on cards to tune the ranking.',
+
       weekdays: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
       relNow: 'just now', relMin: '{n}m ago', relHour: '{n}h ago', relDay: 'yesterday', relDays: '{n}d ago'
     }
@@ -139,6 +147,47 @@
   }
 
   /* ---------------- 个性化排序 ---------------- */
+  const PREFS_KEY = 'ck-prefs-v1';
+  function loadPrefs() {
+    try { S.prefs = JSON.parse(localStorage.getItem(PREFS_KEY)) || { up: {}, down: {} }; }
+    catch (e) { S.prefs = { up: {}, down: {} }; }
+    if (!S.prefs.up) S.prefs.up = {};
+    if (!S.prefs.down) S.prefs.down = {};
+    S.tw = tokenWeights();
+  }
+  function savePrefs() {
+    try { localStorage.setItem(PREFS_KEY, JSON.stringify(S.prefs)); } catch (e) {}
+    S.tw = tokenWeights();
+  }
+  function itemTokens(item) {
+    const P = S.profile || {};
+    const toks = new Set();
+    (item.tags || []).forEach((t) => { if (t && t.length >= 2) toks.add(t); });
+    if (item.category) toks.add(catName(item.category));
+    const sn = (item.sourceName || '').replace(/^B站 · |^贴吧 · |^互联网 · /, '');
+    if (sn.length >= 3) toks.add(sn.slice(0, 10));
+    const hay = `${item.title} ${item.summary || ''}`;
+    (P.keywords || []).forEach((k) => { if (hay.includes(k)) toks.add(k); });
+    if (item.competition && item.competition.name) toks.add(item.competition.name);
+    return Array.from(toks).slice(0, 8);
+  }
+  function tokenWeights() {
+    const w = {};
+    Object.values(S.prefs.up).forEach((ts) => ts.forEach((t) => { w[t] = (w[t] || 0) + 1; }));
+    Object.values(S.prefs.down).forEach((ts) => ts.forEach((t) => { w[t] = (w[t] || 0) - 1.5; }));
+    return w;
+  }
+  function toggleVote(id, dir) {
+    const item = S.items.find((i) => i.id === id);
+    if (!item) return;
+    const other = dir === 'up' ? 'down' : 'up';
+    if (S.prefs[dir][id]) { delete S.prefs[dir][id]; }
+    else { S.prefs[dir][id] = itemTokens(item); delete S.prefs[other][id]; }
+    savePrefs();
+    if (S.drawerOpen && S.drawerId === id) openDrawer(id, true);
+    route();
+  }
+
   function relevance(item) {
     const P = S.profile || {};
     const kws = P.keywords || [];
@@ -159,6 +208,14 @@
     }
     const age = (Date.now() - new Date(item.publishedAt).getTime()) / 864e5;
     score += Math.max(0, 3 - age * 0.6);
+    if (S.prefs) {
+      if (S.prefs.down[item.id]) return -999;
+      if (S.prefs.up[item.id]) score += 30;
+      const tw = S.tw || {};
+      let ts = 0;
+      for (const k in tw) { if (text.includes(k)) ts += tw[k] * 3; }
+      score += Math.max(-15, Math.min(12, ts));
+    }
     return Math.round(score * 10) / 10;
   }
 
@@ -205,6 +262,7 @@
     else if (head === 'sources') renderSources();
     else if (head === 'people') renderPeople();
     else if (head === 'competitions') renderCompetitions();
+    else if (head === 'prefs') renderPrefs();
     else if (head === 's') renderBrowse({ sourceId: arg });
     else if (head === 'search') renderSearch(params.get('q') || '');
     else if (head === 'contribute') renderContribute();
@@ -268,6 +326,10 @@
         ${item.competition ? `<span class="badge-comp${item.competition.ic ? ' ic' : ''}">${esc(item.competition.ic ? '★ ' + item.competition.name : item.competition.name)}</span>` : ''}
         ${fresh ? `<span class="badge-new">${t().newBadge}</span>` : ''}
       </div>
+      <span class="vote-row">
+        <button class="vote${S.prefs && S.prefs.up[item.id] ? ' on' : ''}" data-vote="up" data-id="${esc(item.id)}" title="${t().voteUp}" aria-label="${t().voteUp}">👍</button>
+        <button class="vote${S.prefs && S.prefs.down[item.id] ? ' on' : ''}" data-vote="down" data-id="${esc(item.id)}" title="${t().voteDown}" aria-label="${t().voteDown}">👎</button>
+      </span>
       <h3>${hl(item.title, S._q)}</h3>
       <p class="sum">${hl(item.summary, S._q)}</p>
       ${evHTML}
@@ -428,7 +490,10 @@
         </dl>` : ''}
       </div>
       <div class="dt-body">${(item.content || []).join('')}</div>
-      <div class="dt-actions">${original}</div>`;
+      <div class="dt-actions">${original}
+        <button class="btn ghost${S.prefs && S.prefs.up[item.id] ? ' voted' : ''}" data-vote="up" data-id="${esc(item.id)}">👍 ${t().voteUp}</button>
+        <button class="btn ghost${S.prefs && S.prefs.down[item.id] ? ' voted' : ''}" data-vote="down" data-id="${esc(item.id)}">👎 ${t().voteDown}</button>
+      </div>`;
   }
 
   function renderDetail(id) {
@@ -443,11 +508,12 @@
   }
 
   /* ---------------- 抽屉（不覆盖主页） ---------------- */
-  function openDrawer(id) {
+  function openDrawer(id, keep) {
     const item = S.items.find((i) => i.id === id);
     if (!item) return;
+    S.drawerId = id;
+    if (!keep) S.scrollY = window.scrollY;
     const drawer = $('#drawer');
-    S.scrollY = window.scrollY;
     drawer.innerHTML = `<div class="drawer-backdrop" data-close></div>
       <aside class="drawer-panel" role="dialog" aria-modal="true">
         <div class="drawer-bar">
@@ -672,6 +738,24 @@
     });
   }
 
+  function renderPrefs() {
+    $('#chips').hidden = true;
+    const L = t();
+    const up = Object.keys(S.prefs.up).length, down = Object.keys(S.prefs.down).length;
+    const tw = S.tw || {};
+    const toks = Object.entries(tw).sort((a, b) => b[1] - a[1]);
+    const body = (up || down)
+      ? `<div class="prefs-stats"><span class="tag">👍 ${L.prefsUp} ${up}</span><span class="tag">👎 ${L.prefsDown} ${down}</span></div>
+        <div class="grp-title">${L.prefsTokens}</div>
+        <div class="roster-chips">${toks.map(([k, v]) => `<span class="roster-chip${v > 0 ? ' rel' : ''}">${esc(k)} · ${v > 0 ? '+' : ''}${Math.round(v * 10) / 10}</span>`).join('')}</div>
+        <p style="margin-top:22px"><button class="btn ghost" id="clearPrefs">${L.prefsClear}</button></p>`
+      : `<div class="empty"><b>${L.prefsEmpty}</b></div>`;
+    document.title = `${L.prefsTitle} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
+    app().innerHTML = `<section class="src-head"><h1>${L.prefsTitle}</h1><p>${L.prefsHint}</p></section>${body}`;
+    const btn = $('#clearPrefs');
+    if (btn) btn.addEventListener('click', () => { S.prefs = { up: {}, down: {} }; savePrefs(); route(); });
+  }
+
   function renderContribute() {
     $('#chips').hidden = true;
     const L = t();
@@ -799,6 +883,9 @@
     document.addEventListener('click', (e) => {
       const close = e.target.closest('[data-close]');
       if (close) { e.preventDefault(); closeDrawer(); return; }
+
+      const vote = e.target.closest('.vote');
+      if (vote) { e.preventDefault(); e.stopPropagation(); toggleVote(vote.dataset.id, vote.dataset.vote); return; }
 
       const card = e.target.closest('a.card, a.cal-ev');
       if (card && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button === 0) {
@@ -955,6 +1042,7 @@
       S.sources.forEach((s) => { S.srcById[s.id] = s; });
       S.site = payload.site || S.site;
       S.profile = S.site.profile || {};
+      loadPrefs();
       S.people = (S.peopleData && S.peopleData.people) || [];
       S.peopleColleges = (S.peopleData && S.peopleData.colleges) || [];
       S.plans = (S.plansData && S.plansData.plans) || [];

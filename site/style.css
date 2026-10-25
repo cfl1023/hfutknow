@@ -504,3 +504,20 @@ html[data-theme="dark"] .badge-comp.ic { color: var(--accent-2); }
   .comp-strip { margin: 0 0 6px; }
   .toolbar { margin-top: 4px; }
 }
+
+/* ---- 个性化投票 ---- */
+.card { position: relative; }
+.vote-row { position: absolute; top: 8px; right: 8px; display: flex; gap: 2px; opacity: .45; transition: opacity .15s; }
+.card:hover .vote-row, .vote-row:has(.on) { opacity: 1; }
+.vote { border: 0; background: var(--surface-2); border-radius: 7px; width: 30px; height: 30px; font-size: 14px;
+  cursor: pointer; line-height: 1; display: grid; place-items: center; padding: 0; }
+.vote:hover { background: var(--accent-soft); }
+.vote.on { background: var(--accent); filter: saturate(1.2); }
+.vote[data-vote="down"].on { background: var(--muted); }
+.dt-actions .btn.voted { background: var(--text); color: var(--bg); border-color: var(--text); }
+.prefs-stats { display: flex; gap: 8px; margin: 0 0 18px; }
+@media (max-width: 780px) {
+  .vote-row { opacity: 1; top: 6px; right: 6px; }
+  .vote { width: 34px; height: 34px; font-size: 16px; }
+  .card h3 { padding-right: 74px; }
+}
