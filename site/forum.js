@@ -53,9 +53,19 @@
     return `${Math.floor(days / 365)} 年前`;
   }
   const fmtDate = (iso) => (iso ? new Date(iso).toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }) : '');
+  const fmtRelative = (ts) => {
+    const d = Date.now() - ts;
+    if (!ts) return '';
+    if (d < 60e3) return '刚刚';
+    if (d < 3600e3) return Math.round(d / 60e3) + ' 分钟前';
+    if (d < 86400e3) return Math.round(d / 3600e3) + ' 小时前';
+    const days = Math.round(d / 86400e3);
+    return days <= 1 ? '昨天' : days + ' 天前';
+  };
   const fmtNum = (n) => (n >= 10000 ? `${(n / 10000).toFixed(1)} 万` : String(n));
 
   /* ---------------- 数据 ---------------- */
+  let dataAt = 0;
   async function loadAll() {
     const get = async (file, src) => {
       const r = await fetch(file, { cache: 'no-store' });
@@ -69,6 +79,9 @@
     ]);
     S.tieba = t;
     S.bili = b;
+    // 记下这批数据里最新的一条时间，页脚展示「数据新鲜度」
+    dataAt = 0;
+    for (const it of t.concat(b)) { const ts = Date.parse(it.at || 0) || 0; if (ts > dataAt) dataAt = ts; }
   }
   const all = () => (S.tieba || []).concat(S.bili || []);
 
@@ -352,7 +365,7 @@
       ${rows.length > shown.length ? `<div class="more"><button class="btn ghost" id="moreBtn">加载更多（还有 ${rows.length - shown.length} 条）</button></div>` : ''}
       <p class="note">贴吧主题列表与 B 站搜索接口的公开数据，混排成一个流。${READ.size ? `已阅 ${READ.size} 条不再往前排（点「已阅 ${READ.size}」可回看），搜索依然能找到。` : '看过的点一下「已阅」，就不会再挤在你前面。'}抓取时间 ${S.meta ? new Date(S.meta.generatedAt).toLocaleString('zh-CN') : '—'}，链接都指回原文。</p>`;
     chips();
-    $('#footMeta').textContent = `${rows.length} 条 · ${sortName}${S.win ? ` · 最近 ${S.win} 天` : ''}${S.only ? ' · 只看合工大' : ''}${S.starOnly ? ' · 只看收藏' : ''}`;
+    $('#footMeta').textContent = `${rows.length} 条 · ${sortName}${S.win ? ` · 最近 ${S.win} 天` : ''}${S.only ? ' · 只看合工大' : ''}${S.starOnly ? ' · 只看收藏' : ''}${dataAt ? ` · 最新一条 ${fmtRelative(dataAt)}` : ''}`;
   }
 
   /* ---------------- 交互 ---------------- */

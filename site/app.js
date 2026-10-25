@@ -467,8 +467,16 @@
         ${profileLine}
         ${(() => {
           const opening = (S.competitions || []).filter((c) => c.tracking && c.tracking.status === 'open');
-          if (!opening.length) return '';
-          return `<p class="comp-strip">⏰ 正在报名：${opening.slice(0, 3).map((c) => `<a href="#/competitions">${esc(c.name)}<span>${c.tracking.daysLeft === 0 ? '今天截止' : c.tracking.daysLeft + ' 天后截止'}</span></a>`).join('')}</p>`;
+          const acts = (S.items || []).filter((i) => i.sourceId === 'gg-activity' && i.activityStatus !== 'ended' && i.deadline);
+          const soon = acts.filter((i) => {
+            const d = (asDate(i.deadline + 'T23:59:00+08:00') - Date.now()) / 36e5 / 24;
+            return d >= 0 && d <= 7;
+          }).sort((a, b) => String(a.deadline).localeCompare(String(b.deadline)));
+          const links = [];
+          if (opening.length) links.push(`<a href="#/competitions">🏆 ${esc(opening[0].name)}<span>${opening[0].tracking.daysLeft <= 0 ? '今天截止' : opening[0].tracking.daysLeft + ' 天后截止'}</span></a>`);
+          if (soon.length) links.push(`<a href="#/i/${soon[0].id}">🎫 ${esc(soon[0].title.slice(0, 18))}<span>报名 ${soon[0].deadline.slice(5)} 截止</span></a>`);
+          if (!links.length) return '';
+          return `<p class="comp-strip">⏰ 快截止：${links.join('')}</p>`;
         })()}
         <p class="quick-links"><a href="#/calendar">📅 ${L.calendar}</a><a href="#/competitions">🏆 学科竞赛</a><a href="#/people">👤 ${L.nav.people}</a><a href="#/guang">👥 逛逛</a></p>
         <div class="stats">
