@@ -48,8 +48,14 @@
     return j.items;
   }
 
-  const heat = (it) => (S.tab === 'bili' ? Math.log10(1 + (it.p || 0)) * 6 : Math.log10(1 + (it.r || 0)) * 5);
-  const relScore = (it) => (it.s || 0) + heat(it);
+  const heat = (it) => (S.tab === 'bili' ? Math.log10(1 + (it.p || 0)) * 4 : Math.log10(1 + (it.r || 0)) * 4);
+  const ageBoost = (it) => {
+    const t = new Date(it.at || 0).getTime();
+    if (!t) return 0;
+    const d = (Date.now() - t) / 86400000;
+    return d < 7 ? 20 : d < 30 ? 15 : d < 90 ? 10 : d < 180 ? 6 : d < 365 ? 3 : 0;
+  };
+  const relScore = (it) => (it.s || 0) + heat(it) + ageBoost(it);
 
   function list() {
     const items = S.data[S.tab] || [];
