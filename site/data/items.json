@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T17:41Z",
+ "generatedAt": "2026-10-25T17:46Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -597,6 +597,33 @@
    "content": [
     "<p>合肥工业大学_院校信息_中国研究生招生信息网</p>"
    ],
+   "demo": false
+  },
+  {
+   "id": "bili-BV1bgnB6kEd5",
+   "title": "CEIDF2026|合肥工业大学刘羽：人工智能赋能的生物医学工程特色方向建设与创新人才培养实践",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1bgnB6kEd5",
+   "publishedAt": "2026-10-25T17:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "以人工智能与生物医学工程交叉融合为切入点，介绍合肥工业大学生物医学工程系特色学科方向建设和创新人才培养的相关实践，并探讨人才培养思路和协同发展路径。",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "中国电子学会"
+   ],
+   "competition": null,
+   "content": [
+    "<p>以人工智能与生物医学工程交叉融合为切入点，介绍合肥工业大学生物医学工程系特色学科方向建设和创新人才培养的相关实践，并探讨人才培养思路和协同发展路径。</p>"
+   ],
+   "bili": {
+    "author": "中国电子学会",
+    "play": 23
+   },
    "demo": false
   },
   {

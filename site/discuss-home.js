@@ -56,9 +56,14 @@
     return data;
   }
 
+  // 首页只放真跟工大/合肥本地沾边的，别的学校（安徽大学、中科大…）除非同时也提了合工大就不上
+  const OTHER_RE = /安徽大学|中科大|中国科学技术大学|安徽理工|安徽师范|合肥学院|安徽农业|安徽医科|安徽工程/;
+
   function pick(items, set) {
     const pool = items.filter((i) => {
       if (i.src === 'bili' && !BILI_RE.test(i.t || '')) return false;
+      const title = i.t || '';
+      if (OTHER_RE.test(title) && !HFUT_RE.test(title)) return false;
       if (isRead(i, set)) return false;
       const d = (Date.now() - new Date(i.at || 0).getTime()) / 86400000;
       return d <= 30;

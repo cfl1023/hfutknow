@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 17:41:49 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 17:46:49 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>求助合工大卷保研还是run港硕</title>
@@ -166,6 +166,14 @@
       <pubDate>Sun, 25 Oct 2026 17:22:00 +0800</pubDate>
       <category>campus</category>
       <description>合肥工业大学_院校信息_中国研究生招生信息网</description>
+    </item>
+    <item>
+      <title>CEIDF2026|合肥工业大学刘羽：人工智能赋能的生物医学工程特色方向建设与创新人才培养实践</title>
+      <link>https://www.bilibili.com/video/BV1bgnB6kEd5</link>
+      <guid isPermaLink="false">bili-BV1bgnB6kEd5</guid>
+      <pubDate>Sun, 25 Oct 2026 17:00:00 +0800</pubDate>
+      <category>life</category>
+      <description>以人工智能与生物医学工程交叉融合为切入点，介绍合肥工业大学生物医学工程系特色学科方向建设和创新人才培养的相关实践，并探讨人才培养思路和协同发展路径。</description>
     </item>
     <item>
       <title>关于举办第三届全国高校无机非金属材料青年教师讲课比赛的通知（第三轮）</title>
@@ -659,14 +667,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
       <category>academics</category>
       <description>根据《合肥工业大学关于开展2026级部分创新实验班二次选拔的通知》相关要求，现将我校2026级创新实验班二次选拔笔试合格名单公示如下，具体名单参见附件。</description>
-    </item>
-    <item>
-      <title>国家重点研发计划：“创新生物药”重点专项2026年度项目申报指南征求意见</title>
-      <link>https://kyy.hfut.edu.cn/2026/1023/c3310a324052/page.htm</link>
-      <guid isPermaLink="false">web-610af0e4f3f916b7</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
-      <category>research</category>
-      <description>各相关单位、各位老师：江苏省科学技术厅就国家重点研发计划“创新生物药”重点专项2026年度项目申报指南向社会征求意见。修改意见请按附件《意见反馈表.docx》填写，于17点之前发至电子邮箱：kyyzrb@hfut.edu.cn。</description>
     </item>
   </channel>
 </rss>
