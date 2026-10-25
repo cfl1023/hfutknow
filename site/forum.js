@@ -73,8 +73,25 @@
   // B 站搜索接口按关键词召回，标题常常跟合肥/工大无关；只留标题里真的点到地名的
   const base = () => all().filter((i) => i.src !== 'bili' || BILI_RE.test(i.t || ''));
 
+  /* ---------------- 已阅 ---------------- */
+  const READ_KEY = 'ck-read';
+  const READ = new Set();
+  try { (JSON.parse(localStorage.getItem(READ_KEY) || '[]') || []).forEach((id) => READ.add(String(id))); } catch (e) { /* 忽略坏数据 */ }
+  const isRead = (i) => READ.has(String(i.id));
+  function markRead(i) {
+    READ.add(String(i.id));
+    try { localStorage.setItem(READ_KEY, JSON.stringify([...READ])); } catch (e) { /* 存不下就算了 */ }
+  }
+  // 默认流里不放已阅的；搜索时仍然能搜到（除非在看「已阅」视图）
+  const pool = () => {
+    const b = base();
+    if (S.readOnly) return b.filter(isRead);
+    if (S.q) return b;
+    return b.filter((i) => !isRead(i));
+  };
+
   function list() {
-    let arr = base();
+    let arr = pool();
     if (S.cat !== 'all') arr = arr.filter((i) => i.cat === S.cat);
     if (S.only) arr = arr.filter(isHfut);
     if (S.win) {
