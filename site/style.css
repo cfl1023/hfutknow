@@ -485,3 +485,13 @@ html[data-theme="dark"] .badge-comp.ic { color: var(--accent-2); }
   color:var(--muted);border:1px solid transparent}
 .roster-chip.rel{color:var(--accent);border-color:color-mix(in oklab,var(--accent) 35%,transparent);
   background:var(--accent-soft)}
+
+/* ---------------------------------------------------------------- 更新状态 */
+.fresh-line { display: flex; flex-wrap: wrap; gap: 14px; margin: 10px 0 0; font-size: 12.5px; color: var(--text-3); }
+.fresh-line b { color: var(--text-1); font-weight: 600; }
+.fresh-line span + span::before { content: '·'; margin-right: 12px; color: var(--line); }
+@media (color-scheme: dark) { .fresh-line { color: var(--text-4); } }
+
+.src-crawl { margin: 6px 0 0; font-size: 12.5px; color: var(--text-3); }
+.src-crawl.bad { color: var(--accent); }
+#footCrawl { margin-top: 6px; font-size: 12px; color: var(--text-4); }

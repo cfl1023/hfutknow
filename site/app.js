@@ -16,6 +16,11 @@
       heroTitle: '把散落在合工大几百个公众号和官网里的信息，<span class="hl">收进同一个页面</span>',
       heroSub: '讲座、演出、招新、奖学金、选课通知 —— 翡翠湖校区的信息都在这里，不用一个个关注，打开就能看。',
       items: '条信息', sourcesN: '个来源', updated: '更新于',
+      freshSync: '数据 {age}同步',
+      freshNew: '24 小时内新增 {n} 条',
+      crawlLine: '上次抓取 {age} · {ok}/{all} 源成功 · 本轮新增 {n} 条',
+      srcCrawl: '最近抓取 {age}：列表 {got} 条，新增 {n}',
+      srcErr: '最近抓取失败：{err}',
       recommend: '为你推荐', latest: '最新发布', upcoming: '即将开始',
       forYou: '与我相关', related: '相关',
       all: '全部', activity: '活动', information: '通知',
@@ -44,6 +49,11 @@
       heroTitle: 'Every notice scattered across hundreds of HFUT accounts, <span class="hl">in one page</span>',
       heroSub: 'Lectures, shows, recruitment, scholarships, course notices — everything on Feicui Lake campus.',
       items: 'items', sourcesN: 'sources', updated: 'updated',
+      freshSync: 'Synced {age} ago',
+      freshNew: '{n} new in 24h',
+      crawlLine: 'Last crawl {age} · {ok}/{all} sources ok · {n} new',
+      srcCrawl: 'Crawled {age}: {got} listed, {n} new',
+      srcErr: 'Last crawl failed: {err}',
       recommend: 'For you', latest: 'Latest', upcoming: 'Upcoming',
       forYou: 'Related to me', related: 'Related',
       all: 'All', activity: 'Events', information: 'Notices',
@@ -353,13 +363,15 @@
           <div class="stat"><b>${S.sources.length}</b><span>${L.sourcesN}</span></div>
           <div class="stat"><b>${(S.generatedAt || '').slice(11, 16)}</b><span>${L.updated}</span></div>
         </div>
+        <p class="fresh-line" data-fresh>${freshLineHTML()}</p>
       </section>`;
     } else if (cat) {
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(title)}</h1><p>${esc(S.catById[cat].desc || '')}</p></section>`;
     } else if (sourceId) {
       const s = S.srcById[sourceId];
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(s ? s.name : L.noSource)}</h1>
-        <p>${s ? srcTypeName(s.type) : ''}</p></section>`;
+        <p>${s ? srcTypeName(s.type) : ''}</p>
+        ${sourceCrawlHTML(sourceId)}</section>`;
     } else if (q) {
       html += `<section class="hero" style="padding-bottom:6px"><h1 style="font-size:30px">${esc(title)}</h1><p>${list.length} ${L.items}</p></section>`;
     } else {
@@ -373,6 +385,14 @@
 
     document.title = (title ? `${title} · ` : '') + (S.lang === 'en' ? S.site.enName : S.site.name);
     app().innerHTML = html;
+  }
+
+  function sourceCrawlHTML(id) {
+    const L = t();
+    const c = S.crawl && S.crawl.sources ? S.crawl.sources.find((x) => x.id === id) : null;
+    if (!c) return '';
+    if (!c.ok) return `<p class="src-crawl bad">${L.srcErr.replace('{err}', esc(c.err || ''))}</p>`;
+    return `<p class="src-crawl">${L.srcCrawl.replace('{age}', relAgeText(S.crawl.at)).replace('{got}', c.got).replace('{n}', c.new || 0)}</p>`;
   }
 
   function renderSearch(q) { renderBrowse({ q }); }
@@ -669,6 +689,43 @@
       </div>`;
   }
 
+  /* ---------------- freshness ---------------- */
+  function relAgeText(iso) {
+    if (!iso) return '';
+    const L = t();
+    const m = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+    if (m < 1) return L.relNow;
+    if (m < 60) return L.relMin.replace('{n}', m);
+    const h = Math.floor(m / 60);
+    if (h < 24) return L.relHour.replace('{n}', h);
+    const d = Math.floor(h / 24);
+    return d === 1 ? L.relDay : L.relDays.replace('{n}', d);
+  }
+
+  function newIn(hours) {
+    const cut = Date.now() - hours * 36e5;
+    return (S.items || []).filter((i) => i.publishedAt && new Date(i.publishedAt).getTime() >= cut).length;
+  }
+
+  function syncCrawlLine() {
+    const el = $('#footCrawl');
+    if (!el) return;
+    const L = t();
+    const c = S.crawl;
+    if (!c) { el.textContent = ''; return; }
+    el.textContent = L.crawlLine
+      .replace('{age}', relAgeText(c.at))
+      .replace('{ok}', c.ok).replace('{all}', c.ok + c.failed).replace('{n}', c.new);
+  }
+
+  function freshLineHTML() {
+    const L = t();
+    const age = `<b>${esc(relAgeText(S.generatedAt))}</b>`;
+    const n = `<b>${newIn(24)}</b>`;
+    return `<span>${L.freshSync.replace('{age}', age)}</span><span>${L.freshNew.replace('{n}', n)}</span>`
+      + `<span>最新一条 ${esc(relAgeText((S.items[0] || {}).publishedAt || ''))}</span>`;
+  }
+
   /* ---------------- chrome ---------------- */
   function applyLang() {
     const L = t();
@@ -687,6 +744,7 @@
     const demoPart = S.demoCount ? ` · ${L.demoNote.replace('{n}', S.demoCount)}` : '';
     const ageH = S.generatedAt ? (Date.now() - new Date(S.generatedAt).getTime()) / 36e5 : 0;
     const stale = ageH > 24 ? ` · <b style="color:var(--accent)">${L.stale}</b>` : '';
+    syncCrawlLine();
     $('#footMeta').innerHTML = S.items.length
       ? `${S.items.length} ${L.items} · ${S.sources.length} ${L.sourcesN}${demoPart} · ${L.updated} ${(S.generatedAt || '').replace('T', ' ').slice(0, 16)}${stale}`
       : '';
@@ -765,7 +823,7 @@
       if (document.visibilityState !== 'visible') return;
       if (Date.now() - lastLoad < 5 * 60 * 1000) return;
       lastLoad = Date.now();
-      if (await refreshData()) route();
+      if (await refreshData() > 0) route();
     });
     // 每隔 3 分钟静默拉一次最新数据（页面保持前台时）
     setInterval(async () => {
@@ -773,11 +831,17 @@
       if (Date.now() - lastLoad < 3 * 60 * 1000) return;
       lastLoad = Date.now();
       const updated = await refreshData();
-      if (updated) {
+      if (updated > 0) {
         const { path, params } = parseHash();
         if (path !== 'i') route();   // 详情抽屉打开时不打断阅读
       }
     }, 60 * 1000);
+    // 相对时间（「12 分钟前」）自己往前走，不用刷新页面
+    setInterval(() => {
+      const el = document.querySelector('[data-fresh]');
+      if (el && !window.__CK_DATA__) el.innerHTML = freshLineHTML();
+      syncCrawlLine();
+    }, 30 * 1000);
   }
 
   function registerSW() {
@@ -786,24 +850,31 @@
   }
 
   async function refreshData() {
-    if (window.__CK_DATA__) return false;
+    if (window.__CK_DATA__) return 0;
     try {
       const [a, b] = await Promise.all([
         fetch('data/items.json?t=' + Date.now(), { cache: 'no-store' }),
         fetch('data/sources.json?t=' + Date.now(), { cache: 'no-store' })
       ]);
-      if (!a.ok) return false;
+      if (!a.ok) return 0;
       const payload = await a.json();
       const srcPayload = await b.json();
+      const prevGen = S.generatedAt;
+      const prevLen = (S.items || []).length;
       S.items = payload.items || [];
       S.sources = srcPayload.sources || [];
       S.sources.forEach((s) => { S.srcById[s.id] = s; });
       S.generatedAt = payload.generatedAt || S.generatedAt;
+      fetch('data/crawl_report.json?t=' + Date.now(), { cache: 'no-store' })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d) => { if (d) { S.crawl = d.latest || null; syncCrawlLine(); } })
+        .catch(() => {});
       S.demoCount = S.items.filter((i) => i.demo).length;
       applyLang();
-      return true;
+      if (S.generatedAt === prevGen) return 0;
+      return Math.max(1, S.items.length - prevLen);
     } catch (e) {
-      return false;
+      return 0;
     }
   }
 
@@ -817,6 +888,7 @@
         S.peopleData = window.__CK_DATA__.people || null;
         S.plansData = window.__CK_DATA__.plans || null;
         S.competitionsData = window.__CK_DATA__.competitions || null;
+    S.crawl = window.__CK_DATA__.crawl || null;
       } else {
         const [itemsRes, srcRes] = await Promise.all([
           fetch('data/items.json', { cache: 'no-cache' }),
@@ -844,6 +916,10 @@
       S.plans = (S.plansData && S.plansData.plans) || [];
       S.competitions = (S.competitionsData && S.competitionsData.items) || [];
       S.generatedAt = payload.generatedAt || '';
+      fetch('data/crawl_report.json?t=' + Date.now(), { cache: 'no-store' })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d) => { if (d && d.latest) { S.crawl = d.latest; syncCrawlLine(); } })
+        .catch(() => {});
       S.demoCount = S.items.filter((i) => i.demo).length;
       bind();
       applyLang();

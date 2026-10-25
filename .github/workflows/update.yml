@@ -30,7 +30,7 @@ jobs:
         run: pip install lxml
 
       - name: Crawl sources (fast)
-        run: python -m pipeline.sync --limit 8 --fast
+        run: python -m pipeline.sync --limit 14 --fast
 
       - name: Build RSS
         run: python tools/make_rss.py

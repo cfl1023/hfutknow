@@ -11,6 +11,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+import time
 import hashlib
 import sys
 from datetime import datetime, timedelta
@@ -113,12 +115,14 @@ def main(argv: list[str] | None = None) -> int:
 
     from concurrent.futures import ThreadPoolExecutor, as_completed
 
-    def fetch_one(src: dict[str, Any]) -> list[dict[str, Any]]:
+    def fetch_one(src: dict[str, Any]):
+        t0 = time.time()
         try:
-            return fetchers.fetch_source(src, args.limit)
+            got = fetchers.fetch_source(src, args.limit)
+            return got, None, round(time.time() - t0, 1)
         except Exception as exc:
             print(f"  × {src['name']}: {exc}")
-            return []
+            return [], str(exc)[:160], round(time.time() - t0, 1)
 
     def build_one(src: dict[str, Any], entry: dict[str, Any]):
         if not entry.get("url") or entry["url"] in existing_urls:
@@ -129,13 +133,21 @@ def main(argv: list[str] | None = None) -> int:
             print(f"    ! 处理失败 {entry.get('url')}: {exc}")
             return None
 
+    started = time.time()
+    report: dict[str, dict[str, Any]] = {}
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures = {pool.submit(fetch_one, src): src for src in sources}
         fetched: list[tuple[dict, list[dict]]] = []
         for fut in as_completed(futures):
             src = futures[fut]
-            fetched.append((src, fut.result()))
-            print(f"  ✓ {src['name']}: 抓到 {len(fetched[-1][1])} 条")
+            got, err, sec = fut.result()
+            fetched.append((src, got))
+            report[src["id"]] = {"id": src["id"], "name": src["name"], "ok": err is None,
+                                 "got": len(got), "err": err, "sec": sec}
+            if err:
+                print(f"  × {src['name']}: {err}  ({sec}s)")
+            else:
+                print(f"  ✓ {src['name']}: 抓到 {len(got)} 条  ({sec}s)")
 
     for src, entries in fetched:
         kept = 0
@@ -148,6 +160,8 @@ def main(argv: list[str] | None = None) -> int:
             items.append(item)
             kept += 1
         total_new += kept
+        if src["id"] in report:
+            report[src["id"]]["new"] = kept
         if kept:
             print(f"  + {src['name']}: 新增 {kept} 条")
 
@@ -193,6 +207,30 @@ def main(argv: list[str] | None = None) -> int:
 
     common.save_items(payload)
     common.save_sources(sources_out)
+
+    # 抓取体检报告（页面显示「上次抓取 / 各源状态」）
+    rp = common.DATA_DIR / "crawl_report.json"
+    hist: list[dict[str, Any]] = []
+    try:
+        if rp.exists():
+            hist = json.loads(rp.read_text(encoding="utf-8")).get("history") or []
+    except Exception:
+        hist = []
+    run = {
+        "at": datetime.now().isoformat(timespec="minutes"),
+        "mode": "fast" if args.fast else ("enrich" if enrich else "normal"),
+        "limit": args.limit,
+        "seconds": round(time.time() - started, 1),
+        "ok": sum(1 for v in report.values() if v["ok"]),
+        "failed": sum(1 for v in report.values() if not v["ok"]),
+        "sources": sorted(report.values(), key=lambda v: (-(v.get("new") or 0), v["name"])),
+        "new": total_new,
+        "total": len(items),
+        "biliNew": bili_new,
+    }
+    hist = ([run] + hist)[:40]
+    rp.write_text(json.dumps({"latest": run, "history": hist}, ensure_ascii=False, indent=1),
+                  encoding="utf-8")
     print(f"\n完成：新增 {total_new} 条，总计 {len(items)} 条 → {common.DATA_DIR}")
     return 0
 
