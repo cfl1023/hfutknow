@@ -305,7 +305,8 @@ def _activity_item(a: dict) -> dict[str, Any] | None:
         bits.append("主讲 " + str(a["keynoteSpeaker"]))
     if a.get("peopleNum"):
         bits.append(f"限 {a['peopleNum']} 人")
-    bits.append(f"已报 {a.get('applyNum') or 0}")
+    if a.get("applyNum"):
+        bits.append(f"已报 {a['applyNum']}")
     if close:
         bits.append(f"报名截止 {close}")
     if venue:

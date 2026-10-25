@@ -447,7 +447,6 @@
         if (isRead(it)) { unmark(id); unmarkSlow(id); toast('已放回来'); }
         else { markRead(it); toast('已标已阅，沉到「看过的」里', '放回来', () => { unmark(id); unmarkSlow(id); render(); }); }
         render();
-  mountQr();
         return;
       }
       if (kind === 'star') {
@@ -575,6 +574,13 @@
 // ===== 手机入口二维码 =====
 const PHONE_URL = 'https://qtydnei3q3ne3isdbsy3pa2ekm.srv.us/forum.html';
 
+function ensureQr() {
+  const bar = document.querySelector('.toolbar');
+  if (!bar) return;
+  if (bar.querySelector('#qrOpen')) return;
+  mountQr();
+}
+
 function mountQr() {
   const bar = document.querySelector('.toolbar');
   if (!bar || bar.querySelector('#qrOpen')) return;
@@ -604,3 +610,8 @@ function mountQr() {
     } catch (e) { window.prompt('复制这个链接', PHONE_URL); }
   });
 }
+
+// 自动挂载：初次 + 任意重渲染后（render() 会重建 toolbar）
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => setTimeout(ensureQr, 200));
+else setTimeout(ensureQr, 200);
+new MutationObserver(() => ensureQr()).observe(document.documentElement, { childList: true, subtree: true });

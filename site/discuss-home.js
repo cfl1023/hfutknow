@@ -8,12 +8,17 @@
   if (!BAND) return;
 
   const READ_KEY = 'ck-read';
+  const READ_KEY2 = 'ck-read-v1'; // 首页 app.js 那一套（两处记录合并读）
   const BILI_RE = /合肥|合工大|工大|工业大学|安徽|宣城校区/;
   const HFUT_RE = /合工大|合肥工业|工业大学|工大|宣城校区|翡翠湖校区|斛兵塘|屯溪路|六安路/;
   const LIMIT = 9;
 
   const readSet = () => {
-    try { return new Set((JSON.parse(localStorage.getItem(READ_KEY) || '[]') || []).map(String)); } catch (e) { return new Set(); }
+    const out = new Set();
+    for (const k of [READ_KEY, READ_KEY2]) {
+      try { (JSON.parse(localStorage.getItem(k) || '[]') || []).forEach((x) => out.add(String(x))); } catch (e) { /* 忽略 */ }
+    }
+    return out;
   };
   const isRead = (i, set) => set.has(String(i.id));
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -122,7 +127,7 @@
         if (home) render(items); else BAND.hidden = true;
       });
       document.addEventListener('visibilitychange', () => { if (!document.hidden) { const home = !location.hash || location.hash === '#/' || location.hash === '#'; if (home) render(items); } });
-      window.addEventListener('storage', (e) => { if (e.key === READ_KEY) render(items); });
+      window.addEventListener('storage', (e) => { if (e.key === READ_KEY || e.key === READ_KEY2) render(items); });
     } catch (err) {
       BAND.hidden = true;
     }
