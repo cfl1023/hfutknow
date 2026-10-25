@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T20:46Z",
+ "generatedAt": "2026-10-25T20:51Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -159,6 +159,7 @@
    "deadline": "2026-10-31",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
@@ -193,6 +194,7 @@
    "deadline": "2026-10-30",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
@@ -227,6 +229,7 @@
    "deadline": "2026-10-29",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
@@ -261,6 +264,7 @@
    "deadline": "2026-10-27",
    "speaker": "陈美霞",
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "科技创新",
     "合肥校区",
@@ -295,6 +299,7 @@
    "deadline": "2026-10-28",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
@@ -329,6 +334,7 @@
    "deadline": "2026-10-27",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
@@ -363,6 +369,7 @@
    "deadline": "2026-10-26",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
@@ -4052,6 +4059,7 @@
    "deadline": "2026-11-10",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "文艺活动",
     "合肥校区",
@@ -5328,6 +5336,7 @@
    "deadline": "2026-12-04",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "科技创新",
     "合肥校区",
@@ -13528,6 +13537,7 @@
    "deadline": "2026-10-31",
    "speaker": null,
    "requiresSignup": true,
+   "activityStatus": "upcoming",
    "tags": [
     "公益服务",
     "合肥校区",
