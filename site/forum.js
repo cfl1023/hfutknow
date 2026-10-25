@@ -179,7 +179,7 @@
         <p class="meta2">${meta}</p>
         <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
       </a>
-      <button class="mk-read ${read ? 'on' : ''}" data-read="${esc(it.id)}" title="${read ? '取消已阅' : '标记已阅，之后不再往前排'}">${read ? '已阅 ✓' : '已阅'}</button>
+      <div class="card-act"><button class="mk-read${read ? ' on' : ''}" data-read="${esc(it.id)}" title="${read ? '取消已阅' : '标记已阅：两下确认，之后不再往前排'}">${read ? '取消已阅' : '标记已阅'}</button></div>
     </div>`;
   }
 
