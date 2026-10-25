@@ -1,5 +1,5 @@
-const CACHE = 'hfutknow-v7';
-const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.webmanifest', './assets/icon-192.png'];
+const CACHE = 'hfutknow-v8';
+const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.webmanifest', './assets/icon-192.png', './forum.html', './forum.js', './discuss-home.js'];
 
 // 网络优先：在线时永远拿最新数据，离线时才回退缓存。
 self.addEventListener('install', (event) => {
@@ -27,6 +27,10 @@ self.addEventListener('fetch', (event) => {
       })
       .catch(() => {
         if (event.request.mode === 'navigate') {
+          const u = new URL(event.request.url);
+          if (/forum\.html$/.test(u.pathname)) {
+            return caches.match('./forum.html').then((r) => r || caches.match('./index.html'));
+          }
           return caches.match('./index.html');
         }
         return caches.match(event.request);
