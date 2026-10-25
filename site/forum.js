@@ -76,11 +76,15 @@
 
   /* ---------------- 已阅 + 放回来 ---------------- */
   const READ_KEY = 'ck-read';
+  const READ_KEY2 = 'ck-read-v1'; // 首页 app.js 用的那套，合并成一份，两边互相认
   const READ = new Set();
-  try { (JSON.parse(localStorage.getItem(READ_KEY) || '[]') || []).forEach((id) => READ.add(String(id))); } catch (e) { /* 忽略坏数据 */ }
+  [READ_KEY, READ_KEY2].forEach((k) => {
+    try { (JSON.parse(localStorage.getItem(k) || '[]') || []).forEach((id) => READ.add(String(id))); } catch (e) { /* 忽略坏数据 */ }
+  });
   const isRead = (i) => READ.has(String(i.id));
   function saveRead() {
-    try { localStorage.setItem(READ_KEY, JSON.stringify([...READ])); } catch (e) { /* 存不下就算了 */ }
+    const v = JSON.stringify([...READ]);
+    try { localStorage.setItem(READ_KEY, v); localStorage.setItem(READ_KEY2, v); } catch (e) { /* 存不下就算了 */ }
   }
   function markRead(i) { READ.add(String(i.id)); saveRead(); }
   function unmark(id) { READ.delete(String(id)); saveRead(); }
@@ -224,7 +228,7 @@
     return `<section class="pick">
       <h2>24 小时内冒出来的 ${day.length} 条</h2>
       <p class="hint">新帖子先看这些，不用往下翻。</p>
-      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span><button class="mk-read mini" data-read="${esc(i.id)}">已阅</button></li>`).join('')}</ol>
+      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span><button class="mk-read mini" data-read="${esc(i.id)}">标记已阅</button></li>`).join('')}</ol>
     </section>`;
   }
 
@@ -278,22 +282,41 @@
   }
 
   /* ---------------- 交互 ---------------- */
+  function disarm(btn) {
+    if (!btn) return;
+    btn.classList.remove('armed');
+    btn.textContent = '标记已阅';
+  }
   app.addEventListener('click', (e) => {
     const rb = e.target.closest('[data-read]');
     if (rb) {
       e.preventDefault();
       e.stopPropagation();
-      const id = rb.dataset.read;
-      const it = all().find((x) => String(x.id) === String(id));
-      if (it) {
-        if (READ.has(String(id))) { READ.delete(String(id)); try { localStorage.setItem(READ_KEY, JSON.stringify([...READ])); } catch (err) { /* 忽略 */ } }
-        else markRead(it);
-        S.limit = Math.max(60, S.limit);
-        render();
+      const id = String(rb.dataset.read);
+      const it = all().find((x) => String(x.id) === id);
+      if (!it) return;
+      // 已经标记过的：按钮这时是「取消已阅」，点了直接放回来
+      if (isRead(it)) { unmark(id); render(); toast('已放回来'); return; }
+      // 第一下只点亮按钮，4 秒内再点一下才算数（防误触）
+      if (pending !== id) {
+        if (pending) disarm(document.querySelector('[data-read="' + pending + '"]'));
+        pending = id;
+        rb.classList.add('armed');
+        rb.textContent = '再点一次确认';
+        clearTimeout(pendingTimer);
+        pendingTimer = setTimeout(() => {
+          if (pending === id) { pending = null; disarm(document.querySelector('[data-read="' + id + '"]')); }
+        }, 4000);
+        return;
       }
+      clearTimeout(pendingTimer);
+      pending = null;
+      markRead(it);
+      render();
+      toast('已标记已阅，沉到「看过的」里', '放回来', () => { unmark(id); render(); });
       return;
     }
-    if (e.target.closest('[data-readonly]')) { S.readOnly = !S.readOnly; S.limit = 60; render(); return; }
+    if (e.target.closest('[data-drawer]')) { openDrawer(); return; }
     const s = e.target.closest('[data-sort]');
     if (s) { S.sort = s.dataset.sort; S.limit = 60; render(); return; }
     const w = e.target.closest('[data-win]');
