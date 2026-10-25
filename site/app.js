@@ -658,6 +658,18 @@
     culture: ['传统文化', 'Culture'], ideology: ['思想教育', 'Civic'],
     practice: ['社会实践', 'Practice'], memory: ['校园记忆', 'Memories'],
   };
+  const GG_DESC = {
+    mate: ['找球友、室友、拼车、组队', 'Teammates, roommates, rides'],
+    academics: ['课业、考试、保研、转专业', 'Courses, exams, postgrad, major change'],
+    growth: ['经验分享、个人成长', 'Experience and self-growth'],
+    skills: ['社团、志愿服务、素质拓展', 'Clubs, volunteering, soft skills'],
+    life: ['日常吐槽、随手拍、求助', 'Daily life, quick shots, help'],
+    scenery: ['校园四季、风景照', 'Seasons and views on campus'],
+    culture: ['传统节日、文化活动', 'Festivals and cultural events'],
+    ideology: ['主题班会、思想教育', 'Class meetings and civic topics'],
+    practice: ['寒暑假社会实践', 'Holiday social practice'],
+    memory: ['毕业、回忆、老照片', 'Graduation, memories, old photos'],
+  };
 
   function renderGuang(active) {
     const en = S.lang === 'en';
@@ -678,7 +690,7 @@
     const use = active && groups[active] ? [active] : keys;
     use.forEach((k) => {
       const list = groups[k].slice().sort((a, b) => String(b.publishedAt || '').localeCompare(String(a.publishedAt || '')));
-      out += `<section class="gg-group"><h2>${esc(GG_LABEL[k][en ? 1 : 0])}<span>${list.length}${en ? '' : ' 条'}</span></h2>${gridHTML(list, 200)}</section>`;
+      out += `<section class="gg-group"><h2>${esc(GG_LABEL[k][en ? 1 : 0])}<span>${list.length}${en ? '' : ' 条'}</span></h2><p class="gg-note">${esc(GG_DESC[k][en ? 1 : 0])}</p>${gridHTML(list, 200)}</section>`;
     });
     if (!posts.length) out += emptyHTML();
     document.title = (en ? 'Community' : '逛逛') + ' · ' + (en ? S.site.enName : S.site.name);
