@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 23:41:48 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 23:46:49 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -70,6 +70,22 @@
       <pubDate>Sun, 25 Oct 2026 23:26:00 +0800</pubDate>
       <category>campus</category>
       <description>如何评价合肥工业大学（HFUT）？ - 知乎</description>
+    </item>
+    <item>
+      <title>c语言第一讲</title>
+      <link>https://www.bilibili.com/video/BV17RnU6pE6g</link>
+      <guid isPermaLink="false">bili-BV17RnU6pE6g</guid>
+      <pubDate>Sun, 25 Oct 2026 22:47:00 +0800</pubDate>
+      <category>life</category>
+      <description>后续会发布bd网盘ppt链接，应该在最后一节周例直播上</description>
+    </item>
+    <item>
+      <title>合肥工业大学英语专业龙卷风学长志愿填报分享会</title>
+      <link>https://www.bilibili.com/video/BV1y7nS6iE7C</link>
+      <guid isPermaLink="false">bili-BV1y7nS6iE7C</guid>
+      <pubDate>Sun, 25 Oct 2026 21:52:00 +0800</pubDate>
+      <category>life</category>
+      <description>血汪洋rain 发布的 B 站视频</description>
     </item>
     <item>
       <title>开封府来了新案子 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线</title>
@@ -650,22 +666,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 12:00:00 +0800</pubDate>
       <category>campus</category>
       <description>贴吧讨论（1 回复）：近日神人大汇总</description>
-    </item>
-    <item>
-      <title>求助求助转专业</title>
-      <link>https://tieba.baidu.com/p/11100295891</link>
-      <guid isPermaLink="false">tb-11100295891</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 +0800</pubDate>
-      <category>academics</category>
-      <description>贴吧讨论（52 回复）：求助求助转专业</description>
-    </item>
-    <item>
-      <title>求助测控/仪器/电子信息保研答疑（保研资格和文书注备，最终去向）</title>
-      <link>https://tieba.baidu.com/p/11067913690</link>
-      <guid isPermaLink="false">tb-11067913690</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 +0800</pubDate>
-      <category>academics</category>
-      <description>贴吧讨论（1 回复）：求助测控/仪器/电子信息保研答疑（保研资格和文书注备，最终去向）</description>
     </item>
   </channel>
 </rss>
