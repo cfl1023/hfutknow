@@ -557,6 +557,8 @@
     document.body.appendChild(b);
     const onScroll = () => { b.classList.toggle('on', window.scrollY > 900); };
     window.addEventListener('scroll', onScroll, { passive: true });
+    // 某些情况下（页面在后台、或滚动容器差异）scroll 事件不触发，这里兜一个低频轮询
+    setInterval(onScroll, 400);
     onScroll();
   }
 

@@ -25,7 +25,7 @@ for it in posts:
         if d.get("d"):
             it["author"] = who + " · " + d["d"]
     if head:
-        it["summary"] = f"{head}｜{it.get('author','')} · 浏览 {it.get('views', 0)} · 评论 {d.get('cm', 0)}"
+        it["summary"] = f"{head}｜{it.get('author','')} · 浏览 {(it.get('community') or {}).get('views', 0)} · 评论 {(it.get('community') or {}).get('comments', 0)}"
         n += 1
 items_p.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
 print("updated summaries:", n, "of", len(posts))

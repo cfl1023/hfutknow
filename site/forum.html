@@ -118,7 +118,11 @@
   .dr-foot { margin-top: 16px; }
   .dr-all { width: 100%; border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 9px; padding: 9px; font: inherit; font-size: 12.5px; cursor: pointer; }
   .dr-all:hover { border-color: var(--accent); color: var(--accent); }
-</style>
+
+    .to-top { position: fixed; right: 14px; bottom: 88px; z-index: 40; padding: 9px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--card, #fff); color: var(--fg, #222); font: inherit; font-size: 13px; box-shadow: 0 6px 18px rgba(0, 0, 0, .14); opacity: 0; pointer-events: none; transform: translateY(6px); transition: opacity .18s ease, transform .18s ease; }
+    .to-top.on { opacity: 1; pointer-events: auto; transform: none; }
+    @media (max-width: 620px) { .to-top { bottom: 98px; right: 12px; padding: 10px 16px; } }
+  </style>
 </head>
 <body>
 <header class="topbar">
