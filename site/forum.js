@@ -7,6 +7,7 @@
     cat: 'all',
     sort: 'rel',
     q: '',
+    only: false,
     limit: 48,
     data: { tieba: null, bili: null },
     meta: null,
@@ -57,10 +58,14 @@
   };
   const relScore = (it) => (it.s || 0) + heat(it) + ageBoost(it);
 
+  const HFUT_RE = /合工大|合肥工业|工大|宣城校区|翡翠湖|斛兵塘|屯溪路|六安路/;
+  const isHfut = (i) => HFUT_RE.test(`${i.t || ''} ${i.b || i.kw || ''}`);
+
   function list() {
     const items = S.data[S.tab] || [];
     let arr = items;
     if (S.cat !== 'all') arr = arr.filter((i) => i.cat === S.cat);
+    if (S.only) arr = arr.filter(isHfut);
     if (S.q) {
       const q = S.q.toLowerCase();
       arr = arr.filter((i) => (i.t + ' ' + i.a + ' ' + (i.b || i.kw || '')).toLowerCase().includes(q));
@@ -120,6 +125,7 @@
     const opt = (k, label) => `<button data-sort="${k}" class="${S.sort === k ? 'active' : ''}">${label}</button>`;
     return `<div class="toolbar">
       <span class="count">${total} 条</span>
+      <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题/来源里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖」的">只看合工大</button>
       <div class="spacer"></div>
       <div class="seg" id="segSort">${opt('rel', '与你相关')}${opt('new', '最新')}${opt('hot', '最热')}</div>
     </div>`;
@@ -169,6 +175,7 @@
     if (t) { await switchTab(t.dataset.tab); return; }
     const s = e.target.closest('[data-sort]');
     if (s) { S.sort = s.dataset.sort; S.limit = 48; render(); return; }
+    if (e.target.closest('[data-only]')) { S.only = !S.only; S.limit = 48; render(); return; }
     const m = e.target.closest('#moreBtn');
     if (m) { S.limit += 48; render(); return; }
   });

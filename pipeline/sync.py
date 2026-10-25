@@ -102,7 +102,10 @@ def main(argv: list[str] | None = None) -> int:
         items = [i for i in items if not i.get("demo")]
         print(f"已移除演示数据 {before - len(items)} 条")
 
-    existing_urls = {i["url"] for i in items if i.get("url")}
+    existing_urls = {i[url] for i in items if i.get(url)}
+    jbk = common.DATA_DIR / junk_urls.txt
+    if jbk.exists():
+        existing_urls |= set(jbk.read_text(encoding=utf-8).split())
     only = {x.strip() for x in args.only.split(",") if x.strip()}
     sources = [s for s in cfg["sources"] if (s.get("feed") or {}).get("enabled")]
     if only:

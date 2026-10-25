@@ -59,6 +59,11 @@ def main() -> None:
     sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))["sources"]
     for s in sources:
         s["count"] = counts.get(s["id"], 0)
+        removed_urls = [i.get("url", "") for i in items if i not in kept and i.get("url")]
+    bl = DATA / "junk_urls.txt"
+    old = set(bl.read_text(encoding="utf-8").split()) if bl.exists() else set()
+    bl.write_text("\n".join(sorted(old | set(removed_urls))), encoding="utf-8")
+
     (DATA / "sources.json").write_text(json.dumps({"sources": sources}, ensure_ascii=False, indent=1),
                                        encoding="utf-8")
 
