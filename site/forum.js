@@ -4,7 +4,7 @@
 
   const S = {
     cat: 'all',
-    sort: 'new',
+    sort: 'smart',
     win: 0,
     q: '',
     only: false,
@@ -57,19 +57,22 @@
   const all = () => (S.tieba || []).concat(S.bili || []);
 
   const HFUT_RE = /合工大|合肥工业|工业大学|工大|宣城校区|翡翠湖校区|斛兵塘|屯溪路|六安路/;
+  const BILI_RE = /合肥|合工大|工大|工业大学|安徽|宣城校区|翡翠湖/;
   const isHfut = (i) => HFUT_RE.test(`${i.t || ''} ${i.src === 'bili' ? '' : (i.b || '')}`);
 
   const heat = (i) => Math.log10(1 + (i.src === 'bili' ? (i.p || 0) : (i.r || 0))) * 4;
-  const ageBoost = (i) => {
+  const relScore = (i) => (i.s || 0) + heat(i);
+  // 时效性是第一位的：先按时间分桶，桶内再按重要性（个人加权 + 讨论热度）排
+  const bucket = (i) => {
     const t = new Date(i.at || 0).getTime();
-    if (!t) return 0;
+    if (!t) return 9;
     const d = (Date.now() - t) / 86400000;
-    return d < 7 ? 20 : d < 30 ? 15 : d < 90 ? 10 : d < 180 ? 6 : d < 365 ? 3 : 0;
+    return d < 1 ? 0 : d < 3 ? 1 : d < 7 ? 2 : d < 30 ? 3 : d < 90 ? 4 : d < 365 ? 5 : 6;
   };
-  const relScore = (i) => (i.s || 0) + heat(i) + ageBoost(i);
 
   function list() {
-    let arr = all();
+    // B 站搜索接口按关键词召回，标题常常跟合肥/工大无关；只留标题里真的点到地名的
+    let arr = all().filter((i) => i.src !== 'bili' || BILI_RE.test(i.t || ''));
     if (S.cat !== 'all') arr = arr.filter((i) => i.cat === S.cat);
     if (S.only) arr = arr.filter(isHfut);
     if (S.win) {
@@ -81,9 +84,10 @@
       arr = arr.filter((i) => `${i.t} ${i.a} ${i.b || i.kw || ''}`.toLowerCase().includes(q));
     }
     const copy = arr.slice();
-    if (S.sort === 'new') copy.sort((a, b) => String(b.at || '').localeCompare(String(a.at || '')));
+    const byDate = (a, b) => String(b.at || '').localeCompare(String(a.at || ''));
+    if (S.sort === 'new') copy.sort(byDate);
     else if (S.sort === 'hot') copy.sort((a, b) => (b.src === 'bili' ? b.p || 0 : b.r || 0) - (a.src === 'bili' ? a.p || 0 : a.r || 0));
-    else copy.sort((a, b) => relScore(b) - relScore(a) || String(b.at || '').localeCompare(String(a.at || '')));
+    else copy.sort((a, b) => bucket(a) - bucket(b) || relScore(b) - relScore(a) || byDate(a, b));
     return copy;
   }
 
@@ -133,7 +137,7 @@
       <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖校区」的">只看合工大</button>
       <div class="spacer"></div>
       <div class="seg" id="segWin">${win(0, '全部时间')}${win(1, '24h')}${win(7, '7天')}${win(30, '30天')}</div>
-      <div class="seg" id="segSort">${opt('new', '最新')}${opt('rel', '与你相关')}${opt('hot', '最热')}</div>
+      <div class="seg" id="segSort">${opt('smart', '时效优先')}${opt('new', '纯最新')}${opt('hot', '最热')}</div>
     </div>`;
   }
 
@@ -155,7 +159,7 @@
   function render() {
     const rows = list();
     const shown = rows.slice(0, S.limit);
-    const sortName = { new: '最新', rel: '与你相关', hot: '最热' }[S.sort];
+    const sortName = { smart: '时效优先', new: '纯最新', hot: '最热' }[S.sort];
     app.innerHTML = `${heroHTML()}
       <div class="q-bar">
         <input id="q" type="search" placeholder="搜标题、作者、吧名、UP 主…" value="${esc(S.q)}" aria-label="搜索">
