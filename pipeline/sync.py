@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import datetime, timezone
 import time
 import hashlib
 import sys
@@ -180,7 +181,7 @@ def main(argv: list[str] | None = None) -> int:
 
     items.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     payload["items"] = items
-    payload["generatedAt"] = datetime.now().isoformat(timespec="minutes")
+    payload["generatedAt"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     payload["categories"] = cfg["categories"]
     payload["site"] = cfg["site"]
     if any(not i.get("demo") for i in items):
@@ -217,7 +218,7 @@ def main(argv: list[str] | None = None) -> int:
     except Exception:
         hist = []
     run = {
-        "at": datetime.now().isoformat(timespec="minutes"),
+        "at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
         "mode": "fast" if args.fast else ("enrich" if enrich else "normal"),
         "limit": args.limit,
         "seconds": round(time.time() - started, 1),

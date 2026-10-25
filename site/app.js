@@ -100,7 +100,7 @@
   const catColor = (c) => CAT_COLORS[c] || 'var(--accent)';
 
   function pad(n) { return String(n).padStart(2, '0'); }
-  function dt(iso) { return iso ? new Date(iso) : null; }
+  function dt(iso) { return asDate(iso); }
 
   function relTime(iso) {
     const d = dt(iso); if (!d) return '';
@@ -690,10 +690,25 @@
   }
 
   /* ---------------- freshness ---------------- */
+  // UTC 字符串（无时区）按 UTC 解析，避免显示成「8 小时前」
+  function asDate(iso) {
+    if (!iso) return null;
+    const hasZone = /[zZ]$|[+-]\d{2}:?\d{2}$/.test(iso);
+    const needsZ = !hasZone && iso.includes('T');
+    return new Date(needsZ ? iso + 'Z' : iso);
+  }
+  function fmtLocal(iso) {
+    const d = asDate(iso);
+    if (!d || isNaN(d)) return '';
+    const p2 = (n) => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${p2(d.getMonth() + 1)}-${p2(d.getDate())} ${p2(d.getHours())}:${p2(d.getMinutes())}`;
+  }
+
   function relAgeText(iso) {
-    if (!iso) return '';
+    const dt = asDate(iso);
+    if (!dt || isNaN(dt)) return '';
     const L = t();
-    const m = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+    const m = Math.max(0, Math.round((Date.now() - dt.getTime()) / 60000));
     if (m < 1) return L.relNow;
     if (m < 60) return L.relMin.replace('{n}', m);
     const h = Math.floor(m / 60);
@@ -704,7 +719,7 @@
 
   function newIn(hours) {
     const cut = Date.now() - hours * 36e5;
-    return (S.items || []).filter((i) => i.publishedAt && new Date(i.publishedAt).getTime() >= cut).length;
+    return (S.items || []).filter((i) => i.publishedAt && asDate(i.publishedAt).getTime() >= cut).length;
   }
 
   function syncCrawlLine() {
@@ -735,18 +750,18 @@
     document.querySelectorAll('#mainnav a').forEach((a) => { const k = a.dataset.nav; if (L.nav[k]) a.textContent = L.nav[k]; });
     $('#searchInput').placeholder = L.searchPh;
     $('#langBtn').textContent = S.lang === 'en' ? '中' : 'EN';
-    const freshAge = S.generatedAt ? (Date.now() - new Date(S.generatedAt).getTime()) / 36e5 : 99;
+    const freshAge = S.generatedAt ? (Date.now() - asDate(S.generatedAt).getTime()) / 36e5 : 99;
     const dot = $('#freshDot');
     if (dot) {
       dot.className = 'fresh-dot ' + (freshAge < 2 ? 'ok' : freshAge < 12 ? 'warn' : 'bad');
-      dot.title = (S.lang === 'en' ? 'Updated ' : '更新于 ') + (S.generatedAt || '').replace('T', ' ').slice(5, 16);
+      dot.title = (S.lang === 'en' ? 'Updated ' : '更新于 ') + fmtLocal(S.generatedAt).slice(5);
     }
     const demoPart = S.demoCount ? ` · ${L.demoNote.replace('{n}', S.demoCount)}` : '';
-    const ageH = S.generatedAt ? (Date.now() - new Date(S.generatedAt).getTime()) / 36e5 : 0;
+    const ageH = S.generatedAt ? (Date.now() - asDate(S.generatedAt).getTime()) / 36e5 : 0;
     const stale = ageH > 24 ? ` · <b style="color:var(--accent)">${L.stale}</b>` : '';
     syncCrawlLine();
     $('#footMeta').innerHTML = S.items.length
-      ? `${S.items.length} ${L.items} · ${S.sources.length} ${L.sourcesN}${demoPart} · ${L.updated} ${(S.generatedAt || '').replace('T', ' ').slice(0, 16)}${stale}`
+      ? `${S.items.length} ${L.items} · ${S.sources.length} ${L.sourcesN}${demoPart} · ${L.updated} ${fmtLocal(S.generatedAt)}${stale}`
       : '';
   }
 
