@@ -57,7 +57,7 @@
   const all = () => (S.tieba || []).concat(S.bili || []);
 
   const HFUT_RE = /合工大|合肥工业|工业大学|工大|宣城校区|翡翠湖校区|斛兵塘|屯溪路|六安路/;
-  const BILI_RE = /合肥|合工大|工大|工业大学|安徽|宣城校区|翡翠湖/;
+  const BILI_RE = /合肥|合工大|工大|工业大学|安徽|宣城校区/;
   const isHfut = (i) => HFUT_RE.test(`${i.t || ''} ${i.src === 'bili' ? '' : (i.b || '')}`);
 
   const heat = (i) => Math.log10(1 + (i.src === 'bili' ? (i.p || 0) : (i.r || 0))) * 4;
@@ -70,9 +70,11 @@
     return d < 1 ? 0 : d < 3 ? 1 : d < 7 ? 2 : d < 30 ? 3 : d < 90 ? 4 : d < 365 ? 5 : 6;
   };
 
+  // B 站搜索接口按关键词召回，标题常常跟合肥/工大无关；只留标题里真的点到地名的
+  const base = () => all().filter((i) => i.src !== 'bili' || BILI_RE.test(i.t || ''));
+
   function list() {
-    // B 站搜索接口按关键词召回，标题常常跟合肥/工大无关；只留标题里真的点到地名的
-    let arr = all().filter((i) => i.src !== 'bili' || BILI_RE.test(i.t || ''));
+    let arr = base();
     if (S.cat !== 'all') arr = arr.filter((i) => i.cat === S.cat);
     if (S.only) arr = arr.filter(isHfut);
     if (S.win) {
@@ -93,7 +95,7 @@
 
   /* ---------------- 渲染 ---------------- */
   function heroHTML() {
-    const items = all();
+    const items = base();
     const day = items.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000).length;
     const week = items.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 7 * 86400000).length;
     return `<section class="forum-hero">
@@ -108,7 +110,7 @@
   }
 
   function chips() {
-    const items = all();
+    const items = base();
     const cats = (S.meta && S.meta.cats) || [['all', '全部']];
     const counts = {};
     for (const i of items) counts[i.cat] = (counts[i.cat] || 0) + 1;
@@ -119,7 +121,7 @@
   }
 
   function pickHTML() {
-    const day = all().filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000)
+    const day = base().filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000)
       .sort((a, b) => relScore(b) - relScore(a)).slice(0, 8);
     if (!day.length) return '';
     return `<section class="pick">
