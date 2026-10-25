@@ -244,7 +244,7 @@
     const navKey = path === '' ? 'all' : path === 'activities' ? 'activities'
       : path === 'information' ? 'information' : head === 'calendar' ? 'calendar'
       : head === 'sources' ? 'sources' : head === 'people' ? 'people'
-      : head === 'competitions' ? 'competitions'
+      : head === 'competitions' ? 'competitions' : head === 'prefs' ? 'prefs'
       : head === 'c' && S.catById[arg] ? S.catById[arg].intent : '';
     const navEl = document.querySelector(`#mainnav a[data-nav="${navKey}"]`);
     if (navEl) navEl.classList.add('active');
@@ -996,6 +996,7 @@
   }
 
   function hydrate(d) {
+    loadPrefs();
     S.items = d.items || [];
     S.sources = d.sources || [];
     S.srcById = {};
