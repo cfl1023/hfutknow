@@ -8,6 +8,11 @@
 <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="工大知道">
+<meta name="mobile-web-app-capable" content="yes">
 <link rel="stylesheet" href="style.css">
 <style>
   .forum-hero { padding: 30px 0 6px; }
@@ -44,7 +49,26 @@
   .mk-read.on { color: var(--accent); border-color: var(--accent); background: var(--bg); }
   .mk-read.armed { color: #b4501f; border-color: #b4501f; background: rgba(180,80,31,.08); opacity: 1; }
   .mk-read.mini { opacity: 1; margin-left: 8px; padding: 2px 8px; font-size: 11px; vertical-align: 1px; }
-  @media (hover: none) { .mk-read { opacity: .8; } }
+  @media (hover: none) { .mk-read { opacity: 1; } }
+  /* 手机上：按钮放到拇指能够着的位置，字号也放大 */
+  .app-open { display: none; }
+  .card-act { display: flex; gap: 8px; align-items: center; }
+  .app-open { border: 1px solid var(--line); color: var(--text-2); background: var(--bg); border-radius: 999px; padding: 4px 11px; font-size: 11.5px; text-decoration: none; }
+  .app-open:active { background: var(--text); color: var(--bg); border-color: transparent; }
+  @media (hover: none) { .app-open { display: inline-flex; } }
+  @media (max-width: 620px) {
+    .forum-hero { padding: 14px 0 2px; }
+    .forum-hero h1 { font-size: 21px; line-height: 1.35; }
+    .forum-hero p { font-size: 13px; margin-bottom: 10px; }
+    .forum-hero .stats { gap: 18px; }
+    .toolbar { position: sticky; top: 0; z-index: 25; background: var(--bg); padding: 8px 0; margin-bottom: 6px; border-bottom: 1px solid var(--line); }
+    .mk-read, .app-open { padding: 8px 14px; font-size: 12.5px; }
+    .card-act { padding: 0 2px 14px; }
+    .ck-toast { bottom: 82px; left: 12px; right: 12px; transform: translateY(14px); max-width: none; }
+    .ck-toast.show { transform: none; }
+    .dr-panel { width: 100%; }
+    .search { display: none; }
+  }
   .pick li.read-now { opacity: .45; text-decoration: line-through; }
   .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
   @media (max-width: 900px) { .grid { columns: 2; } }

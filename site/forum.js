@@ -228,7 +228,7 @@
     return `<section class="pick">
       <h2>24 小时内冒出来的 ${day.length} 条</h2>
       <p class="hint">新帖子先看这些，不用往下翻。</p>
-      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span><button class="mk-read mini" data-read="${esc(i.id)}">标记已阅</button></li>`).join('')}</ol>
+      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span>${appLink(i)}<button class="mk-read mini" data-read="${esc(i.id)}">标记已阅</button></li>`).join('')}</ol>
     </section>`;
   }
 
@@ -243,6 +243,14 @@
       <div class="seg" id="segWin">${win(0, '全部时间')}${win(1, '24h')}${win(7, '7天')}${win(30, '30天')}</div>
       <div class="seg" id="segSort">${opt('smart', '时效优先')}${opt('new', '纯最新')}${opt('hot', '最热')}</div>
     </div>`;
+  }
+
+  // 手机上一键跳 App：安卓走 intent，iOS 交给系统级关联
+  function appLink(it) {
+    const label = 'App 打开';
+    if (it.src === 'bili') return `<a class="app-open" href="${esc(it.u)}" data-app="bili" data-id="${esc(String(it.id))}">${label}</a>`;
+    const tid = String(it.id).replace(/\D/g, '');
+    return `<a class="app-open" href="${esc(it.u)}" data-app="tieba" data-id="${esc(tid)}">${label}</a>`;
   }
 
   function cardHTML(it) {
@@ -260,7 +268,7 @@
         <p class="meta2">${meta}</p>
         <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
       </a>
-      <div class="card-act"><button class="mk-read${read ? ' on' : ''}" data-read="${esc(it.id)}" title="${read ? '取消已阅' : '标记已阅：两下确认，之后不再往前排'}">${read ? '取消已阅' : '标记已阅'}</button></div>
+      <div class="card-act">${appLink(it)}<button class="mk-read${read ? ' on' : ''}" data-read="${esc(it.id)}" title="${read ? '取消已阅' : '标记已阅：两下确认，之后不再往前排'}">${read ? '取消已阅' : '标记已阅'}</button></div>
     </div>`;
   }
 
@@ -314,6 +322,25 @@
       markRead(it);
       render();
       toast('已标记已阅，沉到「看过的」里', '放回来', () => { unmark(id); render(); });
+      return;
+    }
+    const ap = e.target.closest('[data-app]');
+    if (ap) {
+      e.preventDefault();
+      e.stopPropagation();
+      const kind = ap.dataset.app;
+      const id = ap.dataset.id;
+      const url = ap.href;
+      const android = /Android/i.test(navigator.userAgent);
+      if (android && kind === 'bili') {
+        location.href = 'intent://video/' + id + '#Intent;scheme=bilibili;package=tv.danmaku.bili;S.browser_fallback_url=' + encodeURIComponent(url) + ';end';
+        return;
+      }
+      if (android) {
+        location.href = 'intent://tieba.baidu.com/p/' + id + '#Intent;scheme=https;package=com.baidu.tieba;S.browser_fallback_url=' + encodeURIComponent(url) + ';end';
+        return;
+      }
+      location.href = url;
       return;
     }
     if (e.target.closest('[data-drawer]')) { openDrawer(); return; }
