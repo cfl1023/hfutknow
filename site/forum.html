@@ -49,6 +49,8 @@
       <a href="index.html#/activities">活动</a>
       <a href="index.html#/information">通知</a>
       <a href="index.html#/calendar">日历</a>
+      <a href="index.html#/sources">来源</a>
+      <a href="index.html#/people">教师</a>
       <a href="index.html#/competitions">竞赛</a>
       <a href="forum.html" class="active">讨论</a>
     </nav>
@@ -70,6 +72,15 @@
     <p class="foot-links"><a href="index.html">回到首页</a><a href="data/forum-tieba.json">贴吧数据</a><a href="data/forum-bili.json">视频数据</a></p>
   </div>
 </footer>
+
+<nav class="tabbar" aria-label="主导航" style="grid-template-columns:repeat(6,1fr)">
+  <a href="index.html#/" data-tab="all"><svg viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v8a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z"/></svg><span>首页</span></a>
+  <a href="index.html#/activities" data-tab="activities"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg><span>活动</span></a>
+  <a href="index.html#/competitions" data-tab="competitions"><svg viewBox="0 0 24 24"><path d="M8 4h8v3a4 4 0 0 1-8 0z"/><path d="M8 5H5.5a2.5 2.5 0 0 0 0 5H8M16 5h2.5a2.5 2.5 0 0 1 0 5H16"/><path d="M12 11v5M8.5 20h7M9.5 16.5h5l.5 3.5h-6z"/></svg><span>竞赛</span></a>
+  <a href="forum.html" class="active" data-tab="forum"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h15v9.5h-8.6L6.5 18.5V15H4.5z"/><path d="M8.5 9h7M8.5 11.8h4.5"/></svg><span>讨论</span></a>
+  <a href="index.html#/people" data-tab="people"><svg viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><path d="M16.5 7.5a3 3 0 0 1 0 5.6M18 19c0-2-.8-3.6-2-4.6"/></svg><span>教师</span></a>
+  <a href="index.html#/sources" data-tab="sources"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>来源</span></a>
+</nav>
 
 <script src="forum.js"></script>
 </body>

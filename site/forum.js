@@ -201,6 +201,13 @@
     initTheme();
     await load('tieba');
     render();
-    load('bili').catch(() => {});
+    load('bili').then(() => {
+      const n = document.querySelector('[data-tab="bili"] .n');
+      if (n) n.textContent = fmtNum(S.data.bili.length);
+      const stats = document.querySelectorAll('.forum-hero .stat b');
+      if (stats[1]) stats[1].textContent = fmtNum(S.data.bili.length);
+      const hit = document.querySelector('.forum-hero h1 .hl');
+      if (hit) hit.textContent = `，${fmtNum(S.data.tieba.length + S.data.bili.length)} 条`;
+    }).catch(() => {});
   })();
 })();
