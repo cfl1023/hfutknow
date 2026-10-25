@@ -32,6 +32,33 @@
   },
   {
    "tier": "B类",
+   "name": "中国大学生物理学术竞赛",
+   "related": false,
+   "keywords": [],
+   "level": "国家级",
+   "tracking": {
+    "status": "open",
+    "deadline": "2026-12-04",
+    "daysLeft": 40,
+    "eventAt": "2026-12-06",
+    "snippet": "报名截止时间：2026年12月4",
+    "how": {
+     "email": "3096916969@qq.com",
+     "phone": "18156016045",
+     "qq": "1121894669"
+    },
+    "notices": [
+     {
+      "id": "web-3c15e3235fdb929f",
+      "title": "关于举办2027年中国大学生物理学术竞赛（CUPT）合肥工业大学校内选拔赛的通知",
+      "url": "https://wlxy.hfut.edu.cn/info/1047/4166.htm",
+      "date": "2026-10-19"
+     }
+    ]
+   }
+  },
+  {
+   "tier": "B类",
    "name": "中国大学生计算机设计大赛",
    "related": true,
    "keywords": [
@@ -550,29 +577,22 @@
    "keywords": [],
    "level": "国家级",
    "tracking": {
-    "status": "none",
+    "status": "notice",
     "deadline": "",
     "daysLeft": null,
-    "eventAt": "",
+    "eventAt": "2026-07-28",
     "snippet": "",
-    "how": {},
-    "notices": []
-   }
-  },
-  {
-   "tier": "B类",
-   "name": "中国大学生物理学术竞赛",
-   "related": false,
-   "keywords": [],
-   "level": "国家级",
-   "tracking": {
-    "status": "none",
-    "deadline": "",
-    "daysLeft": null,
-    "eventAt": "",
-    "snippet": "",
-    "how": {},
-    "notices": []
+    "how": {
+     "email": "innovation@chts.org.cn"
+    },
+    "notices": [
+     {
+      "id": "web-e10cd9e07403fa3c",
+      "title": "2021年中国大学生机械工程创新创意大赛——第7届材料热处理创新创业赛决赛通知",
+      "url": "https://mse.hfut.edu.cn/info/1052/3336.htm",
+      "date": "2026-07-13"
+     }
+    ]
    }
   },
   {
@@ -916,13 +936,22 @@
    "keywords": [],
    "level": "国家级",
    "tracking": {
-    "status": "none",
+    "status": "notice",
     "deadline": "",
     "daysLeft": null,
-    "eventAt": "",
+    "eventAt": "2026-05-27",
     "snippet": "",
-    "how": {},
-    "notices": []
+    "how": {
+     "phone": "0551-62901064"
+    },
+    "notices": [
+     {
+      "id": "web-bedf726e2927bf46",
+      "title": "【科技创新】我校学子在第十三届全国大学生数学竞赛决赛中喜获佳绩",
+      "url": "https://dektjy.hfut.edu.cn/2023/0420/c13770a291170/page.htm",
+      "date": "2026-10-18"
+     }
+    ]
    }
   },
   {
@@ -1178,13 +1207,20 @@
    ],
    "level": "国家级",
    "tracking": {
-    "status": "none",
+    "status": "notice",
     "deadline": "",
     "daysLeft": null,
     "eventAt": "",
     "snippet": "",
     "how": {},
-    "notices": []
+    "notices": [
+     {
+      "id": "web-588d34839bd25b35",
+      "title": "我院在第八届全国大学生集成电路创新创业大赛华中赛区决赛 再创佳绩",
+      "url": "https://wdzxy.hfut.edu.cn/2024/0709/c11305a305349/page.htm",
+      "date": "2024-07-09"
+     }
+    ]
    }
   },
   {
@@ -1386,13 +1422,20 @@
    ],
    "level": "省级",
    "tracking": {
-    "status": "none",
+    "status": "notice",
     "deadline": "",
     "daysLeft": null,
     "eventAt": "",
     "snippet": "",
     "how": {},
-    "notices": []
+    "notices": [
+     {
+      "id": "web-d7c7d1986be8c36d",
+      "title": "我校学子在第十一届“创客中国”智能仿生机器人大赛中斩获佳绩",
+      "url": "https://news.hfut.edu.cn/info/1018/79062.htm",
+      "date": "2026-09-23"
+     }
+    ]
    }
   },
   {
@@ -1498,5 +1541,5 @@
    }
   }
  ],
- "trackedAt": "2026-10-25T07:37"
+ "trackedAt": "2026-10-25T15:39"
 }
