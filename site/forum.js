@@ -2,6 +2,7 @@
 (() => {
   'use strict';
 
+  const VIEW_KEY = 'ck-forum-view';
   const S = {
     cat: 'all',
     sort: 'smart',
@@ -14,6 +15,19 @@
     tieba: null,
     bili: null,
     meta: null,
+  };
+  // 上次用的筛选条件（排序 / 时间窗 / 只看合工大 / 分类）记下来，下次打开还是那一眼
+  try {
+    const v = JSON.parse(localStorage.getItem(VIEW_KEY) || 'null');
+    if (v && typeof v === 'object') {
+      if (v.sort) S.sort = v.sort;
+      if (v.win) S.win = Number(v.win) || 0;
+      if (v.only) S.only = !!v.only;
+      if (v.cat) S.cat = v.cat;
+    }
+  } catch (e) { /* 忽略 */ }
+  const saveView = () => {
+    try { localStorage.setItem(VIEW_KEY, JSON.stringify({ sort: S.sort, win: S.win, only: S.only, cat: S.cat })); } catch (e) { /* 忽略 */ }
   };
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -488,9 +502,9 @@
     }
     if (e.target.closest('[data-drawer]')) { openDrawer(); return; }
     const s = e.target.closest('[data-sort]');
-    if (s) { S.sort = s.dataset.sort; S.limit = 60; render(); return; }
+    if (s) { S.sort = s.dataset.sort; S.limit = 60; saveView(); render(); return; }
     const w = e.target.closest('[data-win]');
-    if (w) { S.win = Number(w.dataset.win) || 0; S.limit = 60; render(); return; }
+    if (w) { S.win = Number(w.dataset.win) || 0; S.limit = 60; saveView(); render(); return; }
     if (e.target.closest('[data-staronly]')) {
       S.starOnly = !S.starOnly;
       if (S.starOnly) { S.only = false; S.win = 0; S.cat = 'all'; }
@@ -498,13 +512,13 @@
       render();
       return;
     }
-    if (e.target.closest('[data-only]')) { S.only = !S.only; S.limit = 60; render(); return; }
+    if (e.target.closest('[data-only]')) { S.only = !S.only; S.limit = 60; saveView(); render(); return; }
     if (e.target.closest('#moreBtn')) { S.limit += 60; render(); return; }
   });
   chipsEl.addEventListener('click', (e) => {
     const c = e.target.closest('[data-cat]');
     if (!c) return;
-    S.cat = c.dataset.cat; S.limit = 60; render();
+    S.cat = c.dataset.cat; S.limit = 60; saveView(); render();
   });
   app.addEventListener('input', (e) => {
     if (e.target.id !== 'q') return;
@@ -531,8 +545,24 @@
     document.documentElement.dataset.theme = saved || (dark ? 'dark' : 'light');
   }
 
+  function mountToTop() {
+    if (document.getElementById('toTop')) return;
+    const b = document.createElement('button');
+    b.id = 'toTop';
+    b.className = 'to-top';
+    b.type = 'button';
+    b.setAttribute('aria-label', '回到顶部');
+    b.textContent = '↑ 顶部';
+    b.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    document.body.appendChild(b);
+    const onScroll = () => { b.classList.toggle('on', window.scrollY > 900); };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
   (async () => {
     initTheme();
+    mountToTop();
     app.innerHTML = '<div class="empty"><b>正在读数据…</b></div>';
     await loadAll();
     render();

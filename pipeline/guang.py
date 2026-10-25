@@ -278,6 +278,9 @@ def enrich(items: list[dict[str, Any]], op, tk: str, max_new: int = 40) -> None:
             paras = [p.strip() for p in re.split(r"\n+", d["c"]) if p.strip()]
             it["content"] = [f"<p>{p}</p>" for p in paras[:8]]
             it["excerpt"] = d["c"][:110].replace("\n", " ")
+            head = paras[0][:78] if paras else ""
+            if head:
+                it["summary"] = f"{head}｜{it.get('author','')} · 浏览 {it.get('views', 0)} · 评论 {d.get('cm', 0)}"
         if d.get("cs"):
             it["comments"] = d["cs"]
     if added:
