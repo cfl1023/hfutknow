@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>工大知道 · 讨论区</title>
+<meta name="description" content="合工大贴吧与 B 站里，学长学姐替你先踩过的坑：保研、转专业、选课、宿舍、社团、合肥本地。只对一个人排序。">
+<meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<style>
+  .forum-hero { padding: 30px 0 6px; }
+  .forum-hero h1 { font-size: clamp(24px, 3.4vw, 34px); letter-spacing: -.01em; margin: 0 0 10px; font-weight: 650; }
+  .forum-hero h1 .hl { color: var(--accent); }
+  .forum-hero p { margin: 0 0 14px; color: var(--text-2); font-size: 14.5px; max-width: 44em; }
+  .tabrow { display: flex; gap: 8px; margin: 18px 0 4px; }
+  .tabrow button { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 7px 15px; font: inherit; font-size: 13px; color: var(--text-2); cursor: pointer; }
+  .tabrow button.active { background: var(--text); color: var(--bg); border-color: transparent; font-weight: 600; }
+  .tabrow button .n { font-size: 11px; opacity: .6; margin-left: 4px; font-variant-numeric: tabular-nums; }
+  .q-bar { display: flex; gap: 8px; align-items: center; margin: 12px 0 2px; }
+  .q-bar input { flex: 1; max-width: 420px; border: 1px solid var(--line); background: var(--surface); border-radius: 9px; padding: 9px 12px; font: inherit; font-size: 13.5px; color: var(--text); outline: 0; }
+  .q-bar input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .pick { margin: 26px 0 8px; padding: 16px 18px 6px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+  .pick h2 { font-size: 14px; margin: 0 0 4px; letter-spacing: .01em; }
+  .pick .hint { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
+  .pick ol { margin: 0 0 12px; padding-left: 20px; }
+  .pick li { margin-bottom: 7px; font-size: 13.5px; line-height: 1.45; }
+  .pick li a { color: var(--text); border-bottom: 1px solid color-mix(in srgb, var(--accent) 26%, transparent); }
+  .pick li a:hover { color: var(--accent-2); }
+  .pick li .m { color: var(--muted); font-size: 12px; margin-left: 6px; font-variant-numeric: tabular-nums; }
+  .card .sum { -webkit-line-clamp: 2; }
+  .card .meta2 { font-size: 12px; color: var(--muted); margin: 2px 0 0; font-variant-numeric: tabular-nums; }
+  .badge-hit { background: var(--ok-soft); color: var(--ok); }
+  .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+  @media (max-width: 900px) { .grid { columns: 2; } }
+  @media (max-width: 620px) { .grid { columns: 1; } .mainnav { display: none; } }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="bar-inner">
+    <a class="brand" href="index.html">
+      <span class="mark">知</span>
+      <span class="brand-text"><b>工大知道</b><em>HFUT Know</em></span>
+    </a>
+    <nav class="mainnav">
+      <a href="index.html#/">全部</a>
+      <a href="index.html#/activities">活动</a>
+      <a href="index.html#/information">通知</a>
+      <a href="index.html#/calendar">日历</a>
+      <a href="index.html#/competitions">竞赛</a>
+      <a href="forum.html" class="active">讨论</a>
+    </nav>
+    <div class="bar-tools">
+      <button id="themeBtn" class="icon-btn" aria-label="切换夜间模式" title="切换夜间模式">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"></circle><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"></path></svg>
+      </button>
+    </div>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p><b>工大知道</b> · 讨论区 · 只对一个人排序</p>
+    <p class="muted" id="footMeta"></p>
+    <p class="foot-links"><a href="index.html">回到首页</a><a href="data/forum-tieba.json">贴吧数据</a><a href="data/forum-bili.json">视频数据</a></p>
+  </div>
+</footer>
+
+<script src="forum.js"></script>
+</body>
+</html>
