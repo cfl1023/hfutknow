@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 15:39:33 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 15:40:07 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>学术报告通知：计算科学与计算思维</title>
@@ -459,14 +459,6 @@ via.计算机与信息学院
       <description>关于开展高层次国际化人才培养创新实践项目2026年国际组织及外国驻华使领馆定向实习岗位（第二批）招募的通知</description>
     </item>
     <item>
-      <title>关于观看经典黄梅戏电影《龙女》的通知</title>
-      <link>https://gonghui.hfut.edu.cn/2026/1020/c615a323940/page.htm</link>
-      <guid isPermaLink="false">web-7cc35fcb68f79cc1</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
-      <category>arts</category>
-      <description>关于观看经典黄梅戏电影《龙女》的通知</description>
-    </item>
-    <item>
       <title>2027年寒假高层次国际化人才培养创新实践项目境外实践训练营通知</title>
       <link>https://international.hfut.edu.cn/info/1026/6446.htm</link>
       <guid isPermaLink="false">web-8c2b0525c05a7f42</guid>
@@ -483,20 +475,28 @@ via.计算机与信息学院
       <description>曾会应: 合成方法学导向的木质素降解和天然产物全合成</description>
     </item>
     <item>
-      <title>张炜: 卓越工程师的砺炼与成长</title>
-      <link>https://www.hfut.edu.cn/info/1133/13226.htm</link>
-      <guid isPermaLink="false">web-7cd7e1693f3294de</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
-      <category>campus</category>
-      <description>张炜: 卓越工程师的砺炼与成长</description>
-    </item>
-    <item>
       <title>物理学院举行纪念红军长征胜利90周年专题报告会</title>
       <link>https://news.hfut.edu.cn/info/1012/79486.htm</link>
       <guid isPermaLink="false">web-ee384b900807f9d7</guid>
       <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
       <category>lectures</category>
       <description>物理学院举行纪念红军长征胜利90周年专题报告会</description>
+    </item>
+    <item>
+      <title>关于观看经典黄梅戏电影《龙女》的通知</title>
+      <link>https://gonghui.hfut.edu.cn/2026/1020/c615a323940/page.htm</link>
+      <guid isPermaLink="false">web-7cc35fcb68f79cc1</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
+      <category>arts</category>
+      <description>关于观看经典黄梅戏电影《龙女》的通知</description>
+    </item>
+    <item>
+      <title>张炜: 卓越工程师的砺炼与成长</title>
+      <link>https://www.hfut.edu.cn/info/1133/13226.htm</link>
+      <guid isPermaLink="false">web-7cd7e1693f3294de</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0800</pubDate>
+      <category>campus</category>
+      <description>张炜: 卓越工程师的砺炼与成长</description>
     </item>
     <item>
       <title>【大肉嘎】合工大的学弟还在吗  帮主播个忙</title>
