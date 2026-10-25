@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T15:22Z",
+ "generatedAt": "2026-10-25T23:26Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -382,6 +382,29 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbd2AK31MAAIeYGCwsRI930.jpg\" alt=\"10月26日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbd2AK31MAAIeYGCwsRI930.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-69db98bd470b27ab",
+   "title": "如何评价合肥工业大学（HFUT）？ - 知乎",
+   "sourceId": "net-知乎",
+   "sourceName": "互联网 · 知乎",
+   "sourceType": "net",
+   "url": "https://www.zhihu.com/question/51725052/answers/updated",
+   "publishedAt": "2026-10-25T23:26",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "如何评价合肥工业大学（HFUT）？ - 知乎",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "知乎"
+   ],
+   "competition": null,
+   "content": [
+    "<p>如何评价合肥工业大学（HFUT）？ - 知乎</p>"
+   ],
    "demo": false
   },
   {
