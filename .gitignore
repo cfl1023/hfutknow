@@ -5,3 +5,6 @@ dist/
 _*.html
 .DS_Store
 _apk/
+logs/
+.local_update.lock
+
