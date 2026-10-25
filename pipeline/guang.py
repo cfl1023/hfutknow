@@ -287,14 +287,22 @@ def enrich(items: list[dict[str, Any]], op, tk: str, max_new: int = 40) -> None:
         print(f"  ✓ 逛逛正文: 新增 {added} 条（缓存 {len(cache)}）")
 
 
+def _loc(iso: str) -> str:
+    """逛逛接口给的是北京时间（无时区），补 +08:00，免得前端当 UTC 再 +8。"""
+    t = (iso or "").strip()
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}", t):
+        return t + "+08:00"
+    return t
+
+
 def _activity_item(a: dict) -> dict[str, Any] | None:
     name = (a.get("name") or "").strip()
     if not name:
         return None
     cat = MODULE_CAT.get(a.get("moduleName") or "", "campus")
-    lec = (a.get("lectureStartTime") or "").replace(" ", "T")[:16]
-    begin = lec or (a.get("beginTime") or "").replace(" ", "T")[:16]
-    end = (a.get("lectureEndTime") or a.get("endTime") or "").replace(" ", "T")[:16]
+    lec = _loc((a.get("lectureStartTime") or "").replace(" ", "T")[:16])
+    begin = lec or _loc((a.get("beginTime") or "").replace(" ", "T")[:16])
+    end = _loc((a.get("lectureEndTime") or a.get("endTime") or "").replace(" ", "T")[:16])
     close = (a.get("et") or a.get("mobileEndTime") or "").strip()
     venue = (a.get("theVenue") or "").strip()
     evt = {"start": begin or None, "end": end or None, "location": venue or None}
