@@ -40,7 +40,35 @@ const NOW = new Date();
 function parseCn(s) {
   if (!s) return null;
   const str = String(s).trim();
-  let m = /^(\d{4})-(\d{1,2})-(\d{1,2})/.exec(str);
+  let m;
+  // 贴吧列表里的「今天 HH:MM」只有时分，按今天算（这是最新的那批帖）
+  m = /^(\d{1,2}):(\d{2})$/.exec(str);
+  if (m) {
+    const d = new Date(NOW);
+    d.setHours(Number(m[1]), Number(m[2]), 0, 0);
+    if (d.getTime() > NOW.getTime()) d.setDate(d.getDate() - 1);
+    return d;
+  }
+  if (/^刚刚$/.test(str)) return new Date(NOW.getTime() - 60e3);
+  m = /^(\d+)\s*分钟前/.exec(str);
+  if (m) return new Date(NOW.getTime() - Number(m[1]) * 60e3);
+  m = /^(\d+)\s*小时前/.exec(str);
+  if (m) return new Date(NOW.getTime() - Number(m[1]) * 3600e3);
+  m = /^今天\s*(\d{1,2}):(\d{2})/.exec(str);
+  if (m) {
+    const d = new Date(NOW);
+    d.setHours(Number(m[1]), Number(m[2]), 0, 0);
+    return d;
+  }
+  m = /^昨天\s*(\d{1,2}):(\d{2})/.exec(str);
+  if (m) {
+    const d = new Date(NOW.getTime() - 86400e3);
+    d.setHours(Number(m[1]), Number(m[2]), 0, 0);
+    return d;
+  }
+  m = /^(\d+)\s*天前/.exec(str);
+  if (m) return new Date(NOW.getTime() - Number(m[1]) * 86400e3);
+  m = /^(\d{4})-(\d{1,2})-(\d{1,2})/.exec(str);
   if (m) return new Date(`${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}T12:00:00+08:00`);
   m = /^(\d{1,2})-(\d{1,2})$/.exec(str);
   if (m && Number(m[1]) >= 1 && Number(m[1]) <= 12) {
