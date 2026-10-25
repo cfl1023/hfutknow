@@ -2861,6 +2861,19 @@
    }
   },
   {
+   "id": "bili-net",
+   "name": "B站 · 合肥超越考研",
+   "type": "bili",
+   "url": "https://search.bilibili.com/all?keyword=合肥超越考研",
+   "category": "life",
+   "count": 108,
+   "feed": {
+    "type": "bili",
+    "url": "",
+    "enabled": true
+   }
+  },
+  {
    "id": "bili-ff6ead9d",
    "name": "B站 · 合工大",
    "type": "bili",

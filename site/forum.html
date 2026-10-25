@@ -33,6 +33,15 @@
   .card .meta2 { font-size: 12px; color: var(--muted); margin: 2px 0 0; font-variant-numeric: tabular-nums; }
   .badge-hit { background: var(--ok-soft); color: var(--ok); }
   .badge-src { font-size: 10.5px; letter-spacing: .06em; padding: 2px 7px; border-radius: 5px; background: var(--chip-bg, rgba(0,0,0,.05)); color: var(--text-2); border: 1px solid var(--line); }
+  .badge-read { background: var(--ok-soft, rgba(60,140,90,.12)); color: var(--muted); }
+  .card-wrap { position: relative; break-inside: avoid; -webkit-column-break-inside: avoid; }
+  .card-wrap.is-read .card { opacity: .55; }
+  .mk-read { position: absolute; right: 10px; bottom: 10px; z-index: 2; border: 1px solid var(--line); background: var(--bg); color: var(--text-2); border-radius: 999px; padding: 4px 11px; font: inherit; font-size: 11.5px; cursor: pointer; opacity: 0; transition: opacity .15s, background .15s, color .15s; }
+  .card-wrap:hover .mk-read, .mk-read:focus-visible, .mk-read.on { opacity: 1; }
+  .mk-read:hover { background: var(--text); color: var(--bg); border-color: transparent; }
+  .mk-read.on { color: var(--accent); border-color: var(--accent); background: var(--bg); }
+  .mk-read.mini { position: static; opacity: 1; margin-left: 8px; padding: 2px 8px; font-size: 11px; vertical-align: 1px; }
+  .pick li.read-now { opacity: .45; text-decoration: line-through; }
   .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
   @media (max-width: 900px) { .grid { columns: 2; } }
   @media (max-width: 620px) { .grid { columns: 1; } .mainnav { display: none; } }

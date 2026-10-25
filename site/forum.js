@@ -8,6 +8,7 @@
     win: 0,
     q: '',
     only: false,
+    readOnly: false,
     limit: 60,
     tieba: null,
     bili: null,
@@ -113,15 +114,16 @@
   /* ---------------- 渲染 ---------------- */
   function heroHTML() {
     const items = base();
-    const day = items.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000).length;
-    const week = items.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 7 * 86400000).length;
+    const live = items.filter((i) => !isRead(i));
+    const day = live.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000).length;
+    const week = live.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 7 * 86400000).length;
     return `<section class="forum-hero">
       <h1>别人替你先踩过的坑，都在这<span class="hl">，${fmtNum(items.length)} 条</span></h1>
-      <p>贴吧求问、B 站校园视频、合肥本地的碎消息，全部混在一条时间线上。默认按时间新到旧，刷就行。</p>
+      <p>贴吧求问、B 站校园视频、合肥本地的碎消息，全部混在一条时间线上。看完的按「已阅」就沉下去，不再占你的位置，但搜索还在。</p>
       <div class="stats">
         <div class="stat"><b>${fmtNum(day)}</b><span>24 小时内</span></div>
         <div class="stat"><b>${fmtNum(week)}</b><span>最近 7 天</span></div>
-        <div class="stat"><b>${fmtNum(items.length)}</b><span>全部</span></div>
+        <div class="stat"><b>${fmtNum(live.length)}</b><span>没看的</span></div>
       </div>
     </section>`;
   }
@@ -132,19 +134,20 @@
     const counts = {};
     for (const i of items) counts[i.cat] = (counts[i.cat] || 0) + 1;
     const rows = cats.filter(([id]) => id === 'all' || counts[id]);
+    const unread = items.filter((i) => !isRead(i)).length;
     chipsEl.innerHTML = rows.map(([id, name]) => (
-      `<button class="chip ${S.cat === id ? 'active' : ''}" data-cat="${id}">${esc(name)}<span class="n">${id === 'all' ? items.length : counts[id] || 0}</span></button>`
+      `<button class="chip ${S.cat === id ? 'active' : ''}" data-cat="${id}">${esc(name)}<span class="n">${id === 'all' ? unread : counts[id] || 0}</span></button>`
     )).join('');
   }
 
   function pickHTML() {
-    const day = base().filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000)
+    const day = base().filter((i) => !isRead(i) && Date.now() - new Date(i.at || 0).getTime() < 86400000)
       .sort((a, b) => relScore(b) - relScore(a)).slice(0, 8);
     if (!day.length) return '';
     return `<section class="pick">
       <h2>24 小时内冒出来的 ${day.length} 条</h2>
       <p class="hint">新帖子先看这些，不用往下翻。</p>
-      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span></li>`).join('')}</ol>
+      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span><button class="mk-read mini" data-read="${esc(i.id)}">已阅</button></li>`).join('')}</ol>
     </section>`;
   }
 
@@ -154,6 +157,7 @@
     return `<div class="toolbar">
       <span class="count">${total} 条</span>
       <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖校区」的">只看合工大</button>
+      <button class="chip ${S.readOnly ? 'active' : ''}" data-readonly="1" title="只看你按过「已阅」的">已阅 ${READ.size}</button>
       <div class="spacer"></div>
       <div class="seg" id="segWin">${win(0, '全部时间')}${win(1, '24h')}${win(7, '7天')}${win(30, '30天')}</div>
       <div class="seg" id="segSort">${opt('smart', '时效优先')}${opt('new', '纯最新')}${opt('hot', '最热')}</div>
@@ -167,12 +171,16 @@
     const catName = ((S.meta && S.meta.cats) || []).find(([id]) => id === it.cat);
     const hit = (it.s || 0) >= 12;
     const src = it.src === 'bili' ? '<span class="badge-src">B站</span>' : '<span class="badge-src">贴吧</span>';
-    return `<a class="card" href="${esc(it.u)}" target="_blank" rel="noopener" style="--cat:var(--accent)">
-      <div class="card-tags">${src}${hit ? '<span class="badge-related badge-hit">★ 与你相关</span>' : ''}</div>
-      <h3>${esc(it.t)}</h3>
-      <p class="meta2">${meta}</p>
-      <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
-    </a>`;
+    const read = isRead(it);
+    return `<div class="card-wrap${read ? ' is-read' : ''}">
+      <a class="card" href="${esc(it.u)}" target="_blank" rel="noopener" style="--cat:var(--accent)">
+        <div class="card-tags">${src}${hit ? '<span class="badge-related badge-hit">★ 与你相关</span>' : ''}${read ? '<span class="badge-src badge-read">已阅</span>' : ''}</div>
+        <h3>${esc(it.t)}</h3>
+        <p class="meta2">${meta}</p>
+        <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
+      </a>
+      <button class="mk-read ${read ? 'on' : ''}" data-read="${esc(it.id)}" title="${read ? '取消已阅' : '标记已阅，之后不再往前排'}">${read ? '已阅 ✓' : '已阅'}</button>
+    </div>`;
   }
 
   function render() {
@@ -187,13 +195,28 @@
       ${toolbarHTML(rows.length)}
       ${shown.length ? `<div class="grid">${shown.map(cardHTML).join('')}</div>` : '<div class="empty"><b>这段时间里没有匹配的内容</b>把时间窗口放宽或换个关键词</div>'}
       ${rows.length > shown.length ? `<div class="more"><button class="btn ghost" id="moreBtn">加载更多（还有 ${rows.length - shown.length} 条）</button></div>` : ''}
-      <p class="note">贴吧主题列表与 B 站搜索接口的公开数据，混排成一个流。抓取时间 ${S.meta ? new Date(S.meta.generatedAt).toLocaleString('zh-CN') : '—'}，链接都指回原文。</p>`;
+      <p class="note">贴吧主题列表与 B 站搜索接口的公开数据，混排成一个流。${READ.size ? `已阅 ${READ.size} 条不再往前排（点「已阅 ${READ.size}」可回看），搜索依然能找到。` : '看过的点一下「已阅」，就不会再挤在你前面。'}抓取时间 ${S.meta ? new Date(S.meta.generatedAt).toLocaleString('zh-CN') : '—'}，链接都指回原文。</p>`;
     chips();
     $('#footMeta').textContent = `${rows.length} 条 · ${sortName}${S.win ? ` · 最近 ${S.win} 天` : ''}${S.only ? ' · 只看合工大' : ''}`;
   }
 
   /* ---------------- 交互 ---------------- */
   app.addEventListener('click', (e) => {
+    const rb = e.target.closest('[data-read]');
+    if (rb) {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = rb.dataset.read;
+      const it = all().find((x) => String(x.id) === String(id));
+      if (it) {
+        if (READ.has(String(id))) { READ.delete(String(id)); try { localStorage.setItem(READ_KEY, JSON.stringify([...READ])); } catch (err) { /* 忽略 */ } }
+        else markRead(it);
+        S.limit = Math.max(60, S.limit);
+        render();
+      }
+      return;
+    }
+    if (e.target.closest('[data-readonly]')) { S.readOnly = !S.readOnly; S.limit = 60; render(); return; }
     const s = e.target.closest('[data-sort]');
     if (s) { S.sort = s.dataset.sort; S.limit = 60; render(); return; }
     const w = e.target.closest('[data-win]');
