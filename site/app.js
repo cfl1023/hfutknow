@@ -541,6 +541,7 @@
         </dl>` : ''}
       </div>
       <div class="dt-body">${(item.content || []).join('')}</div>
+      ${(item.comments || []).length ? `<div class="dt-comments"><h3>${S.lang === 'en' ? 'Replies' : '楼中楼'}</h3>${item.comments.map((c) => `<p>${esc(c)}</p>`).join('')}</div>` : ''}
       <div class="dt-actions">${original}
         <button class="btn ghost${S.star.has(item.id) ? ' voted' : ''}" data-star="1" data-id="${esc(item.id)}">${S.star.has(item.id) ? '★ ' + t().unstar : '☆ ' + t().star}</button>
         <button class="btn ghost${S.prefs && S.prefs.up[item.id] ? ' voted' : ''}" data-vote="up" data-id="${esc(item.id)}">👍 ${t().voteUp}</button>
