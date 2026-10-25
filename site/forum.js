@@ -1,15 +1,16 @@
-/* ============ 工大知道 · 讨论区 ============ */
+/* ============ 工大知道 · 讨论区（统一信息流） ============ */
 (() => {
   'use strict';
 
   const S = {
-    tab: 'tieba',
     cat: 'all',
-    sort: 'rel',
+    sort: 'new',
+    win: 0,
     q: '',
     only: false,
-    limit: 48,
-    data: { tieba: null, bili: null },
+    limit: 60,
+    tieba: null,
+    bili: null,
     meta: null,
   };
 
@@ -39,106 +40,112 @@
   const fmtNum = (n) => (n >= 10000 ? `${(n / 10000).toFixed(1)} 万` : String(n));
 
   /* ---------------- 数据 ---------------- */
-  async function load(tab) {
-    if (S.data[tab]) return S.data[tab];
-    const file = tab === 'bili' ? 'data/forum-bili.json' : 'data/forum-tieba.json';
-    const r = await fetch(file, { cache: 'no-store' });
-    const j = await r.json();
-    S.meta = S.meta || j.meta;
-    S.data[tab] = j.items;
-    return j.items;
+  async function loadAll() {
+    const get = async (file, src) => {
+      const r = await fetch(file, { cache: 'no-store' });
+      const j = await r.json();
+      S.meta = S.meta || j.meta;
+      return j.items.map((i) => Object.assign(i, { src }));
+    };
+    const [t, b] = await Promise.all([
+      get('data/forum-tieba.json', 'tieba'),
+      get('data/forum-bili.json', 'bili'),
+    ]);
+    S.tieba = t;
+    S.bili = b;
   }
+  const all = () => (S.tieba || []).concat(S.bili || []);
 
-  const heat = (it) => (S.tab === 'bili' ? Math.log10(1 + (it.p || 0)) * 4 : Math.log10(1 + (it.r || 0)) * 4);
-  const ageBoost = (it) => {
-    const t = new Date(it.at || 0).getTime();
+  const HFUT_RE = /合工大|合肥工业|工业大学|工大|宣城校区|翡翠湖校区|斛兵塘|屯溪路|六安路/;
+  const isHfut = (i) => HFUT_RE.test(`${i.t || ''} ${i.src === 'bili' ? '' : (i.b || '')}`);
+
+  const heat = (i) => Math.log10(1 + (i.src === 'bili' ? (i.p || 0) : (i.r || 0))) * 4;
+  const ageBoost = (i) => {
+    const t = new Date(i.at || 0).getTime();
     if (!t) return 0;
     const d = (Date.now() - t) / 86400000;
     return d < 7 ? 20 : d < 30 ? 15 : d < 90 ? 10 : d < 180 ? 6 : d < 365 ? 3 : 0;
   };
-  const relScore = (it) => (it.s || 0) + heat(it) + ageBoost(it);
-
-  const HFUT_RE = /合工大|合肥工业|工大|宣城校区|翡翠湖|斛兵塘|屯溪路|六安路/;
-  const isHfut = (i) => HFUT_RE.test(`${i.t || ''} ${i.b || i.kw || ''}`);
+  const relScore = (i) => (i.s || 0) + heat(i) + ageBoost(i);
 
   function list() {
-    const items = S.data[S.tab] || [];
-    let arr = items;
+    let arr = all();
     if (S.cat !== 'all') arr = arr.filter((i) => i.cat === S.cat);
     if (S.only) arr = arr.filter(isHfut);
+    if (S.win) {
+      const cut = Date.now() - S.win * 86400000;
+      arr = arr.filter((i) => new Date(i.at || 0).getTime() >= cut);
+    }
     if (S.q) {
       const q = S.q.toLowerCase();
-      arr = arr.filter((i) => (i.t + ' ' + i.a + ' ' + (i.b || i.kw || '')).toLowerCase().includes(q));
+      arr = arr.filter((i) => `${i.t} ${i.a} ${i.b || i.kw || ''}`.toLowerCase().includes(q));
     }
     const copy = arr.slice();
     if (S.sort === 'new') copy.sort((a, b) => String(b.at || '').localeCompare(String(a.at || '')));
-    else if (S.sort === 'hot') copy.sort((a, b) => (S.tab === 'bili' ? b.p - a.p : b.r - a.r));
+    else if (S.sort === 'hot') copy.sort((a, b) => (b.src === 'bili' ? b.p || 0 : b.r || 0) - (a.src === 'bili' ? a.p || 0 : a.r || 0));
     else copy.sort((a, b) => relScore(b) - relScore(a) || String(b.at || '').localeCompare(String(a.at || '')));
     return copy;
   }
 
   /* ---------------- 渲染 ---------------- */
   function heroHTML() {
-    const tieba = S.data.tieba ? S.data.tieba.length : 0;
-    const bili = S.data.bili ? S.data.bili.length : 0;
+    const items = all();
+    const day = items.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000).length;
+    const week = items.filter((i) => Date.now() - new Date(i.at || 0).getTime() < 7 * 86400000).length;
     return `<section class="forum-hero">
-      <h1>别人替你先踩过的坑，都在这<span class="hl">${tieba + bili ? `，${fmtNum(tieba + bili)} 条` : ''}</span></h1>
-      <p>贴吧的求助帖和 B 站的校园视频。按「集成电路 · 大一 · 翡翠湖」加权排序，不是按热度堆。</p>
+      <h1>别人替你先踩过的坑，都在这<span class="hl">，${fmtNum(items.length)} 条</span></h1>
+      <p>贴吧求问、B 站校园视频、合肥本地的碎消息，全部混在一条时间线上。默认按时间新到旧，刷就行。</p>
       <div class="stats">
-        <div class="stat"><b>${fmtNum(tieba)}</b><span>贴吧主题帖</span></div>
-        <div class="stat"><b>${fmtNum(bili)}</b><span>B站视频</span></div>
-        <div class="stat"><b>${S.meta ? fmtDate(S.meta.generatedAt) : '—'}</b><span>抓取时间</span></div>
+        <div class="stat"><b>${fmtNum(day)}</b><span>24 小时内</span></div>
+        <div class="stat"><b>${fmtNum(week)}</b><span>最近 7 天</span></div>
+        <div class="stat"><b>${fmtNum(items.length)}</b><span>全部</span></div>
       </div>
     </section>`;
   }
 
-  function tabsHTML() {
-    const n = (k) => (S.data[k] ? fmtNum(S.data[k].length) : '…');
-    const b = (k, label) => `<button data-tab="${k}" class="${S.tab === k ? 'active' : ''}">${label}<span class="n">${n(k)}</span></button>`;
-    return `<div class="tabrow">${b('tieba', '贴吧讨论')}${b('bili', 'B站视频')}</div>`;
-  }
-
   function chips() {
-    const items = S.data[S.tab] || [];
+    const items = all();
     const cats = (S.meta && S.meta.cats) || [['all', '全部']];
     const counts = {};
     for (const i of items) counts[i.cat] = (counts[i.cat] || 0) + 1;
-    const list = cats.filter(([id]) => id === 'all' || counts[id]);
-    chipsEl.innerHTML = list.map(([id, name]) => (
+    const rows = cats.filter(([id]) => id === 'all' || counts[id]);
+    chipsEl.innerHTML = rows.map(([id, name]) => (
       `<button class="chip ${S.cat === id ? 'active' : ''}" data-cat="${id}">${esc(name)}<span class="n">${id === 'all' ? items.length : counts[id] || 0}</span></button>`
     )).join('');
   }
 
   function pickHTML() {
-    const items = S.data[S.tab] || [];
-    if (!items.length) return '';
-    const top = items.slice().filter((i) => (i.s || 0) >= 8).sort((a, b) => relScore(b) - relScore(a)).slice(0, 12);
-    if (!top.length) return '';
+    const day = all().filter((i) => Date.now() - new Date(i.at || 0).getTime() < 86400000)
+      .sort((a, b) => relScore(b) - relScore(a)).slice(0, 8);
+    if (!day.length) return '';
     return `<section class="pick">
-      <h2>先看这 ${top.length} 条</h2>
-      <p class="hint">标题里同时命中「集成电路 / 转专业 / 保研 / 新生」这类关键词的，优先给你。</p>
-      <ol>${top.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${esc(i.b || i.kw || '')} · ${S.tab === 'bili' ? `${fmtNum(i.p)} 播放` : `${i.r} 回复`} · ${rel(i.at)}</span></li>`).join('')}</ol>
+      <h2>24 小时内冒出来的 ${day.length} 条</h2>
+      <p class="hint">新帖子先看这些，不用往下翻。</p>
+      <ol>${day.map((i) => `<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a><span class="m">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</span></li>`).join('')}</ol>
     </section>`;
   }
 
   function toolbarHTML(total) {
     const opt = (k, label) => `<button data-sort="${k}" class="${S.sort === k ? 'active' : ''}">${label}</button>`;
+    const win = (k, label) => `<button data-win="${k}" class="${S.win === k ? 'active' : ''}">${label}</button>`;
     return `<div class="toolbar">
       <span class="count">${total} 条</span>
-      <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题/来源里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖」的">只看合工大</button>
+      <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖校区」的">只看合工大</button>
       <div class="spacer"></div>
-      <div class="seg" id="segSort">${opt('rel', '与你相关')}${opt('new', '最新')}${opt('hot', '最热')}</div>
+      <div class="seg" id="segWin">${win(0, '全部时间')}${win(1, '24h')}${win(7, '7天')}${win(30, '30天')}</div>
+      <div class="seg" id="segSort">${opt('new', '最新')}${opt('rel', '与你相关')}${opt('hot', '最热')}</div>
     </div>`;
   }
 
   function cardHTML(it) {
-    const meta = S.tab === 'bili'
+    const meta = it.src === 'bili'
       ? `${esc(it.a || '未知 UP')} · ${fmtNum(it.p || 0)} 播放 · ${rel(it.at)}`
       : `${esc(it.b || '贴吧')} · ${esc(it.a || '匿名')} · ${it.r || 0} 回复 · ${rel(it.at)}`;
     const catName = ((S.meta && S.meta.cats) || []).find(([id]) => id === it.cat);
     const hit = (it.s || 0) >= 12;
+    const src = it.src === 'bili' ? '<span class="badge-src">B站</span>' : '<span class="badge-src">贴吧</span>';
     return `<a class="card" href="${esc(it.u)}" target="_blank" rel="noopener" style="--cat:var(--accent)">
-      <div class="card-tags">${hit ? '<span class="badge-related badge-hit">★ 与你相关</span>' : ''}</div>
+      <div class="card-tags">${src}${hit ? '<span class="badge-related badge-hit">★ 与你相关</span>' : ''}</div>
       <h3>${esc(it.t)}</h3>
       <p class="meta2">${meta}</p>
       <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
@@ -146,48 +153,40 @@
   }
 
   function render() {
-    const all = list();
-    const shown = all.slice(0, S.limit);
-    app.innerHTML = `${heroHTML()}${tabsHTML()}
+    const rows = list();
+    const shown = rows.slice(0, S.limit);
+    const sortName = { new: '最新', rel: '与你相关', hot: '最热' }[S.sort];
+    app.innerHTML = `${heroHTML()}
       <div class="q-bar">
-        <input id="q" type="search" placeholder="搜标题、作者、吧名…" value="${esc(S.q)}" aria-label="搜索">
+        <input id="q" type="search" placeholder="搜标题、作者、吧名、UP 主…" value="${esc(S.q)}" aria-label="搜索">
       </div>
       ${pickHTML()}
-      ${toolbarHTML(all.length)}
-      ${shown.length ? `<div class="grid">${shown.map(cardHTML).join('')}</div>` : '<div class="empty"><b>这里没有匹配的帖子</b>换个分类或关键词试试</div>'}
-      ${all.length > shown.length ? `<div class="more"><button class="btn ghost" id="moreBtn">加载更多（还有 ${all.length - shown.length} 条）</button></div>` : ''}
-      <p class="note">数据来自公开的贴吧主题列表与 B 站搜索接口，抓取时间为 ${S.meta ? new Date(S.meta.generatedAt).toLocaleString('zh-CN') : '—'}。链接都指回原文。</p>`;
+      ${toolbarHTML(rows.length)}
+      ${shown.length ? `<div class="grid">${shown.map(cardHTML).join('')}</div>` : '<div class="empty"><b>这段时间里没有匹配的内容</b>把时间窗口放宽或换个关键词</div>'}
+      ${rows.length > shown.length ? `<div class="more"><button class="btn ghost" id="moreBtn">加载更多（还有 ${rows.length - shown.length} 条）</button></div>` : ''}
+      <p class="note">贴吧主题列表与 B 站搜索接口的公开数据，混排成一个流。抓取时间 ${S.meta ? new Date(S.meta.generatedAt).toLocaleString('zh-CN') : '—'}，链接都指回原文。</p>`;
     chips();
-    $('#footMeta').textContent = `${all.length} 条 · 排序：${{ rel: '与你相关', new: '最新', hot: '最热' }[S.sort]}`;
+    $('#footMeta').textContent = `${rows.length} 条 · ${sortName}${S.win ? ` · 最近 ${S.win} 天` : ''}${S.only ? ' · 只看合工大' : ''}`;
   }
 
   /* ---------------- 交互 ---------------- */
-  async function switchTab(tab) {
-    if (S.tab === tab && S.data[tab]) return;
-    S.tab = tab; S.cat = 'all'; S.limit = 48;
-    app.innerHTML = '<div class="empty"><b>正在读数据…</b></div>';
-    await load(tab);
-    render();
-  }
-
-  app.addEventListener('click', async (e) => {
-    const t = e.target.closest('[data-tab]');
-    if (t) { await switchTab(t.dataset.tab); return; }
+  app.addEventListener('click', (e) => {
     const s = e.target.closest('[data-sort]');
-    if (s) { S.sort = s.dataset.sort; S.limit = 48; render(); return; }
-    if (e.target.closest('[data-only]')) { S.only = !S.only; S.limit = 48; render(); return; }
-    const m = e.target.closest('#moreBtn');
-    if (m) { S.limit += 48; render(); return; }
+    if (s) { S.sort = s.dataset.sort; S.limit = 60; render(); return; }
+    const w = e.target.closest('[data-win]');
+    if (w) { S.win = Number(w.dataset.win) || 0; S.limit = 60; render(); return; }
+    if (e.target.closest('[data-only]')) { S.only = !S.only; S.limit = 60; render(); return; }
+    if (e.target.closest('#moreBtn')) { S.limit += 60; render(); return; }
   });
   chipsEl.addEventListener('click', (e) => {
     const c = e.target.closest('[data-cat]');
     if (!c) return;
-    S.cat = c.dataset.cat; S.limit = 48; render();
+    S.cat = c.dataset.cat; S.limit = 60; render();
   });
   app.addEventListener('input', (e) => {
     if (e.target.id !== 'q') return;
     S.q = e.target.value.trim();
-    S.limit = 48;
+    S.limit = 60;
     clearTimeout(S._t);
     S._t = setTimeout(() => {
       const pos = e.target.selectionStart;
@@ -198,8 +197,7 @@
   });
 
   $('#themeBtn').addEventListener('click', () => {
-    const cur = document.documentElement.dataset.theme;
-    const next = cur === 'dark' ? 'light' : 'dark';
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
     localStorage.setItem('ck-theme', next);
   });
@@ -212,15 +210,8 @@
 
   (async () => {
     initTheme();
-    await load('tieba');
+    app.innerHTML = '<div class="empty"><b>正在读数据…</b></div>';
+    await loadAll();
     render();
-    load('bili').then(() => {
-      const n = document.querySelector('[data-tab="bili"] .n');
-      if (n) n.textContent = fmtNum(S.data.bili.length);
-      const stats = document.querySelectorAll('.forum-hero .stat b');
-      if (stats[1]) stats[1].textContent = fmtNum(S.data.bili.length);
-      const hit = document.querySelector('.forum-hero h1 .hl');
-      if (hit) hit.textContent = `，${fmtNum(S.data.tieba.length + S.data.bili.length)} 条`;
-    }).catch(() => {});
   })();
 })();

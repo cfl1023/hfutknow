@@ -859,6 +859,21 @@
     }, 30 * 1000);
   }
 
+  const LS_KEY = 'ck-cache-v1';
+  function saveCache(payload, srcPayload) {
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify({ g: S.generatedAt, items: payload.items, sources: srcPayload.sources }));
+    } catch (e) { /* 超配额就放弃缓存，不影响使用 */ }
+  }
+  function loadCache() {
+    try {
+      const raw = localStorage.getItem(LS_KEY);
+      if (!raw) return null;
+      const d = JSON.parse(raw);
+      return (d && d.items && d.items.length) ? d : null;
+    } catch (e) { return null; }
+  }
+
   function registerSW() {
     if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
     navigator.serviceWorker.register('sw.js').catch(() => {});
@@ -893,8 +908,22 @@
     }
   }
 
+  function hydrate(d) {
+    S.items = d.items || [];
+    S.sources = d.sources || [];
+    S.srcById = {};
+    S.sources.forEach((x) => { S.srcById[x.id] = x; });
+    S.generatedAt = d.g || '';
+    S.demoCount = S.items.filter((i) => i.demo).length;
+    bind();
+    applyLang();
+    route();
+  }
+
   async function boot() {
     applyTheme();
+    const cached = loadCache();
+    if (cached) hydrate(cached);   // 秒开：先画缓存，再悄悄换网络数据
     try {
       let payload, srcPayload;
       if (window.__CK_DATA__) {
@@ -936,9 +965,8 @@
         .then((d) => { if (d && d.latest) { S.crawl = d.latest; syncCrawlLine(); } })
         .catch(() => {});
       S.demoCount = S.items.filter((i) => i.demo).length;
-      bind();
-      applyLang();
-      route();
+      if (!cached) { bind(); applyLang(); route(); }
+      saveCache(payload, srcPayload);
       registerSW();
     } catch (err) {
       app().innerHTML = `<div class="empty"><b>数据没能加载</b>${esc(err.message)}</div>`;
