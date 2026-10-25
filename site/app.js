@@ -41,6 +41,8 @@
       peopleEmpty: '教师数据还没抓取，运行 tools/make_people.py 生成。', peopleLink: '个人主页',
       newBadge: '新',
       voteUp: '推荐', voteDown: '不感兴趣', votedUp: '已推荐', votedDown: '已屏蔽',
+      star: '收藏', unstar: '取消收藏', starredPage: '我的收藏', starredEmpty: '还没有收藏。点卡片上的 ☆ 把重要的事存起来。',
+      todayChip: '今天', unreadChip: '未读',
       prefsTitle: '我的偏好', prefsHint: '你在卡片上点的 👍/ 会被记下来：命中的词加分，屏蔽的词降权。只存在这台设备上，不上传。',
       prefsUp: '推荐过', prefsDown: '屏蔽过', prefsTokens: '学到的关键词（数字=权重）', prefsClear: '清空全部偏好', prefsEmpty: '还没有点过任何 👍/。去列表里点几下，排序就会变成你的口味。',
 
@@ -78,6 +80,8 @@
       peopleEmpty: 'No faculty data yet. Run tools/make_people.py.', peopleLink: 'Homepage',
       newBadge: 'NEW',
       voteUp: 'Like', voteDown: 'Not interested', votedUp: 'Liked', votedDown: 'Hidden',
+      star: 'Save', unstar: 'Unsave', starredPage: 'Saved', starredEmpty: 'Nothing saved yet. Tap ☆ on a card.',
+      todayChip: 'Today', unreadChip: 'Unread',
       prefsTitle: 'My preferences', prefsHint: 'Your 👍/👎 taps are learned locally: matching words boost, blocked words demote. Stored on this device only.',
       prefsUp: 'liked', prefsDown: 'hidden', prefsTokens: 'Learned keywords (weight)', prefsClear: 'Clear all', prefsEmpty: 'No votes yet. Tap 👍/👎 on cards to tune the ranking.',
 
@@ -147,6 +151,33 @@
   }
 
   /* ---------------- 个性化排序 ---------------- */
+  const READ_KEY = 'ck-read-v1';
+  const STAR_KEY = 'ck-star-v1';
+  function loadSet(k) {
+    try { return new Set(JSON.parse(localStorage.getItem(k)) || []); } catch (e) { return new Set(); }
+  }
+  function saveSet(k, set) {
+    try {
+      const arr = Array.from(set).slice(-800);
+      localStorage.setItem(k, JSON.stringify(arr));
+      return arr;
+    } catch (e) { return []; }
+  }
+  function markRead(id) {
+    if (!id || S.read.has(id)) return;
+    S.read.add(id);
+    saveSet(READ_KEY, S.read);
+    const el = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+    if (el) el.classList.add('read');
+  }
+  function toggleStar(id) {
+    if (!id) return;
+    if (S.star.has(id)) S.star.delete(id); else S.star.add(id);
+    saveSet(STAR_KEY, S.star);
+    if (S.drawerOpen && S.drawerId === id) openDrawer(id, true);
+    route();
+  }
+
   const PREFS_KEY = 'ck-prefs-v1';
   function loadPrefs() {
     try { S.prefs = JSON.parse(localStorage.getItem(PREFS_KEY)) || { up: {}, down: {} }; }
@@ -238,7 +269,7 @@
     const head = path.split('/')[0];
     const arg = path.split('/')[1];
 
-    $('#chips').hidden = !(path === '' || path === 'activities' || path === 'information' || path === 'foryou' || head === 'c');
+    $('#chips').hidden = !(path === '' || path === 'activities' || path === 'information' || path === 'foryou' || path === 'today' || path === 'unread' || path === 'starred' || head === 'c');
     document.querySelectorAll('#mainnav a').forEach((a) => a.classList.remove('active'));
     document.querySelectorAll('.tabbar a').forEach((a) => a.classList.remove('active'));
     const navKey = path === '' ? 'all' : path === 'activities' ? 'activities'
@@ -256,6 +287,9 @@
     else if (path === 'information') renderBrowse({ intent: 'information' });
     else if (path === 'foryou') renderBrowse({ forYou: true });
     else if (path === 'bili') renderBrowse({ bili: true });
+    else if (path === 'today') renderBrowse({ today: true });
+    else if (path === 'unread') renderBrowse({ unread: true });
+    else if (path === 'starred') renderBrowse({ starred: true });
     else if (head === 'c') renderBrowse({ cat: arg });
     else if (head === 'i') renderDetail(arg);
     else if (head === 'calendar') renderCalendar(parseInt(params.get('w') || '0', 10));
@@ -268,6 +302,7 @@
     else if (head === 'contribute') renderContribute();
     else renderBrowse({ intent: 'all' });
     window.scrollTo(0, 0);
+    if (path) { try { localStorage.setItem('ck-last-route', path); } catch (e) {} }
   }
 
   /* ---------------- shared pieces ---------------- */
@@ -287,6 +322,13 @@
     S.categories.forEach((c, idx) => {
       out += `<a class="chip${idx === 0 ? ' group-start' : ''}${activeCat === c.id ? ' active' : ''}" href="#/c/${c.id}">${S.lang === 'en' ? c.en : c.zh}<span class="n">${counts[c.id] || 0}</span></a>`;
     });
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const nToday = S.items.filter((i) => (i.publishedAt || '').startsWith(todayStr)).length;
+    const nUnread = S.items.filter((i) => !S.read.has(i.id)).length;
+    const nStar = S.star.size;
+    out += `<a class="chip${S.route === 'today' ? ' active' : ''}" href="#/today">${L.todayChip}<span class="n">${nToday}</span></a>`;
+    out += `<a class="chip${S.route === 'unread' ? ' active' : ''}" href="#/unread">${L.unreadChip}<span class="n">${nUnread}</span></a>`;
+    if (nStar) out += `<a class="chip${S.route === 'starred' ? ' active' : ''}" href="#/starred">★<span class="n">${nStar}</span></a>`;
     const nb = S.items.filter((i) => i.sourceType === 'bili').length;
     if (nb) out += `<a class="chip chip-bili${S.route === 'bili' ? ' active' : ''}" href="#/bili">B站<span class="n">${nb}</span></a>`;
     return out;
@@ -319,7 +361,7 @@
     }
     const rel = S.sort !== 'recommend' && isRelated(item);
     const fresh = (Date.now() - new Date(item.publishedAt).getTime()) < 6 * 3600e3;
-    return `<a class="card" href="#/i/${encodeURIComponent(item.id)}" data-id="${esc(item.id)}" style="--cat:${color}">
+    return `<a class="card${S.read.has(item.id) ? ' read' : ''}" href="#/i/${encodeURIComponent(item.id)}" data-id="${esc(item.id)}" style="--cat:${color}">
       <div class="card-tags">
         ${item.requiresSignup ? `<span class="badge-signup">${t().signup}</span>` : ''}
         ${rel ? `<span class="badge-related">${t().related}</span>` : ''}
@@ -327,6 +369,7 @@
         ${fresh ? `<span class="badge-new">${t().newBadge}</span>` : ''}
       </div>
       <span class="vote-row">
+        <button class="vote${S.star.has(item.id) ? ' starred' : ''}" data-star="1" data-id="${esc(item.id)}" title="${t().star}" aria-label="${t().star}">☆</button>
         <button class="vote${S.prefs && S.prefs.up[item.id] ? ' on' : ''}" data-vote="up" data-id="${esc(item.id)}" title="${t().voteUp}" aria-label="${t().voteUp}">👍</button>
         <button class="vote${S.prefs && S.prefs.down[item.id] ? ' on' : ''}" data-vote="down" data-id="${esc(item.id)}" title="${t().voteDown}" aria-label="${t().voteDown}">👎</button>
       </span>
@@ -380,9 +423,12 @@
   }
 
   /* ---------------- views ---------------- */
-  function renderBrowse({ intent = null, cat = null, sourceId = null, q = '', forYou = false, bili = false }) {
+  function renderBrowse({ intent = null, cat = null, sourceId = null, q = '', forYou = false, bili = false, today = false, unread = false, starred = false }) {
     S._q = q;
     let list = S.items.slice();
+    if (today) { const d = new Date().toISOString().slice(0, 10); list = list.filter((i) => (i.publishedAt || '').startsWith(d)); }
+    if (unread) list = list.filter((i) => !S.read.has(i.id));
+    if (starred) list = list.filter((i) => S.star.has(i.id));
     if (bili) list = list.filter((i) => i.sourceType === 'bili');
     if (forYou) list = list.filter(isRelated);
     if (intent && intent !== 'all') list = list.filter((i) => i.intent === intent);
@@ -396,10 +442,13 @@
 
     $('#chips').innerHTML = chipsHTML(cat, intent, forYou);
     const L = t();
-    const isHome = !cat && !sourceId && !q && !bili && (!intent || intent === 'all') && !forYou;
+    const isHome = !cat && !sourceId && !q && !bili && !today && !unread && !starred && (!intent || intent === 'all') && !forYou;
     const title = cat ? (S.lang === 'en' ? S.catById[cat].en : S.catById[cat].zh)
       : sourceId ? (S.srcById[sourceId] || {}).name
       : q ? `${L.results} · ${q}`
+      : today ? L.todayChip + '发布'
+      : unread ? L.unreadChip
+      : starred ? L.starredPage
       : bili ? 'B站 · 真人内容'
       : forYou ? L.forYou
       : intent === 'activity' ? L.activity : intent === 'information' ? L.information : '';
@@ -491,6 +540,7 @@
       </div>
       <div class="dt-body">${(item.content || []).join('')}</div>
       <div class="dt-actions">${original}
+        <button class="btn ghost${S.star.has(item.id) ? ' voted' : ''}" data-star="1" data-id="${esc(item.id)}">${S.star.has(item.id) ? '★ ' + t().unstar : '☆ ' + t().star}</button>
         <button class="btn ghost${S.prefs && S.prefs.up[item.id] ? ' voted' : ''}" data-vote="up" data-id="${esc(item.id)}">👍 ${t().voteUp}</button>
         <button class="btn ghost${S.prefs && S.prefs.down[item.id] ? ' voted' : ''}" data-vote="down" data-id="${esc(item.id)}">👎 ${t().voteDown}</button>
       </div>`;
@@ -500,6 +550,7 @@
     $('#chips').hidden = true;
     const item = S.items.find((i) => i.id === id);
     if (!item) { app().innerHTML = emptyHTML(); return; }
+    markRead(id);
     document.title = `${item.title} · ${S.lang === 'en' ? S.site.enName : S.site.name}`;
     app().innerHTML = `<article class="detail">
       <a class="back" href="#/">← ${t().back}</a>
@@ -512,6 +563,7 @@
     const item = S.items.find((i) => i.id === id);
     if (!item) return;
     S.drawerId = id;
+    markRead(id);
     if (!keep) S.scrollY = window.scrollY;
     const drawer = $('#drawer');
     drawer.innerHTML = `<div class="drawer-backdrop" data-close></div>
@@ -884,6 +936,8 @@
       const close = e.target.closest('[data-close]');
       if (close) { e.preventDefault(); closeDrawer(); return; }
 
+      const starBtn = e.target.closest('[data-star]');
+      if (starBtn) { e.preventDefault(); e.stopPropagation(); toggleStar(starBtn.dataset.id); return; }
       const vote = e.target.closest('.vote');
       if (vote) { e.preventDefault(); e.stopPropagation(); toggleVote(vote.dataset.id, vote.dataset.vote); return; }
 
@@ -997,6 +1051,8 @@
 
   function hydrate(d) {
     loadPrefs();
+    S.read = loadSet(READ_KEY);
+    S.star = loadSet(STAR_KEY);
     S.items = d.items || [];
     S.sources = d.sources || [];
     S.srcById = {};
@@ -1010,6 +1066,10 @@
 
   async function boot() {
     applyTheme();
+    try {
+      const last = localStorage.getItem('ck-last-route');
+      if (last && !location.hash) location.hash = '#/' + last;
+    } catch (e) {}
     const cached = loadCache();
     if (cached) hydrate(cached);   // 秒开：先画缓存，再悄悄换网络数据
     try {
@@ -1044,6 +1104,8 @@
       S.site = payload.site || S.site;
       S.profile = S.site.profile || {};
       loadPrefs();
+      S.read = loadSet(READ_KEY);
+      S.star = loadSet(STAR_KEY);
       S.people = (S.peopleData && S.peopleData.people) || [];
       S.peopleColleges = (S.peopleData && S.peopleData.colleges) || [];
       S.plans = (S.plansData && S.plansData.plans) || [];

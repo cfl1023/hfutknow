@@ -1,4 +1,4 @@
-const CACHE = 'hfutknow-v6';
+const CACHE = 'hfutknow-v7';
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.webmanifest', './assets/icon-192.png'];
 
 // 网络优先：在线时永远拿最新数据，离线时才回退缓存。

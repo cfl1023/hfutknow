@@ -74,19 +74,96 @@
   // B 站搜索接口按关键词召回，标题常常跟合肥/工大无关；只留标题里真的点到地名的
   const base = () => all().filter((i) => i.src !== 'bili' || BILI_RE.test(i.t || ''));
 
-  /* ---------------- 已阅 ---------------- */
+  /* ---------------- 已阅 + 放回来 ---------------- */
   const READ_KEY = 'ck-read';
   const READ = new Set();
   try { (JSON.parse(localStorage.getItem(READ_KEY) || '[]') || []).forEach((id) => READ.add(String(id))); } catch (e) { /* 忽略坏数据 */ }
   const isRead = (i) => READ.has(String(i.id));
-  function markRead(i) {
-    READ.add(String(i.id));
+  function saveRead() {
     try { localStorage.setItem(READ_KEY, JSON.stringify([...READ])); } catch (e) { /* 存不下就算了 */ }
   }
-  // 默认流里不放已阅的；搜索时仍然能搜到（除非在看「已阅」视图）
+  function markRead(i) { READ.add(String(i.id)); saveRead(); }
+  function unmark(id) { READ.delete(String(id)); saveRead(); }
+
+  let pending = null;      // 正在等第二次确认的 id
+  let pendingTimer = null;
+
+  function toast(msg, actionLabel, onAction) {
+    let el = document.getElementById('ck-toast');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'ck-toast';
+      el.className = 'ck-toast';
+      document.body.appendChild(el);
+    }
+    el.innerHTML = `<span>${esc(msg)}</span>${actionLabel ? `<button type="button">${esc(actionLabel)}</button>` : ''}`;
+    el.classList.add('show');
+    const b = el.querySelector('button');
+    if (b && onAction) b.addEventListener('click', () => { onAction(); el.classList.remove('show'); }, { once: true });
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => el.classList.remove('show'), 7000);
+  }
+
+  // 「看过的」抽屉：放回来一条，或者一次全放回来
+  function drawerHTML() {
+    const rows = base().filter(isRead).sort((a, b) => {
+      const ia = [...READ].indexOf(String(a.id));
+      const ib = [...READ].indexOf(String(b.id));
+      return ib - ia;
+    });
+    if (!rows.length) {
+      return `<div class="dr-head"><b>看过的</b><button type="button" class="dr-x" data-dr-close aria-label="关闭">×</button></div>
+        <p class="dr-empty">还没有标记过已阅。<br>在信息流里点「标记已阅」，看完的就会沉到这里。</p>`;
+    }
+    return `<div class="dr-head"><b>看过的 ${rows.length} 条</b><button type="button" class="dr-x" data-dr-close aria-label="关闭">×</button></div>
+      <p class="dr-hint">点「放回来」就回到信息流原来该在的位置，搜索一直都能搜到。</p>
+      <ol class="dr-list">${rows.map((i) => `<li>
+        <div class="dr-body">
+          <a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a>
+          <div class="dr-meta">${i.src === 'bili' ? 'B站' : esc(i.b || '贴吧')} · ${rel(i.at)}</div>
+        </div>
+        <button type="button" class="dr-back" data-unread="${esc(i.id)}">放回来</button>
+      </li>`).join('')}</ol>
+      <div class="dr-foot"><button type="button" class="dr-all" data-unreadall="1">全部放回来（${rows.length} 条）</button></div>`;
+  }
+
+  function openDrawer() {
+    let el = document.getElementById('ck-drawer');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'ck-drawer';
+      el.className = 'ck-drawer';
+      el.innerHTML = '<div class="dr-panel" role="dialog" aria-label="看过的"></div>';
+      document.body.appendChild(el);
+      el.addEventListener('click', (e) => {
+        if (e.target === el || e.target.closest('[data-dr-close]')) { closeDrawer(); return; }
+        const one = e.target.closest('[data-unread]');
+        if (one) { unmark(one.dataset.unread); drawDrawer(); render(); return; }
+        if (e.target.closest('[data-unreadall]')) {
+          const n = READ.size;
+          READ.clear(); saveRead(); drawDrawer(); render();
+          closeDrawer();
+          toast(`已把 ${n} 条全部放回来`, '撤销', () => { /* 全恢复不可撤，忽略 */ });
+        }
+      });
+    }
+    el.querySelector('.dr-panel').innerHTML = drawerHTML();
+    el.classList.add('open');
+    document.body.classList.add('dr-open');
+  }
+  function drawDrawer() {
+    const el = document.getElementById('ck-drawer');
+    if (el) el.querySelector('.dr-panel').innerHTML = drawerHTML();
+  }
+  function closeDrawer() {
+    const el = document.getElementById('ck-drawer');
+    if (el) el.classList.remove('open');
+    document.body.classList.remove('dr-open');
+  }
+
+  // 默认流里不放已阅的；搜索时仍然能搜到
   const pool = () => {
     const b = base();
-    if (S.readOnly) return b.filter(isRead);
     if (S.q) return b;
     return b.filter((i) => !isRead(i));
   };
@@ -157,7 +234,7 @@
     return `<div class="toolbar">
       <span class="count">${total} 条</span>
       <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖校区」的">只看合工大</button>
-      <button class="chip ${S.readOnly ? 'active' : ''}" data-readonly="1" title="只看你按过「已阅」的">已阅 ${READ.size}</button>
+      <button class="chip" data-drawer="1" title="打开「看过的」，可以把标记过的放回来">看过的 ${READ.size}</button>
       <div class="spacer"></div>
       <div class="seg" id="segWin">${win(0, '全部时间')}${win(1, '24h')}${win(7, '7天')}${win(30, '30天')}</div>
       <div class="seg" id="segSort">${opt('smart', '时效优先')}${opt('new', '纯最新')}${opt('hot', '最热')}</div>

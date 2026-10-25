@@ -521,3 +521,7 @@ html[data-theme="dark"] .badge-comp.ic { color: var(--accent-2); }
   .vote { width: 34px; height: 34px; font-size: 16px; }
   .card h3 { padding-right: 74px; }
 }
+
+.card.read { opacity: .55; }
+.card.read:hover { opacity: .9; }
+.vote.starred { color: #e6a817; font-weight: 700; }
