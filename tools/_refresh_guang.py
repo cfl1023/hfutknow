@@ -47,16 +47,9 @@ try:
 except Exception as exc:
     print("acts fail", exc)
 
-import time
-t0 = time.time()
-guang.enrich(posts, op, tk, max_new=400)
-print("enrich took %.1fs" % (time.time() - t0))
-
 doc["items"] = keep + acts + posts
 ITEMS.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
 from collections import Counter
 print("before", before, "removed", removed, "now", len(doc["items"]))
 print("feed on:", Counter(i.get("feed") for i in posts))
 print("groups:", Counter((i.get("community") or {}).get("group") for i in posts))
-print("with body:", sum(1 for i in posts if len(i.get("content") or []) > 1))
-print("with author:", sum(1 for i in posts if i.get("author")))

@@ -223,67 +223,6 @@ def _items_from_topics(tk: str, op) -> list[dict[str, Any]]:
     return items
 
 
-DETAIL_CACHE = common.DATA_DIR / "_guang_detail_cache.json"
-
-
-def _load_cache() -> dict:
-    try:
-        return json.loads(DETAIL_CACHE.read_text(encoding="utf-8"))
-    except Exception:
-        return {}
-
-
-def _fetch_detail(op, tk: str, pid: str) -> dict:
-    r = _get(op, tk, "/community/forumTopic/getDetailsById?id=" + pid)
-    res = r.get("result") or {}
-    return {
-        "c": (res.get("content") or "").strip(),
-        "a": (res.get("displayName") or "").strip(),
-        "d": (res.get("depart") or "").strip(),
-        "cm": res.get("commentNum") or 0,
-        "cs": [(c.get("content") or "").strip()[:120]
-               for c in (res.get("commentList") or [])[:4] if (c.get("content") or "").strip()],
-        "t": datetime.now().isoformat(timespec="minutes"),
-    }
-
-
-def enrich(items: list[dict[str, Any]], op, tk: str, max_new: int = 40) -> None:
-    """补帖子正文/作者/学院。缓存到 data/_guang_detail_cache.json，避免每轮重复抓。"""
-    cache = _load_cache()
-    todo = [i for i in items
-            if i.get("sourceId") == "gg-forum" and str(i.get("id", ""))[3:] not in cache]
-    added = 0
-    for it in todo[:max_new]:
-        pid = str(it["id"])[3:]
-        try:
-            cache[pid] = _fetch_detail(op, tk, pid)
-            added += 1
-        except Exception as exc:
-            print(f"  × 逛逛详情 {pid}: {exc}")
-    if added:
-        DETAIL_CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
-    for it in items:
-        if it.get("sourceId") != "gg-forum":
-            continue
-        d = cache.get(str(it.get("id", ""))[3:])
-        if not d:
-            continue
-        if d.get("a") or d.get("d"):
-            who = d.get("a") or ""
-            if d.get("d"):
-                who += (" · " if who else "") + d["d"]
-            it["author"] = who
-            it["summary"] = it.get("summary", "") + f"｜{who}"
-        if d.get("c"):
-            paras = [p.strip() for p in re.split(r"\n+", d["c"]) if p.strip()]
-            it["content"] = [f"<p>{p}</p>" for p in paras[:8]]
-            it["excerpt"] = d["c"][:110].replace("\n", " ")
-        if d.get("cs"):
-            it["comments"] = d["cs"]
-    if added:
-        print(f"  ✓ 逛逛正文: 新增 {added} 条（缓存 {len(cache)}）")
-
-
 def fetch_items() -> list[dict[str, Any]]:
     if not _due() or not CRED.exists():
         return []
@@ -329,10 +268,6 @@ def fetch_items() -> list[dict[str, Any]]:
             "demo": False,
         })
     items.extend(_items_from_topics(tk, op))
-    try:
-        enrich(items, op, tk, max_new=40)
-    except Exception as exc:
-        print(f"  × 逛逛正文: {exc}")
     STATE.write_text(json.dumps({"lastFetch": datetime.now().isoformat(timespec="minutes")}),
                      encoding="utf-8")
     print(f"  ✓ 逛逛: 活动+帖子共 {len(items)} 条")
