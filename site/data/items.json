@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T14:50",
+ "generatedAt": "2026-10-25T07:12",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -1546,33 +1546,6 @@
    "demo": false
   },
   {
-   "id": "bili-BV1vbn16kEy5",
-   "title": "【赛雷】合工大金融专硕，券商求职思路",
-   "sourceId": "bili-ff6ead9d",
-   "sourceName": "B站 · 合工大",
-   "sourceType": "bili",
-   "url": "https://www.bilibili.com/video/BV1vbn16kEy5",
-   "publishedAt": "2026-10-22T14:09",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "life",
-   "summary": "好赛雷切片 发布的 B 站视频",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "好赛雷切片"
-   ],
-   "competition": null,
-   "content": [
-    "<p>好赛雷切片 发布的 B 站视频</p>"
-   ],
-   "bili": {
-    "author": "好赛雷切片",
-    "play": 563
-   },
-   "demo": false
-  },
-  {
    "id": "web-5794ca1be0dee99b",
    "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
    "sourceId": "hfut-edu",
@@ -2009,56 +1982,6 @@
    "content": [
     "<p>学院举办2026年斛兵外语讲坛“科研产出大家说”</p>"
    ],
-   "demo": false
-  },
-  {
-   "id": "web-b29e51c3c8362263",
-   "title": "学院开展第二届“斛兵外语”奖教金评审会",
-   "sourceId": "hfut-wgyxy",
-   "sourceName": "外国语学院",
-   "sourceType": "official",
-   "url": "https://wgyxy.hfut.edu.cn/2026/1022/c11993a324026/page.htm",
-   "publishedAt": "2026-10-22T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "学院开展第二届“斛兵外语”奖教金评审会",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>学院开展第二届“斛兵外语”奖教金评审会</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "bili-BV1WpnB6eEYH",
-   "title": "若不是你突然闯进HFUT",
-   "sourceId": "bili-54958542",
-   "sourceName": "B站 · 合肥工业大学",
-   "sourceType": "bili",
-   "url": "https://www.bilibili.com/video/BV1WpnB6eEYH",
-   "publishedAt": "2026-10-21T20:41",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "life",
-   "summary": "我只是想发这些gif了",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "星鑫猩猩"
-   ],
-   "competition": null,
-   "content": [
-    "<p>我只是想发这些gif了</p>"
-   ],
-   "bili": {
-    "author": "星鑫猩猩",
-    "play": 372
-   },
    "demo": false
   },
   {
@@ -2505,33 +2428,6 @@
     "ic": false,
     "generic": true
    }
-  },
-  {
-   "id": "bili-BV1H6nc6tEyh",
-   "title": "据说，弹一下纸片，就能来到合工大？",
-   "sourceId": "bili-54958542",
-   "sourceName": "B站 · 合肥工业大学",
-   "sourceType": "bili",
-   "url": "https://www.bilibili.com/video/BV1H6nc6tEyh",
-   "publishedAt": "2026-10-20T18:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "life",
-   "summary": "拍摄：韩思佳\n剪辑：韩思佳\n指导：吕昊波 李睿涵",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "合肥工业大学"
-   ],
-   "competition": null,
-   "content": [
-    "<p>拍摄：韩思佳\n剪辑：韩思佳\n指导：吕昊波 李睿涵</p>"
-   ],
-   "bili": {
-    "author": "合肥工业大学",
-    "play": 2721
-   },
-   "demo": false
   },
   {
    "id": "bili-BV1XinF6gEMn",
@@ -3487,29 +3383,6 @@
    "demo": false
   },
   {
-   "id": "web-2e2fd887b3349e23",
-   "title": "学院举办2026级全校山东籍新生见面会",
-   "sourceId": "hfut-ci",
-   "sourceName": "计算机与信息学院（人工智能学院）",
-   "sourceType": "official",
-   "url": "https://ci.hfut.edu.cn/info/1065/16634.htm",
-   "publishedAt": "2026-10-19T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "学院举办2026级全校山东籍新生见面会",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>学院举办2026级全校山东籍新生见面会</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "bili-BV1jSHX6KEUo",
    "title": "【合肥工业大学830电路】第4章4.4 阶跃响应与冲激响应（下） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
    "sourceId": "bili-54958542",
@@ -3533,48 +3406,6 @@
     "author": "张哥讲电路",
     "play": 171
    },
-   "demo": false
-  },
-  {
-   "id": "web-2c0778b21558a916",
-   "title": "树立和践行正确政绩观学习教育",
-   "sourceId": "hfut-tiyu",
-   "sourceName": "合肥工业大学体育部",
-   "sourceType": "official",
-   "url": "https://tiyu.hfut.edu.cn/info/1013/2016.htm",
-   "publishedAt": "2026-10-18T14:44",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "树立和践行正确政绩观学习教育",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>树立和践行正确政绩观学习教育</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-26e601c8e38010c4",
-   "title": "2022年度工程跟踪审计项目一览表",
-   "sourceId": "hfut-sjc",
-   "sourceName": "合肥工业大学审计处",
-   "sourceType": "official",
-   "url": "https://sjc.hfut.edu.cn/2022/0428/c7799a273395/page.htm",
-   "publishedAt": "2026-10-18T14:44",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "2022年度工程跟踪审计项目一览表",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>2022年度工程跟踪审计项目一览表</p>"
-   ],
    "demo": false
   },
   {
@@ -3621,6 +3452,96 @@
    "tags": [],
    "content": [
     "<p>我校关工委获评全国教育系统关心下一代工作突出贡献集体</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-6150cc02a6141fad",
+   "title": "2026年全国硕士研究生招生考试停课封楼通知",
+   "sourceId": "hfut-yjsy",
+   "sourceName": "合肥工业大学研究生院",
+   "sourceType": "official",
+   "url": "https://yjsy.hfut.edu.cn/info/1005/1596.htm",
+   "publishedAt": "2026-10-18T07:12",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "academics",
+   "summary": "2026年全国硕士研究生招生考试停课封楼通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "考试"
+   ],
+   "competition": null,
+   "content": [
+    "<p>2026年全国硕士研究生招生考试停课封楼通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-f00483fbda006fb3",
+   "title": "研究生院关于在科级岗位实行AB岗工作制度的通知",
+   "sourceId": "hfut-yjsy",
+   "sourceName": "合肥工业大学研究生院",
+   "sourceType": "official",
+   "url": "https://yjsy.hfut.edu.cn/info/1005/1528.htm",
+   "publishedAt": "2026-10-18T07:12",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "careers",
+   "summary": "研究生院关于在科级岗位实行AB岗工作制度的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "岗位"
+   ],
+   "competition": null,
+   "content": [
+    "<p>研究生院关于在科级岗位实行AB岗工作制度的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-e1b535dd1461be72",
+   "title": "审计处党支部召开树立和践行正确政绩观学习教育动员部署会暨党员干部专题培训会",
+   "sourceId": "hfut-sjc",
+   "sourceName": "合肥工业大学审计处",
+   "sourceType": "official",
+   "url": "https://sjc.hfut.edu.cn/2026/0624/c7802a319833/page.htm",
+   "publishedAt": "2026-10-18T07:12",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "审计处党支部召开树立和践行正确政绩观学习教育动员部署会暨党员干部专题培训会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>审计处党支部召开树立和践行正确政绩观学习教育动员部署会暨党员干部专题培训会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-7ba50269ea209991",
+   "title": "审计处党支部召开深入贯彻中央八项规定精神学习教育动员部署会",
+   "sourceId": "hfut-sjc",
+   "sourceName": "合肥工业大学审计处",
+   "sourceType": "official",
+   "url": "https://sjc.hfut.edu.cn/2025/0326/c7802a310971/page.htm",
+   "publishedAt": "2026-10-18T07:12",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "审计处党支部召开深入贯彻中央八项规定精神学习教育动员部署会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>审计处党支部召开深入贯彻中央八项规定精神学习教育动员部署会</p>"
    ],
    "demo": false
   },
@@ -4318,6 +4239,53 @@
    ],
    "content": [
     "<p>计算机与信息学院多媒体认知计算实验室团队科研助理招聘启事</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-72d8c5f25bf0b999",
+   "title": "我校入选全国“党建引领后勤事业高质量发展”优秀案例",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79398.htm",
+   "publishedAt": "2026-10-16T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "我校入选全国“党建引领后勤事业高质量发展”优秀案例",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "后勤"
+   ],
+   "competition": null,
+   "content": [
+    "<p>我校入选全国“党建引领后勤事业高质量发展”优秀案例</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-2fbf483e0b2ae109",
+   "title": "【全国高校思想政治工作网】第三届全国思想政治教育实证研究学术研讨会在合肥工业大学举行",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1015/79374.htm",
+   "publishedAt": "2026-10-16T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "【全国高校思想政治工作网】第三届全国思想政治教育实证研究学术研讨会在合肥工业大学举行",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "研讨会",
+    "举行"
+   ],
+   "competition": null,
+   "content": [
+    "<p>【全国高校思想政治工作网】第三届全国思想政治教育实证研究学术研讨会在合肥工业大学举行</p>"
    ],
    "demo": false
   },
@@ -5124,30 +5092,6 @@
     "<p>持之以恒推进全面从严治党</p>",
     "<p>；深入推进科技创新与产业创新深度融合，提升人才培养质量，培育更多服务国家重大战略需求和区域经济社会发展的高素质人才。</p>",
     "<p>(倪记来 文/图 蔡伟伟 审核)</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-a3fc2b3dcba60829",
-   "title": "合肥工业大学2026年实验教师招聘公告",
-   "sourceId": "hfut-rsc",
-   "sourceName": "党委教师工作部、人力资源处",
-   "sourceType": "official",
-   "url": "https://rsc.hfut.edu.cn/info/1027/1987.htm",
-   "publishedAt": "2026-10-12T09:00:00",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "careers",
-   "summary": "合肥工业大学2026年实验教师招聘公告",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "招聘",
-    "教师"
-   ],
-   "competition": null,
-   "content": [
-    "<p>合肥工业大学2026年实验教师招聘公告</p>"
    ],
    "demo": false
   },
@@ -10239,6 +10183,29 @@
    "demo": false
   },
   {
+   "id": "web-31c999a138114fa4",
+   "title": "材料学院2021-2022学年第二学期专业课课表",
+   "sourceId": "hfut-mse",
+   "sourceName": "材料科学与工程学院",
+   "sourceType": "official",
+   "url": "https://mse.hfut.edu.cn/info/1052/3939.htm",
+   "publishedAt": "2026-03-16T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "材料学院2021-2022学年第二学期专业课课表",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>材料学院2021-2022学年第二学期专业课课表</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-85ea0fbf6fdd8b46",
    "title": "我校农业科学学科首次进入ESI全球排名前1‰",
    "sourceId": "hfut-yjsy",
@@ -10361,6 +10328,29 @@
     "<p>会上，基建与房屋管理处处长王庆就本年度校园基建与维修工程整体情况进行了介绍，系统通报了年度内计划启动的新建项目概况、重点修缮区域及维修改造工程的规模与进度安排。会议围绕如何高效协同推进年度建设任务，明确了各部门在工程项目全过程中的职责分工。财务处、审计处、国有资产管理处、总务部、保卫部、招标采购管理中心、信息化建设与管理办公室、资产经营有限公司等部门结合各自职能，围绕资金保障、资产管理、后勤保障及安全保障等事项进行了沟通交流，进一步凝聚了协同推进的共识。宣城校区管委会和相关部门就宣城校区教学楼及部分公共楼宇综合维修的进行了详细讨论。</p>",
     "<p>校党委副书记严福平听取各部门的汇报和建议，并提出明确要求。他强调，校园基建与维修工程是事关学校长远发展和师生切身利益的重要民生工程，必须坚持高标准、严要求。一是要强化责任担当，明确协调机制，各部门须指定专人、压实责任，确保遇事快速响应、妥善处置，各部门各司其职、密切配合，凝聚齐抓共管的工作合力；二是要注重精细管理，严守规范底线，严抓制度执行，严格过程监管，确保工程建设为廉洁工程、安全工程、优质工程；三是要抓好工程进度，加快前期准备与论证工作，精准把控各阶段工序衔接，全程紧盯、环环相扣，最大限度减少对正常教学科研秩序的影响，确保各项工程顺利推进，力争圆满完成年度建设任务；四是要严守廉洁底线，筑牢思想防线，压实主体责任，强化风险防控，确保项目建设全过程风清气正、廉洁高效。</p>",
     "<p>此次基建与维修工程会议的召开，标志着新一年校园基建与维修工程全面启动。各部门一致表示，将在沟通协作中凝聚合力，在责任担当中攻坚克难，推动学校基建与维修工作在“十五五”开好局起好步，全力为学校事业高质量发展提供坚实的硬件支撑。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-d2b22ea1130249c0",
+   "title": "材料科学与工程学院2022年博士研究生“申请-考核”制、硕博连读招生考核工作实施细则",
+   "sourceId": "hfut-mse",
+   "sourceName": "材料科学与工程学院",
+   "sourceType": "official",
+   "url": "https://mse.hfut.edu.cn/info/1052/4246.htm",
+   "publishedAt": "2026-03-01T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "材料科学与工程学院2022年博士研究生“申请-考核”制、硕博连读招生考核工作实施细则",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>材料科学与工程学院2022年博士研究生“申请-考核”制、硕博连读招生考核工作实施细则</p>"
    ],
    "demo": false
   },
@@ -10540,6 +10530,31 @@
    ],
    "content": [
     "<p>研究生院党支部与安徽省教育厅科研处党支部、中国科大研究生院党支部开展联学共建</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a68ff3bc7f426782",
+   "title": "学院举办2025年斛兵外语讲坛“科研产出大家说”暨研究生交流年会第九场学术报告",
+   "sourceId": "hfut-wgyxy",
+   "sourceName": "外国语学院",
+   "sourceType": "official",
+   "url": "https://wgyxy.hfut.edu.cn/2025/1201/c14728a316712/page.htm",
+   "publishedAt": "2025-12-01T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "学院举办2025年斛兵外语讲坛“科研产出大家说”暨研究生交流年会第九场学术报告",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学术报告",
+    "科研",
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学院举办2025年斛兵外语讲坛“科研产出大家说”暨研究生交流年会第九场学术报告</p>"
    ],
    "demo": false
   },
