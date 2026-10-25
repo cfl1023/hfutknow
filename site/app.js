@@ -375,7 +375,7 @@
         ${item.requiresSignup ? `<span class="badge-signup">${t().signup}</span>` : ''}
         ${rel ? `<span class="badge-related">${t().related}</span>` : ''}
         ${item.competition ? `<span class="badge-comp${item.competition.ic ? ' ic' : ''}">${esc(item.competition.ic ? '★ ' + item.competition.name : item.competition.name)}</span>` : ''}
-        ${item.sourceType === 'gg' ? (item.tags || []).filter((x) => x !== (item.community || {}).col && x !== (item.community || {}).label).slice(0, 2).map((x) => `<span class="badge-tag">${esc(x)}</span>`).join('') : ''}
+        ${ggBadges(item)}
         ${fresh ? `<span class="badge-new">${t().newBadge}</span>` : ''}
       </div>
       <span class="vote-row">
