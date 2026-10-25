@@ -669,7 +669,7 @@
     const use = active && groups[active] ? [active] : keys;
     use.forEach((k) => {
       const list = groups[k].slice().sort((a, b) => String(b.publishedAt || '').localeCompare(String(a.publishedAt || '')));
-      out += `<section class="gg-group"><h2>${esc(GG_LABEL[k][en ? 1 : 0])}<span>${list.length}${en ? '' : ' 条'}</span></h2>${gridHTML(list, S.limit)}</section>`;
+      out += `<section class="gg-group"><h2>${esc(GG_LABEL[k][en ? 1 : 0])}<span>${list.length}${en ? '' : ' 条'}</span></h2>${gridHTML(list, 200)}</section>`;
     });
     if (!posts.length) out += emptyHTML();
     document.title = (en ? 'Community' : '逛逛') + ' · ' + (en ? S.site.enName : S.site.name);
