@@ -525,3 +525,8 @@ html[data-theme="dark"] .badge-comp.ic { color: var(--accent-2); }
 .card.read { opacity: .55; }
 .card.read:hover { opacity: .9; }
 .vote.starred { color: #e6a817; font-weight: 700; }
+
+/* ---- 逛逛（斛兵塘）---- */
+.gg-group{margin-top:26px}
+.gg-group h2{display:flex;align-items:baseline;gap:8px;font-size:16px;font-weight:650;margin:0 0 10px}
+.gg-group h2 span{font-size:12px;font-weight:400;color:var(--muted)}

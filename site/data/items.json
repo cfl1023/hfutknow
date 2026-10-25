@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T11:37Z",
+ "generatedAt": "2026-10-25T19:41Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -139,6 +139,33 @@
   }
  ],
  "items": [
+  {
+   "id": "bl-BV1B5nz6ZE5Q",
+   "title": "开封府来了新案子 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
+   "sourceId": "bili-net",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "net",
+   "url": "https://www.bilibili.com/video/BV1B5nz6ZE5Q",
+   "publishedAt": "2026-10-25T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "services",
+   "summary": "#校园网络文明月# 此视频以抽丝剥茧的探案视角，带领雪梨们层层揭开网络诈骗的面纱 既具有极强的观赏性，又在潜移默化中普及了安全防范知识 via.建筑与艺术学院 作者：胡国轩 王和顺",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "B站"
+   ],
+   "competition": null,
+   "content": [
+    "<p>#校园网络文明月# 此视频以抽丝剥茧的探案视角，带领雪梨们层层揭开网络诈骗的面纱 既具有极强的观赏性，又在潜移默化中普及了安全防范知识 via.建筑与艺术学院 作者：胡国轩 王和顺</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 334
+   },
+   "demo": false
+  },
   {
    "id": "tb-11124518220",
    "title": "求助合工大卷保研还是run港硕",

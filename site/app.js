@@ -275,7 +275,7 @@
     const navKey = path === '' ? 'all' : path === 'activities' ? 'activities'
       : path === 'information' ? 'information' : head === 'calendar' ? 'calendar'
       : head === 'sources' ? 'sources' : head === 'people' ? 'people'
-      : head === 'competitions' ? 'competitions' : head === 'prefs' ? 'prefs'
+      : head === 'competitions' ? 'competitions' : head === 'guang' ? 'guang' : head === 'prefs' ? 'prefs'
       : head === 'c' && S.catById[arg] ? S.catById[arg].intent : '';
     const navEl = document.querySelector(`#mainnav a[data-nav="${navKey}"]`);
     if (navEl) navEl.classList.add('active');
@@ -287,6 +287,7 @@
     else if (path === 'information') renderBrowse({ intent: 'information' });
     else if (path === 'foryou') renderBrowse({ forYou: true });
     else if (path === 'bili') renderBrowse({ bili: true });
+        else if (path === 'guang') renderGuang(params.get('g') || '');
     else if (path === 'today') renderBrowse({ today: true });
     else if (path === 'unread') renderBrowse({ unread: true });
     else if (path === 'starred') renderBrowse({ starred: true });
@@ -430,6 +431,7 @@
     if (unread) list = list.filter((i) => !S.read.has(i.id));
     if (starred) list = list.filter((i) => S.star.has(i.id));
     if (bili) list = list.filter((i) => i.sourceType === 'bili');
+    if (!sourceId && !bili) list = list.filter((i) => i.feed !== false);
     if (forYou) list = list.filter(isRelated);
     if (intent && intent !== 'all') list = list.filter((i) => i.intent === intent);
     if (cat) list = list.filter((i) => i.category === cat);
@@ -468,7 +470,7 @@
           if (!opening.length) return '';
           return `<p class="comp-strip">⏰ 正在报名：${opening.slice(0, 3).map((c) => `<a href="#/competitions">${esc(c.name)}<span>${c.tracking.daysLeft === 0 ? '今天截止' : c.tracking.daysLeft + ' 天后截止'}</span></a>`).join('')}</p>`;
         })()}
-        <p class="quick-links"><a href="#/calendar">📅 ${L.calendar}</a><a href="#/competitions">🏆 学科竞赛</a><a href="#/people">👤 ${L.nav.people}</a></p>
+        <p class="quick-links"><a href="#/calendar">📅 ${L.calendar}</a><a href="#/competitions">🏆 学科竞赛</a><a href="#/people">👤 ${L.nav.people}</a><a href="#/guang">👥 逛逛</a></p>
         <div class="stats">
           <div class="stat"><b>${S.items.length}</b><span>${L.items}</span></div>
           <div class="stat"><b>${S.sources.length}</b><span>${L.sourcesN}</span></div>
@@ -635,6 +637,43 @@
     </section>
     <p class="muted" style="margin:-8px 0 16px;font-size:13px">${L.calendarSub}</p>
     <div class="cal-grid">${cols}</div>`;
+  }
+
+
+  const GG_ORDER = ['mate', 'academics', 'growth', 'skills', 'life', 'scenery',
+                    'culture', 'ideology', 'practice', 'memory'];
+  const GG_LABEL = {
+    mate: ['校园搭子', 'Buddy'], academics: ['学风学业', 'Study'],
+    growth: ['成长分享', 'Growth'], skills: ['综合素质', 'Skills'],
+    life: ['生活随拍', 'Daily'], scenery: ['校园风光', 'Campus'],
+    culture: ['传统文化', 'Culture'], ideology: ['思想教育', 'Civic'],
+    practice: ['社会实践', 'Practice'], memory: ['校园记忆', 'Memories'],
+  };
+
+  function renderGuang(active) {
+    const en = S.lang === 'en';
+    const posts = (S.items || []).filter((i) => i.sourceId === 'gg-forum');
+    const groups = {};
+    posts.forEach((p) => {
+      const key = (p.community && p.community.group) || 'growth';
+      (groups[key] = groups[key] || []).push(p);
+    });
+    const keys = GG_ORDER.filter((k) => (groups[k] || []).length);
+    const chips = [{ k: '', n: posts.length, t: en ? 'All' : '全部' }]
+      .concat(keys.map((k) => ({ k, n: groups[k].length, t: GG_LABEL[k][en ? 1 : 0] })));
+    let out = `<section class="hero" style="padding-bottom:8px">
+      <h1 style="font-size:30px">${en ? 'Community · Hooting Lake' : '逛逛 · 斛兵塘'}</h1>
+      <p>${en ? 'Posts from the campus community app, grouped by section.' : '学校社区 App 里的帖子，按版块分好。发帖量不大，胜在是真人真事。'}</p>
+      <div class="chip-row">${chips.map((c) => `<a class="chip${active === c.k ? ' active' : ''}" href="#/guang${c.k ? '?g=' + c.k : ''}">${esc(c.t)}<span class="n">${c.n}</span></a>`).join('')}</div>
+    </section>`;
+    const use = active && groups[active] ? [active] : keys;
+    use.forEach((k) => {
+      const list = groups[k].slice().sort((a, b) => String(b.publishedAt || '').localeCompare(String(a.publishedAt || '')));
+      out += `<section class="gg-group"><h2>${esc(GG_LABEL[k][en ? 1 : 0])}<span>${list.length}${en ? '' : ' 条'}</span></h2>${gridHTML(list, S.limit)}</section>`;
+    });
+    if (!posts.length) out += emptyHTML();
+    document.title = (en ? 'Community' : '逛逛') + ' · ' + (en ? S.site.enName : S.site.name);
+    app().innerHTML = out;
   }
 
   function renderSources() {
@@ -964,6 +1003,7 @@
         else if (path === 'information') renderBrowse({ intent: 'information' });
         else if (path === 'foryou') renderBrowse({ forYou: true });
     else if (path === 'bili') renderBrowse({ bili: true });
+        else if (path === 'guang') renderGuang(params.get('g') || '');
         else if (path.startsWith('c/')) renderBrowse({ cat: path.split('/')[1] });
         else if (path.startsWith('s/')) renderBrowse({ sourceId: path.split('/')[1] });
         else if (path.startsWith('search')) renderSearch(params.get('q') || '');
