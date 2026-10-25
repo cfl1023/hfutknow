@@ -20,30 +20,9 @@ acts = []
 try:
     res = guang._get(op, tk, "/community/ekActivity/list?pageNo=1&pageSize=50").get("result") or {}
     for a in res.get("records") or []:
-        name = (a.get("name") or "").strip()
-        if not name:
-            continue
-        cat = guang.MODULE_CAT.get(a.get("moduleName") or "", "campus")
-        begin = (a.get("beginTime") or "").replace(" ", "T")[:16]
-        from datetime import datetime
-        summary = f"{a.get('moduleName') or ''}｜主办 {a.get('sponsor') or '?'}"
-        if a.get("peopleNum"):
-            summary += f"｜限 {a['peopleNum']} 人"
-        if a.get("applyNum"):
-            summary += f"｜已报 {a['applyNum']}"
-        acts.append({
-            "id": "gg-" + str(a.get("id")), "title": name[:100], "sourceId": "gg-activity",
-            "sourceName": "逛逛 · 校园活动", "sourceType": "gg",
-            "url": "https://community.hfut.edu.cn/",
-            "publishedAt": begin or datetime.now().isoformat(timespec="minutes"),
-            "dateEstimated": not bool(begin), "intent": "activity", "category": cat,
-            "summary": summary,
-            "event": {"start": begin, "location": (a.get("theVenue") or "").strip() or None} if begin else None,
-            "requiresSignup": True,
-            "tags": [t for t in [a.get("moduleName"), a.get("campus_dictText")] if t],
-            "competition": None, "feed": True,
-            "content": [f"<p>{summary}</p>"], "demo": False,
-        })
+        item = guang._activity_item(a)
+        if item:
+            acts.append(item)
 except Exception as exc:
     print("acts fail", exc)
 

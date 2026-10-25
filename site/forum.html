@@ -122,6 +122,18 @@
     .to-top { position: fixed; right: 14px; bottom: 88px; z-index: 40; padding: 9px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--card, #fff); color: var(--fg, #222); font: inherit; font-size: 13px; box-shadow: 0 6px 18px rgba(0, 0, 0, .14); opacity: 0; pointer-events: none; transform: translateY(6px); transition: opacity .18s ease, transform .18s ease; }
     .to-top.on { opacity: 1; pointer-events: auto; transform: none; }
     @media (max-width: 620px) { .to-top { bottom: 98px; right: 12px; padding: 10px 16px; } }
+  
+    .qr-btn { margin-left: auto; }
+    .ck-modal { position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, .42); padding: 20px; }
+    .ck-modal[hidden] { display: none; }
+    .qm-card { background: var(--surface, #fff); color: var(--text, #1c1c1e); border-radius: 16px; padding: 20px 20px 18px; width: min(340px, 92vw); text-align: center; box-shadow: 0 20px 50px rgba(0, 0, 0, .3); }
+    .qm-card h3 { margin: 0 0 4px; font-size: 16px; }
+    .qm-card p { margin: 0 0 14px; font-size: 12px; color: var(--muted, #6b6b70); }
+    .qm-card img { width: 220px; height: 220px; display: block; margin: 0 auto 12px; border-radius: 10px; background: #fff; }
+    .qm-url { font-size: 11px; word-break: break-all; color: var(--muted, #6b6b70); background: var(--chip, rgba(0, 0, 0, .05)); border-radius: 8px; padding: 8px; margin-bottom: 12px; user-select: all; }
+    .qm-row { display: flex; gap: 8px; }
+    .qm-row button { flex: 1; padding: 10px; border-radius: 10px; border: 1px solid var(--line, #e3e3e6); background: transparent; color: inherit; font: inherit; font-size: 13px; cursor: pointer; }
+    .qm-row button.pri { background: var(--accent, #c0392b); border-color: transparent; color: #fff; }
   </style>
 </head>
 <body>
@@ -170,5 +182,17 @@
 </nav>
 
 <script src="forum.js"></script>
+  <div id="qrModal" class="ck-modal" hidden>
+    <div class="qm-card">
+      <h3>手机扫码打开</h3>
+      <p>用手机相机 / 微信扫一下，随时看</p>
+      <img src="qr-phone.png" alt="手机入口二维码" />
+      <div class="qm-url" id="qrUrl"></div>
+      <div class="qm-row">
+        <button type="button" class="pri" id="qrCopy">复制链接</button>
+        <button type="button" id="qrClose">关闭</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

@@ -287,6 +287,59 @@ def enrich(items: list[dict[str, Any]], op, tk: str, max_new: int = 40) -> None:
         print(f"  ✓ 逛逛正文: 新增 {added} 条（缓存 {len(cache)}）")
 
 
+def _activity_item(a: dict) -> dict[str, Any] | None:
+    name = (a.get("name") or "").strip()
+    if not name:
+        return None
+    cat = MODULE_CAT.get(a.get("moduleName") or "", "campus")
+    lec = (a.get("lectureStartTime") or "").replace(" ", "T")[:16]
+    begin = lec or (a.get("beginTime") or "").replace(" ", "T")[:16]
+    end = (a.get("lectureEndTime") or a.get("endTime") or "").replace(" ", "T")[:16]
+    close = (a.get("et") or a.get("mobileEndTime") or "").strip()
+    venue = (a.get("theVenue") or "").strip()
+    evt = {"start": begin or None, "end": end or None, "location": venue or None}
+    bits = [a.get("moduleName") or "", "主办 " + (a.get("sponsor") or "?")]
+    if a.get("form"):
+        bits.append(str(a["form"]))
+    if a.get("keynoteSpeaker"):
+        bits.append("主讲 " + str(a["keynoteSpeaker"]))
+    if a.get("peopleNum"):
+        bits.append(f"限 {a['peopleNum']} 人")
+    bits.append(f"已报 {a.get('applyNum') or 0}")
+    if close:
+        bits.append(f"报名截止 {close}")
+    if venue:
+        bits.append(venue)
+    summary = "｜".join([b for b in bits if b])
+    paras = [f"<p>{summary}</p>"]
+    photo = (a.get("activePhoto") or "").strip()
+    if photo.startswith("http"):
+        paras.append(f'<p><img src="{photo}" alt="{name}" loading="lazy"></p>')
+    return {
+        "id": "gg-" + str(a.get("id")),
+        "title": name[:100],
+        "sourceId": "gg-activity",
+        "sourceName": "逛逛 · 校园活动",
+        "sourceType": "gg",
+        "url": "https://community.hfut.edu.cn/",
+        "publishedAt": begin or datetime.now().isoformat(timespec="minutes"),
+        "dateEstimated": not bool(begin),
+        "intent": "activity",
+        "category": cat,
+        "summary": summary,
+        "event": evt if begin else None,
+        "deadline": close or None,
+        "speaker": (a.get("keynoteSpeaker") or "").strip() or None,
+        "requiresSignup": True,
+        "tags": [t for t in [a.get("moduleName"), a.get("campus_dictText"), a.get("form")] if t],
+        "competition": None,
+        "feed": True,
+        "content": paras,
+        "poster": photo or None,
+        "demo": False,
+    }
+
+
 def fetch_items() -> list[dict[str, Any]]:
     if not _due() or not CRED.exists():
         return []
@@ -299,38 +352,9 @@ def fetch_items() -> list[dict[str, Any]]:
         print(f"  × 逛逛/活动: {exc}")
         acts = {}
     for a in acts.get("records") or []:
-        name = (a.get("name") or "").strip()
-        if not name:
-            continue
-        cat = MODULE_CAT.get(a.get("moduleName") or "", "campus")
-        begin = (a.get("beginTime") or "").replace(" ", "T")[:16]
-        end = (a.get("endTime") or "").replace(" ", "T")[:16]
-        event = {"start": begin, "location": (a.get("theVenue") or "").strip() or None} if begin else None
-        summary = f"{a.get('moduleName') or ''}｜主办 {a.get('sponsor') or '?'}"
-        if a.get("peopleNum"):
-            summary += f"｜限 {a['peopleNum']} 人"
-        if a.get("applyNum"):
-            summary += f"｜已报 {a['applyNum']}"
-        items.append({
-            "id": "gg-" + str(a.get("id")),
-            "title": name[:100],
-            "sourceId": "gg-activity",
-            "sourceName": "逛逛 · 校园活动",
-            "sourceType": "gg",
-            "url": "https://community.hfut.edu.cn/",
-            "publishedAt": begin or datetime.now().isoformat(timespec="minutes"),
-            "dateEstimated": not bool(begin),
-            "intent": "activity",
-            "category": cat,
-            "summary": summary,
-            "event": event,
-            "requiresSignup": True,
-            "tags": [t for t in [a.get("moduleName"), a.get("campus_dictText")] if t],
-            "competition": None,
-            "feed": True,
-            "content": [f"<p>{summary}</p>"],
-            "demo": False,
-        })
+        item = _activity_item(a)
+        if item:
+            items.append(item)
     items.extend(_items_from_topics(tk, op))
     try:
         enrich(items, op, tk, max_new=40)

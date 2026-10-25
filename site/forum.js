@@ -447,6 +447,7 @@
         if (isRead(it)) { unmark(id); unmarkSlow(id); toast('已放回来'); }
         else { markRead(it); toast('已标已阅，沉到「看过的」里', '放回来', () => { unmark(id); unmarkSlow(id); render(); }); }
         render();
+  mountQr();
         return;
       }
       if (kind === 'star') {
@@ -570,3 +571,36 @@
     render();
   })();
 })();
+
+// ===== 手机入口二维码 =====
+const PHONE_URL = 'https://qtydnei3q3ne3isdbsy3pa2ekm.srv.us/forum.html';
+
+function mountQr() {
+  const bar = document.querySelector('.toolbar');
+  if (!bar || bar.querySelector('#qrOpen')) return;
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.id = 'qrOpen';
+  b.className = 'chip qr-btn';
+  b.textContent = '📱 手机打开';
+  bar.appendChild(b);
+
+  const modal = document.getElementById('qrModal');
+  const urlEl = document.getElementById('qrUrl');
+  if (urlEl) urlEl.textContent = PHONE_URL;
+
+  const open = () => { if (modal) modal.hidden = false; };
+  const close = () => { if (modal) modal.hidden = true; };
+  b.addEventListener('click', open);
+  const c = document.getElementById('qrClose');
+  if (c) c.addEventListener('click', close);
+  if (modal) modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+  const cp = document.getElementById('qrCopy');
+  if (cp) cp.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(PHONE_URL);
+      cp.textContent = '已复制';
+      setTimeout(() => { cp.textContent = '复制链接'; }, 1400);
+    } catch (e) { window.prompt('复制这个链接', PHONE_URL); }
+  });
+}

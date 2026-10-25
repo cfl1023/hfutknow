@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T12:27Z",
+ "generatedAt": "2026-10-25T20:31Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -139,6 +139,244 @@
   }
  ],
  "items": [
+  {
+   "id": "gg-1232965758162829312",
+   "title": "10月31日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-31T07:30",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-31｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-10-31T07:30",
+    "end": "2026-10-31T11:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-10-31",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-31｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/64/rB_xrGrYcgOALewBAAIeYGCwsRI995.jpg\" alt=\"10月31日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/64/rB_xrGrYcgOALewBAAIeYGCwsRI995.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1232965168917643264",
+   "title": "10月30日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-30T07:30",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-30｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-10-30T07:30",
+    "end": "2026-10-30T11:30",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-10-30",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-30｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcVuACFqgAAIeYGCwsRI218.jpg\" alt=\"10月30日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcVuACFqgAAIeYGCwsRI218.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1232964558172454912",
+   "title": "10月29日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-29T07:30",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-29｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-10-29T07:30",
+    "end": "2026-10-29T11:30",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-10-29",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-29｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcM6AaGM4AAIeYGCwsRI305.jpg\" alt=\"10月29日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcM6AaGM4AAIeYGCwsRI305.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1233228110485520384",
+   "title": "2027年CUPT校赛宣讲会",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-28T19:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "科技创新｜主办 物理学院｜报告讲座｜主讲 陈美霞｜限 200 人｜已报 0｜报名截止 2026-10-27｜安徽省合肥市蜀山区合肥工业大学翡翠湖校区翠一教101教室",
+   "event": {
+    "start": "2026-10-28T19:00",
+    "end": "2026-10-28T22:00",
+    "location": "安徽省合肥市蜀山区合肥工业大学翡翠湖校区翠一教101教室"
+   },
+   "deadline": "2026-10-27",
+   "speaker": "陈美霞",
+   "requiresSignup": true,
+   "tags": [
+    "科技创新",
+    "合肥校区",
+    "报告讲座"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>科技创新｜主办 物理学院｜报告讲座｜主讲 陈美霞｜限 200 人｜已报 0｜报名截止 2026-10-27｜安徽省合肥市蜀山区合肥工业大学翡翠湖校区翠一教101教室</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/65/rB_xrGrZZmuAOZZzAAGFikVwRPw925.jpg\" alt=\"2027年CUPT校赛宣讲会\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/65/rB_xrGrZZmuAOZZzAAGFikVwRPw925.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1232962749647290368",
+   "title": "10月28日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-28T07:30",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-28｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-10-28T07:30",
+    "end": "2026-10-28T11:30",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-10-28",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-28｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg\" alt=\"10月28日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1232962244632117248",
+   "title": "10月27日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-27T07:30",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-27｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-10-27T07:30",
+    "end": "2026-10-27T11:30",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-10-27",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-27｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbpuAGk9GAAIeYGCwsRI242.jpg\" alt=\"10月27日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbpuAGk9GAAIeYGCwsRI242.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1232961593621610496",
+   "title": "10月26日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-26T07:30",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-26｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-10-26T07:30",
+    "end": "2026-10-26T11:30",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-10-26",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜已报 0｜报名截止 2026-10-26｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbd2AK31MAAIeYGCwsRI930.jpg\" alt=\"10月26日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbd2AK31MAAIeYGCwsRI930.jpg",
+   "demo": false
+  },
   {
    "id": "bl-BV1B5nz6ZE5Q",
    "title": "开封府来了新案子 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
@@ -2743,34 +2981,6 @@
    "demo": false
   },
   {
-   "id": "gg-1233228110485520384",
-   "title": "2027年CUPT校赛宣讲会",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-22T09:28",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "skills",
-   "summary": "科技创新｜主办 物理学院｜限 200 人",
-   "event": {
-    "start": "2026-10-22T09:28",
-    "location": "安徽省合肥市蜀山区合肥工业大学翡翠湖校区翠一教101教室"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "科技创新",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>科技创新｜主办 物理学院｜限 200 人</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "web-5794ca1be0dee99b",
    "title": "我校关工委获评全国教育系统关心下一代工作突出贡献集体",
    "sourceId": "hfut-edu",
@@ -3335,174 +3545,6 @@
    "demo": false
   },
   {
-   "id": "gg-1232965758162829312",
-   "title": "10月31日上午屯溪路校区教职工体检志愿者服务",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-21T16:05",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 校医院｜限 30 人",
-   "event": {
-    "start": "2026-10-21T16:05",
-    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 校医院｜限 30 人</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "gg-1232965168917643264",
-   "title": "10月30日上午屯溪路校区教职工体检志愿者服务",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-21T16:03",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 校医院｜限 30 人",
-   "event": {
-    "start": "2026-10-21T16:03",
-    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 校医院｜限 30 人</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "gg-1232964558172454912",
-   "title": "10月29日上午屯溪路校区教职工体检志愿者服务",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-21T16:00",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 校医院｜限 30 人",
-   "event": {
-    "start": "2026-10-21T16:00",
-    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 校医院｜限 30 人</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "gg-1232962749647290368",
-   "title": "10月28日上午屯溪路校区教职工体检志愿者服务",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-21T15:53",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 校医院｜限 30 人",
-   "event": {
-    "start": "2026-10-21T15:53",
-    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 校医院｜限 30 人</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "gg-1232962244632117248",
-   "title": "10月27日上午屯溪路校区教职工体检志愿者服务",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-21T15:51",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 校医院｜限 30 人",
-   "event": {
-    "start": "2026-10-21T15:51",
-    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 校医院｜限 30 人</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "gg-1232961593621610496",
-   "title": "10月26日上午屯溪路校区教职工体检志愿者服务",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-10-21T15:49",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 校医院｜限 30 人",
-   "event": {
-    "start": "2026-10-21T15:49",
-    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 校医院｜限 30 人</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "tb-11123354076",
    "title": "伴读可有带的",
    "sourceId": "tieba-合肥工业大学",
@@ -4001,21 +4043,27 @@
    "dateEstimated": false,
    "intent": "activity",
    "category": "campus",
-   "summary": "文艺活动｜主办 团委｜限 500 人",
+   "summary": "文艺活动｜主办 团委｜竞赛或汇演获奖（如一二三等奖）★｜限 500 人｜已报 0｜报名截止 2026-11-10",
    "event": {
     "start": "2026-10-20T18:33",
+    "end": "2026-11-10T00:00",
     "location": null
    },
+   "deadline": "2026-11-10",
+   "speaker": null,
    "requiresSignup": true,
    "tags": [
     "文艺活动",
-    "合肥校区"
+    "合肥校区",
+    "竞赛或汇演获奖（如一二三等奖）★"
    ],
    "competition": null,
    "feed": true,
    "content": [
-    "<p>文艺活动｜主办 团委｜限 500 人</p>"
+    "<p>文艺活动｜主办 团委｜竞赛或汇演获奖（如一二三等奖）★｜限 500 人｜已报 0｜报名截止 2026-11-10</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/61/rB_xrGrXQpCAWl6MAAJHhwIkJjQ279.jpg\" alt=\"第八届“斛兵杯”新媒体文化节暨新媒体创意产品设计大赛（第一期）\" loading=\"lazy\"></p>"
    ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/61/rB_xrGrXQpCAWl6MAAJHhwIkJjQ279.jpg",
    "demo": false
   },
   {
@@ -5271,21 +5319,27 @@
    "dateEstimated": false,
    "intent": "activity",
    "category": "skills",
-   "summary": "科技创新｜主办 物理学院｜限 1000 人",
+   "summary": "科技创新｜主办 物理学院｜科技竞赛★｜限 1000 人｜已报 0｜报名截止 2026-12-04",
    "event": {
     "start": "2026-10-18T22:17",
+    "end": "2026-12-04T00:00",
     "location": null
    },
+   "deadline": "2026-12-04",
+   "speaker": null,
    "requiresSignup": true,
    "tags": [
     "科技创新",
-    "合肥校区"
+    "合肥校区",
+    "科技竞赛★"
    ],
    "competition": null,
    "feed": true,
    "content": [
-    "<p>科技创新｜主办 物理学院｜限 1000 人</p>"
+    "<p>科技创新｜主办 物理学院｜科技竞赛★｜限 1000 人｜已报 0｜报名截止 2026-12-04</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/5B/rB_xrGrU0riARdjlAAGFikVwRPw497.jpg\" alt=\"2027年中国大学生物理学术竞赛校赛\" loading=\"lazy\"></p>"
    ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/5B/rB_xrGrU0riARdjlAAGFikVwRPw497.jpg",
    "demo": false
   },
   {
@@ -13455,6 +13509,40 @@
    "demo": false
   },
   {
+   "id": "gg-1223190865011539968",
+   "title": "唇语识别数据录制",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-28T00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 智能软件工程学院｜公益服务时长★｜限 100 人｜已报 0｜报名截止 2026-10-31｜安徽省合肥市蜀山区合肥工大翡翠湖校区",
+   "event": {
+    "start": "2026-09-28T00:00",
+    "end": "2026-10-31T00:00",
+    "location": "安徽省合肥市蜀山区合肥工大翡翠湖校区"
+   },
+   "deadline": "2026-10-31",
+   "speaker": null,
+   "requiresSignup": true,
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 智能软件工程学院｜公益服务时长★｜限 100 人｜已报 0｜报名截止 2026-10-31｜安徽省合肥市蜀山区合肥工大翡翠湖校区</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/34/rB_xrGq04S-ASCTwAACUmZywfU4570.jpg\" alt=\"唇语识别数据录制\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/34/rB_xrGq04S-ASCTwAACUmZywfU4570.jpg",
+   "demo": false
+  },
+  {
    "id": "bl-BV1wKaa63Eex",
    "title": "【天轩卡牌】合肥工业大学游戏王新生杯",
    "sourceId": "bili-net",
@@ -13805,34 +13893,6 @@
     "author": "沫羽同学MOYU",
     "play": 5182
    },
-   "demo": false
-  },
-  {
-   "id": "gg-1223190865011539968",
-   "title": "唇语识别数据录制",
-   "sourceId": "gg-activity",
-   "sourceName": "逛逛 · 校园活动",
-   "sourceType": "gg",
-   "url": "https://community.hfut.edu.cn/",
-   "publishedAt": "2026-09-24T16:43",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "公益服务｜主办 智能软件工程学院｜限 100 人",
-   "event": {
-    "start": "2026-09-24T16:43",
-    "location": "安徽省合肥市蜀山区合肥工大翡翠湖校区"
-   },
-   "requiresSignup": true,
-   "tags": [
-    "公益服务",
-    "合肥校区"
-   ],
-   "competition": null,
-   "feed": true,
-   "content": [
-    "<p>公益服务｜主办 智能软件工程学院｜限 100 人</p>"
-   ],
    "demo": false
   },
   {
@@ -15365,7 +15425,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "小程序内学号是本人，姓名正确，为啥学院是错的啊｜用户_2026010064 · 浏览 105 · 评论 0",
+   "summary": "小程序内学号是本人，姓名正确，为啥学院是错的啊｜用户_2026010064 · 浏览 106 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -15377,7 +15437,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 105,
+    "views": 106,
     "comments": 0,
     "likes": 0
    },
@@ -15485,7 +15545,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "有计算机类专业已经保研的学长学姐吗｜用户_2026219617 · 2026级智能软件工程学院 · 浏览 133 · 评论 0",
+   "summary": "有计算机类专业已经保研的学长学姐吗｜用户_2026219617 · 2026级智能软件工程学院 · 浏览 134 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -15499,7 +15559,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 133,
+    "views": 134,
     "comments": 0,
     "likes": 1
    },
@@ -15522,7 +15582,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "你也爱骑行嘛？｜用户_2026030032 · 浏览 34 · 评论 0",
+   "summary": "你也爱骑行嘛？｜用户_2026030032 · 浏览 35 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -15534,7 +15594,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 34,
+    "views": 35,
     "comments": 0,
     "likes": 0
    },
@@ -15827,7 +15887,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "本人人工智能专业研一，数学建模学过但没有参与过，本人爱沟通，肯干活 有没有愿意一起组队的呀｜用户_2026170880 · 浏览 120 · 评论 0",
+   "summary": "本人人工智能专业研一，数学建模学过但没有参与过，本人爱沟通，肯干活 有没有愿意一起组队的呀｜用户_2026170880 · 浏览 121 · 评论 0",
    "event": null,
    "requiresSignup": true,
    "tags": [
@@ -15841,7 +15901,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 120,
+    "views": 121,
     "comments": 0,
     "likes": 0
    },
@@ -16044,7 +16104,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "找已经保研的学长学姐｜用户_2026214135 · 2026级数学学院 · 浏览 119 · 评论 0",
+   "summary": "找已经保研的学长学姐｜用户_2026214135 · 2026级数学学院 · 浏览 120 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -16057,7 +16117,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 119,
+    "views": 120,
     "comments": 0,
     "likes": 0
    },
@@ -16650,7 +16710,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "刚入学想和各位学长学姐取取经｜用户_2026110485 · 2026级聚变科学与工程学院 · 浏览 73 · 评论 0",
+   "summary": "刚入学想和各位学长学姐取取经｜用户_2026110485 · 2026级聚变科学与工程学院 · 浏览 74 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -16662,7 +16722,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 73,
+    "views": 74,
     "comments": 0,
     "likes": 0
    },
@@ -16743,7 +16803,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "联系方式:814710326｜用户_2026170622 · 2026级电气与自动化工程学院 · 浏览 75 · 评论 0",
+   "summary": "联系方式:814710326｜用户_2026170622 · 2026级电气与自动化工程学院 · 浏览 76 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -16756,7 +16816,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 75,
+    "views": 76,
     "comments": 0,
     "likes": 0
    },
@@ -17107,7 +17167,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "1｜Veil. · 2026级卓越工程师学院 · 浏览 113 · 评论 0",
+   "summary": "1｜Veil. · 2026级卓越工程师学院 · 浏览 114 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -17120,7 +17180,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 113,
+    "views": 114,
     "comments": 0,
     "likes": 1
    },
@@ -17435,7 +17495,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "准备前往肥工｜用户_2026213711 · 2026级汽车与交通工程学院 · 浏览 93 · 评论 0",
+   "summary": "准备前往肥工｜用户_2026213711 · 2026级汽车与交通工程学院 · 浏览 94 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -17447,7 +17507,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 93,
+    "views": 94,
     "comments": 0,
     "likes": 2
    },
@@ -18788,6 +18848,33 @@
    "bili": {
     "author": "CMDWGR",
     "play": 507
+   },
+   "demo": false
+  },
+  {
+   "id": "bl-BV14u3k64EMy",
+   "title": "第一视角开箱合工大录取通知书",
+   "sourceId": "bili-net",
+   "sourceName": "B站 · echo2345",
+   "sourceType": "net",
+   "url": "https://www.bilibili.com/video/BV14u3k64EMy",
+   "publishedAt": "2026-07-29T10:11",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "-",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "B站"
+   ],
+   "competition": null,
+   "content": [
+    "<p>-</p>"
+   ],
+   "bili": {
+    "author": "echo2345",
+    "play": 1035
    },
    "demo": false
   },
@@ -21925,7 +22012,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "细心的小伙伴有没有发现，东风广场附近开始出了一只新的花，感觉非常好看，但不知道是什么名字，求解答😘😘😘｜用户_2023210017 · 2023级材料科学与工程学院 · 浏览 414 · 评论 5",
+   "summary": "细心的小伙伴有没有发现，东风广场附近开始出了一只新的花，感觉非常好看，但不知道是什么名字，求解答😘😘😘｜用户_2023210017 · 2023级材料科学与工程学院 · 浏览 415 · 评论 5",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -21937,7 +22024,7 @@
     "col": "2024级新生讨论",
     "group": "memory",
     "label": "校园记忆",
-    "views": 414,
+    "views": 415,
     "comments": 5,
     "likes": 4
    },
@@ -21964,7 +22051,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "朋友们，考试复习别太紧张，喝杯茶休息休息在努力吧。我这是明间的小白茶哦😀😀😀｜小李子 · 浏览 337 · 评论 0",
+   "summary": "朋友们，考试复习别太紧张，喝杯茶休息休息在努力吧。我这是明间的小白茶哦😀😀😀｜小李子 · 浏览 338 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -21976,7 +22063,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 337,
+    "views": 338,
     "comments": 0,
     "likes": 4
    },
@@ -22020,7 +22107,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "‌对于世界，我微不足道，但对于我自己，我就是全部。｜穆海阳 · 2024级资源与环境工程学院 · 浏览 271 · 评论 1",
+   "summary": "‌对于世界，我微不足道，但对于我自己，我就是全部。｜穆海阳 · 2024级资源与环境工程学院 · 浏览 272 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22032,7 +22119,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 271,
+    "views": 272,
     "comments": 1,
     "likes": 8
    },
@@ -22058,7 +22145,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "# 拾光而行，心灵绿洲｜用户_2023215547 · 浏览 221 · 评论 0",
+   "summary": "# 拾光而行，心灵绿洲｜用户_2023215547 · 浏览 222 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22070,7 +22157,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 221,
+    "views": 222,
     "comments": 0,
     "likes": 8
    },
@@ -22094,7 +22181,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "暖日高悬，雨过天晴｜用户_2023215494 · 2023级资源与环境工程学院 · 浏览 125 · 评论 0",
+   "summary": "暖日高悬，雨过天晴｜用户_2023215494 · 2023级资源与环境工程学院 · 浏览 126 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22106,7 +22193,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 125,
+    "views": 126,
     "comments": 0,
     "likes": 7
    },
@@ -22132,7 +22219,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "观我旧往，同我仰春。知我晦暗，许我春朝。｜揺飏葳蕤 · 2023级资源与环境工程学院 · 浏览 75 · 评论 0",
+   "summary": "观我旧往，同我仰春。知我晦暗，许我春朝。｜揺飏葳蕤 · 2023级资源与环境工程学院 · 浏览 76 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22144,7 +22231,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 75,
+    "views": 76,
     "comments": 0,
     "likes": 4
    },
@@ -22169,7 +22256,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "漫步校园，与温馨画面相遇。它们似微光，点亮日常。愿此后，能依心而行，于自在节奏里，邂逅更多温暖与光亮｜马晨晨 · 2023级资源与环境工程学院 · 浏览 191 · 评论 2",
+   "summary": "漫步校园，与温馨画面相遇。它们似微光，点亮日常。愿此后，能依心而行，于自在节奏里，邂逅更多温暖与光亮｜马晨晨 · 2023级资源与环境工程学院 · 浏览 192 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22181,7 +22268,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 191,
+    "views": 192,
     "comments": 2,
     "likes": 4
    },
@@ -22208,7 +22295,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "红尘不到山家。｜用户_2022215484 · 2022级资源与环境工程学院 · 浏览 137 · 评论 1",
+   "summary": "红尘不到山家。｜用户_2022215484 · 2022级资源与环境工程学院 · 浏览 138 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22220,7 +22307,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 137,
+    "views": 138,
     "comments": 1,
     "likes": 11
    },
@@ -22251,7 +22338,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "春日里，校园生机勃勃。我漫步小径，阳光温柔，草绿花香。每一步都踏着春的旋律，心灵得到滋养，期待未来更加美好。｜用户_2023215603 · 2023级资源与环境工程学院 · 浏览 84 · 评论 0",
+   "summary": "春日里，校园生机勃勃。我漫步小径，阳光温柔，草绿花香。每一步都踏着春的旋律，心灵得到滋养，期待未来更加美好。｜用户_2023215603 · 2023级资源与环境工程学院 · 浏览 85 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22263,7 +22350,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 84,
+    "views": 85,
     "comments": 0,
     "likes": 4
    },
@@ -22286,7 +22373,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "也许这个春天并没有那么温暖，会有连续的阴雨绵绵，但是春天总是来的，生命也是无法压抑的。春寒料峭，冻杀年少。但是学校里不期而遇的小卡片，或写人生的追求，或写一｜承西 · 2024级资源与环境工程学院 · 浏览 57 · 评论 0",
+   "summary": "也许这个春天并没有那么温暖，会有连续的阴雨绵绵，但是春天总是来的，生命也是无法压抑的。春寒料峭，冻杀年少。但是学校里不期而遇的小卡片，或写人生的追求，或写一｜承西 · 2024级资源与环境工程学院 · 浏览 58 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22298,7 +22385,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 57,
+    "views": 58,
     "comments": 0,
     "likes": 3
    },
@@ -22321,7 +22408,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "林荫道上的树影斑驳，阳光透过枝叶洒下，像是为这段路镀上了一层金色的温柔，记录着我们最美好的年华。｜用户_2023215594 · 2023级资源与环境工程学院 · 浏览 54 · 评论 0",
+   "summary": "林荫道上的树影斑驳，阳光透过枝叶洒下，像是为这段路镀上了一层金色的温柔，记录着我们最美好的年华。｜用户_2023215594 · 2023级资源与环境工程学院 · 浏览 55 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22333,7 +22420,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 54,
+    "views": 55,
     "comments": 0,
     "likes": 4
    },
@@ -22356,7 +22443,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "迈开拥抱春光的脚步｜用户_2024215569 · 2024级资源与环境工程学院 · 浏览 29 · 评论 0",
+   "summary": "迈开拥抱春光的脚步｜用户_2024215569 · 2024级资源与环境工程学院 · 浏览 30 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22368,7 +22455,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 29,
+    "views": 30,
     "comments": 0,
     "likes": 3
    },
@@ -22395,7 +22482,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "在喜欢的状态里生活吧｜用户_2023215636 · 2023级资源与环境工程学院 · 浏览 28 · 评论 0",
+   "summary": "在喜欢的状态里生活吧｜用户_2023215636 · 2023级资源与环境工程学院 · 浏览 29 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22407,7 +22494,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 28,
+    "views": 29,
     "comments": 0,
     "likes": 4
    },
@@ -22430,7 +22517,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "日子是自己的，要开心！！｜用户_2023215591 · 2023级资源与环境工程学院 · 浏览 90 · 评论 0",
+   "summary": "日子是自己的，要开心！！｜用户_2023215591 · 2023级资源与环境工程学院 · 浏览 91 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22442,7 +22529,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 90,
+    "views": 91,
     "comments": 0,
     "likes": 5
    },
@@ -22467,7 +22554,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "雨后初晴，漫步校园。我卸下了平日的负担与琐碎，踏上寻找心灵绿洲的旅程。路边的树在大雨的冲刷下更泛青绿，灌木丛也在初晴的却未显现的阳光的照耀之下显得格外郁郁葱｜追风 · 2024级资源与环境工程学院 · 浏览 31 · 评论 0",
+   "summary": "雨后初晴，漫步校园。我卸下了平日的负担与琐碎，踏上寻找心灵绿洲的旅程。路边的树在大雨的冲刷下更泛青绿，灌木丛也在初晴的却未显现的阳光的照耀之下显得格外郁郁葱｜追风 · 2024级资源与环境工程学院 · 浏览 32 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22479,7 +22566,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 31,
+    "views": 32,
     "comments": 0,
     "likes": 3
    },
@@ -22502,7 +22589,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "漫步在春天的校园里，玉兰树下落英缤纷，香风轻轻拂过心田。嫩绿的细草与五彩斑斓的花朵交织成一幅生机勃勃的画卷。雨夜的微风，带来阵阵清凉，让人沉醉在这份宁静与美｜用户_2024215600 · 2024级资源与环境工程学院 · 浏览 101 · 评论 0",
+   "summary": "漫步在春天的校园里，玉兰树下落英缤纷，香风轻轻拂过心田。嫩绿的细草与五彩斑斓的花朵交织成一幅生机勃勃的画卷。雨夜的微风，带来阵阵清凉，让人沉醉在这份宁静与美｜用户_2024215600 · 2024级资源与环境工程学院 · 浏览 102 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22514,7 +22601,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 101,
+    "views": 102,
     "comments": 0,
     "likes": 2
    },
@@ -22537,7 +22624,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "柔和日光似灵动笔触，柳枝轻舞嫩绿丝绦｜用户_2024215647 · 2024级资源与环境工程学院 · 浏览 68 · 评论 0",
+   "summary": "柔和日光似灵动笔触，柳枝轻舞嫩绿丝绦｜用户_2024215647 · 2024级资源与环境工程学院 · 浏览 69 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22549,7 +22636,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 68,
+    "views": 69,
     "comments": 0,
     "likes": 2
    },
@@ -22572,7 +22659,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "细雨如丝，为校园小径织就一层朦胧的纱。撑伞漫步其中，雨滴轻叩伞面，似在低吟浅唱。路旁的树叶被洗得发亮，偶尔滑落的水珠，在水洼中溅起小小的水花。静谧中，思绪随｜用户_2024215481 · 2024级资源与环境工程学院 · 浏览 54 · 评论 0",
+   "summary": "细雨如丝，为校园小径织就一层朦胧的纱。撑伞漫步其中，雨滴轻叩伞面，似在低吟浅唱。路旁的树叶被洗得发亮，偶尔滑落的水珠，在水洼中溅起小小的水花。静谧中，思绪随｜用户_2024215481 · 2024级资源与环境工程学院 · 浏览 55 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22584,7 +22671,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 54,
+    "views": 55,
     "comments": 0,
     "likes": 3
    },
@@ -22607,7 +22694,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "梧桐絮跌进实验室的方程，｜李英楠 · 2024级资源与环境工程学院 · 浏览 39 · 评论 0",
+   "summary": "梧桐絮跌进实验室的方程，｜李英楠 · 2024级资源与环境工程学院 · 浏览 40 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22619,7 +22706,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 39,
+    "views": 40,
     "comments": 0,
     "likes": 2
    },
@@ -22645,7 +22732,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "大鹏一日同风起，扶摇直上九万里｜穆海阳 · 2024级资源与环境工程学院 · 浏览 31 · 评论 0",
+   "summary": "大鹏一日同风起，扶摇直上九万里｜穆海阳 · 2024级资源与环境工程学院 · 浏览 32 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22657,7 +22744,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 31,
+    "views": 32,
     "comments": 0,
     "likes": 1
    },
@@ -22680,7 +22767,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "想问问有关这门课考核之类的问题谢谢～｜用户_2024210979 · 2024级管理与智能科学学院（智能商学院） · 浏览 115 · 评论 0",
+   "summary": "想问问有关这门课考核之类的问题谢谢～｜用户_2024210979 · 2024级管理与智能科学学院（智能商学院） · 浏览 116 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22693,7 +22780,7 @@
     "col": "2024级新生讨论",
     "group": "memory",
     "label": "校园记忆",
-    "views": 115,
+    "views": 116,
     "comments": 0,
     "likes": 0
    },
@@ -22716,7 +22803,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "无论晴天还是雨天，无论白昼亦或黑夜，都有独属于它自己的浪漫，慢步校园，细心留意身边的一草一木，就会发现乐趣藏在生活中的点点滴滴～｜熊可心 · 2023级资源与环境工程学院 · 浏览 24 · 评论 0",
+   "summary": "无论晴天还是雨天，无论白昼亦或黑夜，都有独属于它自己的浪漫，慢步校园，细心留意身边的一草一木，就会发现乐趣藏在生活中的点点滴滴～｜熊可心 · 2023级资源与环境工程学院 · 浏览 25 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22728,7 +22815,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 24,
+    "views": 25,
     "comments": 0,
     "likes": 2
    },
@@ -22751,7 +22838,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "每一朵花的绽放，都藏着它长时间、经历曲折的美好意愿。在风雨中坚守，在黑暗中生长，只为那一刻的绚烂。生命如此，只要心怀希望，终能绽放属于自己的光彩。｜王辉 · 2023级资源与环境工程学院 · 浏览 96 · 评论 4",
+   "summary": "每一朵花的绽放，都藏着它长时间、经历曲折的美好意愿。在风雨中坚守，在黑暗中生长，只为那一刻的绚烂。生命如此，只要心怀希望，终能绽放属于自己的光彩。｜王辉 · 2023级资源与环境工程学院 · 浏览 97 · 评论 4",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22763,7 +22850,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 96,
+    "views": 97,
     "comments": 4,
     "likes": 4
    },
@@ -22789,7 +22876,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "在工大这片「心灵绿洲」中，我们用镜头探寻了隐藏在校园的小美好。在这里，我们踏着春天的脚步拾光而行，感受温暖与力量。愿这些片段成为心灵的栖息地，让每一个瞬间都｜小王子 · 2023级资源与环境工程学院 · 浏览 60 · 评论 0",
+   "summary": "在工大这片「心灵绿洲」中，我们用镜头探寻了隐藏在校园的小美好。在这里，我们踏着春天的脚步拾光而行，感受温暖与力量。愿这些片段成为心灵的栖息地，让每一个瞬间都｜小王子 · 2023级资源与环境工程学院 · 浏览 61 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22801,7 +22888,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 60,
+    "views": 61,
     "comments": 0,
     "likes": 5
    },
@@ -22824,7 +22911,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "漫步校园小径，阳光透过枝叶洒落。听微风轻拂，闻花草芬芳。抛开烦恼，脚步慢下来，让心灵在这静谧天地中得到安抚，每一处风景都是治愈的良药，伴我们重拾内心的宁静与｜张翼 · 2023级资源与环境工程学院 · 浏览 52 · 评论 1",
+   "summary": "漫步校园小径，阳光透过枝叶洒落。听微风轻拂，闻花草芬芳。抛开烦恼，脚步慢下来，让心灵在这静谧天地中得到安抚，每一处风景都是治愈的良药，伴我们重拾内心的宁静与｜张翼 · 2023级资源与环境工程学院 · 浏览 53 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22836,7 +22923,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 52,
+    "views": 53,
     "comments": 1,
     "likes": 3
    },
@@ -22862,7 +22949,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "在岁月的长河中，我们拾光而行，｜唐汉泽 · 2023级资源与环境工程学院 · 浏览 62 · 评论 0",
+   "summary": "在岁月的长河中，我们拾光而行，｜唐汉泽 · 2023级资源与环境工程学院 · 浏览 63 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22874,7 +22961,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 62,
+    "views": 63,
     "comments": 0,
     "likes": 3
    },
@@ -22900,7 +22987,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "校园一隅，藏着不期而遇的美好。光秃的枝丫、翠绿的叶片间，点缀着一张张精致小卡片。有的科普植物特性，让你在欣赏花草时，更懂它们的“语言”；有的写满暖心话语，为｜赵哲庆 2023215541 · 2023级资源与环境工程学院 · 浏览 29 · 评论 0",
+   "summary": "校园一隅，藏着不期而遇的美好。光秃的枝丫、翠绿的叶片间，点缀着一张张精致小卡片。有的科普植物特性，让你在欣赏花草时，更懂它们的“语言”；有的写满暖心话语，为｜赵哲庆 2023215541 · 2023级资源与环境工程学院 · 浏览 30 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22912,7 +22999,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 29,
+    "views": 30,
     "comments": 0,
     "likes": 4
    },
@@ -22963,7 +23050,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "在校园的角落，这些卡片似心灵的微光。光秃枝干上的卡片，如同成长路上的低谷，虽暂时荒芜，却孕育着新生的力量。｜胥朝清 · 2023级资源与环境工程学院 · 浏览 46 · 评论 0",
+   "summary": "在校园的角落，这些卡片似心灵的微光。光秃枝干上的卡片，如同成长路上的低谷，虽暂时荒芜，却孕育着新生的力量。｜胥朝清 · 2023级资源与环境工程学院 · 浏览 47 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -22975,7 +23062,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 46,
+    "views": 47,
     "comments": 0,
     "likes": 5
    },
@@ -22999,7 +23086,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "life",
-   "summary": "生活处处皆诗意，从新月高悬的静谧夜空，到双手比心框住的绚烂日落 ，自然总以独特方式治愈我们。黑天鹅在柳丝轻拂的湖面悠游，是灵动的惬意；枯叶依傍树干，记录时光｜用户_2023215479 · 2023级资源与环境工程学院 · 浏览 88 · 评论 0",
+   "summary": "生活处处皆诗意，从新月高悬的静谧夜空，到双手比心框住的绚烂日落 ，自然总以独特方式治愈我们。黑天鹅在柳丝轻拂的湖面悠游，是灵动的惬意；枯叶依傍树干，记录时光｜用户_2023215479 · 2023级资源与环境工程学院 · 浏览 89 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23011,7 +23098,7 @@
     "col": "拾光而行  心灵绿洲",
     "group": "life",
     "label": "生活随拍",
-    "views": 88,
+    "views": 89,
     "comments": 0,
     "likes": 4
    },
@@ -23056,7 +23143,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "各位同学：｜学生社区网络信息化团队 · 浏览 133 · 评论 0",
+   "summary": "各位同学：｜学生社区网络信息化团队 · 浏览 134 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23068,7 +23155,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 133,
+    "views": 134,
     "comments": 0,
     "likes": 4
    },
@@ -23098,7 +23185,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "新的一年，祝大家巳巳如意，蛇年行大运！｜学生社区网络信息化团队 · 浏览 117 · 评论 0",
+   "summary": "新的一年，祝大家巳巳如意，蛇年行大运！｜学生社区网络信息化团队 · 浏览 118 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23110,7 +23197,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 117,
+    "views": 118,
     "comments": 0,
     "likes": 3
    },
@@ -23160,7 +23247,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "期末周已过半，相信大家都已经陆陆续续进行了一些考试，马上就要迎来寒假了，大家寒假有什么计划呢？快来和大家一起分享一下吧！｜学生社区网络信息化团队 · 浏览 157 · 评论 0",
+   "summary": "期末周已过半，相信大家都已经陆陆续续进行了一些考试，马上就要迎来寒假了，大家寒假有什么计划呢？快来和大家一起分享一下吧！｜学生社区网络信息化团队 · 浏览 158 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23172,7 +23259,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 157,
+    "views": 158,
     "comments": 0,
     "likes": 3
    },
@@ -23196,7 +23283,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "不会还有大学生不知道2025年是多么奇妙的一年吧，2025年不仅农历全年有384天，而且还是传说中的完美平方年！｜学生社区网络信息化团队 · 浏览 128 · 评论 1",
+   "summary": "不会还有大学生不知道2025年是多么奇妙的一年吧，2025年不仅农历全年有384天，而且还是传说中的完美平方年！｜学生社区网络信息化团队 · 浏览 129 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23208,7 +23295,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 128,
+    "views": 129,
     "comments": 1,
     "likes": 5
    },
@@ -23262,7 +23349,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "翡翠湖校区大一，寻找乒乓球球友，主要是周末有时间，水平大概在平均之上，当然，太厉害的还是算了。｜付禹航 · 2024级仪器科学与光电工程学院 · 浏览 172 · 评论 0",
+   "summary": "翡翠湖校区大一，寻找乒乓球球友，主要是周末有时间，水平大概在平均之上，当然，太厉害的还是算了。｜付禹航 · 2024级仪器科学与光电工程学院 · 浏览 173 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23275,7 +23362,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 172,
+    "views": 173,
     "comments": 0,
     "likes": 1
    },
@@ -23323,7 +23410,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "2024年已经结束，2025年刚刚开始。与往年不同的是，今年的元旦假期不是和周未连在一起的。是的，2025年的1月1号在周三，而且不用调休。不知道大家今年元｜学生社区网络信息化团队 · 浏览 84 · 评论 0",
+   "summary": "2024年已经结束，2025年刚刚开始。与往年不同的是，今年的元旦假期不是和周未连在一起的。是的，2025年的1月1号在周三，而且不用调休。不知道大家今年元｜学生社区网络信息化团队 · 浏览 85 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23335,7 +23422,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 84,
+    "views": 85,
     "comments": 0,
     "likes": 4
    },
@@ -23385,7 +23472,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "期末周的临近，是否已让你心生忐忑？面对书桌前的你，是否感受到了手机的诱惑难以抗拒；翻开书本，是否只是匆匆浏览，不求甚解；解题时，是否不禁感慨时光飞逝，转眼即｜学生社区网络信息化团队 · 浏览 89 · 评论 0",
+   "summary": "期末周的临近，是否已让你心生忐忑？面对书桌前的你，是否感受到了手机的诱惑难以抗拒；翻开书本，是否只是匆匆浏览，不求甚解；解题时，是否不禁感慨时光飞逝，转眼即｜学生社区网络信息化团队 · 浏览 90 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23397,7 +23484,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 89,
+    "views": 90,
     "comments": 0,
     "likes": 5
    },
@@ -23450,7 +23537,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "现如今，健康在我们的生活中已经变得愈发的重要了，这也提醒我们，要好好关注自己的身体健康。｜学生社区网络信息化团队 · 浏览 47 · 评论 0",
+   "summary": "现如今，健康在我们的生活中已经变得愈发的重要了，这也提醒我们，要好好关注自己的身体健康。｜学生社区网络信息化团队 · 浏览 48 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23462,7 +23549,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 47,
+    "views": 48,
     "comments": 0,
     "likes": 4
    },
@@ -23516,7 +23603,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "2025年全国硕士研究生招生考试明天开考。祝考生取得理想成绩！我们一“研”为定！｜学生社区网络信息化团队 · 浏览 25 · 评论 0",
+   "summary": "2025年全国硕士研究生招生考试明天开考。祝考生取得理想成绩！我们一“研”为定！｜学生社区网络信息化团队 · 浏览 26 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23528,7 +23615,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 25,
+    "views": 26,
     "comments": 0,
     "likes": 3
    },
@@ -23552,7 +23639,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "careers",
-   "summary": "详情请见附图！！！｜用户_2024111074 · 2024级管理与智能科学学院（智能商学院） · 浏览 132 · 评论 0",
+   "summary": "详情请见附图！！！｜用户_2024111074 · 2024级管理与智能科学学院（智能商学院） · 浏览 133 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23565,7 +23652,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 132,
+    "views": 133,
     "comments": 0,
     "likes": 3
    },
@@ -23615,7 +23702,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "想找个羽毛球搭子，在老区，本人打的一般，主要是锻炼，但可以一起进步～｜用户_2021210353 · 浏览 144 · 评论 0",
+   "summary": "想找个羽毛球搭子，在老区，本人打的一般，主要是锻炼，但可以一起进步～｜用户_2021210353 · 浏览 145 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23627,7 +23714,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 144,
+    "views": 145,
     "comments": 0,
     "likes": 5
    },
@@ -23650,7 +23737,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "相信各位同学经过了一段时间校园生活已经品尝过很多学校的饭菜，不知道它们之中有没有你心目中的“the most delicious”？在这里，我将会分享我个人｜学生社区网络信息化团队 · 浏览 125 · 评论 1",
+   "summary": "相信各位同学经过了一段时间校园生活已经品尝过很多学校的饭菜，不知道它们之中有没有你心目中的“the most delicious”？在这里，我将会分享我个人｜学生社区网络信息化团队 · 浏览 126 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23662,7 +23749,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 125,
+    "views": 126,
     "comments": 1,
     "likes": 6
    },
@@ -23695,7 +23782,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "今天是12月4日，我国的国家宪法宣传日。｜学生社区网络信息化团队 · 浏览 17 · 评论 0",
+   "summary": "今天是12月4日，我国的国家宪法宣传日。｜学生社区网络信息化团队 · 浏览 18 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23707,7 +23794,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 17,
+    "views": 18,
     "comments": 0,
     "likes": 3
    },
@@ -23780,7 +23867,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "天气骤降温，同学们的厚衣服有没有及时刷新哇？｜学生社区网络信息化团队 · 浏览 97 · 评论 0",
+   "summary": "天气骤降温，同学们的厚衣服有没有及时刷新哇？｜学生社区网络信息化团队 · 浏览 98 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23792,7 +23879,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 97,
+    "views": 98,
     "comments": 0,
     "likes": 7
    },
@@ -23844,7 +23931,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "每当一段熟悉的旋律响起，思绪仿佛都会拉回到那个让你久久不能忘怀的时刻。｜学生社区网络信息化团队 · 浏览 77 · 评论 2",
+   "summary": "每当一段熟悉的旋律响起，思绪仿佛都会拉回到那个让你久久不能忘怀的时刻。｜学生社区网络信息化团队 · 浏览 78 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23856,7 +23943,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 77,
+    "views": 78,
     "comments": 2,
     "likes": 8
    },
@@ -23885,7 +23972,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "寻找精通c++的自习搭子，一起讨论交流问题｜用户_2024212175 · 2024级计算机与信息学院 · 浏览 227 · 评论 1",
+   "summary": "寻找精通c++的自习搭子，一起讨论交流问题｜用户_2024212175 · 2024级计算机与信息学院 · 浏览 228 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23898,7 +23985,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 227,
+    "views": 228,
     "comments": 1,
     "likes": 4
    },
@@ -23950,7 +24037,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "10月16日下午，仪器科学与光电工程学院在翡翠科教楼报告厅举办“劳动铸就新征程，精益求精淬匠心”劳动教育专题报告会。仪器学院辅导员李诗媛、学生社区辅导员曲世｜用户_2023213707 · 2023级食品与生物工程学院 · 浏览 41 · 评论 0",
+   "summary": "10月16日下午，仪器科学与光电工程学院在翡翠科教楼报告厅举办“劳动铸就新征程，精益求精淬匠心”劳动教育专题报告会。仪器学院辅导员李诗媛、学生社区辅导员曲世｜用户_2023213707 · 2023级食品与生物工程学院 · 浏览 42 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -23963,7 +24050,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 41,
+    "views": 42,
     "comments": 0,
     "likes": 1
    },
@@ -23993,7 +24080,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "日期：2024-10-18  稿件来源：计算机与信息学院（人工智能学院）｜用户_2024213459 · 2024级智能软件工程学院 · 浏览 109 · 评论 0",
+   "summary": "日期：2024-10-18  稿件来源：计算机与信息学院（人工智能学院）｜用户_2024213459 · 2024级智能软件工程学院 · 浏览 110 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24005,7 +24092,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 109,
+    "views": 110,
     "comments": 0,
     "likes": 1
    },
@@ -24033,7 +24120,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "为培养大学生健康心态，强化大学生积极情感，促进文学作品与心理健康教育相结合，9月30计算机与信息学院在学生公寓二号楼学生社区会议室完成了学院第四届心理情景剧｜用户_2023213707 · 2023级食品与生物工程学院 · 浏览 49 · 评论 0",
+   "summary": "为培养大学生健康心态，强化大学生积极情感，促进文学作品与心理健康教育相结合，9月30计算机与信息学院在学生公寓二号楼学生社区会议室完成了学院第四届心理情景剧｜用户_2023213707 · 2023级食品与生物工程学院 · 浏览 50 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24045,7 +24132,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 49,
+    "views": 50,
     "comments": 0,
     "likes": 1
    },
@@ -24071,7 +24158,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "9月27日，石河子大学党委副书记马春晖率队来校调研交流。校党委副书记胡笑旋出席座谈会。｜李姝莹 · 2023级仪器科学与光电工程学院 · 浏览 106 · 评论 0",
+   "summary": "9月27日，石河子大学党委副书记马春晖率队来校调研交流。校党委副书记胡笑旋出席座谈会。｜李姝莹 · 2023级仪器科学与光电工程学院 · 浏览 107 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24083,7 +24170,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 106,
+    "views": 107,
     "comments": 0,
     "likes": 1
    },
@@ -24112,7 +24199,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "9月29日上午，安徽省教育厅“一站式”学生社区建设情况现场复核工作组组长、黄山学院党委副书记章文静一行来校复核学生社区建设情况。校党委副书记严福平主持迎检会｜王语嘉 · 2023级智能软件工程学院 · 浏览 48 · 评论 0",
+   "summary": "9月29日上午，安徽省教育厅“一站式”学生社区建设情况现场复核工作组组长、黄山学院党委副书记章文静一行来校复核学生社区建设情况。校党委副书记严福平主持迎检会｜王语嘉 · 2023级智能软件工程学院 · 浏览 49 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24124,7 +24211,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 48,
+    "views": 49,
     "comments": 0,
     "likes": 1
    },
@@ -24153,7 +24240,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "10月1日，国庆节！｜学生社区网络信息化团队 · 浏览 40 · 评论 0",
+   "summary": "10月1日，国庆节！｜学生社区网络信息化团队 · 浏览 41 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24165,7 +24252,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 40,
+    "views": 41,
     "comments": 0,
     "likes": 5
    },
@@ -24191,7 +24278,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在军训的第六天，那是一个烈日当空的下午，每个人的脸上豆大的汗珠如雨般落下，每个人的心里也都燃烧着熊熊火焰，一群初入大学的稚嫩新生在那个下午对自己的人生开始有｜汪义航 · 2024级机械工程学院 · 浏览 110 · 评论 0",
+   "summary": "在军训的第六天，那是一个烈日当空的下午，每个人的脸上豆大的汗珠如雨般落下，每个人的心里也都燃烧着熊熊火焰，一群初入大学的稚嫩新生在那个下午对自己的人生开始有｜汪义航 · 2024级机械工程学院 · 浏览 111 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24203,7 +24290,7 @@
     "col": "军训进行时",
     "group": "memory",
     "label": "校园记忆",
-    "views": 110,
+    "views": 111,
     "comments": 0,
     "likes": 1
    },
@@ -24231,7 +24318,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "我是宣区机械工程24-4的大一新生，想找个一起旅游的搭子｜汪义航 · 2024级机械工程学院 · 浏览 96 · 评论 0",
+   "summary": "我是宣区机械工程24-4的大一新生，想找个一起旅游的搭子｜汪义航 · 2024级机械工程学院 · 浏览 97 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24244,7 +24331,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 96,
+    "views": 97,
     "comments": 0,
     "likes": 0
    },
@@ -24296,7 +24383,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "网络安全为人民，网络安全靠人民｜用户_2023210206 · 2023级材料科学与工程学院 · 浏览 63 · 评论 0",
+   "summary": "网络安全为人民，网络安全靠人民｜用户_2023210206 · 2023级材料科学与工程学院 · 浏览 64 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24308,7 +24395,7 @@
     "col": "国家网络安全宣传周",
     "group": "ideology",
     "label": "思想教育",
-    "views": 63,
+    "views": 64,
     "comments": 0,
     "likes": 0
    },
@@ -24331,7 +24418,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "最美的晚霞不仅在高中的晚自习，也在美丽的工大。｜用户_2024212280 · 2024级计算机与信息学院 · 浏览 219 · 评论 0",
+   "summary": "最美的晚霞不仅在高中的晚自习，也在美丽的工大。｜用户_2024212280 · 2024级计算机与信息学院 · 浏览 220 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24343,7 +24430,7 @@
     "col": "2024级新生讨论",
     "group": "memory",
     "label": "校园记忆",
-    "views": 219,
+    "views": 220,
     "comments": 0,
     "likes": 5
    },
@@ -24366,7 +24453,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在2024年国家网络安全宣传周期间，我有幸接触了中国大学生在线推出的学习资源库，其中包括网络认知、网络安全、反间防谍等精品课程。通过这段时间的学习，我深感收｜赵佳一 · 2023级微电子学院 · 浏览 33 · 评论 0",
+   "summary": "在2024年国家网络安全宣传周期间，我有幸接触了中国大学生在线推出的学习资源库，其中包括网络认知、网络安全、反间防谍等精品课程。通过这段时间的学习，我深感收｜赵佳一 · 2023级微电子学院 · 浏览 34 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24378,7 +24465,7 @@
     "col": "国家网络安全宣传周",
     "group": "ideology",
     "label": "思想教育",
-    "views": 33,
+    "views": 34,
     "comments": 0,
     "likes": 0
    },
@@ -24408,7 +24495,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "网络是人类普遍使用的工具，它可以让我们看到全世界的事，也可以跟远方的亲朋好友联络。俗话说:“秀才不出门，能知天下事。”然而长期使用电脑，会影响人们的学习知识｜郭兴蒴2023214785 · 2023级微电子学院 · 浏览 29 · 评论 0",
+   "summary": "网络是人类普遍使用的工具，它可以让我们看到全世界的事，也可以跟远方的亲朋好友联络。俗话说:“秀才不出门，能知天下事。”然而长期使用电脑，会影响人们的学习知识｜郭兴蒴2023214785 · 2023级微电子学院 · 浏览 30 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24420,7 +24507,7 @@
     "col": "国家网络安全宣传周",
     "group": "ideology",
     "label": "思想教育",
-    "views": 29,
+    "views": 30,
     "comments": 0,
     "likes": 0
    },
@@ -24450,7 +24537,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "随着信息技术的飞速发展，互联网已成为人们生活不可或缺的一部分，而网络安全问题也随之日益凸显。近期，我有幸参加了国家网络安全宣传周的相关活动，通过一系列的主题｜管宝麒 · 2023级微电子学院 · 浏览 12 · 评论 1",
+   "summary": "随着信息技术的飞速发展，互联网已成为人们生活不可或缺的一部分，而网络安全问题也随之日益凸显。近期，我有幸参加了国家网络安全宣传周的相关活动，通过一系列的主题｜管宝麒 · 2023级微电子学院 · 浏览 13 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24462,7 +24549,7 @@
     "col": "国家网络安全宣传周",
     "group": "ideology",
     "label": "思想教育",
-    "views": 12,
+    "views": 13,
     "comments": 1,
     "likes": 1
    },
@@ -24495,7 +24582,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "我想要提醒大家，作为大学生，在网络世界要时刻保持警惕。首先，我们不要随意点击不明链接，许多钓鱼网站就隐藏其中。其次，要妥善管理个人信息，像学号、身份证这些重｜用户_2023214934 · 浏览 12 · 评论 0",
+   "summary": "我想要提醒大家，作为大学生，在网络世界要时刻保持警惕。首先，我们不要随意点击不明链接，许多钓鱼网站就隐藏其中。其次，要妥善管理个人信息，像学号、身份证这些重｜用户_2023214934 · 浏览 13 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24507,7 +24594,7 @@
     "col": "国家网络安全宣传周",
     "group": "ideology",
     "label": "思想教育",
-    "views": 12,
+    "views": 13,
     "comments": 0,
     "likes": 0
    },
@@ -24553,7 +24640,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "参加全国大学生网络安全知识线上答题。9月9日至9月20日，“守护青春 网络有你”全国大学生网络安全知识答题活动将开展。各学院动员组织学生通过中国大学生在线官｜用户_2023213800 · 浏览 43 · 评论 0",
+   "summary": "参加全国大学生网络安全知识线上答题。9月9日至9月20日，“守护青春 网络有你”全国大学生网络安全知识答题活动将开展。各学院动员组织学生通过中国大学生在线官｜用户_2023213800 · 浏览 44 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24565,7 +24652,7 @@
     "col": "国家网络安全宣传周",
     "group": "ideology",
     "label": "思想教育",
-    "views": 43,
+    "views": 44,
     "comments": 0,
     "likes": 1
    },
@@ -24589,7 +24676,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "为进一步培养新生爱校荣校意识，激发爱校荣校情怀，9月6日上午，学生军训团四营组织各连学员代表前往屯溪路校区校史馆开展“爱校荣校 共铸辉煌”主题实践活动。｜军训团四营 · 研究生思政教育科 · 浏览 130 · 评论 0",
+   "summary": "为进一步培养新生爱校荣校意识，激发爱校荣校情怀，9月6日上午，学生军训团四营组织各连学员代表前往屯溪路校区校史馆开展“爱校荣校 共铸辉煌”主题实践活动。｜军训团四营 · 研究生思政教育科 · 浏览 131 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24601,7 +24688,7 @@
     "col": "军训进行时",
     "group": "memory",
     "label": "校园记忆",
-    "views": 130,
+    "views": 131,
     "comments": 0,
     "likes": 1
    },
@@ -24626,7 +24713,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "丹桂飘香，砼聚青年。为帮助2024级新生更好地适应大学生活，深入了解学校历史与文化，明确未来学习方向，9月4日晚，军训团四营在斛兵礼堂举办“大学新生导航”暨｜军训团四营 · 研究生思政教育科 · 浏览 38 · 评论 0",
+   "summary": "丹桂飘香，砼聚青年。为帮助2024级新生更好地适应大学生活，深入了解学校历史与文化，明确未来学习方向，9月4日晚，军训团四营在斛兵礼堂举办“大学新生导航”暨｜军训团四营 · 研究生思政教育科 · 浏览 39 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24638,7 +24725,7 @@
     "col": "军训进行时",
     "group": "memory",
     "label": "校园记忆",
-    "views": 38,
+    "views": 39,
     "comments": 0,
     "likes": 1
    },
@@ -24665,7 +24752,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "为充分加强军训学员的纪律意识，规范内务与就寝环境，军训团四营于2024年9月4日至5日开展了内务卫生教学示范与评比工作。各连队教官、指导员、全体学生参与。｜军训团四营 · 研究生思政教育科 · 浏览 164 · 评论 0",
+   "summary": "为充分加强军训学员的纪律意识，规范内务与就寝环境，军训团四营于2024年9月4日至5日开展了内务卫生教学示范与评比工作。各连队教官、指导员、全体学生参与。｜军训团四营 · 研究生思政教育科 · 浏览 165 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24677,7 +24764,7 @@
     "col": "军训进行时",
     "group": "memory",
     "label": "校园记忆",
-    "views": 164,
+    "views": 165,
     "comments": 0,
     "likes": 3
    },
@@ -24704,7 +24791,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "9月2日下午，学校召开合肥校区2024年学生军训联席会。校党委副书记、军训领导小组组长胡笑旋出席会议并讲话。｜军训团政治部 · 研究生思政教育科 · 浏览 55 · 评论 0",
+   "summary": "9月2日下午，学校召开合肥校区2024年学生军训联席会。校党委副书记、军训领导小组组长胡笑旋出席会议并讲话。｜军训团政治部 · 研究生思政教育科 · 浏览 56 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24716,7 +24803,7 @@
     "col": "军训进行时",
     "group": "memory",
     "label": "校园记忆",
-    "views": 55,
+    "views": 56,
     "comments": 0,
     "likes": 2
    },
@@ -24743,7 +24830,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "炎炎的烈日、开学的新奇，组成了夏日的主旋律。而开学的第一课就是“军训”。｜学生社区网络信息化团队 · 浏览 45 · 评论 0",
+   "summary": "炎炎的烈日、开学的新奇，组成了夏日的主旋律。而开学的第一课就是“军训”。｜学生社区网络信息化团队 · 浏览 46 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24755,7 +24842,7 @@
     "col": "军训进行时",
     "group": "memory",
     "label": "校园记忆",
-    "views": 45,
+    "views": 46,
     "comments": 0,
     "likes": 3
    },
@@ -24781,7 +24868,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "奔波一路，辗转三次｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 181 · 评论 1",
+   "summary": "奔波一路，辗转三次｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 182 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24793,7 +24880,7 @@
     "col": "2024级新生讨论",
     "group": "memory",
     "label": "校园记忆",
-    "views": 181,
+    "views": 182,
     "comments": 1,
     "likes": 6
    },
@@ -24819,7 +24906,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "亲爱的2024级新生们：｜学生社区网络信息化团队 · 浏览 39 · 评论 1",
+   "summary": "亲爱的2024级新生们：｜学生社区网络信息化团队 · 浏览 40 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24831,7 +24918,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 39,
+    "views": 40,
     "comments": 1,
     "likes": 5
    },
@@ -24859,7 +24946,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "想去爬山，又不太想一个人去(●—●)｜一号楼的王 · 2023级食品与生物工程学院 · 浏览 158 · 评论 5",
+   "summary": "想去爬山，又不太想一个人去(●—●)｜一号楼的王 · 2023级食品与生物工程学院 · 浏览 159 · 评论 5",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24872,7 +24959,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 158,
+    "views": 159,
     "comments": 5,
     "likes": 4
    },
@@ -24899,7 +24986,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "随着信息网络的快速发展，手机和互联网已经成为我们日常生活中不可或缺的一部分。与此同时，利用通讯工具和网络大数据获取个人信息的精准诈骗犯罪也在大幅增加。高校电｜学生社区网络信息化团队 · 浏览 49 · 评论 0",
+   "summary": "随着信息网络的快速发展，手机和互联网已经成为我们日常生活中不可或缺的一部分。与此同时，利用通讯工具和网络大数据获取个人信息的精准诈骗犯罪也在大幅增加。高校电｜学生社区网络信息化团队 · 浏览 50 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24911,7 +24998,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 49,
+    "views": 50,
     "comments": 0,
     "likes": 7
    },
@@ -24937,7 +25024,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "我们都会在合工大迎来自己灿烂盛大的未来吗｜用户_2024211397 · 2024级化学与化工学院 · 浏览 576 · 评论 6",
+   "summary": "我们都会在合工大迎来自己灿烂盛大的未来吗｜用户_2024211397 · 2024级化学与化工学院 · 浏览 577 · 评论 6",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24949,7 +25036,7 @@
     "col": "2024级新生讨论",
     "group": "memory",
     "label": "校园记忆",
-    "views": 576,
+    "views": 577,
     "comments": 6,
     "likes": 13
    },
@@ -24978,7 +25065,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "来做一场关于烈日、圆月、太阳雨和黏糊糊衣袖并行、短袖纱裙和冰淇淋搭配的梦吧！｜学生社区网络信息化团队 · 浏览 60 · 评论 0",
+   "summary": "来做一场关于烈日、圆月、太阳雨和黏糊糊衣袖并行、短袖纱裙和冰淇淋搭配的梦吧！｜学生社区网络信息化团队 · 浏览 61 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -24990,7 +25077,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 60,
+    "views": 61,
     "comments": 0,
     "likes": 5
    },
@@ -25018,7 +25105,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在北京时间27日凌晨，随着巴黎奥运会开幕式的进行，我们以塞纳河为舞台，以巴黎城为背景，来自世界各地的运动员代表们和亿万观众共同开启了本届奥运会的奇幻之旅。｜学生社区网络信息化团队 · 浏览 90 · 评论 2",
+   "summary": "在北京时间27日凌晨，随着巴黎奥运会开幕式的进行，我们以塞纳河为舞台，以巴黎城为背景，来自世界各地的运动员代表们和亿万观众共同开启了本届奥运会的奇幻之旅。｜学生社区网络信息化团队 · 浏览 91 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25030,7 +25117,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 90,
+    "views": 91,
     "comments": 2,
     "likes": 5
    },
@@ -25063,7 +25150,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "青春热烈澎湃，生活多姿多彩，夏天是热烈而充满活力的。处在暑期的我们，享受着周围的美好事物。大学生作为互联网冲浪金牌选手，自然也要学会分享哦：“我和你讲，我今｜学生社区网络信息化团队 · 浏览 120 · 评论 1",
+   "summary": "青春热烈澎湃，生活多姿多彩，夏天是热烈而充满活力的。处在暑期的我们，享受着周围的美好事物。大学生作为互联网冲浪金牌选手，自然也要学会分享哦：“我和你讲，我今｜学生社区网络信息化团队 · 浏览 121 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25075,7 +25162,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 120,
+    "views": 121,
     "comments": 1,
     "likes": 7
    },
@@ -25106,7 +25193,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "暑期已经如约而至，想必同学们都已回到了熟悉而又温暖的家。家乡是每个人心中深藏的一段情怀，在外读书，总是在寻找熟悉的味道，提箸间，猛然发现，是家的味道。同学们｜学生社区网络信息化团队 · 浏览 78 · 评论 2",
+   "summary": "暑期已经如约而至，想必同学们都已回到了熟悉而又温暖的家。家乡是每个人心中深藏的一段情怀，在外读书，总是在寻找熟悉的味道，提箸间，猛然发现，是家的味道。同学们｜学生社区网络信息化团队 · 浏览 79 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25118,7 +25205,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 78,
+    "views": 79,
     "comments": 2,
     "likes": 5
    },
@@ -25145,7 +25232,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "7月6日，合肥工业大学社团管理服务中心暑期实践队赴上海红色地标开展社团历史溯源调研活动，探究其发展过程中的红色文化内核，传承社团精神财富。｜张柠 · 浏览 91 · 评论 0",
+   "summary": "7月6日，合肥工业大学社团管理服务中心暑期实践队赴上海红色地标开展社团历史溯源调研活动，探究其发展过程中的红色文化内核，传承社团精神财富。｜张柠 · 浏览 92 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25157,7 +25244,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 91,
+    "views": 92,
     "comments": 0,
     "likes": 7
    },
@@ -25183,7 +25270,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "各位同学，风雨操场暑期改造已经开始，让我们共同期待新的风雨操场与我们见面吧！施工期间大家也要注意安全噢~｜学生社区网络信息化团队 · 浏览 204 · 评论 2",
+   "summary": "各位同学，风雨操场暑期改造已经开始，让我们共同期待新的风雨操场与我们见面吧！施工期间大家也要注意安全噢~｜学生社区网络信息化团队 · 浏览 205 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25195,7 +25282,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 204,
+    "views": 205,
     "comments": 2,
     "likes": 8
    },
@@ -25222,7 +25309,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "careers",
-   "summary": "为深入学习宣传贯彻党的二十大精神，落实“强国复兴有我”群众性主题宣传教育活动相关要求，引导动员青年学生传承和弘扬西柏坡精神，6月12日至7月12日，合肥工业｜王泽宇 · 2023级材料科学与工程学院 · 浏览 48 · 评论 0",
+   "summary": "为深入学习宣传贯彻党的二十大精神，落实“强国复兴有我”群众性主题宣传教育活动相关要求，引导动员青年学生传承和弘扬西柏坡精神，6月12日至7月12日，合肥工业｜王泽宇 · 2023级材料科学与工程学院 · 浏览 49 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25235,7 +25322,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 48,
+    "views": 49,
     "comments": 0,
     "likes": 4
    },
@@ -25262,7 +25349,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "careers",
-   "summary": "为深入学习宣传贯彻党的二十大精神，落实“强国复兴有我”群众性主题宣传教育活动相关要求，引导动员青年学生传承和弘扬西柏坡精神，6月12日至7月12日，合肥工业｜王泽宇 · 2023级材料科学与工程学院 · 浏览 73 · 评论 0",
+   "summary": "为深入学习宣传贯彻党的二十大精神，落实“强国复兴有我”群众性主题宣传教育活动相关要求，引导动员青年学生传承和弘扬西柏坡精神，6月12日至7月12日，合肥工业｜王泽宇 · 2023级材料科学与工程学院 · 浏览 74 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25275,7 +25362,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 73,
+    "views": 74,
     "comments": 0,
     "likes": 3
    },
@@ -25302,7 +25389,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "careers",
-   "summary": "为深入学习宣传贯彻党的二十大精神，落实“强国复兴有我”群众性主题宣传教育活动相关要求，引导动员青年学生传承和弘扬西柏坡精神，6月12日至7月12日，合肥工业｜王泽宇 · 2023级材料科学与工程学院 · 浏览 51 · 评论 0",
+   "summary": "为深入学习宣传贯彻党的二十大精神，落实“强国复兴有我”群众性主题宣传教育活动相关要求，引导动员青年学生传承和弘扬西柏坡精神，6月12日至7月12日，合肥工业｜王泽宇 · 2023级材料科学与工程学院 · 浏览 52 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25315,7 +25402,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 51,
+    "views": 52,
     "comments": 0,
     "likes": 3
    },
@@ -25341,7 +25428,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "暑假宿舍施工能不能稍微考虑在校的研究生，中午好得挺一会儿，让人休息吧，大中午的那么吵阳台也不隔音。一天没有休息时间，工人也会累的｜嘛呢 · 浏览 149 · 评论 0",
+   "summary": "暑假宿舍施工能不能稍微考虑在校的研究生，中午好得挺一会儿，让人休息吧，大中午的那么吵阳台也不隔音。一天没有休息时间，工人也会累的｜嘛呢 · 浏览 150 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25353,11 +25440,11 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 149,
+    "views": 150,
     "comments": 0,
     "likes": 0
    },
-   "feed": false,
+   "feed": true,
    "content": [
     "<p>暑假宿舍施工能不能稍微考虑在校的研究生，中午好得挺一会儿，让人休息吧，大中午的那么吵阳台也不隔音。一天没有休息时间，工人也会累的</p>"
    ],
@@ -25376,7 +25463,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "为深入调研社团背后的红色基因，发扬社团红色文化内核，合肥工业大学社团管理服务中心实践队于2024年7月赴上海开展以“梦回社团烙印，融汇青春筑志”为主题的暑期｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 93 · 评论 1",
+   "summary": "为深入调研社团背后的红色基因，发扬社团红色文化内核，合肥工业大学社团管理服务中心实践队于2024年7月赴上海开展以“梦回社团烙印，融汇青春筑志”为主题的暑期｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 94 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25388,7 +25475,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 93,
+    "views": 94,
     "comments": 1,
     "likes": 6
    },
@@ -25463,7 +25550,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "2024上半年的学期已临近尾声，下半学期的选课通知也已经发布啦，大家的公选课和体育课都分别选择了什么呢？可以在评论区积极交流自己的选课心得体验～｜学生社区网络信息化团队 · 浏览 560 · 评论 43",
+   "summary": "2024上半年的学期已临近尾声，下半学期的选课通知也已经发布啦，大家的公选课和体育课都分别选择了什么呢？可以在评论区积极交流自己的选课心得体验～｜学生社区网络信息化团队 · 浏览 561 · 评论 43",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25475,7 +25562,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 560,
+    "views": 561,
     "comments": 43,
     "likes": 33
    },
@@ -25505,7 +25592,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在炎炎夏日里，高考的钟声再次敲响。回首望去，自我们踏进合肥工业大学的那一刻起，岁月如梭，已逝至少一年的时光。在此，不禁令人深思：君还记得当初踏足至此的初心吗｜学生社区网络信息化团队 · 浏览 123 · 评论 2",
+   "summary": "在炎炎夏日里，高考的钟声再次敲响。回首望去，自我们踏进合肥工业大学的那一刻起，岁月如梭，已逝至少一年的时光。在此，不禁令人深思：君还记得当初踏足至此的初心吗｜学生社区网络信息化团队 · 浏览 124 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25517,7 +25604,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 123,
+    "views": 124,
     "comments": 2,
     "likes": 8
    },
@@ -25544,7 +25631,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "今天的月亮好亮｜用户_2023213647 · 2023级食品与生物工程学院 · 浏览 47 · 评论 1",
+   "summary": "今天的月亮好亮｜用户_2023213647 · 2023级食品与生物工程学院 · 浏览 48 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25556,7 +25643,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 47,
+    "views": 48,
     "comments": 1,
     "likes": 6
    },
@@ -25582,7 +25669,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "祝大家都像清晨六点的阳光，积极向上永远灿烂~｜绝不胡弄！ · 2023级经济学院 · 浏览 101 · 评论 3",
+   "summary": "祝大家都像清晨六点的阳光，积极向上永远灿烂~｜绝不胡弄！ · 2023级经济学院 · 浏览 102 · 评论 3",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25594,7 +25681,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 101,
+    "views": 102,
     "comments": 3,
     "likes": 7
    },
@@ -25622,7 +25709,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "来自主席台下的毕业典礼视角～｜XsFantasy · 浏览 65 · 评论 0",
+   "summary": "来自主席台下的毕业典礼视角～｜XsFantasy · 浏览 66 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25634,7 +25721,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 65,
+    "views": 66,
     "comments": 0,
     "likes": 9
    },
@@ -25657,7 +25744,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "今天五点就起床了，上次这个时候起来，还是画课设大图的时候，青春的时光令人怀念｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 76 · 评论 2",
+   "summary": "今天五点就起床了，上次这个时候起来，还是画课设大图的时候，青春的时光令人怀念｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 77 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25669,7 +25756,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 76,
+    "views": 77,
     "comments": 2,
     "likes": 6
    },
@@ -25696,7 +25783,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "篮球 羽毛球 乒乓球都行（技术比较菜 但爱玩🤗）（图片来源于网络）｜f呼噜噜 · 2022级马克思主义学院 · 浏览 234 · 评论 10",
+   "summary": "篮球 羽毛球 乒乓球都行（技术比较菜 但爱玩🤗）（图片来源于网络）｜f呼噜噜 · 2022级马克思主义学院 · 浏览 235 · 评论 10",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25709,7 +25796,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 234,
+    "views": 235,
     "comments": 10,
     "likes": 7
    },
@@ -25738,7 +25825,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "不知道大家有没有发现自己总在被ddl追着跑｜学生社区网络信息化团队 · 浏览 71 · 评论 2",
+   "summary": "不知道大家有没有发现自己总在被ddl追着跑｜学生社区网络信息化团队 · 浏览 72 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25750,7 +25837,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 71,
+    "views": 72,
     "comments": 2,
     "likes": 11
    },
@@ -25784,7 +25871,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "MBTI（迈尔斯布里格斯类型指标）作为性格评估工具从四个维度的偏好：注意力方向（外倾或内倾）、信息获取方式（感觉或直觉）、决策方式（思考或情感）、以及生活方｜学生社区网络信息化团队 · 浏览 233 · 评论 22",
+   "summary": "MBTI（迈尔斯布里格斯类型指标）作为性格评估工具从四个维度的偏好：注意力方向（外倾或内倾）、信息获取方式（感觉或直觉）、决策方式（思考或情感）、以及生活方｜学生社区网络信息化团队 · 浏览 234 · 评论 22",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25796,7 +25883,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 233,
+    "views": 234,
     "comments": 22,
     "likes": 13
    },
@@ -25826,7 +25913,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "云运动跑不够了，求一个一起约场馆的搭子，最好是羽毛球或乒乓球！｜鲤偲𬎆 · 2024级建筑与艺术学院 · 浏览 162 · 评论 4",
+   "summary": "云运动跑不够了，求一个一起约场馆的搭子，最好是羽毛球或乒乓球！｜鲤偲𬎆 · 2024级建筑与艺术学院 · 浏览 163 · 评论 4",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25839,7 +25926,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 162,
+    "views": 163,
     "comments": 4,
     "likes": 7
    },
@@ -25867,7 +25954,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "在图书馆学习的大家都是我的学习搭子｜陈代涛 · 2023级机械工程学院 · 浏览 208 · 评论 6",
+   "summary": "在图书馆学习的大家都是我的学习搭子｜陈代涛 · 2023级机械工程学院 · 浏览 209 · 评论 6",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25880,7 +25967,7 @@
     "col": "寻找你的校园搭子",
     "group": "mate",
     "label": "校园搭子",
-    "views": 208,
+    "views": 209,
     "comments": 6,
     "likes": 9
    },
@@ -25909,7 +25996,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "近期，党委学生工作部学生社区工作办公室、总务部物业服务中心、学校研究生支教团联合策划开展“青春无悔，爱留母校”毕业季系列捐赠活动，在毕业生较多的楼宇一楼大厅｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 37 · 评论 2",
+   "summary": "近期，党委学生工作部学生社区工作办公室、总务部物业服务中心、学校研究生支教团联合策划开展“青春无悔，爱留母校”毕业季系列捐赠活动，在毕业生较多的楼宇一楼大厅｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 38 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25921,7 +26008,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 37,
+    "views": 38,
     "comments": 2,
     "likes": 4
    },
@@ -25948,7 +26035,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "第二届扇子文化节在4号楼学生社区举办｜银河系系长 · 浏览 37 · 评论 2",
+   "summary": "第二届扇子文化节在4号楼学生社区举办｜银河系系长 · 浏览 38 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -25960,7 +26047,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 37,
+    "views": 38,
     "comments": 2,
     "likes": 5
    },
@@ -25988,7 +26075,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "端午安康，好事成双！｜用户_2023171276 · 2023级管理与智能科学学院（智能商学院） · 浏览 20 · 评论 1",
+   "summary": "端午安康，好事成双！｜用户_2023171276 · 2023级管理与智能科学学院（智能商学院） · 浏览 21 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26000,7 +26087,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 20,
+    "views": 21,
     "comments": 1,
     "likes": 2
    },
@@ -26026,7 +26113,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "recruitment",
-   "summary": "各位同学大家好：｜学生社区网络信息化团队 · 浏览 48 · 评论 4",
+   "summary": "各位同学大家好：｜学生社区网络信息化团队 · 浏览 49 · 评论 4",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26039,7 +26126,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 48,
+    "views": 49,
     "comments": 4,
     "likes": 5
    },
@@ -26070,7 +26157,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "端午下午的双子楼，真美｜XsFantasy · 浏览 48 · 评论 2",
+   "summary": "端午下午的双子楼，真美｜XsFantasy · 浏览 49 · 评论 2",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26082,7 +26169,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 48,
+    "views": 49,
     "comments": 2,
     "likes": 6
    },
@@ -26109,7 +26196,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "端午安康｜用户_2021212371 · 2021级材料科学与工程学院 · 浏览 26 · 评论 1",
+   "summary": "端午安康｜用户_2021212371 · 2021级材料科学与工程学院 · 浏览 27 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26121,7 +26208,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 26,
+    "views": 27,
     "comments": 1,
     "likes": 4
    },
@@ -26147,7 +26234,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "4号楼学生社区举办端午节主题实践活动｜银河系系长 · 浏览 38 · 评论 1",
+   "summary": "4号楼学生社区举办端午节主题实践活动｜银河系系长 · 浏览 39 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26159,7 +26246,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 38,
+    "views": 39,
     "comments": 1,
     "likes": 4
    },
@@ -26185,7 +26272,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "社区布置的很温馨，活动丰富，体验感满满，度过了一个有温度的端午节！｜Yuki. · 2023级马克思主义学院 · 浏览 16 · 评论 0",
+   "summary": "社区布置的很温馨，活动丰富，体验感满满，度过了一个有温度的端午节！｜Yuki. · 2023级马克思主义学院 · 浏览 17 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26197,7 +26284,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 16,
+    "views": 17,
     "comments": 0,
     "likes": 1
    },
@@ -26220,7 +26307,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "4号楼学生社区祝大家端午节安康｜用户_2023210048 · 2023级材料科学与工程学院 · 浏览 17 · 评论 1",
+   "summary": "4号楼学生社区祝大家端午节安康｜用户_2023210048 · 2023级材料科学与工程学院 · 浏览 18 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26232,7 +26319,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 17,
+    "views": 18,
     "comments": 1,
     "likes": 4
    },
@@ -26258,7 +26345,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "来参加学生宿舍四号楼举办的端午节活动啦｜绝不胡弄！ · 2023级经济学院 · 浏览 24 · 评论 0",
+   "summary": "来参加学生宿舍四号楼举办的端午节活动啦｜绝不胡弄！ · 2023级经济学院 · 浏览 25 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26270,7 +26357,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 24,
+    "views": 25,
     "comments": 0,
     "likes": 5
    },
@@ -26293,7 +26380,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "6月10日15:00，翡翠湖校区四号楼学生社区举办端午节主题实践活动，感兴趣的同学可以积极参与｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 21 · 评论 1",
+   "summary": "6月10日15:00，翡翠湖校区四号楼学生社区举办端午节主题实践活动，感兴趣的同学可以积极参与｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 22 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26305,7 +26392,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 21,
+    "views": 22,
     "comments": 1,
     "likes": 5
    },
@@ -26331,7 +26418,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "这个小白花很香｜飞翔 · 浏览 12 · 评论 0",
+   "summary": "这个小白花很香｜飞翔 · 浏览 13 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26343,7 +26430,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 12,
+    "views": 13,
     "comments": 0,
     "likes": 2
    },
@@ -26366,7 +26453,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "(˵¯͒〰¯͒˵)获赠明园幸运小粽(˃ ⌑ ˂ഃ )｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 23 · 评论 0",
+   "summary": "(˵¯͒〰¯͒˵)获赠明园幸运小粽(˃ ⌑ ˂ഃ )｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 24 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26378,7 +26465,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 23,
+    "views": 24,
     "comments": 0,
     "likes": 6
    },
@@ -26401,7 +26488,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "合肥工业大学“诵读中国”经典诵读大赛决赛将于6月5日19：00在翡翠湖校区科教楼A座大报告厅正式开始！感兴趣的同学可以前往现场观赛！｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 29 · 评论 0",
+   "summary": "合肥工业大学“诵读中国”经典诵读大赛决赛将于6月5日19：00在翡翠湖校区科教楼A座大报告厅正式开始！感兴趣的同学可以前往现场观赛！｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 30 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26414,7 +26501,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 29,
+    "views": 30,
     "comments": 0,
     "likes": 5
    },
@@ -26437,7 +26524,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "屯溪路校区慈园二楼4元早餐拉面，一上午肚子都不咕咕叫了｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 76 · 评论 1",
+   "summary": "屯溪路校区慈园二楼4元早餐拉面，一上午肚子都不咕咕叫了｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 77 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26449,7 +26536,7 @@
     "col": "校园采风",
     "group": "scenery",
     "label": "校园风光",
-    "views": 76,
+    "views": 77,
     "comments": 1,
     "likes": 5
    },
@@ -26475,7 +26562,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "飞机群？｜四号楼楼长 · 浏览 112 · 评论 3",
+   "summary": "飞机群？｜四号楼楼长 · 浏览 113 · 评论 3",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26487,7 +26574,7 @@
     "col": "校园采风",
     "group": "scenery",
     "label": "校园风光",
-    "views": 112,
+    "views": 113,
     "comments": 3,
     "likes": 10
    },
@@ -26515,7 +26602,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "哪里拍毕业照啊，求安利｜Enigma · 浏览 349 · 评论 33",
+   "summary": "哪里拍毕业照啊，求安利｜Enigma · 浏览 350 · 评论 33",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26528,7 +26615,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 349,
+    "views": 350,
     "comments": 33,
     "likes": 18
    },
@@ -26557,7 +26644,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "图书馆的打卡墙已经布置好啦，穿着学士服gogogo｜Enigma · 浏览 56 · 评论 0",
+   "summary": "图书馆的打卡墙已经布置好啦，穿着学士服gogogo｜Enigma · 浏览 57 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26569,7 +26656,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 56,
+    "views": 57,
     "comments": 0,
     "likes": 4
    },
@@ -26592,7 +26679,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "✌️✌️｜Dzl · 综合科 · 浏览 61 · 评论 0",
+   "summary": "✌️✌️｜Dzl · 综合科 · 浏览 62 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26604,7 +26691,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 61,
+    "views": 62,
     "comments": 0,
     "likes": 6
    },
@@ -26627,7 +26714,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "终于毕业了，大家毕业快乐。｜曾文韬 · 2023级机械工程学院 · 浏览 47 · 评论 0",
+   "summary": "终于毕业了，大家毕业快乐。｜曾文韬 · 2023级机械工程学院 · 浏览 48 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26639,7 +26726,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 47,
+    "views": 48,
     "comments": 0,
     "likes": 3
    },
@@ -26662,7 +26749,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "今天的天｜喔 · 2023级食品与生物工程学院 · 浏览 23 · 评论 0",
+   "summary": "今天的天｜喔 · 2023级食品与生物工程学院 · 浏览 24 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26674,7 +26761,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 23,
+    "views": 24,
     "comments": 0,
     "likes": 0
    },
@@ -26697,7 +26784,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "当你坐上离别的火车～｜Enigma · 浏览 59 · 评论 0",
+   "summary": "当你坐上离别的火车～｜Enigma · 浏览 60 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26709,7 +26796,7 @@
     "col": "毕业季留言活动",
     "group": "memory",
     "label": "校园记忆",
-    "views": 59,
+    "views": 60,
     "comments": 0,
     "likes": 7
    },
@@ -26756,7 +26843,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "你们漆扇成果如何，快来分享一下吧！｜悦月曰 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 47 · 评论 0",
+   "summary": "你们漆扇成果如何，快来分享一下吧！｜悦月曰 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 48 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26768,7 +26855,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 47,
+    "views": 48,
     "comments": 0,
     "likes": 2
    },
@@ -26791,7 +26878,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "社区活动内容好丰富🥳🥳｜绝不胡弄！ · 2023级经济学院 · 浏览 35 · 评论 0",
+   "summary": "社区活动内容好丰富🥳🥳｜绝不胡弄！ · 2023级经济学院 · 浏览 36 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26803,7 +26890,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 35,
+    "views": 36,
     "comments": 0,
     "likes": 5
    },
@@ -26826,7 +26913,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "今天的活动种类丰富，大家在实践中体验传统文化的乐趣，玩的都很开心！～｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 51 · 评论 1",
+   "summary": "今天的活动种类丰富，大家在实践中体验传统文化的乐趣，玩的都很开心！～｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 52 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26838,7 +26925,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 51,
+    "views": 52,
     "comments": 1,
     "likes": 11
    },
@@ -26890,7 +26977,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "斛兵塘｜半月 · 浏览 59 · 评论 1",
+   "summary": "斛兵塘｜半月 · 浏览 60 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26902,7 +26989,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 59,
+    "views": 60,
     "comments": 1,
     "likes": 2
    },
@@ -26928,7 +27015,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "却是石榴知立夏，年年此时赤花开｜信都长风 · 物理学院 · 浏览 39 · 评论 0",
+   "summary": "却是石榴知立夏，年年此时赤花开｜信都长风 · 物理学院 · 浏览 40 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26940,7 +27027,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 39,
+    "views": 40,
     "comments": 0,
     "likes": 8
    },
@@ -26963,7 +27050,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "每次路过这面蔷薇花墙｜信都长风 · 物理学院 · 浏览 40 · 评论 0",
+   "summary": "每次路过这面蔷薇花墙｜信都长风 · 物理学院 · 浏览 41 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -26975,7 +27062,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 40,
+    "views": 41,
     "comments": 0,
     "likes": 8
    },
@@ -27028,7 +27115,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "工大漂亮的🌸🌸｜Trouvaille婷🦊 · 2023级食品与生物工程学院 · 浏览 44 · 评论 0",
+   "summary": "工大漂亮的🌸🌸｜Trouvaille婷🦊 · 2023级食品与生物工程学院 · 浏览 45 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27040,7 +27127,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 44,
+    "views": 45,
     "comments": 0,
     "likes": 5
    },
@@ -27084,7 +27171,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "学校的🌺｜一号楼的王 · 2023级食品与生物工程学院 · 浏览 27 · 评论 0",
+   "summary": "学校的🌺｜一号楼的王 · 2023级食品与生物工程学院 · 浏览 28 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27096,7 +27183,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 27,
+    "views": 28,
     "comments": 0,
     "likes": 4
    },
@@ -27119,7 +27206,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "新开门的店，味道不错，有益脱发多和熬夜的快乐人参水｜张少华 · 2021级数学学院 · 浏览 139 · 评论 7",
+   "summary": "新开门的店，味道不错，有益脱发多和熬夜的快乐人参水｜张少华 · 2021级数学学院 · 浏览 140 · 评论 7",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27131,7 +27218,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 139,
+    "views": 140,
     "comments": 7,
     "likes": 3
    },
@@ -27160,7 +27247,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "丑萌丑萌的，哈哈｜XsFantasy · 浏览 129 · 评论 3",
+   "summary": "丑萌丑萌的，哈哈｜XsFantasy · 浏览 130 · 评论 3",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27172,7 +27259,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 129,
+    "views": 130,
     "comments": 3,
     "likes": 8
    },
@@ -27220,7 +27307,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "能get到吗？｜一号楼的王 · 2023级食品与生物工程学院 · 浏览 120 · 评论 0",
+   "summary": "能get到吗？｜一号楼的王 · 2023级食品与生物工程学院 · 浏览 121 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27232,7 +27319,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 120,
+    "views": 121,
     "comments": 0,
     "likes": 5
    },
@@ -27256,7 +27343,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "这次寒假我前往社区参加了寒假志愿活动，可以说志愿者服务给了我良好的锻炼机会和实践平台，增强了沟通，组织，管理等多方面的能力，同时更能知晓如何与人共同相处。“｜用户_2023211855 · 2023级机械工程学院 · 浏览 32 · 评论 0",
+   "summary": "这次寒假我前往社区参加了寒假志愿活动，可以说志愿者服务给了我良好的锻炼机会和实践平台，增强了沟通，组织，管理等多方面的能力，同时更能知晓如何与人共同相处。“｜用户_2023211855 · 2023级机械工程学院 · 浏览 33 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27268,7 +27355,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 32,
+    "views": 33,
     "comments": 0,
     "likes": 0
    },
@@ -27293,7 +27380,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "参与社区食堂志愿活动是一次充满意义和收获的经历。这次活动让我深刻体会到了志愿服务的重要性，并且让我对社会的认识和责任感有了更深层次的理解。｜用户_2023211868 · 2023级机械工程学院 · 浏览 42 · 评论 0",
+   "summary": "参与社区食堂志愿活动是一次充满意义和收获的经历。这次活动让我深刻体会到了志愿服务的重要性，并且让我对社会的认识和责任感有了更深层次的理解。｜用户_2023211868 · 2023级机械工程学院 · 浏览 43 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27305,7 +27392,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 42,
+    "views": 43,
     "comments": 0,
     "likes": 1
    },
@@ -27332,7 +27419,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春与花至，花盛春生｜用户_2023213742 · 2023级食品与生物工程学院 · 浏览 56 · 评论 0",
+   "summary": "春与花至，花盛春生｜用户_2023213742 · 2023级食品与生物工程学院 · 浏览 57 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27344,7 +27431,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 56,
+    "views": 57,
     "comments": 0,
     "likes": 3
    },
@@ -27367,7 +27454,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "flowers｜用户_2023210911 · 2023级管理与智能科学学院（智能商学院） · 浏览 39 · 评论 0",
+   "summary": "flowers｜用户_2023210911 · 2023级管理与智能科学学院（智能商学院） · 浏览 40 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27379,7 +27466,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 39,
+    "views": 40,
     "comments": 0,
     "likes": 10
    },
@@ -27402,7 +27489,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "花开了｜匿名用户 · 2023级建筑与艺术学院 · 浏览 15 · 评论 0",
+   "summary": "花开了｜匿名用户 · 2023级建筑与艺术学院 · 浏览 16 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27414,7 +27501,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 15,
+    "views": 16,
     "comments": 0,
     "likes": 2
    },
@@ -27437,7 +27524,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春天快乐｜mingyu_9 · 浏览 18 · 评论 0",
+   "summary": "春天快乐｜mingyu_9 · 浏览 19 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27449,7 +27536,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 18,
+    "views": 19,
     "comments": 0,
     "likes": 3
    },
@@ -27472,7 +27559,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春｜用户_2023211096 · 2023级管理与智能科学学院（智能商学院） · 浏览 10 · 评论 0",
+   "summary": "春｜用户_2023211096 · 2023级管理与智能科学学院（智能商学院） · 浏览 11 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27484,7 +27571,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 10,
+    "views": 11,
     "comments": 0,
     "likes": 2
    },
@@ -27528,7 +27615,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "初春工大：落日余晖、鲜花美景｜陈立新 · 2023级微电子学院 · 浏览 11 · 评论 0",
+   "summary": "初春工大：落日余晖、鲜花美景｜陈立新 · 2023级微电子学院 · 浏览 12 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27540,7 +27627,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 11,
+    "views": 12,
     "comments": 0,
     "likes": 2
    },
@@ -27563,7 +27650,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "看花看水看书。｜404 · 浏览 38 · 评论 0",
+   "summary": "看花看水看书。｜404 · 浏览 39 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27575,7 +27662,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 38,
+    "views": 39,
     "comments": 0,
     "likes": 1
    },
@@ -27598,7 +27685,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春日的校园，万物盎然，满目春色。一切都充满了生机与活力！让我们一起放下手机，走出宿舍，去追寻，去探索，去定格春光明媚的瞬间，遇见生活中的小美好！｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 30 · 评论 0",
+   "summary": "春日的校园，万物盎然，满目春色。一切都充满了生机与活力！让我们一起放下手机，走出宿舍，去追寻，去探索，去定格春光明媚的瞬间，遇见生活中的小美好！｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 31 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27610,7 +27697,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 30,
+    "views": 31,
     "comments": 0,
     "likes": 4
    },
@@ -27633,7 +27720,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "一些原图直出……蹲一个有缘人pp｜企鹅 · 浏览 13 · 评论 0",
+   "summary": "一些原图直出……蹲一个有缘人pp｜企鹅 · 浏览 14 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27645,7 +27732,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 13,
+    "views": 14,
     "comments": 0,
     "likes": 1
    },
@@ -27668,7 +27755,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "最美是人间三月的天，属于工大，也属于我们。｜用户_2023211453 · 2023级机械工程学院 · 浏览 14 · 评论 0",
+   "summary": "最美是人间三月的天，属于工大，也属于我们。｜用户_2023211453 · 2023级机械工程学院 · 浏览 15 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27680,7 +27767,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 14,
+    "views": 15,
     "comments": 0,
     "likes": 4
    },
@@ -27703,7 +27790,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "盎然🌿｜用户_2023213257 · 2023级电气与自动化工程学院 · 浏览 13 · 评论 0",
+   "summary": "盎然🌿｜用户_2023213257 · 2023级电气与自动化工程学院 · 浏览 14 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27715,7 +27802,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 13,
+    "views": 14,
     "comments": 0,
     "likes": 2
    },
@@ -27738,7 +27825,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "宿舍楼前的樱花树｜用户_2023212690 · 2023级建筑与艺术学院 · 浏览 9 · 评论 0",
+   "summary": "宿舍楼前的樱花树｜用户_2023212690 · 2023级建筑与艺术学院 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27750,7 +27837,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -27773,7 +27860,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "不得眠～｜cc · 2022级数学学院 · 浏览 11 · 评论 0",
+   "summary": "不得眠～｜cc · 2022级数学学院 · 浏览 12 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27785,7 +27872,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 11,
+    "views": 12,
     "comments": 0,
     "likes": 0
    },
@@ -27808,7 +27895,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "生活很匆忙，别错过晚霞和夕阳｜韩煜 · 2023级汽车与交通工程学院 · 浏览 11 · 评论 0",
+   "summary": "生活很匆忙，别错过晚霞和夕阳｜韩煜 · 2023级汽车与交通工程学院 · 浏览 12 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27820,7 +27907,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 11,
+    "views": 12,
     "comments": 0,
     "likes": 0
    },
@@ -27843,7 +27930,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "工大春色｜韩煜 · 2023级汽车与交通工程学院 · 浏览 7 · 评论 0",
+   "summary": "工大春色｜韩煜 · 2023级汽车与交通工程学院 · 浏览 8 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27855,7 +27942,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 7,
+    "views": 8,
     "comments": 0,
     "likes": 0
    },
@@ -27878,7 +27965,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "万紫千红总是春｜用户_2023213743 · 2023级食品与生物工程学院 · 浏览 7 · 评论 0",
+   "summary": "万紫千红总是春｜用户_2023213743 · 2023级食品与生物工程学院 · 浏览 8 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27890,7 +27977,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 7,
+    "views": 8,
     "comments": 0,
     "likes": 1
    },
@@ -27913,7 +28000,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "树树花开，处处春色宜人｜用户_2023213588 · 浏览 9 · 评论 0",
+   "summary": "树树花开，处处春色宜人｜用户_2023213588 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27925,7 +28012,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -27948,7 +28035,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "自由的蒲公英｜用户_2023211919 · 2023级机械工程学院 · 浏览 4 · 评论 0",
+   "summary": "自由的蒲公英｜用户_2023211919 · 2023级机械工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27960,7 +28047,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 1
    },
@@ -27983,7 +28070,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "😀｜杨聪 · 2023级机械工程学院 · 浏览 1 · 评论 0",
+   "summary": "😀｜杨聪 · 2023级机械工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -27995,7 +28082,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 1
    },
@@ -28018,7 +28105,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "连手机照相都充满春色｜张少华 · 2021级数学学院 · 浏览 10 · 评论 0",
+   "summary": "连手机照相都充满春色｜张少华 · 2021级数学学院 · 浏览 11 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28030,7 +28117,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 10,
+    "views": 11,
     "comments": 0,
     "likes": 1
    },
@@ -28053,7 +28140,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "#春有春的来意，花有花的目的｜钱多多💰 · 2023级数学学院 · 浏览 15 · 评论 0",
+   "summary": "#春有春的来意，花有花的目的｜钱多多💰 · 2023级数学学院 · 浏览 16 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28065,7 +28152,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 15,
+    "views": 16,
     "comments": 0,
     "likes": 2
    },
@@ -28088,7 +28175,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "你想要的春，正在校园里嬉戏。｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 13 · 评论 0",
+   "summary": "你想要的春，正在校园里嬉戏。｜滑滑象 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 14 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28100,7 +28187,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 13,
+    "views": 14,
     "comments": 0,
     "likes": 2
    },
@@ -28123,7 +28210,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春日合工大，美不胜收🌹🌹🌹｜用户_2023213841 · 2023级汽车与交通工程学院 · 浏览 10 · 评论 0",
+   "summary": "春日合工大，美不胜收🌹🌹🌹｜用户_2023213841 · 2023级汽车与交通工程学院 · 浏览 11 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28135,7 +28222,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 10,
+    "views": 11,
     "comments": 0,
     "likes": 1
    },
@@ -28158,7 +28245,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春天阳光正好，万物复苏，多出门走一走才能发现身边的美！｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 17 · 评论 0",
+   "summary": "春天阳光正好，万物复苏，多出门走一走才能发现身边的美！｜社区辅导员-曲世鑫 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 18 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28170,7 +28257,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 17,
+    "views": 18,
     "comments": 0,
     "likes": 3
    },
@@ -28193,7 +28280,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "工大校园真好看。｜曾文韬 · 2023级机械工程学院 · 浏览 273 · 评论 3",
+   "summary": "工大校园真好看。｜曾文韬 · 2023级机械工程学院 · 浏览 274 · 评论 3",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28205,7 +28292,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 273,
+    "views": 274,
     "comments": 3,
     "likes": 5
    },
@@ -28232,7 +28319,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "工大最美等车点｜孙园 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 34 · 评论 0",
+   "summary": "工大最美等车点｜孙园 · 党委学生工作部（处）（党委研究生工作部合署） · 浏览 35 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28244,7 +28331,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 34,
+    "views": 35,
     "comments": 0,
     "likes": 5
    },
@@ -28267,7 +28354,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "紫荆花开，请大家上传“随手拍”分享春日校园美景，｜Dzl · 综合科 · 浏览 24 · 评论 0",
+   "summary": "紫荆花开，请大家上传“随手拍”分享春日校园美景，｜Dzl · 综合科 · 浏览 25 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28279,7 +28366,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 24,
+    "views": 25,
     "comments": 0,
     "likes": 4
    },
@@ -28302,7 +28389,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "气温回升啦！｜来欣宇 · 浏览 37 · 评论 0",
+   "summary": "气温回升啦！｜来欣宇 · 浏览 38 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28314,7 +28401,7 @@
     "col": "斛兵春色正喜人",
     "group": "scenery",
     "label": "校园风光",
-    "views": 37,
+    "views": 38,
     "comments": 0,
     "likes": 4
    },
@@ -28339,7 +28426,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "新学期新规划｜杨嘉璐 · 2023级建筑与艺术学院 · 浏览 19 · 评论 0",
+   "summary": "新学期新规划｜杨嘉璐 · 2023级建筑与艺术学院 · 浏览 20 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28351,7 +28438,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 19,
+    "views": 20,
     "comments": 0,
     "likes": 0
    },
@@ -28374,7 +28461,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "《 房思琪的初恋乐园》观后感  “书籍是人类进步的阶梯”我认为读书是我们作为一名大学生所要继续持续进行下去的事情，时间如同小溪悄然离去，经过了一个不长不短的｜杨嘉璐 · 2023级建筑与艺术学院 · 浏览 15 · 评论 0",
+   "summary": "《 房思琪的初恋乐园》观后感  “书籍是人类进步的阶梯”我认为读书是我们作为一名大学生所要继续持续进行下去的事情，时间如同小溪悄然离去，经过了一个不长不短的｜杨嘉璐 · 2023级建筑与艺术学院 · 浏览 16 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28386,7 +28473,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 15,
+    "views": 16,
     "comments": 0,
     "likes": 0
    },
@@ -28455,7 +28542,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "单词打卡✅｜刘柯岑 · 2022级外国语学院 · 浏览 72 · 评论 0",
+   "summary": "单词打卡✅｜刘柯岑 · 2022级外国语学院 · 浏览 73 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28467,7 +28554,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 72,
+    "views": 73,
     "comments": 0,
     "likes": 0
    },
@@ -28490,7 +28577,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "新学期个人学业规划｜刘柯岑 · 2022级外国语学院 · 浏览 52 · 评论 1",
+   "summary": "新学期个人学业规划｜刘柯岑 · 2022级外国语学院 · 浏览 53 · 评论 1",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28502,7 +28589,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 52,
+    "views": 53,
     "comments": 1,
     "likes": 1
    },
@@ -28528,7 +28615,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "**自我素养提升计划**｜用户_2023213693 · 2023级食品与生物工程学院 · 浏览 14 · 评论 0",
+   "summary": "**自我素养提升计划**｜用户_2023213693 · 2023级食品与生物工程学院 · 浏览 15 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28540,7 +28627,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 14,
+    "views": 15,
     "comments": 0,
     "likes": 0
    },
@@ -28570,7 +28657,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "下学期学业发展规划：传承传统文化｜用户_2023213693 · 2023级食品与生物工程学院 · 浏览 19 · 评论 0",
+   "summary": "下学期学业发展规划：传承传统文化｜用户_2023213693 · 2023级食品与生物工程学院 · 浏览 20 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28582,7 +28669,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 19,
+    "views": 20,
     "comments": 0,
     "likes": 1
    },
@@ -28612,7 +28699,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "一、引言｜用户_2023213693 · 2023级食品与生物工程学院 · 浏览 21 · 评论 0",
+   "summary": "一、引言｜用户_2023213693 · 2023级食品与生物工程学院 · 浏览 22 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28624,7 +28711,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 21,
+    "views": 22,
     "comments": 0,
     "likes": 0
    },
@@ -28654,7 +28741,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年味随手拍｜用户_2023213714 · 2023级食品与生物工程学院 · 浏览 20 · 评论 0",
+   "summary": "年味随手拍｜用户_2023213714 · 2023级食品与生物工程学院 · 浏览 21 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28666,7 +28753,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 20,
+    "views": 21,
     "comments": 0,
     "likes": 0
    },
@@ -28689,7 +28776,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "我的学习规划如下｜用户_2023213714 · 2023级食品与生物工程学院 · 浏览 15 · 评论 0",
+   "summary": "我的学习规划如下｜用户_2023213714 · 2023级食品与生物工程学院 · 浏览 16 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28701,7 +28788,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 15,
+    "views": 16,
     "comments": 0,
     "likes": 0
    },
@@ -28724,7 +28811,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "我很庆幸遇见了这本书，坚强和软弱，正义与邪恶，它让我见证了人性的污秽与光辉，教会了我勇敢和正义的坚守。这本书的题目是最引人芳心的，主人公阿迪克斯年轻时是一名｜用户_2023213714 · 2023级食品与生物工程学院 · 浏览 18 · 评论 0",
+   "summary": "我很庆幸遇见了这本书，坚强和软弱，正义与邪恶，它让我见证了人性的污秽与光辉，教会了我勇敢和正义的坚守。这本书的题目是最引人芳心的，主人公阿迪克斯年轻时是一名｜用户_2023213714 · 2023级食品与生物工程学院 · 浏览 19 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28736,7 +28823,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 18,
+    "views": 19,
     "comments": 0,
     "likes": 0
    },
@@ -28761,7 +28848,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《红与黑》读后感｜用户_2023213645 · 2023级食品与生物工程学院 · 浏览 18 · 评论 0",
+   "summary": "《红与黑》读后感｜用户_2023213645 · 2023级食品与生物工程学院 · 浏览 19 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28773,7 +28860,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 18,
+    "views": 19,
     "comments": 0,
     "likes": 0
    },
@@ -28796,7 +28883,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "个人发展规划｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 12 · 评论 0",
+   "summary": "个人发展规划｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 13 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28808,7 +28895,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 12,
+    "views": 13,
     "comments": 0,
     "likes": 0
    },
@@ -28838,7 +28925,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年夜饭是中国传统文化中非常重要的节日活动，通常是在农历除夕这一天全家团聚共进晚餐。这顿丰盛的晚餐象征着团圆和幸福，也是对过去一年的总结和对新一年的祝福。｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
+   "summary": "年夜饭是中国传统文化中非常重要的节日活动，通常是在农历除夕这一天全家团聚共进晚餐。这顿丰盛的晚餐象征着团圆和幸福，也是对过去一年的总结和对新一年的祝福。｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28850,7 +28937,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -28876,7 +28963,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "《人类简史》是一本开阔眼界、思想深刻的书籍，作者尤瓦尔·赫拉利以独特的视角和深刻的洞察力，对人类历史进行了全面而深入的探讨。在阅读完这本书后，我深受启发，产｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 10 · 评论 0",
+   "summary": "《人类简史》是一本开阔眼界、思想深刻的书籍，作者尤瓦尔·赫拉利以独特的视角和深刻的洞察力，对人类历史进行了全面而深入的探讨。在阅读完这本书后，我深受启发，产｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 11 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28888,7 +28975,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 10,
+    "views": 11,
     "comments": 0,
     "likes": 0
    },
@@ -28914,7 +29001,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "个人发展规划｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 8 · 评论 0",
+   "summary": "个人发展规划｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28926,7 +29013,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 8,
+    "views": 9,
     "comments": 0,
     "likes": 0
    },
@@ -28956,7 +29043,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《人类简史》是一本开阔眼界、思想深刻的书籍，作者尤瓦尔·赫拉利以独特的视角和深刻的洞察力，对人类历史进行了全面而深入的探讨。在阅读完这本书后，我深受启发，产｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
+   "summary": "《人类简史》是一本开阔眼界、思想深刻的书籍，作者尤瓦尔·赫拉利以独特的视角和深刻的洞察力，对人类历史进行了全面而深入的探讨。在阅读完这本书后，我深受启发，产｜用户_2023210770 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -28968,7 +29055,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -28994,7 +29081,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "个人学业规划书｜用户_2023210342 · 2023级电气与自动化工程学院 · 浏览 8 · 评论 0",
+   "summary": "个人学业规划书｜用户_2023210342 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29006,7 +29093,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 8,
+    "views": 9,
     "comments": 0,
     "likes": 0
    },
@@ -29036,7 +29123,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《红楼梦》，清代四大名著之一，被誉为中国古代小说的巅峰之作。这部小说以贾、史、王、薛四大家族的兴衰为背景，以大荒山青埂峰下顽石幻化的通灵宝玉为视角，以贾宝玉｜用户_2023210342 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
+   "summary": "《红楼梦》，清代四大名著之一，被誉为中国古代小说的巅峰之作。这部小说以贾、史、王、薛四大家族的兴衰为背景，以大荒山青埂峰下顽石幻化的通灵宝玉为视角，以贾宝玉｜用户_2023210342 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29048,7 +29135,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -29074,7 +29161,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "古街上，红灯笼高挂，彩旗飘扬，一派喜庆祥和的过年景象。街道两旁，店铺琳琅满目，传统的对联、窗花、年画等装饰品映入眼帘，彰显着浓厚的中华文化底蕴。市民们身着节｜用户_2023212558 · 2023级建筑与艺术学院 · 浏览 9 · 评论 0",
+   "summary": "古街上，红灯笼高挂，彩旗飘扬，一派喜庆祥和的过年景象。街道两旁，店铺琳琅满目，传统的对联、窗花、年画等装饰品映入眼帘，彰显着浓厚的中华文化底蕴。市民们身着节｜用户_2023212558 · 2023级建筑与艺术学院 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29086,7 +29173,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -29109,7 +29196,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "返家乡｜用户_2023210641 · 2023级电气与自动化工程学院 · 浏览 34 · 评论 0",
+   "summary": "返家乡｜用户_2023210641 · 2023级电气与自动化工程学院 · 浏览 35 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29121,7 +29208,7 @@
     "col": "明月相约、感恩团圆",
     "group": "culture",
     "label": "传统文化",
-    "views": 34,
+    "views": 35,
     "comments": 0,
     "likes": 0
    },
@@ -29144,7 +29231,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "随着寒假的结束，我即将迎来大学生活的下半程。在这个关键的节点上，制定一份明确的学业规划对我未来的学习和发展至关重要。以下是我为即将到来的新学期制定的学业规划｜用户_2023212558 · 2023级建筑与艺术学院 · 浏览 5 · 评论 0",
+   "summary": "随着寒假的结束，我即将迎来大学生活的下半程。在这个关键的节点上，制定一份明确的学业规划对我未来的学习和发展至关重要。以下是我为即将到来的新学期制定的学业规划｜用户_2023212558 · 2023级建筑与艺术学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29156,7 +29243,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -29180,7 +29267,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "包饺子｜用户_2023210641 · 2023级电气与自动化工程学院 · 浏览 19 · 评论 0",
+   "summary": "包饺子｜用户_2023210641 · 2023级电气与自动化工程学院 · 浏览 20 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29192,7 +29279,7 @@
     "col": "明月相约、感恩团圆",
     "group": "culture",
     "label": "传统文化",
-    "views": 19,
+    "views": 20,
     "comments": 0,
     "likes": 0
    },
@@ -29215,7 +29302,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "全家福｜用户_2023210641 · 2023级电气与自动化工程学院 · 浏览 14 · 评论 0",
+   "summary": "全家福｜用户_2023210641 · 2023级电气与自动化工程学院 · 浏览 15 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29227,7 +29314,7 @@
     "col": "明月相约、感恩团圆",
     "group": "culture",
     "label": "传统文化",
-    "views": 14,
+    "views": 15,
     "comments": 0,
     "likes": 0
    },
@@ -29250,7 +29337,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "思想素质提升｜用户_2022214197 · 2022级土木与水利工程学院 · 浏览 7 · 评论 0",
+   "summary": "思想素质提升｜用户_2022214197 · 2022级土木与水利工程学院 · 浏览 8 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29262,7 +29349,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 7,
+    "views": 8,
     "comments": 0,
     "likes": 0
    },
@@ -29285,7 +29372,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "个人未来规划是一场精心设计的旅程，既要追寻个人兴趣与激情，又需要考虑职业发展与成长。我的未来规划聚焦于实现个人梦想的同时，注重建设坚实的专业基础和人际网络。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 8 · 评论 0",
+   "summary": "个人未来规划是一场精心设计的旅程，既要追寻个人兴趣与激情，又需要考虑职业发展与成长。我的未来规划聚焦于实现个人梦想的同时，注重建设坚实的专业基础和人际网络。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29297,7 +29384,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 8,
+    "views": 9,
     "comments": 0,
     "likes": 0
    },
@@ -29320,7 +29407,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在寒假体验政府工作的过程中，我感受到了浓厚的务实工作精神。基层工作是政府与民众之间的桥梁，我亲身经历了服务社区居民、解决实际问题的过程，收获颇多。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 10 · 评论 0",
+   "summary": "在寒假体验政府工作的过程中，我感受到了浓厚的务实工作精神。基层工作是政府与民众之间的桥梁，我亲身经历了服务社区居民、解决实际问题的过程，收获颇多。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 11 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29332,7 +29419,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 10,
+    "views": 11,
     "comments": 0,
     "likes": 0
    },
@@ -29359,7 +29446,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "在这个世界上，有一种珍贵的宝藏，那就是我们的家庭。它是一座不设防的堡垒，一片永远的绿洲。每一个成员都是这座堡垒的守护者，每一次相聚都是一场心灵的盛宴。我们不｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 14 · 评论 0",
+   "summary": "在这个世界上，有一种珍贵的宝藏，那就是我们的家庭。它是一座不设防的堡垒，一片永远的绿洲。每一个成员都是这座堡垒的守护者，每一次相聚都是一场心灵的盛宴。我们不｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 15 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29371,7 +29458,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 14,
+    "views": 15,
     "comments": 0,
     "likes": 0
    },
@@ -29394,7 +29481,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "回顾上一学期，我对未来的大学生活有了更清晰的规划。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 2 · 评论 0",
+   "summary": "回顾上一学期，我对未来的大学生活有了更清晰的规划。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29406,7 +29493,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -29429,7 +29516,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《三体》深刻揭示了人类文明与宇宙间的微妙关系。在小说中，作者通过对人类历史、未来与外星文明的交织，探讨了科技、道德、文明与人性的复杂互动。我们在科技的迅速发｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 12 · 评论 0",
+   "summary": "《三体》深刻揭示了人类文明与宇宙间的微妙关系。在小说中，作者通过对人类历史、未来与外星文明的交织，探讨了科技、道德、文明与人性的复杂互动。我们在科技的迅速发｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 13 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29441,7 +29528,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 12,
+    "views": 13,
     "comments": 0,
     "likes": 0
    },
@@ -29464,7 +29551,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "土家族是中国的少数民族之一，拥有独特的民族文化，包括传统的服饰和舞蹈。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
+   "summary": "土家族是中国的少数民族之一，拥有独特的民族文化，包括传统的服饰和舞蹈。｜用户_2023210553 · 2023级电气与自动化工程学院 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29476,7 +29563,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -29502,7 +29589,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在这个寒假，我打开了家里面尘封许久的书，大概是在我初中时期买的，但却并没有细度，如今重新品味，顿感收益颇丰。这本书的书名叫做《文化苦旅》。｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
+   "summary": "在这个寒假，我打开了家里面尘封许久的书，大概是在我初中时期买的，但却并没有细度，如今重新品味，顿感收益颇丰。这本书的书名叫做《文化苦旅》。｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29514,7 +29601,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -29543,7 +29630,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "朝鲜族服饰｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
+   "summary": "朝鲜族服饰｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29555,7 +29642,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -29578,7 +29665,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《文化苦旅》读后感｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
+   "summary": "《文化苦旅》读后感｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29590,7 +29677,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -29620,7 +29707,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "回顾这一学期的大学生活，总的来说还是不满意的，因为自己没有人时刻看管自律性变得很差，因为自己的迷茫，不知道努力的方向，但是好在自己也坚持学习，没有过度放纵，｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
+   "summary": "回顾这一学期的大学生活，总的来说还是不满意的，因为自己没有人时刻看管自律性变得很差，因为自己的迷茫，不知道努力的方向，但是好在自己也坚持学习，没有过度放纵，｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29632,7 +29719,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -29655,7 +29742,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "包饺子｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 2 · 评论 0",
+   "summary": "包饺子｜用户_2023210525 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29667,7 +29754,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -29690,7 +29777,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "一起吃饭｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 9 · 评论 0",
+   "summary": "一起吃饭｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29702,7 +29789,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -29725,7 +29812,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "学业认知｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
+   "summary": "学业认知｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29737,7 +29824,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -29760,7 +29847,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "读后感｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
+   "summary": "读后感｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29772,7 +29859,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -29795,7 +29882,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年夜看烟花｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
+   "summary": "年夜看烟花｜用户_2023210601 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29807,7 +29894,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -29830,7 +29917,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年味｜用户_2023210592 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
+   "summary": "年味｜用户_2023210592 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29842,7 +29929,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -29865,7 +29952,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "藏历新年及藏文化｜用户_2022215621 · 浏览 9 · 评论 0",
+   "summary": "藏历新年及藏文化｜用户_2022215621 · 浏览 10 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29877,7 +29964,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 9,
+    "views": 10,
     "comments": 0,
     "likes": 0
    },
@@ -29900,7 +29987,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "新年快乐｜风景园林23-1班乔明宇 · 2024级数学学院 · 浏览 1 · 评论 0",
+   "summary": "新年快乐｜风景园林23-1班乔明宇 · 2024级数学学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29912,7 +29999,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -29935,7 +30022,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "腊八过后，就进入了“过年时间”，赶集叫“赶年集”，买东西叫“置办年货”，煎炒烹炸煮叫“忙年”。｜用户_2021211456 · 2021级建筑与艺术学院 · 浏览 6 · 评论 0",
+   "summary": "腊八过后，就进入了“过年时间”，赶集叫“赶年集”，买东西叫“置办年货”，煎炒烹炸煮叫“忙年”。｜用户_2021211456 · 2021级建筑与艺术学院 · 浏览 7 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29947,7 +30034,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 6,
+    "views": 7,
     "comments": 0,
     "likes": 0
    },
@@ -29977,7 +30064,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "全家福｜用户_2023210461 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
+   "summary": "全家福｜用户_2023210461 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -29989,7 +30076,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -30012,7 +30099,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年味｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
+   "summary": "年味｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 7 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30024,7 +30111,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 6,
+    "views": 7,
     "comments": 0,
     "likes": 0
    },
@@ -30047,7 +30134,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "careers",
-   "summary": "宣讲｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 17 · 评论 0",
+   "summary": "宣讲｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 18 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30060,7 +30147,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 17,
+    "views": 18,
     "comments": 0,
     "likes": 0
    },
@@ -30083,7 +30170,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "新一年成长规划｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
+   "summary": "新一年成长规划｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30095,7 +30182,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -30119,7 +30206,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "新一年成长规划｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
+   "summary": "新一年成长规划｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30131,7 +30218,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -30155,7 +30242,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "历史非庙堂，佳语本凡尘｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 2 · 评论 0",
+   "summary": "历史非庙堂，佳语本凡尘｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30167,7 +30254,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -30191,7 +30278,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "安徽年味周记：欢乐满载的春节｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 0 · 评论 0",
+   "summary": "安徽年味周记：欢乐满载的春节｜用户_2023210479 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30203,7 +30290,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -30231,7 +30318,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "读《文学回忆录》有感（2）｜用户_2023212578 · 浏览 12 · 评论 0",
+   "summary": "读《文学回忆录》有感（2）｜用户_2023212578 · 浏览 13 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30243,7 +30330,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 12,
+    "views": 13,
     "comments": 0,
     "likes": 1
    },
@@ -30270,7 +30357,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "读《文学回忆录》有感（1）｜用户_2023212578 · 浏览 8 · 评论 0",
+   "summary": "读《文学回忆录》有感（1）｜用户_2023212578 · 浏览 9 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30282,7 +30369,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 8,
+    "views": 9,
     "comments": 0,
     "likes": 1
    },
@@ -30310,7 +30397,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "读《文学回忆录》有感（2）｜用户_2023212578 · 浏览 3 · 评论 0",
+   "summary": "读《文学回忆录》有感（2）｜用户_2023212578 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30322,7 +30409,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 1
    },
@@ -30349,7 +30436,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "读《文学回忆录》有感（1）｜用户_2023212578 · 浏览 5 · 评论 0",
+   "summary": "读《文学回忆录》有感（1）｜用户_2023212578 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30361,7 +30448,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 1
    },
@@ -30389,7 +30476,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "东北的春节是一年中最热闹、最温馨的时刻。通常有以下习俗：｜用户_2023212578 · 浏览 33 · 评论 0",
+   "summary": "东北的春节是一年中最热闹、最温馨的时刻。通常有以下习俗：｜用户_2023212578 · 浏览 34 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30401,7 +30488,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 33,
+    "views": 34,
     "comments": 0,
     "likes": 2
    },
@@ -30430,7 +30517,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "雪域带货人（4）｜用户_2023212578 · 浏览 5 · 评论 0",
+   "summary": "雪域带货人（4）｜用户_2023212578 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30442,7 +30529,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 1
    },
@@ -30469,7 +30556,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "雪域带货人（3）｜用户_2023212578 · 浏览 4 · 评论 0",
+   "summary": "雪域带货人（3）｜用户_2023212578 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30481,7 +30568,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 1
    },
@@ -30509,7 +30596,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "雪域带货人（2）｜用户_2023212578 · 浏览 3 · 评论 0",
+   "summary": "雪域带货人（2）｜用户_2023212578 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30521,7 +30608,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 1
    },
@@ -30549,7 +30636,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "雪域带货人（1）｜用户_2023212578 · 浏览 6 · 评论 0",
+   "summary": "雪域带货人（1）｜用户_2023212578 · 浏览 7 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30561,7 +30648,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 6,
+    "views": 7,
     "comments": 0,
     "likes": 0
    },
@@ -30590,7 +30677,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《杀死一只知更鸟》是美国作家哈珀·李创作的经典小说，被誉为20世纪最重要的文学作品之一。这部小说以南方小镇马科姆为背景，讲述了一位善良勇敢的律师阿提克斯·芬｜用户_2023212572 · 2023级建筑与艺术学院 · 浏览 4 · 评论 0",
+   "summary": "《杀死一只知更鸟》是美国作家哈珀·李创作的经典小说，被誉为20世纪最重要的文学作品之一。这部小说以南方小镇马科姆为背景，讲述了一位善良勇敢的律师阿提克斯·芬｜用户_2023212572 · 2023级建筑与艺术学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30602,7 +30689,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -30628,7 +30715,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "1. 目标设定：｜用户_2023212572 · 2023级建筑与艺术学院 · 浏览 4 · 评论 0",
+   "summary": "1. 目标设定：｜用户_2023212572 · 2023级建筑与艺术学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30640,7 +30727,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -30670,7 +30757,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30682,7 +30769,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -30705,7 +30792,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "如下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 5 · 评论 0",
+   "summary": "如下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30717,7 +30804,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -30740,7 +30827,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春节｜用户_2023212572 · 2023级建筑与艺术学院 · 浏览 3 · 评论 0",
+   "summary": "春节｜用户_2023212572 · 2023级建筑与艺术学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30752,7 +30839,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -30775,7 +30862,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "如下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 3 · 评论 0",
+   "summary": "如下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30787,7 +30874,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -30810,7 +30897,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "如下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "如下图｜用户_2023212669 · 2023级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30822,7 +30909,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -30845,7 +30932,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "时光荏苒，大一的新奇和懵懂已经过去，大二下学期的大学生活即将开始。回首大一，虽然有许多困难和挑战，但也让我逐渐适应了大学的节奏，认识了更多的朋友，收获了一些｜用户_2022213950 · 2022级数学学院 · 浏览 2 · 评论 0",
+   "summary": "时光荏苒，大一的新奇和懵懂已经过去，大二下学期的大学生活即将开始。回首大一，虽然有许多困难和挑战，但也让我逐渐适应了大学的节奏，认识了更多的朋友，收获了一些｜用户_2022213950 · 2022级数学学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30857,7 +30944,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -30885,7 +30972,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "规划助发展启航｜用户9955668711 · 2022级管理与智能科学学院（智能商学院） · 浏览 5 · 评论 0",
+   "summary": "规划助发展启航｜用户9955668711 · 2022级管理与智能科学学院（智能商学院） · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30897,7 +30984,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -30920,7 +31007,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "传统过年习俗｜用户_2022214409 · 2022级土木与水利工程学院 · 浏览 4 · 评论 0",
+   "summary": "传统过年习俗｜用户_2022214409 · 2022级土木与水利工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30932,7 +31019,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 1
    },
@@ -30960,7 +31047,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春节学做两道菜｜用户_2023210003 · 2023级材料科学与工程学院 · 浏览 0 · 评论 0",
+   "summary": "春节学做两道菜｜用户_2023210003 · 2023级材料科学与工程学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -30972,7 +31059,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -30995,7 +31082,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在本人志愿服务担任社区网格员期间积极宣传党的路线、方针、政策和国家法律法规。对辖区内部分商铺信息进行录入更新，同时管理相应信息平台。在社区工作人员的陪同下对｜用户_2023214273 · 2023级土木与水利工程学院 · 浏览 8 · 评论 0",
+   "summary": "在本人志愿服务担任社区网格员期间积极宣传党的路线、方针、政策和国家法律法规。对辖区内部分商铺信息进行录入更新，同时管理相应信息平台。在社区工作人员的陪同下对｜用户_2023214273 · 2023级土木与水利工程学院 · 浏览 9 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31007,7 +31094,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 8,
+    "views": 9,
     "comments": 0,
     "likes": 0
    },
@@ -31030,7 +31117,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": ".｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 1 · 评论 0",
+   "summary": ".｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31042,7 +31129,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -31065,7 +31152,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "提到歙县，众所周知的就是徽州古城，在春节时，这里也有很多的风俗活动，吸引了许多｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 4 · 评论 0",
+   "summary": "提到歙县，众所周知的就是徽州古城，在春节时，这里也有很多的风俗活动，吸引了许多｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31077,7 +31164,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -31103,7 +31190,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "好｜用户_2023212519 · 2023级建筑与艺术学院 · 浏览 0 · 评论 0",
+   "summary": "好｜用户_2023212519 · 2023级建筑与艺术学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31115,7 +31202,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -31138,7 +31225,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "。｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 5 · 评论 0",
+   "summary": "。｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31150,7 +31237,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -31173,7 +31260,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "。｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 1 · 评论 0",
+   "summary": "。｜用户_2023212518 · 2023级汽车与交通工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31185,7 +31272,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -31208,7 +31295,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春风拂过南岭，带来了新年的讯息。在广东清远的大地上，春节的气息渐浓，一幅幅传统习俗的画卷缓缓展开，绘制出一幅幅烟火色彩的图景。｜用户_2023212612 · 2023级汽车与交通工程学院 · 浏览 2 · 评论 0",
+   "summary": "春风拂过南岭，带来了新年的讯息。在广东清远的大地上，春节的气息渐浓，一幅幅传统习俗的画卷缓缓展开，绘制出一幅幅烟火色彩的图景。｜用户_2023212612 · 2023级汽车与交通工程学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31220,7 +31307,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -31246,7 +31333,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "书山有路勤为径，学海无涯苦作舟。学习从来都是一分耕耘一分收获，要想学的好，就必须下苦功夫。油！就去成为我们想成为的大人吧，继续兴致盎然和世界交手吧，前程似锦｜用户_2022210912 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
+   "summary": "书山有路勤为径，学海无涯苦作舟。学习从来都是一分耕耘一分收获，要想学的好，就必须下苦功夫。油！就去成为我们想成为的大人吧，继续兴致盎然和世界交手吧，前程似锦｜用户_2022210912 · 2022级管理与智能科学学院（智能商学院） · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31258,7 +31345,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -31281,7 +31368,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "在追逐成长的征途上，我心怀坚定的信念，如同漫天繁星闪耀在寂静夜空。我立志在学业的广袤原野上驰骋，砥砺前行的刀锋。我深知，唯有刻苦钻研，才能在知识的殿堂中博采｜用户_2022210943 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
+   "summary": "在追逐成长的征途上，我心怀坚定的信念，如同漫天繁星闪耀在寂静夜空。我立志在学业的广袤原野上驰骋，砥砺前行的刀锋。我深知，唯有刻苦钻研，才能在知识的殿堂中博采｜用户_2022210943 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31293,7 +31380,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -31320,7 +31407,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "该报告旨在总结回顾大学生涯，规划新学期学习生活，做好新一年的成长规划。｜用户_2022211044 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
+   "summary": "该报告旨在总结回顾大学生涯，规划新学期学习生活，做好新一年的成长规划。｜用户_2022211044 · 2022级管理与智能科学学院（智能商学院） · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31332,7 +31419,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -31355,7 +31442,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022211044 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022211044 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31367,7 +31454,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -31390,7 +31477,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "将一副精美的对联贴在门框上，是每个家庭春节前必做的准备工作。在今年的除夕早上，我也体验了一次贴对联，对联上的每一个字都是精心构思、一笔一画写就的。通过这次的｜用户_2022214436 · 2022级土木与水利工程学院 · 浏览 2 · 评论 0",
+   "summary": "将一副精美的对联贴在门框上，是每个家庭春节前必做的准备工作。在今年的除夕早上，我也体验了一次贴对联，对联上的每一个字都是精心构思、一笔一画写就的。通过这次的｜用户_2022214436 · 2022级土木与水利工程学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31402,7 +31489,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -31426,7 +31513,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210936 · 2022级管理与智能科学学院（智能商学院） · 浏览 4 · 评论 0",
+   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210936 · 2022级管理与智能科学学院（智能商学院） · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31438,7 +31525,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -31461,7 +31548,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "读《雪国》有感｜用户_2023210679 · 2023级电气与自动化工程学院 · 浏览 0 · 评论 0",
+   "summary": "读《雪国》有感｜用户_2023210679 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31473,7 +31560,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -31496,7 +31583,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "见下图｜用户_2023210679 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
+   "summary": "见下图｜用户_2023210679 · 2023级电气与自动化工程学院 · 浏览 7 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31508,7 +31595,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 6,
+    "views": 7,
     "comments": 0,
     "likes": 0
    },
@@ -31531,7 +31618,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "读《雪国》有感｜用户_2023210679 · 2023级电气与自动化工程学院 · 浏览 3 · 评论 0",
+   "summary": "读《雪国》有感｜用户_2023210679 · 2023级电气与自动化工程学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31543,7 +31630,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -31566,7 +31653,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "春节期间，在我们社区的元宵节活动中，我有幸参与了一次令人难忘的实践活动。在这一天，社区的广场被布置得异常热闹，五颜六色的灯笼在微风中摇曳，悠扬的音乐响彻整个｜傅彦乔 · 2022级物理学院 · 浏览 4 · 评论 0",
+   "summary": "春节期间，在我们社区的元宵节活动中，我有幸参与了一次令人难忘的实践活动。在这一天，社区的广场被布置得异常热闹，五颜六色的灯笼在微风中摇曳，悠扬的音乐响彻整个｜傅彦乔 · 2022级物理学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31578,7 +31665,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -31602,7 +31689,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "见图片｜用户_2021211300 · 2021级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "见图片｜用户_2021211300 · 2021级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31614,7 +31701,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -31637,7 +31724,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "见图片｜用户_2021211300 · 2021级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "见图片｜用户_2021211300 · 2021级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31649,7 +31736,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -31672,7 +31759,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "“我们的节日·春节”志愿服务活动｜用户_2023210023 · 2023级数学学院 · 浏览 0 · 评论 0",
+   "summary": "“我们的节日·春节”志愿服务活动｜用户_2023210023 · 2023级数学学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31684,7 +31771,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -31707,7 +31794,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年味照片｜用户_2023210023 · 2023级数学学院 · 浏览 2 · 评论 0",
+   "summary": "年味照片｜用户_2023210023 · 2023级数学学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31719,7 +31806,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -31742,7 +31829,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210901 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210901 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31754,7 +31841,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -31777,7 +31864,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "寒假期其间我在社区积极参与协助社区认证并放发慰问券，在后续参与了何退休老人送温暖．捐衣赠物等活动，并获得了证书｜用户_2022212571 · 2022级建筑与艺术学院 · 浏览 5 · 评论 0",
+   "summary": "寒假期其间我在社区积极参与协助社区认证并放发慰问券，在后续参与了何退休老人送温暖．捐衣赠物等活动，并获得了证书｜用户_2022212571 · 2022级建筑与艺术学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31789,7 +31876,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -31814,7 +31901,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210939 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
+   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210939 · 2022级管理与智能科学学院（智能商学院） · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31826,7 +31913,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -31849,7 +31936,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210965 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
+   "summary": "本视频的主题为“爱国我来说”，以学习贯彻党的二十大精神为指导，坚持理论学习与实践教育相结合，以迎接新中国成立75周年为契机，聚焦党的二十大精神以及新中国成立｜用户_2022210965 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31861,7 +31948,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -31884,7 +31971,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "时光荏苒，大二上半学期已经离我们远去，回首这一学期，我收获了很多。在迷茫中探索，在探索中前进，在前进中不断成长。｜用户_2022215562 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "时光荏苒，大二上半学期已经离我们远去，回首这一学期，我收获了很多。在迷茫中探索，在探索中前进，在前进中不断成长。｜用户_2022215562 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31896,7 +31983,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -31926,7 +32013,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "如图｜用户_2021211514 · 2021级建筑与艺术学院 · 浏览 7 · 评论 0",
+   "summary": "如图｜用户_2021211514 · 2021级建筑与艺术学院 · 浏览 8 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31938,7 +32025,7 @@
     "col": "微言微语微成长",
     "group": "growth",
     "label": "成长分享",
-    "views": 7,
+    "views": 8,
     "comments": 0,
     "likes": 0
    },
@@ -31961,7 +32048,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "如图｜用户_2021211514 · 2021级建筑与艺术学院 · 浏览 5 · 评论 0",
+   "summary": "如图｜用户_2021211514 · 2021级建筑与艺术学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -31973,7 +32060,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -31996,7 +32083,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "如图｜用户_2022211038 · 2022级管理与智能科学学院（智能商学院） · 浏览 5 · 评论 0",
+   "summary": "如图｜用户_2022211038 · 2022级管理与智能科学学院（智能商学院） · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32008,7 +32095,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -32031,7 +32118,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "我的大学生活｜用户_2022210965 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "我的大学生活｜用户_2022210965 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32043,7 +32130,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32069,7 +32156,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "一．大学生涯总结回顾｜用户_2022211010 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "一．大学生涯总结回顾｜用户_2022211010 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32081,7 +32168,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32111,7 +32198,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "烟火起，照人间｜用户_2023212502 · 2023级建筑与艺术学院 · 浏览 3 · 评论 0",
+   "summary": "烟火起，照人间｜用户_2023212502 · 2023级建筑与艺术学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32123,7 +32210,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -32147,7 +32234,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "饺子｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 0 · 评论 0",
+   "summary": "饺子｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32159,7 +32246,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32182,7 +32269,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "一、学习方面在学习方面我总是马马虎虎，在考试的时候我总是因为一道题太难而放弃，而且总是因为一道题太简单而马虎大意，所以我的成绩总是十分不稳定，但是我相信在下｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 2 · 评论 0",
+   "summary": "一、学习方面在学习方面我总是马马虎虎，在考试的时候我总是因为一道题太难而放弃，而且总是因为一道题太简单而马虎大意，所以我的成绩总是十分不稳定，但是我相信在下｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32194,7 +32281,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -32217,7 +32304,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "无｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "无｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32229,7 +32316,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -32252,7 +32339,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "对贫困的群众，我们心里有一种发自内心的同情，很多的基层干部也是从贫困中走过来，和农村有着千丝万缕的关系，更加增强我们抓好扶贫攻坚的使命感与责任感，这是用心扶｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "对贫困的群众，我们心里有一种发自内心的同情，很多的基层干部也是从贫困中走过来，和农村有着千丝万缕的关系，更加增强我们抓好扶贫攻坚的使命感与责任感，这是用心扶｜用户_2023212667 · 2023级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32264,7 +32351,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -32287,7 +32374,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "春风轻拂，新的学期如约而至。面对大二下半学年，我怀揣着对知识的渴望和对未来的憧憬，制定了以下成长规划，以期望在这个学期里，我能够更全面地发展自己，为未来打下｜用户_2022211018 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "春风轻拂，新的学期如约而至。面对大二下半学年，我怀揣着对知识的渴望和对未来的憧憬，制定了以下成长规划，以期望在这个学期里，我能够更全面地发展自己，为未来打下｜用户_2022211018 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32299,7 +32386,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32326,7 +32413,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "大学生活是我人生中最宝贵的阶段之一，是我追求知识、实现自我价值、培养综合素养的重要时期。回首过去，我感到收获满满，同时也意识到自己还有许多不足之处需要改进和｜用户_2022210956 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "大学生活是我人生中最宝贵的阶段之一，是我追求知识、实现自我价值、培养综合素养的重要时期。回首过去，我感到收获满满，同时也意识到自己还有许多不足之处需要改进和｜用户_2022210956 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32338,7 +32425,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32363,7 +32450,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "个人成长报告｜用户_2022210925 · 2022级管理与智能科学学院（智能商学院） · 浏览 0 · 评论 0",
+   "summary": "个人成长报告｜用户_2022210925 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32375,7 +32462,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32398,7 +32485,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "时光荏苒，转眼间我已走过了大学生涯的一半。站在新学期的起点，我想对过去的学习生活进行回顾总结，并为新学期的学习生活制定明确的规划。｜用户_2022210939 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
+   "summary": "时光荏苒，转眼间我已走过了大学生涯的一半。站在新学期的起点，我想对过去的学习生活进行回顾总结，并为新学期的学习生活制定明确的规划。｜用户_2022210939 · 2022级管理与智能科学学院（智能商学院） · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32410,7 +32497,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -32435,7 +32522,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "总结过去，奔向未来｜用户_2022210903 · 浏览 3 · 评论 0",
+   "summary": "总结过去，奔向未来｜用户_2022210903 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32447,7 +32534,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -32470,7 +32557,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "时光如梭，转眼间，我已经在合肥工业大学的大学校园里度过了人生中最有意义和收获颇丰的一段时光。在这段旅程中，我不仅积累了丰富的知识，还经历了无数次的挑战和成长｜用户_2022210936 · 2022级管理与智能科学学院（智能商学院） · 浏览 1 · 评论 0",
+   "summary": "时光如梭，转眼间，我已经在合肥工业大学的大学校园里度过了人生中最有意义和收获颇丰的一段时光。在这段旅程中，我不仅积累了丰富的知识，还经历了无数次的挑战和成长｜用户_2022210936 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32482,7 +32569,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -32506,7 +32593,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "作为一名大二会计学专业的学生，我深知自身需要全面发展，因此我制定了一份综合性的成长规划。在学业方面，我将采取一系列措施以提高学习成绩。首先，我将制定详细的学｜用户_2022210901 · 2022级管理与智能科学学院（智能商学院） · 浏览 2 · 评论 0",
+   "summary": "作为一名大二会计学专业的学生，我深知自身需要全面发展，因此我制定了一份综合性的成长规划。在学业方面，我将采取一系列措施以提高学习成绩。首先，我将制定详细的学｜用户_2022210901 · 2022级管理与智能科学学院（智能商学院） · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32518,7 +32605,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 1
    },
@@ -32541,7 +32628,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "成长规划｜用户_1043 · 浏览 3 · 评论 0",
+   "summary": "成长规划｜用户_1043 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32553,7 +32640,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -32576,7 +32663,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "一、引言｜胡亚伟 · 2022级管理与智能科学学院（智能商学院） · 浏览 6 · 评论 0",
+   "summary": "一、引言｜胡亚伟 · 2022级管理与智能科学学院（智能商学院） · 浏览 7 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32588,7 +32675,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 6,
+    "views": 7,
     "comments": 0,
     "likes": 0
    },
@@ -32618,7 +32705,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "个人成长报告｜北方小土豆 · 浏览 5 · 评论 0",
+   "summary": "个人成长报告｜北方小土豆 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32630,7 +32717,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 1
    },
@@ -32653,7 +32740,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "在新学期即将开始之际，我很高兴有机会分享我在大学的成长心得，并展望即将到来的学习生活。这个过程中，我深刻地认识到自己，也为未来制定了更明确的规划。｜用户_2022210917 · 2022级管理与智能科学学院（智能商学院） · 浏览 4 · 评论 0",
+   "summary": "在新学期即将开始之际，我很高兴有机会分享我在大学的成长心得，并展望即将到来的学习生活。这个过程中，我深刻地认识到自己，也为未来制定了更明确的规划。｜用户_2022210917 · 2022级管理与智能科学学院（智能商学院） · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32665,7 +32752,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -32695,7 +32782,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "视频主题：爱国我来说：新中国75年辉煌｜用户_1043 · 浏览 10 · 评论 0",
+   "summary": "视频主题：爱国我来说：新中国75年辉煌｜用户_1043 · 浏览 11 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32707,7 +32794,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 10,
+    "views": 11,
     "comments": 0,
     "likes": 0
    },
@@ -32731,7 +32818,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《解忧杂货铺》：当人心遇见人心｜王晶莹2023212664 · 2023级建筑与艺术学院 · 浏览 5 · 评论 0",
+   "summary": "《解忧杂货铺》：当人心遇见人心｜王晶莹2023212664 · 2023级建筑与艺术学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32743,7 +32830,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -32770,7 +32857,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "时间匆匆，转眼间，已经一个学期 ，在这一学期里，我参与了社团活动，也成为了一名社团干事，我也报名参加了 许多志愿活动。在这个过程中，我也收获了许多。我结交了｜用户_2023210518 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
+   "summary": "时间匆匆，转眼间，已经一个学期 ，在这一学期里，我参与了社团活动，也成为了一名社团干事，我也报名参加了 许多志愿活动。在这个过程中，我也收获了许多。我结交了｜用户_2023210518 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32782,7 +32869,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -32805,7 +32892,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "在大学的求学生涯即将结束之际，我想回顾和总结自己在这段时间里的成长经历，并为未来的学习生活制定学习计划，在下一个节点前做好准备工作以及规划。｜用户_2021211444 · 2021级建筑与艺术学院 · 浏览 1 · 评论 0",
+   "summary": "在大学的求学生涯即将结束之际，我想回顾和总结自己在这段时间里的成长经历，并为未来的学习生活制定学习计划，在下一个节点前做好准备工作以及规划。｜用户_2021211444 · 2021级建筑与艺术学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32817,7 +32904,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -32844,7 +32931,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "“一个国家、一个民族不能没有灵魂”。红色基因历经百年的生动实践和持续积淀，已然深深地融入中华民族的灵魂血脉之中。为传承红色基因，赓续红色血脉，发扬红色传统，｜用户_2021211444 · 2021级建筑与艺术学院 · 浏览 0 · 评论 0",
+   "summary": "“一个国家、一个民族不能没有灵魂”。红色基因历经百年的生动实践和持续积淀，已然深深地融入中华民族的灵魂血脉之中。为传承红色基因，赓续红色血脉，发扬红色传统，｜用户_2021211444 · 2021级建筑与艺术学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32856,7 +32943,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -32880,7 +32967,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "回母校宣讲｜用户_2023214005 · 2023级数学学院 · 浏览 6 · 评论 0",
+   "summary": "回母校宣讲｜用户_2023214005 · 2023级数学学院 · 浏览 7 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32892,7 +32979,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 6,
+    "views": 7,
     "comments": 0,
     "likes": 0
    },
@@ -32915,7 +33002,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "careers",
-   "summary": "进入学校之后我跟着提前准备的ppt的流程—一展示与讲解了大学学校概况，人才培养，就业情况等，用视频向同学们展示了校园的优美景色，良好的学习氛围及各种丰富多彩｜用户_2023214005 · 2023级数学学院 · 浏览 5 · 评论 0",
+   "summary": "进入学校之后我跟着提前准备的ppt的流程—一展示与讲解了大学学校概况，人才培养，就业情况等，用视频向同学们展示了校园的优美景色，良好的学习氛围及各种丰富多彩｜用户_2023214005 · 2023级数学学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32928,7 +33015,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -32951,7 +33038,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "《三体》三部曲的读后感｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 1 · 评论 0",
+   "summary": "《三体》三部曲的读后感｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -32963,7 +33050,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -32991,7 +33078,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "于寒假在家乡清扫街道，虽然艰辛，但心中充满了服务社会后的自豪与温暖。｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 4 · 评论 0",
+   "summary": "于寒假在家乡清扫街道，虽然艰辛，但心中充满了服务社会后的自豪与温暖。｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 5 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33003,7 +33090,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 4,
+    "views": 5,
     "comments": 0,
     "likes": 0
    },
@@ -33026,7 +33113,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "一家人围在一起看春晚，是一年来最为温暖的时刻。｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 5 · 评论 0",
+   "summary": "一家人围在一起看春晚，是一年来最为温暖的时刻。｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33038,7 +33125,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -33061,7 +33148,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "改变的是年岁，不变的是年味。｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 3 · 评论 0",
+   "summary": "改变的是年岁，不变的是年味。｜用户_2023210561 · 2024级电气与自动化工程学院 · 浏览 4 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33073,7 +33160,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 3,
+    "views": 4,
     "comments": 0,
     "likes": 0
    },
@@ -33096,7 +33183,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "给父母的一封信｜用户_2023210016 · 2023级材料科学与工程学院 · 浏览 1 · 评论 0",
+   "summary": "给父母的一封信｜用户_2023210016 · 2023级材料科学与工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33108,7 +33195,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -33131,7 +33218,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "年味随手拍｜用户_2023210016 · 2023级材料科学与工程学院 · 浏览 1 · 评论 0",
+   "summary": "年味随手拍｜用户_2023210016 · 2023级材料科学与工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33143,7 +33230,7 @@
     "col": "传统文化探寻",
     "group": "culture",
     "label": "传统文化",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -33166,7 +33253,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "根据目前学习内容及个人理想、个人长处，对未来的学习倾向及职业理想进行规划｜用户_2021211368 · 浏览 2 · 评论 0",
+   "summary": "根据目前学习内容及个人理想、个人长处，对未来的学习倾向及职业理想进行规划｜用户_2021211368 · 浏览 3 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33178,7 +33265,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 2,
+    "views": 3,
     "comments": 0,
     "likes": 0
    },
@@ -33201,7 +33288,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "寒假以“初心永向党”为主题学习，并撰写积极分子思想汇报｜用户_2021211368 · 浏览 5 · 评论 0",
+   "summary": "寒假以“初心永向党”为主题学习，并撰写积极分子思想汇报｜用户_2021211368 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33213,7 +33300,7 @@
     "col": "思想素质提升",
     "group": "ideology",
     "label": "思想教育",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -33236,7 +33323,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "campus",
-   "summary": "大学生社区实践｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
+   "summary": "大学生社区实践｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 2 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33248,7 +33335,7 @@
     "col": "返乡社会实践",
     "group": "practice",
     "label": "社会实践",
-    "views": 1,
+    "views": 2,
     "comments": 0,
     "likes": 0
    },
@@ -33271,7 +33358,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "arts",
-   "summary": "祖母的银手镯｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 0 · 评论 0",
+   "summary": "祖母的银手镯｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33283,7 +33370,7 @@
     "col": "春晖言孝感恩",
     "group": "culture",
     "label": "传统文化",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
@@ -33306,7 +33393,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "academics",
-   "summary": "自动化专业深研调察报告｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 5 · 评论 0",
+   "summary": "自动化专业深研调察报告｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 6 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33318,7 +33405,7 @@
     "col": "学业发展强化",
     "group": "academics",
     "label": "学风学业",
-    "views": 5,
+    "views": 6,
     "comments": 0,
     "likes": 0
    },
@@ -33341,7 +33428,7 @@
    "dateEstimated": false,
    "intent": "information",
    "category": "skills",
-   "summary": "启承话新程 —— 我的大一新生生涯回顾与新学期规划｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 0 · 评论 0",
+   "summary": "启承话新程 —— 我的大一新生生涯回顾与新学期规划｜用户_2023210813 · 2023级电气与自动化工程学院 · 浏览 1 · 评论 0",
    "event": null,
    "requiresSignup": false,
    "tags": [
@@ -33353,7 +33440,7 @@
     "col": "综合素质拓展",
     "group": "skills",
     "label": "综合素质",
-    "views": 0,
+    "views": 1,
     "comments": 0,
     "likes": 0
    },
