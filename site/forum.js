@@ -63,7 +63,21 @@
   const isHfut = (i) => HFUT_RE.test(`${i.t || ''} ${i.src === 'bili' ? '' : (i.b || '')}`);
 
   const heat = (i) => Math.log10(1 + (i.src === 'bili' ? (i.p || 0) : (i.r || 0))) * 4;
-  const relScore = (i) => (i.s || 0) + heat(i);
+  // 同一条时间桶里，「有信息量」的压过「水贴」：升学/就业/课程/社团加分，纯水贴扣分
+  const NOISE_RE = /水贴|水一贴|签到|来水|啊啊|水个|鼠鼠|烂活|怎么这么坏|有没有一起/;
+  const ASK_RE = /^求助|^请问|^求问/;
+  const infoBoost = (i) => {
+    let v = 0;
+    const cat = String(i.cat || '');
+    if (cat === 'shengxue' || cat === 'jiuye') v += 7;
+    else if (cat === 'ke' || cat === 'shetuan') v += 5;
+    else if (cat === 'tucao' || cat === 'qita') v -= 3;
+    const t = String(i.t || '');
+    if (NOISE_RE.test(t)) v -= 11;
+    if (ASK_RE.test(t)) v -= 1;
+    return v;
+  };
+  const relScore = (i) => (i.s || 0) + heat(i) + infoBoost(i);
   // 时效性是第一位的：先按时间分桶，桶内再按重要性（个人加权 + 讨论热度）排
   const bucket = (i) => {
     const t = new Date(i.at || 0).getTime();
