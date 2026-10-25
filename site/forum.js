@@ -9,6 +9,7 @@
     q: '',
     only: false,
     readOnly: false,
+    starOnly: false,
     limit: 60,
     tieba: null,
     bili: null,
@@ -181,6 +182,7 @@
   // 默认流里不放已阅的；搜索时仍然能搜到
   const pool = () => {
     const b = base();
+    if (S.starOnly) return b.filter((i) => STAR.has(String(i.id)));
     if (S.q) return b;
     return b.filter((i) => !isRead(i));
   };
@@ -251,6 +253,7 @@
     return `<div class="toolbar">
       <span class="count">${total} 条</span>
       <button class="chip ${S.only ? 'active' : ''}" data-only="1" title="只保留标题里出现「合工大 / 合肥工业 / 宣城校区 / 翡翠湖校区」的">只看合工大</button>
+      <button class="chip ${S.starOnly ? 'active' : ''}" data-staronly="1" title="只看收藏过的（和首页「我的收藏」共用一套记录）">★ 收藏 ${STAR.size}</button>
       <button class="chip" data-drawer="1" title="打开「看过的」，可以把标记过的放回来">看过的 ${READ.size}</button>
       <div class="spacer"></div>
       <div class="seg" id="segWin">${win(0, '全部时间')}${win(1, '24h')}${win(7, '7天')}${win(30, '30天')}</div>
@@ -311,7 +314,7 @@
       ${rows.length > shown.length ? `<div class="more"><button class="btn ghost" id="moreBtn">加载更多（还有 ${rows.length - shown.length} 条）</button></div>` : ''}
       <p class="note">贴吧主题列表与 B 站搜索接口的公开数据，混排成一个流。${READ.size ? `已阅 ${READ.size} 条不再往前排（点「已阅 ${READ.size}」可回看），搜索依然能找到。` : '看过的点一下「已阅」，就不会再挤在你前面。'}抓取时间 ${S.meta ? new Date(S.meta.generatedAt).toLocaleString('zh-CN') : '—'}，链接都指回原文。</p>`;
     chips();
-    $('#footMeta').textContent = `${rows.length} 条 · ${sortName}${S.win ? ` · 最近 ${S.win} 天` : ''}${S.only ? ' · 只看合工大' : ''}`;
+    $('#footMeta').textContent = `${rows.length} 条 · ${sortName}${S.win ? ` · 最近 ${S.win} 天` : ''}${S.only ? ' · 只看合工大' : ''}${S.starOnly ? ' · 只看收藏' : ''}`;
   }
 
   /* ---------------- 交互 ---------------- */
@@ -464,6 +467,13 @@
     if (s) { S.sort = s.dataset.sort; S.limit = 60; render(); return; }
     const w = e.target.closest('[data-win]');
     if (w) { S.win = Number(w.dataset.win) || 0; S.limit = 60; render(); return; }
+    if (e.target.closest('[data-staronly]')) {
+      S.starOnly = !S.starOnly;
+      if (S.starOnly) { S.only = false; S.win = 0; S.cat = 'all'; }
+      S.limit = 60;
+      render();
+      return;
+    }
     if (e.target.closest('[data-only]')) { S.only = !S.only; S.limit = 60; render(); return; }
     if (e.target.closest('#moreBtn')) { S.limit += 60; render(); return; }
   });
