@@ -324,12 +324,6 @@ def _activity_item(a: dict) -> dict[str, Any] | None:
     photo = (a.get("activePhoto") or "").strip()
     if photo.startswith("http"):
         paras.append(f'<p><img src="{photo}" alt="{name}" loading="lazy"></p>')
-    ended = False
-    try:
-        if end:
-            ended = datetime.fromisoformat(end) < datetime.now().astimezone()
-    except Exception:
-        ended = False
     return {
         "id": "gg-" + str(a.get("id")),
         "title": name[:100],
@@ -346,10 +340,9 @@ def _activity_item(a: dict) -> dict[str, Any] | None:
         "deadline": close or None,
         "speaker": (a.get("keynoteSpeaker") or "").strip() or None,
         "requiresSignup": True,
-        "activityStatus": "ended" if ended else "upcoming",
         "tags": [t for t in [a.get("moduleName"), a.get("campus_dictText"), a.get("form")] if t],
         "competition": None,
-        "feed": not ended,
+        "feed": True,
         "content": paras,
         "poster": photo or None,
         "demo": False,
