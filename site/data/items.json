@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T04:10",
+ "generatedAt": "2026-10-25T04:35",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -139,6 +139,33 @@
   }
  ],
  "items": [
+  {
+   "id": "bili-BV1HLHM6DE95",
+   "title": "【合肥工业大学830电路】第5章5.2 正弦量的相量表示法（上） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1HLHM6DE95",
+   "publishedAt": "2026-10-25T02:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "张哥讲电路"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~</p>"
+   ],
+   "bili": {
+    "author": "张哥讲电路",
+    "play": 5
+   },
+   "demo": false
+  },
   {
    "id": "bili-BV1epnz6pEd6",
    "title": "包大人今晚拦我三次 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
