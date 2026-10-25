@@ -346,6 +346,14 @@
     return String(n);
   }
 
+  function ggBadges(item) {
+    if (item.sourceType !== 'gg') return '';
+    const c = item.community || {};
+    const subs = (item.tags || []).filter((x) => x !== c.col && x !== c.label);
+    const shown = subs.length ? subs.slice(0, 2) : (c.col ? [c.col] : []);
+    return shown.map((x) => `<span class="badge-tag">${esc(x)}</span>`).join('');
+  }
+
   function cardHTML(item) {
     const color = catColor(item.category);
     const ev = item.event;

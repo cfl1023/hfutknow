@@ -27,6 +27,27 @@ const CATS = [
 const SQUASH = /合肥工业大学|合肥工大|合工大|宣城校区|工大/g;
 const catOf = (txt) => { const norm = String(txt).replace(SQUASH, "工大"); for (const [id, , re] of CATS) if (re.test(norm)) return id; return "qita"; };
 
+// —— 相关性过滤：他只关心学校/学生生活，合肥买房租房地铁美食一律不要 ——
+const HFUT_RE = /合工大|合肥工大|合肥工业|工业大学|工大|宣城校区|翡翠湖|斛兵塘|屯溪路|六安路/;
+const STUDENT_RE = /大学生|在校|校园|学生|新生|大一|大二|大三|大四|小登|学长|学姐|室友|宿舍|食堂|图书馆|社团|招新|选课|绩点|保研|转专业|考研|复试|四六级|大创|竞赛|军训|开学|放假|奖学金|寝室|辅导员|导员|期末|期中|挂科|补考|专业|课程|老师|学分|课表|教务|校招|秋招|春招|实习|简历|offer|校医院|校园卡|班长|毕业|读研|考公|选调|实验|论文|导师/;
+const CITY_NOISE = /租房|买房|房价|楼盘|装修|搬家|二手房|中介|地铁|公交|打车|美食|探店|打卡|同城|周末去哪儿|景点|商圈|夜宵|工资|月薪|年薪|找工作|招聘会|相亲|婚纱|宠物|装修|加盟|开店|买菜|菜市场/;
+const CAMPUS_BAR = /合肥工业大学|宣城校区/;
+const CAMPUS_KW = /^合工大|^合肥工业大学/;
+// 贴吧：只看本校两个吧；合肥吧只留标题里出现工大的
+const relevantTieba = (bar, title) => {
+  const b = String(bar || '');
+  const t = String(title || '');
+  if (CAMPUS_BAR.test(b)) return 'hf';
+  if (HFUT_RE.test(t)) return 'hf';
+  return '';
+};
+// B 站：标题/简介/标签里出现工大的，或来源关键词就是工大系的（且确实是校园话题）
+const relevantBili = (kw, txt) => {
+  if (HFUT_RE.test(txt)) return 'hf';
+  if (CAMPUS_KW.test(String(kw || '')) && STUDENT_RE.test(txt) && !CITY_NOISE.test(txt)) return 'stu';
+  return '';
+};
+
 // 个人加权：集成电路大一 + 翡翠湖 + 新生关心的事
 const PERSONAL = [
   ['集成电路', 8], ['微电子', 8], ['芯片', 6], ['电子', 3], ['大一', 6], ['小登', 6], ['新生', 6],
@@ -89,6 +110,8 @@ for (const t of threads) {
   seenTid.add(tid);
   const title = String(t.title || '').replace(/\s+/g, ' ').trim();
   if (!title) continue;
+  const rel = relevantTieba(t.bar, title);
+  if (!rel) continue; // 合肥吧的城市生活帖（租房/探店/招聘）一律不进站
   const at = parseCn(t.lastReplyAt || t.when);
   const cat = catOf(`${title} ${t.bar || ''}`);
   tieba.push({
@@ -100,6 +123,7 @@ for (const t of threads) {
     at: at ? at.toISOString() : null,
     cat,
     s: scoreText(title) + (t.isTop ? 0 : 0),
+    hf: rel === 'hf' ? 1 : 0,
     u: `https://tieba.baidu.com/p/${tid}`,
   });
 }
@@ -116,6 +140,8 @@ for (const v of videos) {
   const title = String(v.title || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
   if (!title) continue;
   const txt = `${title} ${v.tag || ''} ${v.desc || ''}`;
+  const rel = relevantBili(v.kw, txt);
+  if (!rel) continue; // 只要本校本行，其他高校/合肥城市生活都不要
   bili.push({
     id: bv,
     t: title,
@@ -124,6 +150,7 @@ for (const v of videos) {
     at: v.pubdate ? new Date(v.pubdate * 1000).toISOString() : null,
     kw: v.kw || '',
     cat: catOf(txt),
+    hf: rel === 'hf' ? 1 : 0,
     s: scoreText(txt),
     u: `https://www.bilibili.com/video/${bv}`,
   });
@@ -145,6 +172,7 @@ const stat = (arr) => {
 };
 console.log(JSON.stringify({
   tieba: tieba.length, bili: bili.length,
+  hfut: tieba.filter((x) => x.hf).length + bili.filter((x) => x.hf).length,
   tiebaCats: stat(tieba), biliCats: stat(bili),
   sizeMB: +(((fs.statSync(path.join(OUT, 'forum-tieba.json')).size + fs.statSync(path.join(OUT, 'forum-bili.json')).size) / 1048576).toFixed(2)),
 }, null, 1));
