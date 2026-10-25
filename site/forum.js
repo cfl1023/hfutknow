@@ -411,6 +411,19 @@
       render();
       return;
     }
+    // 「先看这 12 条」里的按钮还是直点式的（那是整理好的短列表，误触代价小）
+    const rb = e.target.closest('[data-read]');
+    if (rb) {
+      e.preventDefault();
+      e.stopPropagation();
+      const rid = String(rb.dataset.read);
+      const rit = all().find((x) => String(x.id) === rid);
+      if (!rit) return;
+      if (isRead(rit)) { unmark(rid); unmarkSlow(rid); toast('已放回来'); }
+      else { markRead(rit); toast('已标已阅，沉到「看过的」里', '放回来', () => { unmark(rid); unmarkSlow(rid); render(); }); }
+      render();
+      return;
+    }
     const ap = e.target.closest('[data-app]');
     if (ap) {
       e.preventDefault();

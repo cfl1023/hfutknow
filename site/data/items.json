@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T11:06Z",
+ "generatedAt": "2026-10-25T19:11Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -15318,6 +15318,29 @@
    "demo": false
   },
   {
+   "id": "gg-260916000001",
+   "title": "为啥我的学院不正确啊",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-16T15:03",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 104 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 104 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-1fa9815fc12daefc",
    "title": "校医院军训医疗保障与急救培训双线并进",
    "sourceId": "hfut-xyy",
@@ -15399,6 +15422,52 @@
     "<p>下一步，学院将持续丰富师德教育形式，常态化开展理论学习、榜样宣讲、警示教育等系列活动，不断夯实教师思想根基，营造崇德向善、风清气正的育人环境，推动学院师德师风建设与学科发展、人才培养深度融合。</p>",
     "<p>(倪记来 文/图 蔡伟伟 审核)</p>",
     "<p>2026年机械工程学院青年教师教学基本功比赛成功举办</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-260915000002",
+   "title": "和保研学长学姐请教经验",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-15T20:44",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "academics",
+   "summary": "版块「微言微语微成长」｜浏览 132 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 132 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-260915000001",
+   "title": "骑行",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-15T19:32",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 34 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 34 · 点赞 0 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -15673,6 +15742,29 @@
    "demo": false
   },
   {
+   "id": "gg-260911000001",
+   "title": "华为杯数学建模求组队",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-11T21:13",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 120 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": true,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 120 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "bl-BV1jvYj6FEBV",
    "title": "合肥工业大学2026 cypher来了！ 孟菲斯&amp;boombap&amp;drill&amp;hyperpop四组你觉得谁发挥的不错？",
    "sourceId": "bili-net",
@@ -15849,6 +15941,29 @@
    ],
    "content": [
     "<p>材料科学与工程学院2027级“优材计划”研究生资助项目报名通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-260910000001",
+   "title": "保研",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-10T18:22",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 119 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 119 · 点赞 0 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -16423,6 +16538,29 @@
    "demo": false
   },
   {
+   "id": "gg-260904000001",
+   "title": "找25级计科学长",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-04T17:41",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 73 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 73 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-59f1f29feac8ec1a",
    "title": "工业报国谱新篇——济南市第三期“海右菁英培训工程”合肥工业大学菁英六班圆满结业",
    "sourceId": "hfut-jxjy",
@@ -16477,6 +16615,29 @@
     "<p>首先，钟敏代表学院对2026级研究生新生的到来表示热烈欢迎，她勉励新生树立成长目标，主动规划读研生涯，积极参与学术交流与校园实践，在实践锻炼中不断提升自我。其次，新生代表王汇颍上台发言，她畅谈对研究生科研生活的期许，倡议全体新生保持学习初心、传承优良学风，不负青春韶华。最后，霍敬裕介绍了学院院情院史，以及学科建设、师资力量、人才培养体系等情况，为新生明晰奋斗方向。</p>",
     "<p>至此，文法学院2026级研究生新生见面会圆满落幕。愿全体新生以此为起点，在不断求索中沉淀自我，努力成长为堪当时代重任的青年学子。</p>",
     "<p>文/朱曼婷 马萌遥 图/吕晓萌 审/钟敏</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-260903000001",
+   "title": "收二手自行车",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-09-03T16:01",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 75 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 75 · 点赞 0 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -16809,6 +16970,29 @@
    "demo": false
   },
   {
+   "id": "gg-260829000001",
+   "title": "13号楼翡翠湖校区625宿舍找舍友",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-08-29T12:20",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 113 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 113 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "bl-BV1x5tP64E7x",
    "title": "全网最全 | 合工大26电子通信考研真题公开，错过等一年！",
    "sourceId": "bili-net",
@@ -17070,6 +17254,29 @@
     "<p>马克思主义基本原理教研部</p>",
     "<p>公示期间，如对公示人员的资格、信息等有异议，可通过以下方式向学院实名反映，反映情况需客观真实，提供必要的佐证材料：</p>",
     "<p>0551-63831226</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-260826000001",
+   "title": "出发",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-08-26T15:56",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 93 · 点赞 2 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 93 · 点赞 2 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21475,6 +21682,52 @@
    "demo": false
   },
   {
+   "id": "gg-250519000003",
+   "title": "工大赏花",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 2024级新生讨论",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-05-19T20:18",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「2024级新生讨论」｜浏览 414 · 点赞 4 · 评论 5",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "2024级新生讨论"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「2024级新生讨论」｜浏览 414 · 点赞 4 · 评论 5</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250519000002",
+   "title": "#考试复习#制胜法宝#心旷神怡",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-05-19T20:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 337 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 337 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-3ad687995848e355",
    "title": "全省各民主党派、无党派人士“学规定、强作风、树形象”主题教育动员会召开",
    "sourceId": "hfut-tzb",
@@ -21492,6 +21745,581 @@
    "competition": null,
    "content": [
     "<p>全省各民主党派、无党派人士“学规定、强作风、树形象”主题教育动员会召开</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250317000008",
+   "title": "漫步校园",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-17T23:45",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 271 · 点赞 8 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 271 · 点赞 8 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250317000007",
+   "title": "拾光而行🌅",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-17T19:47",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 221 · 点赞 8 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 221 · 点赞 8 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250317000005",
+   "title": "春日拾光",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-17T19:23",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 125 · 点赞 7 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 125 · 点赞 7 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250317000004",
+   "title": "漫步校园",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-17T18:49",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 75 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 75 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250317000002",
+   "title": "校园漫步，心灵疗愈",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-17T18:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 191 · 点赞 4 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 191 · 点赞 4 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250317000001",
+   "title": "曲径通幽处，山光悦鸟性，万籁此都寂，但余钟磬音。",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-17T11:36",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 137 · 点赞 11 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 137 · 点赞 11 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250316000004",
+   "title": "春日校园",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-16T22:42",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 84 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 84 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250316000003",
+   "title": "是春天",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-16T18:55",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 57 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 57 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250316000002",
+   "title": "校园的每一片落叶，都是时光写给青春的诗。",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-16T18:50",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 54 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 54 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250316000001",
+   "title": "忽而春风，为所有美好的开始",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-16T18:08",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 29 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 29 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250315000004",
+   "title": "校园漫步，心灵疗愈",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-15T22:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 28 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 28 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250315000003",
+   "title": "是春天！！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-15T21:58",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 90 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 90 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250315000001",
+   "title": "漫步校园，追寻静谧",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-15T14:21",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 31 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 31 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250314000006",
+   "title": "漫步拾春光",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-14T20:34",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 101 · 点赞 2 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 101 · 点赞 2 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250314000005",
+   "title": "春日漫步",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-14T19:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 68 · 点赞 2 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 68 · 点赞 2 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250314000004",
+   "title": "听，雨落的声音",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-14T17:46",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 54 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 54 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250314000003",
+   "title": "未完成的春天",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-14T14:46",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 39 · 点赞 2 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 39 · 点赞 2 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250314000002",
+   "title": "等风来",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-14T14:33",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 31 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 31 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250314000001",
+   "title": "学长学姐们谁学过数据库这门课啊！🥹",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 2024级新生讨论",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-14T10:18",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「2024级新生讨论」｜浏览 115 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "2024级新生讨论"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「2024级新生讨论」｜浏览 115 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250313000002",
+   "title": "校园漫步，心灵疗愈",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-13T17:49",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 24 · 点赞 2 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 24 · 点赞 2 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250312000007",
+   "title": "散步的人",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-12T17:54",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 96 · 点赞 4 · 评论 4",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 96 · 点赞 4 · 评论 4</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250312000006",
+   "title": "我们一起散步",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-12T17:45",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 60 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 60 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250312000005",
+   "title": "校园漫步，心灵疗愈",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-12T12:19",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 52 · 点赞 3 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 52 · 点赞 3 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250312000003",
+   "title": "心灵絮语",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-12T11:31",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 62 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 62 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250312000002",
+   "title": "心灵絮语",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-12T10:19",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 29 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 29 · 点赞 4 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21524,6 +22352,52 @@
    "demo": false
   },
   {
+   "id": "gg-250311000001",
+   "title": "心灵絮语",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-11T22:30",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 46 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 46 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250310000001",
+   "title": "捕捉自然小景，邂逅心灵宁静",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 拾光而行  心灵绿洲",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-03-10T10:05",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「拾光而行  心灵绿洲」｜浏览 88 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "拾光而行  心灵绿洲"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「拾光而行  心灵绿洲」｜浏览 88 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-d040363333241454",
    "title": "学院二位教师入选省级法治人才库",
    "sourceId": "hfut-wfxy",
@@ -21542,6 +22416,52 @@
    ],
    "content": [
     "<p>近日，中共安徽省委全面依法治省委员会办公室在各有关单位择优推荐的基础上，经过研究筛选、综合评审及公开公示等环节，最终确定了省级法治人才库名单。学院吴椒军教授入选重点领域（知识产权法）省级法治人才库、周乾教授入选基础领域（民商法学）省级法治人才库。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250217000001",
+   "title": "关于开通2025年春季学期返校“合肥南站-合肥工业大学翡翠湖",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-02-17T12:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 133 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 133 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250129000001",
+   "title": "大年初一到！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-01-29T15:29",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 117 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 117 · 点赞 3 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21572,6 +22492,52 @@
    "demo": false
   },
   {
+   "id": "gg-250116000001",
+   "title": "寒假我要……",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-01-16T15:23",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 157 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 157 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250108000001",
+   "title": "2025年——完美平方年",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-01-08T11:20",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 128 · 点赞 5 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 128 · 点赞 5 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-5687106a391e1ef4",
    "title": "搜索",
    "sourceId": "hfut-jjh",
@@ -21594,6 +22560,29 @@
     "<p>合肥工业大学全日制在籍本科生、研究生</p>",
     "<p>1）热爱祖国，拥护社会主义，坚持正确的政治方向，具有良好的道德品质。关心集体，尊敬师长，爱护公物，自觉遵守校纪校规，遵守社会公德的我校在籍大学生。</p>",
     "<p>在中国国际大学生创新大赛、</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-250107000002",
+   "title": "打了一学期的随机匹配球友，下学期想找搭子了",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-01-07T22:50",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 172 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 172 · 点赞 1 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21623,6 +22612,29 @@
    "demo": false
   },
   {
+   "id": "gg-250102000002",
+   "title": "晒出你的元旦假日安排",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2025-01-02T15:02",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 84 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 84 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-0dc9dba1b938ccc2",
    "title": "搜索",
    "sourceId": "hfut-jjh",
@@ -21645,6 +22657,29 @@
     "<p>12月30日，比亚迪30亿教育慈善基金启动仪式在深圳举行，合肥工业大学入围首批35所奖学金合作高校。校党委副书记严福平受邀出席仪式。</p>",
     "<p>为支持国家科教兴国战略，感恩各大高校培养卓越人才，比亚迪捐资30亿元聚焦教育慈善，支持包括合肥工业大学在内的全国百余所高校及科技馆、博物馆，用于高校奖学金及新能源技术科普，推动中国科教事业的蓬勃发展。</p>",
     "<p>多年来，合肥工业大学已为比亚迪培养了1666名卓越人才，有力推动了新能源汽车等科技领域的创新发展。此次比亚迪联合学校设立“比亚迪奖学金”，将进一步激励广大青年学子刻苦钻研、敢于创新、勇攀高峰，在推动新能源汽车等科技领域创新发展的征程中再创佳绩。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241230000001",
+   "title": "期末周的钟声悄然逼近，此刻的你，又在忙碌些什么呢？",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-30T17:04",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 89 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 89 · 点赞 5 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21678,6 +22713,29 @@
    "demo": false
   },
   {
+   "id": "gg-241225000001",
+   "title": "个性化锻炼计划，冲鸭！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-25T11:23",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 47 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 47 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-3471fd9ce49f7097",
    "title": "杨善林院士荣获特殊贡献奖！",
    "sourceId": "hfut-rsc",
@@ -21707,6 +22765,52 @@
    "demo": false
   },
   {
+   "id": "gg-241220000001",
+   "title": "让我们考场相见，一“研”为定！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-20T17:02",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 25 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 25 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241217000001",
+   "title": "管理学院招聘本科生/硕士生科研助理",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-17T14:39",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 132 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 132 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-099aea509e9d0034",
    "title": "搜索",
    "sourceId": "hfut-jjh",
@@ -21729,6 +22833,75 @@
     "<p>合肥工业大学在校全日制学生（含本科生、研究生）不超过</p>",
     "<p>1）热爱祖国，拥护社会主义，坚持正确的政治方向，具有良好的道德品质。关心集体，尊敬师长，爱护公物，自觉遵守校纪校规，遵守社会公德，在各项活动中起模范带头作用。</p>",
     "<p>2）刻苦学习，学习成绩优秀，</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241211000001",
+   "title": "打羽毛球",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-11T23:25",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 144 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 144 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241206000001",
+   "title": "翡翠湖校区美食分享",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-06T09:36",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 125 · 点赞 6 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 125 · 点赞 6 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241204000001",
+   "title": "弘扬宪法精神 维护宪法权威",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-12-04T10:15",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 17 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 17 · 点赞 3 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21781,6 +22954,29 @@
    "demo": false
   },
   {
+   "id": "gg-241126000001",
+   "title": "show出你的防寒装备",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-11-26T15:08",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 97 · 点赞 7 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 97 · 点赞 7 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-9a7d57bc09896b3f",
    "title": "搜索",
    "sourceId": "hfut-jjh",
@@ -21807,6 +23003,52 @@
    "demo": false
   },
   {
+   "id": "gg-241118000001",
+   "title": "哪一段旋律是你回忆里的声音",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-11-18T15:10",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 77 · 点赞 8 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 77 · 点赞 8 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241111000001",
+   "title": "计科专业找搭子",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-11-11T15:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 227 · 点赞 4 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 227 · 点赞 4 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-f2eb42df56d3718f",
    "title": "搜索",
    "sourceId": "hfut-jjh",
@@ -21829,6 +23071,190 @@
     "<p>化学与化工学院、材料科学与工程学院、电气与自动化工程学院毕业年级辅导员2名和优秀老师1名，每人获得奖教金10,000元，共计3万元，个税自理。</p>",
     "<p>1.爱国爱校，遵纪守法，爱岗敬业；</p>",
     "<p>2.潜心育人，关爱学生，师生群体中评价高；</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241023000001",
+   "title": "仪器学院举办“劳动铸就新征程，精益求精淬匠心”劳动教育专题报",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-23T10:32",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 41 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 41 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241019000001",
+   "title": "计算机与信息学院举办第十三期“‘计’忆心灵·创意工坊”主题活",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-19T10:53",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 109 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 109 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241016000001",
+   "title": "计算机与信息学院“共筑心舟，扬帆起航”第四届心理情景剧剧本大",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-16T10:24",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "版块「微言微语微成长」｜浏览 49 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 49 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241012000001",
+   "title": "石河子大学来校调研交流",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-12T10:38",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 106 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 106 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241011000001",
+   "title": "安徽省教育厅“一站式”学生社区建设情况现场复核工作组来校检查",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-11T16:29",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 48 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 48 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241001000003",
+   "title": "祝福我们伟大的祖国繁荣昌盛，国泰民安，风调雨顺！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-01T19:57",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 40 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 40 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241001000002",
+   "title": "梦想的力量：王博教官的军旅生涯与启示",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 军训进行时",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-01T17:15",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「军训进行时」｜浏览 110 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "军训进行时"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「军训进行时」｜浏览 110 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-241001000001",
+   "title": "寻找一个国庆一起旅游的搭子（也找运动搭子，学习搭子）",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-10-01T17:12",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 96 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 96 · 点赞 0 · 评论 0</p>"
    ],
    "demo": false
   },
@@ -21862,6 +23288,144 @@
    "demo": false
   },
   {
+   "id": "gg-240921000001",
+   "title": "网络安全",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 国家网络安全宣传周",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-21T01:24",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「国家网络安全宣传周」｜浏览 63 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "国家网络安全宣传周"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「国家网络安全宣传周」｜浏览 63 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240916000001",
+   "title": "夕阳",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 2024级新生讨论",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-16T17:29",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「2024级新生讨论」｜浏览 219 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "2024级新生讨论"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「2024级新生讨论」｜浏览 219 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240913000005",
+   "title": "从网络认知到国家安全意识的提升",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 国家网络安全宣传周",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-13T21:34",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「国家网络安全宣传周」｜浏览 33 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "国家网络安全宣传周"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「国家网络安全宣传周」｜浏览 33 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240913000004",
+   "title": "增强网络安全意识  提高识骗防骗能力",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 国家网络安全宣传周",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-13T18:47",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「国家网络安全宣传周」｜浏览 29 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "国家网络安全宣传周"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「国家网络安全宣传周」｜浏览 29 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240913000002",
+   "title": "网络安全伴我行——国家网络安全宣传周感悟",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 国家网络安全宣传周",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-13T18:40",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「国家网络安全宣传周」｜浏览 12 · 点赞 1 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "国家网络安全宣传周"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「国家网络安全宣传周」｜浏览 12 · 点赞 1 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240913000001",
+   "title": "网络安全记心中",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 国家网络安全宣传周",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-13T18:09",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「国家网络安全宣传周」｜浏览 12 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "国家网络安全宣传周"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「国家网络安全宣传周」｜浏览 12 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-787a95b03356259d",
    "title": "合肥工业大学教育基金会应邀参加安徽省慈善项目交流展示活动",
    "sourceId": "hfut-jjh",
@@ -21881,6 +23445,512 @@
    "competition": null,
    "content": [
     "<p>合肥工业大学教育基金会应邀参加安徽省慈善项目交流展示活动</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240909000001",
+   "title": "“2024年国家网络安全宣传周”",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 国家网络安全宣传周",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-09T09:14",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「国家网络安全宣传周」｜浏览 43 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "国家网络安全宣传周"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「国家网络安全宣传周」｜浏览 43 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240906000005",
+   "title": "学生军训团四营开展“爱校荣校 共铸辉煌”校史馆参观学习",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 军训进行时",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-06T18:51",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "academics",
+   "summary": "版块「军训进行时」｜浏览 130 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "军训进行时"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「军训进行时」｜浏览 130 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240906000004",
+   "title": "军训团四营开展2024级新生“大学生活导航”暨“校史校情”专",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 军训进行时",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-06T18:46",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「军训进行时」｜浏览 38 · 点赞 1 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "军训进行时"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「军训进行时」｜浏览 38 · 点赞 1 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240906000003",
+   "title": "军训团四营开展内务卫生教学示范及评比工作",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 军训进行时",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-06T18:44",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「军训进行时」｜浏览 164 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "军训进行时"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「军训进行时」｜浏览 164 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240906000002",
+   "title": "学校召开合肥校区2024年学生军训联席会",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 军训进行时",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-06T15:04",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「军训进行时」｜浏览 55 · 点赞 2 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "军训进行时"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「军训进行时」｜浏览 55 · 点赞 2 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240906000001",
+   "title": "正在军训的你辛苦啦～",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 军训进行时",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-06T08:22",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「军训进行时」｜浏览 45 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "军训进行时"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「军训进行时」｜浏览 45 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240904000001",
+   "title": "亲爱滴工大，我来啦🧡ྀི💛ྀི❤️ྀི",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 2024级新生讨论",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-04T09:15",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「2024级新生讨论」｜浏览 181 · 点赞 6 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "2024级新生讨论"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「2024级新生讨论」｜浏览 181 · 点赞 6 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240903000001",
+   "title": "\"迎\"你而来 满“新”欢喜",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-09-03T10:41",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 39 · 点赞 5 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 39 · 点赞 5 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240827000001",
+   "title": "蹲爬山搭子",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-08-27T19:29",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 158 · 点赞 4 · 评论 5",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 158 · 点赞 4 · 评论 5</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240821000001",
+   "title": "防范电信诈骗经验分享",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-08-21T08:13",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 49 · 点赞 7 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 49 · 点赞 7 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240817000001",
+   "title": "新的征程",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 2024级新生讨论",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-08-17T03:45",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「2024级新生讨论」｜浏览 576 · 点赞 13 · 评论 6",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "2024级新生讨论"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「2024级新生讨论」｜浏览 576 · 点赞 13 · 评论 6</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240814000001",
+   "title": "暑期暑天见暑景",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-08-14T17:05",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 60 · 点赞 5 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 60 · 点赞 5 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240807000001",
+   "title": "巴黎奥运会给我印象最深的是……",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-08-07T11:53",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 90 · 点赞 5 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 90 · 点赞 5 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240730000001",
+   "title": "我和你讲，我今天……",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-30T20:31",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 120 · 点赞 7 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 120 · 点赞 7 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240723000001",
+   "title": "家乡的味道",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-23T19:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 78 · 点赞 5 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 78 · 点赞 5 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240716000005",
+   "title": "社团管理服务中心“梦回社团烙印，融汇青春筑志”暑期实践团队",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-16T23:23",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 91 · 点赞 7 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 91 · 点赞 7 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240716000003",
+   "title": "风雨操场暑期改造",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-16T09:51",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 204 · 点赞 8 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 204 · 点赞 8 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240716000002",
+   "title": "三下乡|“砺材铸魂，青年赶考”薪火传承志愿宣讲团场馆实践活动",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-16T02:13",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 48 · 点赞 4 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 48 · 点赞 4 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240716000001",
+   "title": "三下乡|“砺材铸魂，青年赶考”薪火传承志愿宣讲团社区宣讲活动",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-16T02:08",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 73 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 73 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240715000001",
+   "title": "三下乡|“砺材铸魂，青年赶考”薪火传承志愿宣讲团校园实践活动",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-15T20:34",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 51 · 点赞 3 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 51 · 点赞 3 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240713000001",
+   "title": "宿舍施工",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-13T13:36",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 149 · 点赞 0 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 149 · 点赞 0 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240710000001",
+   "title": "“梦回社团烙印，融汇青春筑志”",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-07-10T09:39",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 93 · 点赞 6 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 93 · 点赞 6 · 评论 1</p>"
    ],
    "demo": false
   },
@@ -21930,6 +24000,236 @@
    "competition": null,
    "content": [
     "<p>教育基金会应邀参加“琦儿Leo携手木兰成长计划”捐赠仪式</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240619000001",
+   "title": "晒出你一周的课表",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-19T22:38",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 560 · 点赞 33 · 评论 43",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 560 · 点赞 33 · 评论 43</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240618000001",
+   "title": "你还记得你的初心吗?",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-18T10:18",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 123 · 点赞 8 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 123 · 点赞 8 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240617000004",
+   "title": "今晚的月亮",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-17T22:44",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 47 · 点赞 6 · 评论 1",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 47 · 点赞 6 · 评论 1</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240617000003",
+   "title": "毕业快乐！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 毕业季留言活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-17T07:48",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「毕业季留言活动」｜浏览 101 · 点赞 7 · 评论 3",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "毕业季留言活动"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「毕业季留言活动」｜浏览 101 · 点赞 7 · 评论 3</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240617000002",
+   "title": "又一届毕业生，毕业快乐！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-17T07:47",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 65 · 点赞 9 · 评论 0",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 65 · 点赞 9 · 评论 0</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240617000001",
+   "title": "清晨六点的工大",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 毕业季留言活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-17T06:13",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「毕业季留言活动」｜浏览 76 · 点赞 6 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "毕业季留言活动"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「毕业季留言活动」｜浏览 76 · 点赞 6 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240616000001",
+   "title": "想找一个运动搭子!",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-16T22:06",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 234 · 点赞 7 · 评论 10",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 234 · 点赞 7 · 评论 10</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240615000001",
+   "title": "拒绝拖延，从我做起！",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-15T12:56",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 71 · 点赞 11 · 评论 2",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 71 · 点赞 11 · 评论 2</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240613000001",
+   "title": "你是i人还是e人？秀出你的MBTI人格测试",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 微言微语微成长",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-13T09:23",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "版块「微言微语微成长」｜浏览 233 · 点赞 13 · 评论 22",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "微言微语微成长"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「微言微语微成长」｜浏览 233 · 点赞 13 · 评论 22</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "gg-240612000005",
+   "title": "寻找运动搭子",
+   "sourceId": "gg-forum",
+   "sourceName": "逛逛 · 寻找你的校园搭子",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2024-06-12T22:04",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "recruitment",
+   "summary": "版块「寻找你的校园搭子」｜浏览 162 · 点赞 7 · 评论 4",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "寻找你的校园搭子"
+   ],
+   "competition": null,
+   "content": [
+    "<p>版块「寻找你的校园搭子」｜浏览 162 · 点赞 7 · 评论 4</p>"
    ],
    "demo": false
   },
