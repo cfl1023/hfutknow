@@ -326,7 +326,13 @@
   let suppressClick = false;
 
   function closeSwipes(except) {
-    document.querySelectorAll('.swipe.open').forEach((el) => { if (el !== except) el.classList.remove('open'); });
+    document.querySelectorAll('.swipe.open').forEach((el) => {
+      if (el === except) return;
+      const c = el.querySelector('.card');
+      c.style.transition = 'transform .18s ease';
+      c.style.transform = 'translateX(0px)';
+      el.classList.remove('open');
+    });
   }
 
   app.addEventListener('pointerdown', (e) => {
@@ -352,16 +358,22 @@
     e.preventDefault();
   }, { passive: false });
 
+  function setOpen(sw, open) {
+    const card = sw.querySelector('.card');
+    card.style.transition = 'transform .18s ease';
+    card.style.transform = open ? 'translateX(-' + SWIPE_OPEN + 'px)' : 'translateX(0px)';
+    sw.classList.toggle('open', !!open);
+  }
+
   function endDrag() {
     if (!drag) return;
     const sw = drag.sw;
     const card = sw.querySelector('.card');
     const m = /translateX\((-?[\d.]+)px\)/.exec(card.style.transform || '');
     const off = m ? Number(m[1]) : drag.base;
-    card.style.transition = '';
-    card.style.transform = '';
-    if (off < -SWIPE_OPEN / 2) { closeSwipes(sw); sw.classList.add('open'); }
-    else sw.classList.remove('open');
+    const open = off < -SWIPE_OPEN / 2;
+    closeSwipes(open ? sw : null);
+    setOpen(sw, open);
     if (drag.moved) suppressClick = true;
     drag = null;
   }
@@ -370,13 +382,17 @@
   app.addEventListener('pointerleave', endDrag);
 
   app.addEventListener('click', (e) => {
-    if (suppressClick) { suppressClick = false; e.preventDefault(); e.stopPropagation(); return; }
+    if (suppressClick) {
+      suppressClick = false;
+      // 滑动结束那一下不算数，但紧接着按的动作按钮（赞/踩/已阅/收藏）要认
+      if (!e.target.closest('.swipe-acts')) { e.preventDefault(); e.stopPropagation(); return; }
+    }
     // 滑开的卡片，先点一下只收回去，不会顺手打开帖子
     const opened = e.target.closest('.swipe.open');
     if (opened && !e.target.closest('[data-act]')) {
       e.preventDefault();
       e.stopPropagation();
-      opened.classList.remove('open');
+      setOpen(opened, false);
       return;
     }
     const act = e.target.closest('[data-act]');
