@@ -88,6 +88,19 @@
   }
   function markRead(i) { READ.add(String(i.id)); saveRead(); }
   function unmark(id) { READ.delete(String(id)); saveRead(); }
+  function unmarkSlow(id) { try { const s = readSet(READ_KEY2); s.delete(String(id)); localStorage.setItem(READ_KEY2, JSON.stringify([...s])); } catch (e) { /* 忽略 */ } }
+
+  // 收藏、赞踩都跟首页（app.js）用同一套键，两边互通
+  const STAR_KEY = 'ck-star-v1';
+  const PREFS_KEY = 'ck-prefs-v1';
+  const readSet = (k) => { try { return new Set((JSON.parse(localStorage.getItem(k) || '[]') || []).map(String)); } catch (e) { return new Set(); } };
+  const STAR = readSet(STAR_KEY);
+  let PREFS = { up: {}, down: {} };
+  try { PREFS = JSON.parse(localStorage.getItem(PREFS_KEY) || 'null') || { up: {}, down: {} }; } catch (e) { PREFS = { up: {}, down: {} }; }
+  if (!PREFS.up) PREFS.up = {};
+  if (!PREFS.down) PREFS.down = {};
+  const savePrefs = () => { try { localStorage.setItem(PREFS_KEY, JSON.stringify(PREFS)); } catch (e) { /* 忽略 */ } };
+  const saveStar = () => { try { localStorage.setItem(STAR_KEY, JSON.stringify([...STAR])); } catch (e) { /* 忽略 */ } };
 
   let pending = null;      // 正在等第二次确认的 id
   let pendingTimer = null;
@@ -261,14 +274,26 @@
     const hit = (it.s || 0) >= 12;
     const src = it.src === 'bili' ? '<span class="badge-src">B站</span>' : '<span class="badge-src">贴吧</span>';
     const read = isRead(it);
+    const id = String(it.id);
+    const liked = !!(PREFS.up && PREFS.up[id]);
+    const disliked = !!(PREFS.down && PREFS.down[id]);
+    const starred = STAR.has(id);
     return `<div class="card-wrap${read ? ' is-read' : ''}">
-      <a class="card" href="${esc(it.u)}" target="_blank" rel="noopener" style="--cat:var(--accent)">
-        <div class="card-tags">${src}${hit ? '<span class="badge-related badge-hit">★ 与你相关</span>' : ''}${read ? '<span class="badge-src badge-read">已阅</span>' : ''}</div>
-        <h3>${esc(it.t)}</h3>
-        <p class="meta2">${meta}</p>
-        <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
-      </a>
-      <div class="card-act">${appLink(it)}<button class="mk-read${read ? ' on' : ''}" data-read="${esc(it.id)}" title="${read ? '取消已阅' : '标记已阅：两下确认，之后不再往前排'}">${read ? '取消已阅' : '标记已阅'}</button></div>
+      <div class="swipe" data-swipe="${esc(id)}">
+        <div class="swipe-acts">
+          <button type="button" class="act-like${liked ? ' on' : ''}" data-act="like" data-id="${esc(id)}"><b>👍</b><span>赞</span></button>
+          <button type="button" class="act-dislike${disliked ? ' on' : ''}" data-act="dislike" data-id="${esc(id)}"><b>👎</b><span>踩</span></button>
+          <button type="button" class="act-read${read ? ' on' : ''}" data-act="read" data-id="${esc(id)}"><b>✓</b><span>${read ? '放回' : '已阅'}</span></button>
+          <button type="button" class="act-star${starred ? ' on' : ''}" data-act="star" data-id="${esc(id)}"><b>★</b><span>${starred ? '已藏' : '收藏'}</span></button>
+        </div>
+        <a class="card" href="${esc(it.u)}" target="_blank" rel="noopener" style="--cat:var(--accent)">
+          <div class="card-tags">${src}${hit ? '<span class="badge-related badge-hit">★ 与你相关</span>' : ''}${read ? '<span class="badge-src badge-read">已阅</span>' : ''}${starred ? '<span class="badge-src badge-star">已收藏</span>' : ''}</div>
+          <h3>${esc(it.t)}</h3>
+          <p class="meta2">${meta}</p>
+          <div class="card-foot"><span class="srcname">${esc(catName ? catName[1] : '')}</span><span class="dot"></span><span>${it.at ? fmtDate(it.at) : '日期未知'}</span></div>
+        </a>
+      </div>
+      <div class="card-act">${appLink(it)}<span class="swipe-hint">向左滑 → 赞 / 踩 / 已阅 / 收藏</span></div>
     </div>`;
   }
 
@@ -295,33 +320,95 @@
     btn.classList.remove('armed');
     btn.textContent = '标记已阅';
   }
+  /* 左滑：把卡片推出去，露出四个动作，平时不占版面也就不会误触 */
+  const SWIPE_OPEN = 4 * 58;
+  let drag = null;
+  let suppressClick = false;
+
+  function closeSwipes(except) {
+    document.querySelectorAll('.swipe.open').forEach((el) => { if (el !== except) el.classList.remove('open'); });
+  }
+
+  app.addEventListener('pointerdown', (e) => {
+    const sw = e.target.closest('.swipe');
+    if (!sw || e.target.closest('.swipe-acts')) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    suppressClick = false;
+    drag = { sw, x: e.clientX, y: e.clientY, base: sw.classList.contains('open') ? -SWIPE_OPEN : 0, moved: false };
+  });
+
+  app.addEventListener('pointermove', (e) => {
+    if (!drag) return;
+    if (!drag.sw.contains(e.target)) return;
+    const dx = e.clientX - drag.x;
+    const dy = e.clientY - drag.y;
+    if (!drag.moved && Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 10) { drag = null; return; }
+    if (!drag.moved && Math.abs(dx) < 8) return;
+    drag.moved = true;
+    const card = drag.sw.querySelector('.card');
+    const off = Math.max(-SWIPE_OPEN - 14, Math.min(0, drag.base + dx));
+    card.style.transition = 'none';
+    card.style.transform = 'translateX(' + off + 'px)';
+    e.preventDefault();
+  }, { passive: false });
+
+  function endDrag() {
+    if (!drag) return;
+    const sw = drag.sw;
+    const card = sw.querySelector('.card');
+    const m = /translateX\((-?[\d.]+)px\)/.exec(card.style.transform || '');
+    const off = m ? Number(m[1]) : drag.base;
+    card.style.transition = '';
+    card.style.transform = '';
+    if (off < -SWIPE_OPEN / 2) { closeSwipes(sw); sw.classList.add('open'); }
+    else sw.classList.remove('open');
+    if (drag.moved) suppressClick = true;
+    drag = null;
+  }
+  app.addEventListener('pointerup', endDrag);
+  app.addEventListener('pointercancel', endDrag);
+  app.addEventListener('pointerleave', endDrag);
+
   app.addEventListener('click', (e) => {
-    const rb = e.target.closest('[data-read]');
-    if (rb) {
+    if (suppressClick) { suppressClick = false; e.preventDefault(); e.stopPropagation(); return; }
+    // 滑开的卡片，先点一下只收回去，不会顺手打开帖子
+    const opened = e.target.closest('.swipe.open');
+    if (opened && !e.target.closest('[data-act]')) {
       e.preventDefault();
       e.stopPropagation();
-      const id = String(rb.dataset.read);
+      opened.classList.remove('open');
+      return;
+    }
+    const act = e.target.closest('[data-act]');
+    if (act) {
+      e.preventDefault();
+      e.stopPropagation();
+      const kind = act.dataset.act;
+      const id = String(act.dataset.id);
       const it = all().find((x) => String(x.id) === id);
-      if (!it) return;
-      // 已经标记过的：按钮这时是「取消已阅」，点了直接放回来
-      if (isRead(it)) { unmark(id); render(); toast('已放回来'); return; }
-      // 第一下只点亮按钮，4 秒内再点一下才算数（防误触）
-      if (pending !== id) {
-        if (pending) disarm(document.querySelector('[data-read="' + pending + '"]'));
-        pending = id;
-        rb.classList.add('armed');
-        rb.textContent = '再点一次确认';
-        clearTimeout(pendingTimer);
-        pendingTimer = setTimeout(() => {
-          if (pending === id) { pending = null; disarm(document.querySelector('[data-read="' + id + '"]')); }
-        }, 4000);
+      if (kind === 'read') {
+        if (isRead(it)) { unmark(id); unmarkSlow(id); toast('已放回来'); }
+        else { markRead(it); toast('已标已阅，沉到「看过的」里', '放回来', () => { unmark(id); unmarkSlow(id); render(); }); }
+        render();
         return;
       }
-      clearTimeout(pendingTimer);
-      pending = null;
-      markRead(it);
+      if (kind === 'star') {
+        if (STAR.has(id)) { STAR.delete(id); toast('已取消收藏'); }
+        else { STAR.add(id); toast('已收藏，首页「我的收藏」里也能看到'); }
+        saveStar();
+        render();
+        return;
+      }
+      const mine = kind === 'like' ? 'up' : 'down';
+      const other = kind === 'like' ? 'down' : 'up';
+      if (PREFS[mine][id]) { delete PREFS[mine][id]; toast('已取消'); }
+      else {
+        PREFS[mine][id] = 1;
+        delete PREFS[other][id];
+        toast(kind === 'like' ? '记下了：这类多给你推' : '记下了：这类少给你推');
+      }
+      savePrefs();
       render();
-      toast('已标记已阅，沉到「看过的」里', '放回来', () => { unmark(id); render(); });
       return;
     }
     const ap = e.target.closest('[data-app]');

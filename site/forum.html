@@ -52,7 +52,20 @@
   @media (hover: none) { .mk-read { opacity: 1; } }
   /* 手机上：按钮放到拇指能够着的位置，字号也放大 */
   .app-open { display: none; }
-  .card-act { display: flex; gap: 8px; align-items: center; }
+  .card-act { display: flex; gap: 8px; align-items: center; padding: 4px 2px 12px; }
+  /* 左滑露出的动作区 */
+  .swipe { position: relative; overflow: hidden; border-radius: var(--radius, 14px); }
+  .swipe .card { position: relative; z-index: 2; background: var(--surface); transition: transform .18s ease; touch-action: pan-y; }
+  .swipe-acts { position: absolute; inset: 0 0 0 auto; display: flex; z-index: 1; }
+  .swipe-acts button { width: 58px; border: 0; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: inherit; font-size: 11px; color: var(--text-2); cursor: pointer; }
+  .swipe-acts button:active { background: rgba(0,0,0,.04); }
+  .swipe-acts b { font-size: 19px; font-weight: 400; line-height: 1; }
+  .swipe-acts button.on { color: var(--accent); }
+  .act-like.on b { filter: none; }
+  .act-dislike.on b { filter: grayscale(1); opacity: .9; }
+  .act-star.on b { color: #d0a021; }
+  .badge-star { background: rgba(208,160,33,.16); color: #8a6a12; }
+  .swipe-hint { font-size: 10.5px; color: var(--muted); opacity: .55; margin-right: auto; }
   .app-open { border: 1px solid var(--line); color: var(--text-2); background: var(--bg); border-radius: 999px; padding: 4px 11px; font-size: 11.5px; text-decoration: none; }
   .app-open:active { background: var(--text); color: var(--bg); border-color: transparent; }
   @media (hover: none) { .app-open { display: inline-flex; } }
