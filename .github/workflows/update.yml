@@ -1,8 +1,10 @@
 name: update
 
+# 自续跑：每轮跑完后自己触发下一轮，绕开 GitHub 对 schedule 的限流
+# （schedule 实测 25-35 分钟才来一次，workflow_dispatch 链式触发不受此限）
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */6 * * *" # 兜底：每 6 小时一次，链断了也能自己爬起来
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,6 +13,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write # 用于链式自我触发
 
 concurrency:
   group: pages
@@ -45,13 +48,18 @@ jobs:
         run: |
           git config user.name "hfutknow-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add site/data
-          if ! git diff --cached --quiet; then
-            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
-          else
-            echo "no new items"
-          fi
+          for i in 1 2 3; do
+            git fetch origin main -q || true
+            git reset --soft origin/main
+            git add site/data
+            if git diff --cached --quiet; then
+              echo "no new items"; exit 0
+            fi
+            git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+            if git push -q origin HEAD:main; then echo "pushed"; exit 0; fi
+            echo "push retry $i"; sleep 5
+          done
+          echo "push failed, will retry next round"
 
       - uses: actions/configure-pages@v5
 
@@ -68,3 +76,18 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  chain:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait, then trigger the next round
+        if: vars.CHAIN_ENABLED != 'false'
+        run: |
+          # 6 分钟一轮 ≈ 10 次/小时，压在 GitHub Pages 的部署上限内
+          sleep 300
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/update.yml/dispatches" \
+            -d '{"ref":"main"}'
