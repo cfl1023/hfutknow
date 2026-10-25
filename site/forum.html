@@ -56,6 +56,8 @@
   /* 左滑露出的动作区 */
   .swipe { position: relative; overflow: hidden; border-radius: var(--radius, 14px); }
   .swipe .card { position: relative; z-index: 2; background: var(--surface); transition: transform .18s ease; touch-action: pan-y; }
+  .swipe.open .card { transform: translateX(-232px); }
+  .swipe.open .swipe-acts button { opacity: 1; }
   .swipe-acts { position: absolute; inset: 0 0 0 auto; display: flex; z-index: 1; }
   .swipe-acts button { width: 58px; border: 0; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: inherit; font-size: 11px; color: var(--text-2); cursor: pointer; }
   .swipe-acts button:active { background: rgba(0,0,0,.04); }
