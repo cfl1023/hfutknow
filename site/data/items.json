@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T08:54Z",
+ "generatedAt": "2026-10-26T16:56Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4974,6 +4974,29 @@
     "author": "吕品的家长学院",
     "play": 3396
    },
+   "demo": false
+  },
+  {
+   "id": "web-9970027bdaaf2b99",
+   "title": "机械工程学院第76期积极分子班开展“行走红色课堂",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1038/5101.htm",
+   "publishedAt": "2026-10-19T16:56",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "机械工程学院第76期积极分子班开展“行走红色课堂",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>机械工程学院第76期积极分子班开展“行走红色课堂</p>"
+   ],
    "demo": false
   },
   {
