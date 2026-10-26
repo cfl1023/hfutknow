@@ -21,7 +21,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 22
+   "count": 24
   },
   {
    "id": "hfut-news",
@@ -43,7 +43,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 25
+   "count": 27
   },
   {
    "id": "hfut-jwc",

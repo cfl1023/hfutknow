@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T14:56Z",
+ "generatedAt": "2026-10-26T07:00Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -2974,6 +2974,75 @@
    "demo": false
   },
   {
+   "id": "web-0e879620c1202229",
+   "title": "学校举办“百企聚材”先进材料产教共建研讨会",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://www.hfut.edu.cn/info/1127/13241.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "学校举办“百企聚材”先进材料产教共建研讨会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "研讨会"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学校举办“百企聚材”先进材料产教共建研讨会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-df06499fba60d397",
+   "title": "学校“纪念红军长征胜利90周年”暨第四十届书画作品邀请展开幕",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://www.hfut.edu.cn/info/1127/13234.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "学校“纪念红军长征胜利90周年”暨第四十届书画作品邀请展开幕",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "开幕"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学校“纪念红军长征胜利90周年”暨第四十届书画作品邀请展开幕</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-8b00ed9c45d5a847",
+   "title": "学校举办“百企聚材”先进材料产教共建研讨会",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79504.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "学校举办“百企聚材”先进材料产教共建研讨会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "研讨会"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学校举办“百企聚材”先进材料产教共建研讨会</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "bl-BV1j2ny6GEjP",
    "title": "26超越卷（卷二）解答题官方讲解",
    "sourceId": "bili-net",
@@ -5643,6 +5712,27 @@
    },
    "content": [
     "<p>关于举办2027年中国大学生物理学术竞赛（CUPT）合肥工业大学校内选拔赛的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-829ed5dfab3102f5",
+   "title": "我校在工业废水难降解污染物深度净化研究领域取得新进展",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79426.htm",
+   "publishedAt": "2026-10-19T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "我校在工业废水难降解污染物深度净化研究领域取得新进展",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>我校在工业废水难降解污染物深度净化研究领域取得新进展</p>"
    ],
    "demo": false
   },
