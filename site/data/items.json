@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T07:00Z",
+ "generatedAt": "2026-10-26T15:01Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -510,6 +510,29 @@
    "competition": null,
    "content": [
     "<p>关于2026-2027学年第一学期慕课开课的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-7a49512a0abe02fb",
+   "title": "关于转发教育部高等教育司关于开展2026年度“人工智能赋能高等教育人才培养”系列师资培训的通知",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://jpzx.hfut.edu.cn/info/1026/1302.htm",
+   "publishedAt": "2026-10-26T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "关于转发教育部高等教育司关于开展2026年度“人工智能赋能高等教育人才培养”系列师资培训的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于转发教育部高等教育司关于开展2026年度“人工智能赋能高等教育人才培养”系列师资培训的通知</p>"
    ],
    "demo": false
   },
@@ -2974,6 +2997,29 @@
    "demo": false
   },
   {
+   "id": "web-8b00ed9c45d5a847",
+   "title": "学校举办“百企聚材”先进材料产教共建研讨会",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79504.htm",
+   "publishedAt": "2026-10-23T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "学校举办“百企聚材”先进材料产教共建研讨会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "研讨会"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学校举办“百企聚材”先进材料产教共建研讨会</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-0e879620c1202229",
    "title": "学校举办“百企聚材”先进材料产教共建研讨会",
    "sourceId": "hfut-edu",
@@ -3016,29 +3062,6 @@
    "competition": null,
    "content": [
     "<p>学校“纪念红军长征胜利90周年”暨第四十届书画作品邀请展开幕</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-8b00ed9c45d5a847",
-   "title": "学校举办“百企聚材”先进材料产教共建研讨会",
-   "sourceId": "hfut-news",
-   "sourceName": "合肥工业大学新闻网",
-   "sourceType": "official",
-   "url": "https://news.hfut.edu.cn/info/1011/79504.htm",
-   "publishedAt": "2026-10-23T09:00:00",
-   "dateEstimated": false,
-   "intent": "activity",
-   "category": "lectures",
-   "summary": "学校举办“百企聚材”先进材料产教共建研讨会",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "研讨会"
-   ],
-   "competition": null,
-   "content": [
-    "<p>学校举办“百企聚材”先进材料产教共建研讨会</p>"
    ],
    "demo": false
   },
