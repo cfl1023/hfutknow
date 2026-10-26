@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T04:24Z",
+ "generatedAt": "2026-10-26T12:26Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -350,10 +350,37 @@
    "demo": false
   },
   {
+   "id": "bili-BV1PBnU6PEbk",
+   "title": "28合肥工业大学电气考研到底怎么准备？830电路划重点、初试备考、最新就业一条龙讲明白！",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1PBnU6PEbk",
+   "publishedAt": "2026-10-26T12:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "本次主要介绍了合工大电气学科实力与就业情况，详细解读了招生录取数据、初试考纲及方向选择，并给出了28全年备考规划与复习建议。",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学电气考研"
+   ],
+   "competition": null,
+   "content": [
+    "<p>本次主要介绍了合工大电气学科实力与就业情况，详细解读了招生录取数据、初试考纲及方向选择，并给出了28全年备考规划与复习建议。</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学电气考研",
+    "play": 5
+   },
+   "demo": false
+  },
+  {
    "id": "web-df6562e6d38a8cb1",
    "title": "关于2025年度在编职工新申请住房补贴公示的通知（第二次）",
-   "sourceId": "hfut-jjc",
-   "sourceName": "基建与房屋管理处",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
    "sourceType": "official",
    "url": "https://jjc.hfut.edu.cn/info/1025/1485.htm",
    "publishedAt": "2026-10-26T09:00:00",
@@ -367,6 +394,31 @@
    "competition": null,
    "content": [
     "<p>关于2025年度在编职工新申请住房补贴公示的通知（第二次）</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-1d4757a23f2bbc79",
+   "title": "资源与环境工程学院举办“阳光·卓越”奖学金颁奖仪式暨杰出校友报告会",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1012/79511.htm",
+   "publishedAt": "2026-10-26T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "资源与环境工程学院举办“阳光·卓越”奖学金颁奖仪式暨杰出校友报告会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "报告会",
+    "奖学金",
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>资源与环境工程学院举办“阳光·卓越”奖学金颁奖仪式暨杰出校友报告会</p>"
    ],
    "demo": false
   },
@@ -4769,6 +4821,51 @@
    "demo": false
   },
   {
+   "id": "web-3a7634e8210c9682",
+   "title": "关于我校参与申报2026年度湖南省科技奖的公...",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1026/c3310a324080/page.htm",
+   "publishedAt": "2026-10-19T12:26",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于我校参与申报2026年度湖南省科技奖的公...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于我校参与申报2026年度湖南省科技奖的公...</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-882d6b22f3d1fc1b",
+   "title": "体医同行送健康：我校“大学体育公开课”走进外国语学院、文法学院",
+   "sourceId": "hfut-tiyu",
+   "sourceName": "合肥工业大学体育部",
+   "sourceType": "official",
+   "url": "https://tiyu.hfut.edu.cn/info/1051/2134.htm",
+   "publishedAt": "2026-10-19T12:26",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "体医同行送健康：我校“大学体育公开课”走进外国语学院、文法学院",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "公开课",
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>体医同行送健康：我校“大学体育公开课”走进外国语学院、文法学院</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "tb-10537892741",
    "title": "12345",
    "sourceId": "tieba-合肥工业大学",
@@ -5455,50 +5552,6 @@
    },
    "content": [
     "<p>关于举办2027年中国大学生物理学术竞赛（CUPT）合肥工业大学校内选拔赛的通知</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-3a7634e8210c9682",
-   "title": "关于我校参与申报2026年度湖南省科技奖的公...",
-   "sourceId": "hfut-kyy",
-   "sourceName": "合肥工业大学科研院",
-   "sourceType": "official",
-   "url": "https://kyy.hfut.edu.cn/2026/1026/c3310a324080/page.htm",
-   "publishedAt": "2026-10-19T01:27",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "关于我校参与申报2026年度湖南省科技奖的公...",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>关于我校参与申报2026年度湖南省科技奖的公...</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-882d6b22f3d1fc1b",
-   "title": "体医同行送健康：五百学子操场共上体育公开课",
-   "sourceId": "hfut-tiyu",
-   "sourceName": "合肥工业大学体育部",
-   "sourceType": "official",
-   "url": "https://tiyu.hfut.edu.cn/info/1051/2134.htm",
-   "publishedAt": "2026-10-19T01:27",
-   "dateEstimated": true,
-   "intent": "activity",
-   "category": "lectures",
-   "summary": "体医同行送健康：五百学子操场共上体育公开课",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "公开课"
-   ],
-   "competition": null,
-   "content": [
-    "<p>体医同行送健康：五百学子操场共上体育公开课</p>"
    ],
    "demo": false
   },
