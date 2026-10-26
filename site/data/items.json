@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T02:22Z",
+ "generatedAt": "2026-10-26T02:28Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -367,6 +367,27 @@
    "competition": null,
    "content": [
     "<p>关于2025年度在编职工新申请住房补贴公示的通知（第二次）</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-056b79626211be5c",
+   "title": "关于2026-2027学年第一学期慕课开课的通知",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1249/6154.htm",
+   "publishedAt": "2026-10-26T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于2026-2027学年第一学期慕课开课的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于2026-2027学年第一学期慕课开课的通知</p>"
    ],
    "demo": false
   },
