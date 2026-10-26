@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T01:58Z",
+ "generatedAt": "2026-10-26T02:04Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4136,6 +4136,29 @@
     "ic": false,
     "generic": true
    }
+  },
+  {
+   "id": "web-f70e94e0987f1ebb",
+   "title": "安徽建工建筑工业化智能建造集团有限公司到访土木与水利工程学院开展座谈交流",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1020/79508.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "安徽建工建筑工业化智能建造集团有限公司到访土木与水利工程学院开展座谈交流",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>安徽建工建筑工业化智能建造集团有限公司到访土木与水利工程学院开展座谈交流</p>"
+   ],
+   "demo": false
   },
   {
    "id": "gg-1232640600415928320",
