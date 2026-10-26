@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T01:21Z",
+ "generatedAt": "2026-10-26T01:27Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -5390,6 +5390,50 @@
    },
    "content": [
     "<p>关于举办2027年中国大学生物理学术竞赛（CUPT）合肥工业大学校内选拔赛的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-3a7634e8210c9682",
+   "title": "关于我校参与申报2026年度湖南省科技奖的公...",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1026/c3310a324080/page.htm",
+   "publishedAt": "2026-10-19T01:27",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于我校参与申报2026年度湖南省科技奖的公...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于我校参与申报2026年度湖南省科技奖的公...</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-882d6b22f3d1fc1b",
+   "title": "体医同行送健康：五百学子操场共上体育公开课",
+   "sourceId": "hfut-tiyu",
+   "sourceName": "合肥工业大学体育部",
+   "sourceType": "official",
+   "url": "https://tiyu.hfut.edu.cn/info/1051/2134.htm",
+   "publishedAt": "2026-10-19T01:27",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "体医同行送健康：五百学子操场共上体育公开课",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "公开课"
+   ],
+   "competition": null,
+   "content": [
+    "<p>体医同行送健康：五百学子操场共上体育公开课</p>"
    ],
    "demo": false
   },

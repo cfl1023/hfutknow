@@ -89,7 +89,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 24
+   "count": 25
   },
   {
    "id": "hfut-lib",
@@ -451,7 +451,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 22
+   "count": 23
   },
   {
    "id": "hfut-mks",
