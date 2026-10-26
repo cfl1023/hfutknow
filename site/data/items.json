@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T08:03Z",
+ "generatedAt": "2026-10-26T16:06Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -533,6 +533,27 @@
    "competition": null,
    "content": [
     "<p>关于转发教育部高等教育司关于开展2026年度“人工智能赋能高等教育人才培养”系列师资培训的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-f3d266e4f23f5af8",
+   "title": "时政教育文选第333期 2026年10月",
+   "sourceId": "hfut-xcb",
+   "sourceName": "党委宣传部",
+   "sourceType": "official",
+   "url": "https://xcb.hfut.edu.cn/info/1031/3933.htm",
+   "publishedAt": "2026-10-26T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "时政教育文选第333期 2026年10月",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>时政教育文选第333期 2026年10月</p>"
    ],
    "demo": false
   },
