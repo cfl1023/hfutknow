@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T08:29Z",
+ "generatedAt": "2026-10-26T16:31Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4974,6 +4974,27 @@
     "author": "吕品的家长学院",
     "play": 3396
    },
+   "demo": false
+  },
+  {
+   "id": "web-c6a915d3183da475",
+   "title": "载誉而归！合工大学子在2026年全国航空航天模型赛事中斩获佳绩",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1050/5099.htm",
+   "publishedAt": "2026-10-19T16:31",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "载誉而归！合工大学子在2026年全国航空航天模型赛事中斩获佳绩",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>载誉而归！合工大学子在2026年全国航空航天模型赛事中斩获佳绩</p>"
+   ],
    "demo": false
   },
   {
@@ -12367,6 +12388,29 @@
     "name": "安徽省集成电路精英赛",
     "ic": true
    }
+  },
+  {
+   "id": "web-ee9361a5dbb370f9",
+   "title": "金秋忆韶华 薪火续华章——我院76届校友返校举行毕业50周年纪念活动",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1050/5096.htm",
+   "publishedAt": "2026-10-09T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "金秋忆韶华 薪火续华章——我院76届校友返校举行毕业50周年纪念活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "举行"
+   ],
+   "competition": null,
+   "content": [
+    "<p>金秋忆韶华 薪火续华章——我院76届校友返校举行毕业50周年纪念活动</p>"
+   ],
+   "demo": false
   },
   {
    "id": "bl-BV1bUH96RErJ",
