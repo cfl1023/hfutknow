@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T07:49Z",
+ "generatedAt": "2026-10-26T15:51Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4980,6 +4980,29 @@
     "author": "合肥超越考研",
     "play": 1235
    },
+   "demo": false
+  },
+  {
+   "id": "web-7226980a5fea3948",
+   "title": "我院吴华清教授国家社科基金重大项目顺利开题",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2019/0610/c9345a215604/page.htm",
+   "publishedAt": "2026-10-19T15:51",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "research",
+   "summary": "我院吴华清教授国家社科基金重大项目顺利开题",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "基金"
+   ],
+   "competition": null,
+   "content": [
+    "<p>我院吴华清教授国家社科基金重大项目顺利开题</p>"
+   ],
    "demo": false
   },
   {
@@ -22122,6 +22145,27 @@
    "demo": false
   },
   {
+   "id": "web-4b213e7c83e2ae4e",
+   "title": "【经济日报】提升产业链供应链韧性和安全水平",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2025/1205/c9291a316812/page.htm",
+   "publishedAt": "2025-12-05T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "【经济日报】提升产业链供应链韧性和安全水平",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>【经济日报】提升产业链供应链韧性和安全水平</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-a68ff3bc7f426782",
    "title": "学院举办2025年斛兵外语讲坛“科研产出大家说”暨研究生交流年会第九场学术报告",
    "sourceId": "hfut-wgyxy",
@@ -22474,6 +22518,34 @@
    "demo": false
   },
   {
+   "id": "web-7b556ef6bacb2919",
+   "title": "我院经济学专业学子斩获第五届全国大学生发展经济学论文大赛决赛一等奖",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2025/0708/c9292a313629/page.htm",
+   "publishedAt": "2025-07-08T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "我院经济学专业学子斩获第五届全国大学生发展经济学论文大赛决赛一等奖",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "论文",
+    "大赛"
+   ],
+   "competition": {
+    "name": "经济学专业学子斩获第五届全国大学生发展经济学论文大赛",
+    "ic": false,
+    "generic": true
+   },
+   "content": [
+    "<p>我院经济学专业学子斩获第五届全国大学生发展经济学论文大赛决赛一等奖</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-f2ba8990aed5bb31",
    "title": "薪火相传·创芯未来——校庆80周年系列报道：青年先锋驱动微电子学科革新",
    "sourceId": "hfut-wdzxy",
@@ -22493,6 +22565,30 @@
    "competition": null,
    "content": [
     "<p>薪火相传·创芯未来——校庆80周年系列报道：青年先锋驱动微电子学科革新</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-73ea1a70d10ccf5f",
+   "title": "经济学专业学子再获佳绩： 创新竞赛显身手 学术论坛露锋芒",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2025/0603/c9292a312778/page.htm",
+   "publishedAt": "2025-06-03T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "经济学专业学子再获佳绩： 创新竞赛显身手 学术论坛露锋芒",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "论坛",
+    "竞赛"
+   ],
+   "competition": null,
+   "content": [
+    "<p>经济学专业学子再获佳绩： 创新竞赛显身手 学术论坛露锋芒</p>"
    ],
    "demo": false
   },
@@ -34011,6 +34107,29 @@
    ],
    "content": [
     "<p>2023版集成电路设计与集成系统（创新实验班）专业培养方案</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-c8957914cd819a06",
+   "title": "我院师生三项案例成果收录“中国专业学位案例中心” 案例库",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2023/1214/c9292a299764/page.htm",
+   "publishedAt": "2023-12-14T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "我院师生三项案例成果收录“中国专业学位案例中心” 案例库",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "成果"
+   ],
+   "competition": null,
+   "content": [
+    "<p>我院师生三项案例成果收录“中国专业学位案例中心” 案例库</p>"
    ],
    "demo": false
   },
