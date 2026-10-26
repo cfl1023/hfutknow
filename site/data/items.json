@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T09:12Z",
+ "generatedAt": "2026-10-26T17:16Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -554,6 +554,29 @@
    "competition": null,
    "content": [
     "<p>时政教育文选第333期 2026年10月</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-14e05fb1f61bea69",
+   "title": "化学与化工学院开展“传承礼让美德 赓续红色基因”秋...",
+   "sourceId": "hfut-hgxy",
+   "sourceName": "化学与化工学院",
+   "sourceType": "official",
+   "url": "https://hgxy.hfut.edu.cn/2026/1026/c14793a324112/page.htm",
+   "publishedAt": "2026-10-26T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "化学与化工学院开展“传承礼让美德 赓续红色基因”秋...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>化学与化工学院开展“传承礼让美德 赓续红色基因”秋...</p>"
    ],
    "demo": false
   },
@@ -4974,6 +4997,27 @@
     "author": "吕品的家长学院",
     "play": 3396
    },
+   "demo": false
+  },
+  {
+   "id": "web-4ada76f37d0cac44",
+   "title": "关于我校参与申报2026年度湖南省科技奖的公...",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1026/c3310a324114/page.htm",
+   "publishedAt": "2026-10-19T17:16",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于我校参与申报2026年度湖南省科技奖的公...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于我校参与申报2026年度湖南省科技奖的公...</p>"
+   ],
    "demo": false
   },
   {
