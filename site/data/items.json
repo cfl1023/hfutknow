@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T15:16Z",
+ "generatedAt": "2026-10-26T07:18Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -5777,6 +5777,27 @@
    "competition": null,
    "content": [
     "<p>我校在工业废水难降解污染物深度净化研究领域取得新进展</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-3590ad4f0b06a3b4",
+   "title": "化学工程与工艺（智能化工）创新实验班拟录取名单公示",
+   "sourceId": "hfut-hgxy",
+   "sourceName": "化学与化工学院",
+   "sourceType": "official",
+   "url": "https://hgxy.hfut.edu.cn/2026/1026/c14794a324106/page.htm",
+   "publishedAt": "2026-10-19T07:18",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "化学工程与工艺（智能化工）创新实验班拟录取名单公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>化学工程与工艺（智能化工）创新实验班拟录取名单公示</p>"
    ],
    "demo": false
   },
