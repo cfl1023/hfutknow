@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T06:10Z",
+ "generatedAt": "2026-10-26T14:11Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4818,6 +4818,27 @@
     "author": "合肥超越考研",
     "play": 1235
    },
+   "demo": false
+  },
+  {
+   "id": "web-fbaae20b29981e62",
+   "title": "合肥工业大学2026年“学宪法 讲宪法”系列活动评审结果公示",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1011/20165.htm",
+   "publishedAt": "2026-10-19T14:11",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "合肥工业大学2026年“学宪法 讲宪法”系列活动评审结果公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学2026年“学宪法 讲宪法”系列活动评审结果公示</p>"
+   ],
    "demo": false
   },
   {
