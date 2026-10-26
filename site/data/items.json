@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T01:33Z",
+ "generatedAt": "2026-10-26T01:39Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -347,6 +347,27 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbpuAGk9GAAIeYGCwsRI242.jpg\" alt=\"10月27日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbpuAGk9GAAIeYGCwsRI242.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-df6562e6d38a8cb1",
+   "title": "关于2025年度在编职工新申请住房补贴公示的通知（第二次）",
+   "sourceId": "hfut-jjc",
+   "sourceName": "基建与房屋管理处",
+   "sourceType": "official",
+   "url": "https://jjc.hfut.edu.cn/info/1025/1485.htm",
+   "publishedAt": "2026-10-26T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于2025年度在编职工新申请住房补贴公示的通知（第二次）",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于2025年度在编职工新申请住房补贴公示的通知（第二次）</p>"
+   ],
    "demo": false
   },
   {
