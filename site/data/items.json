@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T07:12Z",
+ "generatedAt": "2026-10-26T15:16Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4980,6 +4980,27 @@
     "author": "合肥超越考研",
     "play": 1235
    },
+   "demo": false
+  },
+  {
+   "id": "web-da6ae6db40e97598",
+   "title": "关于2026年“合肥工业大学-SMC奖（助）学金” 评选的通知",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1053/5098.htm",
+   "publishedAt": "2026-10-19T15:16",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于2026年“合肥工业大学-SMC奖（助）学金” 评选的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于2026年“合肥工业大学-SMC奖（助）学金” 评选的通知</p>"
+   ],
    "demo": false
   },
   {
