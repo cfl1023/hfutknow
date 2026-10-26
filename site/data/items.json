@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T13:23Z",
+ "generatedAt": "2026-10-26T21:26Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -400,6 +400,33 @@
    "bili": {
     "author": "合肥工业大学",
     "play": 133
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1CYnd6SEVn",
+   "title": "复旦大学的人工智能不如合肥工业大学？",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1CYnd6SEVn",
+   "publishedAt": "2026-10-26T17:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "周老师教育观察 发布的 B 站视频",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "周老师教育观察"
+   ],
+   "competition": null,
+   "content": [
+    "<p>周老师教育观察 发布的 B 站视频</p>"
+   ],
+   "bili": {
+    "author": "周老师教育观察",
+    "play": 888
    },
    "demo": false
   },
