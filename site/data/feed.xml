@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:57:45 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -86,14 +86,6 @@
       <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
       <category>departments</category>
       <description>关于举办马克思主义学院大学生职业规划比赛暨校第二十届大学生职业规划大赛选拔赛的通知</description>
-    </item>
-    <item>
-      <title>代世峰院士来校作专题报告</title>
-      <link>https://www.hfut.edu.cn/info/1127/13249.htm</link>
-      <guid isPermaLink="false">web-1b6f6c89f5901e9d</guid>
-      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>代世峰院士来校作专题报告</description>
     </item>
     <item>
       <title>10月27日上午屯溪路校区教职工体检志愿者服务</title>
@@ -502,14 +494,6 @@ via.经济学院
       <description>贴吧讨论（10 回复）：男朋友考上合肥工业大学研究生了</description>
     </item>
     <item>
-      <title>代世峰院士来校作专题报告</title>
-      <link>https://news.hfut.edu.cn/info/1011/79548.htm</link>
-      <guid isPermaLink="false">web-4d5a4421f3780940</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>代世峰院士来校作专题报告</description>
-    </item>
-    <item>
       <title>目标合肥工业大学！28考研最新考情+就业前景+备考规划一站式解析｜择校第一课，少走备考弯路！</title>
       <link>https://www.bilibili.com/video/BV1Cbnh6jEUa</link>
       <guid isPermaLink="false">bili-BV1Cbnh6jEUa</guid>
@@ -673,6 +657,22 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
       <category>lectures</category>
       <description>3月25日，学校学术会议中心三楼报告厅成功。为进一步落实中央“过紧日子”要求，深入贯彻预算执行常态化监督工作部署，切实规范学校财经管理，强化内部控制体系建设，提升全校内控管理规范化水平，3月25日，财务处在学校学术会议中心三楼报告厅成功举办内部控制建设专题培训会。</description>
+    </item>
+    <item>
+      <title>2025年度社会科学项目资金管理政策宣讲</title>
+      <link>https://cwc.hfut.edu.cn/info/1011/3312.htm</link>
+      <guid isPermaLink="false">web-c2ce37baa4d8f13b</guid>
+      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
+      <category>research</category>
+      <description>7月10日下午合肥工业大学青年社科学者协会成立大会在工程管理与智能制造中心第二报告厅进一步加强社科项目经费政策宣讲促进业财融合校财务处科研经费管理科科长张思琦管理政策进行社科项目资金管理政策要求详细讲解了社会科学项目资金管理规定</description>
+    </item>
+    <item>
+      <title>集成电路创新学院2026集成电路与系统专业调剂复试名单公示</title>
+      <link>https://ic.hfut.edu.cn/info/1009/1320.htm</link>
+      <guid isPermaLink="false">web-55e614c3703230cb</guid>
+      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
+      <category>departments</category>
+      <description>集成电路创新学院2026集成电路与系统专业调剂复试名单公示2026集成电路创新学院集成电路与系统专业、新一代电子信息技术专业调剂复试拟录取名单公示集成电路创新学院2026新一代电子信息技术专业调剂复试名单公示</description>
     </item>
   </channel>
 </rss>
