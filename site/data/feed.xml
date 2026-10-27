@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 12:10:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:16:24 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -38,6 +38,14 @@
       <pubDate>Wed, 28 Oct 2026 11:00:00 +0000</pubDate>
       <category>skills</category>
       <description>科技创新｜主办 物理学院｜报告讲座｜主讲 陈美霞｜限 200 人｜报名截止 2026-10-27｜安徽省合肥市蜀山区合肥工业大学翡翠湖校区翠一教101教室</description>
+    </item>
+    <item>
+      <title>272026.10</title>
+      <link>https://civil.hfut.edu.cn/2026/1027/c8415a324162/page.htm</link>
+      <guid isPermaLink="false">web-7c976ce4756f1752</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>272026.10</description>
     </item>
     <item>
       <title>10月28日上午屯溪路校区教职工体检志愿者服务</title>
@@ -665,14 +673,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
       <category>research</category>
       <description>7月10日下午合肥工业大学青年社科学者协会成立大会在工程管理与智能制造中心第二报告厅进一步加强社科项目经费政策宣讲促进业财融合校财务处科研经费管理科科长张思琦管理政策进行社科项目资金管理政策要求详细讲解了社会科学项目资金管理规定</description>
-    </item>
-    <item>
-      <title>集成电路创新学院2026集成电路与系统专业调剂复试名单公示</title>
-      <link>https://ic.hfut.edu.cn/info/1009/1320.htm</link>
-      <guid isPermaLink="false">web-55e614c3703230cb</guid>
-      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
-      <category>departments</category>
-      <description>集成电路创新学院2026集成电路与系统专业调剂复试名单公示2026集成电路创新学院集成电路与系统专业、新一代电子信息技术专业调剂复试拟录取名单公示集成电路创新学院2026新一代电子信息技术专业调剂复试名单公示</description>
     </item>
   </channel>
 </rss>
