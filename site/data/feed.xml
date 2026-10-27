@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 02:02:15 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -454,22 +454,6 @@ via.经济学院
       <description>贴吧讨论（10 回复）：男朋友考上合肥工业大学研究生了</description>
     </item>
     <item>
-      <title>学校举行赵华院士兼职教授聘任仪式</title>
-      <link>https://www.hfut.edu.cn/info/1127/13245.htm</link>
-      <guid isPermaLink="false">web-2eb595c5d63a6848</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>学校举行赵华院士兼职教授聘任仪式</description>
-    </item>
-    <item>
-      <title>学校举行赵华院士兼职教授聘任仪式</title>
-      <link>https://news.hfut.edu.cn/info/1011/79523.htm</link>
-      <guid isPermaLink="false">web-7547df0a9e32bbd6</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>学校举行赵华院士兼职教授聘任仪式</description>
-    </item>
-    <item>
       <title>目标合肥工业大学！28考研最新考情+就业前景+备考规划一站式解析｜择校第一课，少走备考弯路！</title>
       <link>https://www.bilibili.com/video/BV1Cbnh6jEUa</link>
       <guid isPermaLink="false">bili-BV1Cbnh6jEUa</guid>
@@ -673,6 +657,22 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
       <category>careers</category>
       <description>为深化校企党建联动融合，夯实党建引领发展根基，推动产学研深度协同落地，以高质量党建赋能集成电路产业人才培育与科技创新，8月26日，学院党委赴蚌埠与安徽华鑫微纳集成电路有限公司党支部联合开展党建联建共建调研交流，双向交流赋能，共商校企协同发</description>
+    </item>
+    <item>
+      <title>我院在微流控惯性聚焦研究方面取得新进展</title>
+      <link>https://ic.hfut.edu.cn/info/1047/1324.htm</link>
+      <guid isPermaLink="false">web-2266b677e1fcab9d</guid>
+      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
+      <category>research</category>
+      <description>我院在微流控惯性聚焦研究方面取得新进展近日，我院安徽省工程技术研究中心许高斌教授课题组在微流控微粒操纵领域取得重要突破。相关成果以“Coupling inertial, viscoelastic, and enhanced secon</description>
+    </item>
+    <item>
+      <title>我院在Nature子刊《PhotoniX》发表实验驱动深度学习研究成果</title>
+      <link>https://ic.hfut.edu.cn/info/1047/1292.htm</link>
+      <guid isPermaLink="false">web-5b4902caddf9d8ba</guid>
+      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
+      <category>research</category>
+      <description>更为重要的是，与传统基于FDTD的仿真方法相比，该方法在光谱评估效率（以单位时间内完成的光谱计算次数衡量）上实现了约900倍提升。</description>
     </item>
   </channel>
 </rss>
