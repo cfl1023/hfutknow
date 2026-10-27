@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T02:21Z",
+ "generatedAt": "2026-10-27T02:28Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -312,6 +312,27 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg\" alt=\"10月28日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-0b837ba27167f6ce",
+   "title": "关于转发教育部高等教育司关于征集优质课程资源上线国家高等教育智慧教育平台通知",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1250/6156.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于转发教育部高等教育司关于征集优质课程资源上线国家高等教育智慧教育平台通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于转发教育部高等教育司关于征集优质课程资源上线国家高等教育智慧教育平台通知</p>"
+   ],
    "demo": false
   },
   {
