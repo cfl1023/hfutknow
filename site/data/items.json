@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T08:54Z",
+ "generatedAt": "2026-10-27T09:00Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -5139,6 +5139,29 @@
    "tags": [],
    "content": [
     "<p>关于我校参与申报2026年度湖南省科技奖的公示</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a0a533b9f997086c",
+   "title": "赓续红色血脉 共筑强芯使命----学院党委...",
+   "sourceId": "hfut-ic",
+   "sourceName": "合肥工业大学集成电路创新学院",
+   "sourceType": "official",
+   "url": "https://ic.hfut.edu.cn/info/1071/1402.htm",
+   "publishedAt": "2026-10-20T09:00",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "赓续红色血脉 共筑强芯使命----学院党委...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>赓续红色血脉 共筑强芯使命----学院党委...</p>"
    ],
    "demo": false
   },
