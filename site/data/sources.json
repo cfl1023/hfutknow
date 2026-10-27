@@ -21,7 +21,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 25
+   "count": 26
   },
   {
    "id": "hfut-news",
@@ -608,7 +608,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 24
+   "count": 25
   },
   {
    "id": "hfut-jjxy",
@@ -662,7 +662,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 19
+   "count": 20
   },
   {
    "id": "hfut-rjxy",
@@ -708,7 +708,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 26
+   "count": 27
   },
   {
    "id": "hfut-tuanwei",
@@ -736,7 +736,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 25
+   "count": 27
   },
   {
    "id": "hfut-xyy",
@@ -2853,7 +2853,7 @@
    "type": "gg",
    "url": "https://community.hfut.edu.cn/",
    "category": "campus",
-   "count": 12,
+   "count": 13,
    "feed": {
     "type": "gg",
     "url": "",
@@ -2866,7 +2866,20 @@
    "type": "bili",
    "url": "https://search.bilibili.com/all?keyword=合肥工业大学",
    "category": "life",
-   "count": 22,
+   "count": 23,
+   "feed": {
+    "type": "bili",
+    "url": "",
+    "enabled": true
+   }
+  },
+  {
+   "id": "bili-ff6ead9d",
+   "name": "B站 · 合工大",
+   "type": "bili",
+   "url": "https://search.bilibili.com/all?keyword=合工大",
+   "category": "life",
+   "count": 6,
    "feed": {
     "type": "bili",
     "url": "",
@@ -2880,19 +2893,6 @@
    "url": "https://search.bilibili.com/all?keyword=合肥工业大学",
    "category": "life",
    "count": 159,
-   "feed": {
-    "type": "bili",
-    "url": "",
-    "enabled": true
-   }
-  },
-  {
-   "id": "bili-ff6ead9d",
-   "name": "B站 · 合工大",
-   "type": "bili",
-   "url": "https://search.bilibili.com/all?keyword=合工大",
-   "category": "life",
-   "count": 5,
    "feed": {
     "type": "bili",
     "url": "",

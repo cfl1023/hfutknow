@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T13:41Z",
+ "generatedAt": "2026-10-27T21:43Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -175,6 +175,41 @@
    "demo": false
   },
   {
+   "id": "gg-1234672309579808768",
+   "title": "机械工程学院减压手工坊之“一纸书签，满拾光阴”沉浸式创意书签活动",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-31T00:00+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "campus",
+   "summary": "文艺活动｜主办 机械工程学院｜报告讲座｜主讲 青苹果心理协会｜限 15 人｜报名截止 2026-11-01｜安徽省合肥市蜀山区合肥工业大学翡翠湖校区",
+   "event": {
+    "start": "2026-10-31T00:00+08:00",
+    "end": "2026-11-01T00:00+08:00",
+    "location": "安徽省合肥市蜀山区合肥工业大学翡翠湖校区"
+   },
+   "deadline": "2026-11-01",
+   "speaker": "青苹果心理协会",
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "文艺活动",
+    "合肥校区",
+    "报告讲座"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>文艺活动｜主办 机械工程学院｜报告讲座｜主讲 青苹果心理协会｜限 15 人｜报名截止 2026-11-01｜安徽省合肥市蜀山区合肥工业大学翡翠湖校区</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/6B/rB_xrGrep2eABSWQAAGsWO82MW4037.jpg\" alt=\"机械工程学院减压手工坊之“一纸书签，满拾光阴”沉浸式创意书签活动\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/6B/rB_xrGrep2eABSWQAAGsWO82MW4037.jpg",
+   "demo": false
+  },
+  {
    "id": "gg-1232965168917643264",
    "title": "10月30日上午屯溪路校区教职工体检志愿者服务",
    "sourceId": "gg-activity",
@@ -315,6 +350,60 @@
    "demo": false
   },
   {
+   "id": "bili-BV1dBnB6pEZZ",
+   "title": "谁在盗版我的合工大 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1dBnB6pEZZ",
+   "publishedAt": "2026-10-27T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "#校园网络文明月#\n视频立足校园，充满归属感与保护欲\n将“盗版”这一概念延展至网络信息安全领域，探讨了个人信息与校园权益保护的重要性\n呼吁雪梨们一起共同守护校园的纯净与安全，共同抵制AI克隆语音\nvia.微电子学院\n作者：郭乙辰",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>#校园网络文明月#\n视频立足校园，充满归属感与保护欲\n将“盗版”这一概念延展至网络信息安全领域，探讨了个人信息与校园权益保护的重要性\n呼吁雪梨们一起共同守护校园的纯净与安全，共同抵制AI克隆语音\nvia.微电子学院\n作者：郭乙辰</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 486
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV11yxM6vEHU",
+   "title": "【免费送】27考研数学合工大，《共创超越5+5套卷》，数一数二数三，试卷+解析电子版可下载！",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV11yxM6vEHU",
+   "publishedAt": "2026-10-27T15:06",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "-",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "小长鱼1"
+   ],
+   "competition": null,
+   "content": [
+    "<p>-</p>"
+   ],
+   "bili": {
+    "author": "小长鱼1",
+    "play": 31
+   },
+   "demo": false
+  },
+  {
    "id": "web-0b837ba27167f6ce",
    "title": "关于转发教育部高等教育司关于征集优质课程资源上线国家高等教育智慧教育平台通知",
    "sourceId": "hfut-jwc",
@@ -359,29 +448,6 @@
    "demo": false
   },
   {
-   "id": "web-24921fcf324c9ba0",
-   "title": "经济学院2026年度申报高级专业技术职务人员材料公示",
-   "sourceId": "hfut-jjxy",
-   "sourceName": "经济学院",
-   "sourceType": "official",
-   "url": "https://jjxy.hfut.edu.cn/2026/1027/c9992a324150/page.htm",
-   "publishedAt": "2026-10-27T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "经济学院2026年度申报高级专业技术职务人员材料公示",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>经济学院2026年度申报高级专业技术职务人员材料公示</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "web-6004481887b86fdf",
    "title": "关于2026级本科新生学籍电子注册信息核对的通知",
    "sourceId": "hfut-jwc",
@@ -401,6 +467,29 @@
    "competition": null,
    "content": [
     "<p>关于2026级本科新生学籍电子注册信息核对的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-9c53388060712bff",
+   "title": "2027年春季学期​波兰波兹南密茨凯维奇大学交换项目招生通知",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://international.hfut.edu.cn/info/1026/6454.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "exchange",
+   "summary": "2027年春季学期​波兰波兹南密茨凯维奇大学交换项目招生通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "交换"
+   ],
+   "competition": null,
+   "content": [
+    "<p>2027年春季学期​波兰波兹南密茨凯维奇大学交换项目招生通知</p>"
    ],
    "demo": false
   },
@@ -428,6 +517,29 @@
    },
    "content": [
     "<p>关于举办马克思主义学院大学生职业规划比赛暨校第二十届大学生职业规划大赛选拔赛的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-24921fcf324c9ba0",
+   "title": "经济学院2026年度申报高级专业技术职务人员材料公示",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1027/c9992a324150/page.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "经济学院2026年度申报高级专业技术职务人员材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>经济学院2026年度申报高级专业技术职务人员材料公示</p>"
    ],
    "demo": false
   },
@@ -4662,6 +4774,163 @@
    "demo": false
   },
   {
+   "id": "web-a0a533b9f997086c",
+   "title": "赓续红色血脉 共筑强芯使命----学院党委...",
+   "sourceId": "hfut-ic",
+   "sourceName": "合肥工业大学集成电路创新学院",
+   "sourceType": "official",
+   "url": "https://ic.hfut.edu.cn/info/1071/1402.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "赓续红色血脉 共筑强芯使命----学院党委...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>赓续红色血脉 共筑强芯使命----学院党委...</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-30c5d0a497e45e12",
+   "title": "陈海嵩: 生态环境法典相关情况及贯彻落实",
+   "sourceId": "hfut-wfxy",
+   "sourceName": "文法学院",
+   "sourceType": "official",
+   "url": "https://wfxy.hfut.edu.cn/info/1015/4566.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "陈海嵩: 生态环境法典相关情况及贯彻落实",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>陈海嵩: 生态环境法典相关情况及贯彻落实</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-aa89ccc401280a87",
+   "title": "机械工程学院第76期发展对象班开展第二次主题研讨交流活动",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1038/5102.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "机械工程学院第76期发展对象班开展第二次主题研讨交流活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>机械工程学院第76期发展对象班开展第二次主题研讨交流活动</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-090801c7443b90e9",
+   "title": "学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式",
+   "sourceId": "hfut-tuanwei",
+   "sourceName": "共青团合肥工业大学委员会",
+   "sourceType": "official",
+   "url": "https://tuanwei.hfut.edu.cn/2026/1027/c810a324157/page.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "支教",
+    "举行"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-6057f61dc8d72d87",
+   "title": "陆军兵种大学学员成长中心师生来校调研交流",
+   "sourceId": "hfut-tuanwei",
+   "sourceName": "共青团合肥工业大学委员会",
+   "sourceType": "official",
+   "url": "https://tuanwei.hfut.edu.cn/2026/1027/c810a324158/page.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "陆军兵种大学学员成长中心师生来校调研交流",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>陆军兵种大学学员成长中心师生来校调研交流</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-26780b25ffd971ee",
+   "title": "学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式",
+   "sourceId": "hfut-tuanwei",
+   "sourceName": "共青团合肥工业大学委员会",
+   "sourceType": "official",
+   "url": "https://tuanwei.hfut.edu.cn/2026/1027/c738a324157/page.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "支教",
+    "举行"
+   ],
+   "competition": null,
+   "content": [
+    "<p>学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-b3de741d4e8fcc02",
+   "title": "陆军兵种大学学员成长中心师生来校调研交流",
+   "sourceId": "hfut-tuanwei",
+   "sourceName": "共青团合肥工业大学委员会",
+   "sourceType": "official",
+   "url": "https://tuanwei.hfut.edu.cn/2026/1027/c738a324158/page.htm",
+   "publishedAt": "2026-10-20T21:42",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "陆军兵种大学学员成长中心师生来校调研交流",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>陆军兵种大学学员成长中心师生来校调研交流</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "gg-1232640600415928320",
    "title": "第八届“斛兵杯”新媒体文化节暨新媒体创意产品设计大赛（第一期）",
    "sourceId": "gg-activity",
@@ -4839,51 +5108,6 @@
     "author": "合肥工业大学",
     "play": 1081
    },
-   "demo": false
-  },
-  {
-   "id": "web-090801c7443b90e9",
-   "title": "学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式",
-   "sourceId": "hfut-tuanwei",
-   "sourceName": "共青团合肥工业大学委员会",
-   "sourceType": "official",
-   "url": "https://tuanwei.hfut.edu.cn/2026/1027/c810a324157/page.htm",
-   "publishedAt": "2026-10-20T10:16",
-   "dateEstimated": true,
-   "intent": "activity",
-   "category": "recruitment",
-   "summary": "学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "支教",
-    "举行"
-   ],
-   "competition": null,
-   "content": [
-    "<p>学校举行研究生支教团工作交流会暨第29届研究生支教团成立仪式</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-6057f61dc8d72d87",
-   "title": "陆军兵种大学学员成长中心师生来校调研交流",
-   "sourceId": "hfut-tuanwei",
-   "sourceName": "共青团合肥工业大学委员会",
-   "sourceType": "official",
-   "url": "https://tuanwei.hfut.edu.cn/2026/1027/c810a324158/page.htm",
-   "publishedAt": "2026-10-20T10:16",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "陆军兵种大学学员成长中心师生来校调研交流",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>陆军兵种大学学员成长中心师生来校调研交流</p>"
-   ],
    "demo": false
   },
   {
@@ -5184,29 +5408,6 @@
    "tags": [],
    "content": [
     "<p>关于我校参与申报2026年度湖南省科技奖的公示</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-a0a533b9f997086c",
-   "title": "赓续红色血脉 共筑强芯使命----学院党委...",
-   "sourceId": "hfut-ic",
-   "sourceName": "合肥工业大学集成电路创新学院",
-   "sourceType": "official",
-   "url": "https://ic.hfut.edu.cn/info/1071/1402.htm",
-   "publishedAt": "2026-10-20T09:00",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "departments",
-   "summary": "赓续红色血脉 共筑强芯使命----学院党委...",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>赓续红色血脉 共筑强芯使命----学院党委...</p>"
    ],
    "demo": false
   },
@@ -21658,6 +21859,29 @@
    "competition": null,
    "content": [
     "<p>应用物理学专业2026届毕业生赴南京洛普开展毕业实习</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-e499dd01494c3dd9",
+   "title": "应用物理学专业2026届毕业生赴安达创展开展毕业实习",
+   "sourceId": "hfut-wlxy",
+   "sourceName": "物理学院",
+   "sourceType": "official",
+   "url": "https://wlxy.hfut.edu.cn/info/1064/4002.htm",
+   "publishedAt": "2026-04-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "careers",
+   "summary": "应用物理学专业2026届毕业生赴安达创展开展毕业实习",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "实习"
+   ],
+   "competition": null,
+   "content": [
+    "<p>应用物理学专业2026届毕业生赴安达创展开展毕业实习</p>"
    ],
    "demo": false
   },
