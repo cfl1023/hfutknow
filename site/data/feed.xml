@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 06:19:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 06:26:02 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -62,6 +62,14 @@
       <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
       <category>departments</category>
       <description>微电子学院 2025年度高级专业技术职务申报人员材料公示</description>
+    </item>
+    <item>
+      <title>经济学院2026年度申报高级专业技术职务人员材料公示</title>
+      <link>https://jjxy.hfut.edu.cn/2026/1027/c9992a324150/page.htm</link>
+      <guid isPermaLink="false">web-24921fcf324c9ba0</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <category>departments</category>
+      <description>经济学院2026年度申报高级专业技术职务人员材料公示</description>
     </item>
     <item>
       <title>10月27日上午屯溪路校区教职工体检志愿者服务</title>
@@ -665,14 +673,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
       <category>research</category>
       <description>4月8日。集成电路创新学院2026年硕士研究生调剂通知集成电路创新学院2026年硕士研究生调剂通知0812J1集成电路与系统、085401新一代电子信息技术（含量子技术等）专业招生，现接受考生调剂，欢迎符合条件的考生报考调剂系统中请选择微电</description>
-    </item>
-    <item>
-      <title>校企携手促发展——学院党委与安徽华鑫微纳集成电路有限公司党支部开展党建联建共建交流</title>
-      <link>https://ic.hfut.edu.cn/info/1071/1340.htm</link>
-      <guid isPermaLink="false">web-d61e7ff3831c2794</guid>
-      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
-      <category>careers</category>
-      <description>为深化校企党建联动融合，夯实党建引领发展根基，推动产学研深度协同落地，以高质量党建赋能集成电路产业人才培育与科技创新，8月26日，学院党委赴蚌埠与安徽华鑫微纳集成电路有限公司党支部联合开展党建联建共建调研交流，双向交流赋能，共商校企协同发</description>
     </item>
   </channel>
 </rss>

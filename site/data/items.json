@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T06:19Z",
+ "generatedAt": "2026-10-27T06:26Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -355,6 +355,29 @@
    "competition": null,
    "content": [
     "<p>微电子学院 2025年度高级专业技术职务申报人员材料公示</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-24921fcf324c9ba0",
+   "title": "经济学院2026年度申报高级专业技术职务人员材料公示",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1027/c9992a324150/page.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "经济学院2026年度申报高级专业技术职务人员材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>经济学院2026年度申报高级专业技术职务人员材料公示</p>"
    ],
    "demo": false
   },
