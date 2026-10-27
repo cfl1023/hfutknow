@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 06:39:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 06:45:29 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -70,6 +70,14 @@
       <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
       <category>departments</category>
       <description>经济学院2026年度申报高级专业技术职务人员材料公示</description>
+    </item>
+    <item>
+      <title>关于2026级本科新生学籍电子注册信息核对的通知</title>
+      <link>https://jwc.hfut.edu.cn/info/1249/6157.htm</link>
+      <guid isPermaLink="false">web-6004481887b86fdf</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <category>academics</category>
+      <description>关于2026级本科新生学籍电子注册信息核对的通知</description>
     </item>
     <item>
       <title>10月27日上午屯溪路校区教职工体检志愿者服务</title>
@@ -665,14 +673,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
       <category>departments</category>
       <description>集成电路创新学院2026新一代电子信息技术专业调剂复试名单公示集成电路创新学院2026集成电路与系统专业调剂复试名单公示集成电路创新学院2026年硕士研究生调剂通知</description>
-    </item>
-    <item>
-      <title>集成电路创新学院2026年硕士研究生调剂通知</title>
-      <link>https://ic.hfut.edu.cn/info/1009/1309.htm</link>
-      <guid isPermaLink="false">web-bd21f888885d8e25</guid>
-      <pubDate>Fri, 23 Oct 2026 14:56:00 +0000</pubDate>
-      <category>research</category>
-      <description>4月8日。集成电路创新学院2026年硕士研究生调剂通知集成电路创新学院2026年硕士研究生调剂通知0812J1集成电路与系统、085401新一代电子信息技术（含量子技术等）专业招生，现接受考生调剂，欢迎符合条件的考生报考调剂系统中请选择微电</description>
     </item>
   </channel>
 </rss>

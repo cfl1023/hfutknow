@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T06:39Z",
+ "generatedAt": "2026-10-27T06:45Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -378,6 +378,29 @@
    "competition": null,
    "content": [
     "<p>经济学院2026年度申报高级专业技术职务人员材料公示</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-6004481887b86fdf",
+   "title": "关于2026级本科新生学籍电子注册信息核对的通知",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1249/6157.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "academics",
+   "summary": "关于2026级本科新生学籍电子注册信息核对的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学籍"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于2026级本科新生学籍电子注册信息核对的通知</p>"
    ],
    "demo": false
   },
