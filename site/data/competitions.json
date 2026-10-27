@@ -32,6 +32,32 @@
   },
   {
    "tier": "B类",
+   "name": "全国大学生职业规划大赛",
+   "related": false,
+   "keywords": [],
+   "level": "国家级",
+   "tracking": {
+    "status": "open",
+    "deadline": "2026-11-03",
+    "daysLeft": 7,
+    "eventAt": "",
+    "snippet": "11 月 3 日前",
+    "how": {
+     "phone": "0551-63831856",
+     "url": "http://www.hfut.edu.cn/zsyjyc/info/1029/1372.htm"
+    },
+    "notices": [
+     {
+      "id": "web-5302d2307afe89ec",
+      "title": "关于举办马克思主义学院大学生职业规划比赛暨校第二十届大学生职业规划大赛选拔赛的通知",
+      "url": "https://mks.hfut.edu.cn/2026/1027/c8870a324155/page.htm",
+      "date": "2026-10-27"
+     }
+    ]
+   }
+  },
+  {
+   "tier": "B类",
    "name": "中国大学生物理学术竞赛",
    "related": false,
    "keywords": [],
@@ -1102,22 +1128,6 @@
   },
   {
    "tier": "B类",
-   "name": "全国大学生职业规划大赛",
-   "related": false,
-   "keywords": [],
-   "level": "国家级",
-   "tracking": {
-    "status": "none",
-    "deadline": "",
-    "daysLeft": null,
-    "eventAt": "",
-    "snippet": "",
-    "how": {},
-    "notices": []
-   }
-  },
-  {
-   "tier": "B类",
    "name": "全国大学生能源经济学术创意大赛",
    "related": false,
    "keywords": [],
@@ -1541,5 +1551,5 @@
    }
   }
  ],
- "trackedAt": "2026-10-27T08:35"
+ "trackedAt": "2026-10-27T08:41"
 }

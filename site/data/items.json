@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T08:34Z",
+ "generatedAt": "2026-10-27T08:41Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -401,6 +401,33 @@
    "competition": null,
    "content": [
     "<p>关于2026级本科新生学籍电子注册信息核对的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-5302d2307afe89ec",
+   "title": "关于举办马克思主义学院大学生职业规划比赛暨校第二十届大学生职业规划大赛选拔赛的通知",
+   "sourceId": "hfut-mks",
+   "sourceName": "马克思主义学院",
+   "sourceType": "official",
+   "url": "https://mks.hfut.edu.cn/2026/1027/c8870a324155/page.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "关于举办马克思主义学院大学生职业规划比赛暨校第二十届大学生职业规划大赛选拔赛的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院",
+    "大赛"
+   ],
+   "competition": {
+    "name": "全国大学生职业规划大赛",
+    "ic": false
+   },
+   "content": [
+    "<p>关于举办马克思主义学院大学生职业规划比赛暨校第二十届大学生职业规划大赛选拔赛的通知</p>"
    ],
    "demo": false
   },
