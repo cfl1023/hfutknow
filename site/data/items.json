@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T02:40Z",
+ "generatedAt": "2026-10-27T02:47Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -332,6 +332,29 @@
    "competition": null,
    "content": [
     "<p>关于转发教育部高等教育司关于征集优质课程资源上线国家高等教育智慧教育平台通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a4ae45d41e894f59",
+   "title": "微电子学院 2025年度高级专业技术职务申报人员材料公示",
+   "sourceId": "hfut-wdzxy",
+   "sourceName": "微电子学院",
+   "sourceType": "official",
+   "url": "https://wdzxy.hfut.edu.cn/2026/1027/c5630a324148/page.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "微电子学院 2025年度高级专业技术职务申报人员材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>微电子学院 2025年度高级专业技术职务申报人员材料公示</p>"
    ],
    "demo": false
   },
