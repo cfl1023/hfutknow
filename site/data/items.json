@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T15:42Z",
+ "generatedAt": "2026-10-27T23:46Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -347,6 +347,29 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg\" alt=\"10月28日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-3b0b0067ad4966cf",
+   "title": "合肥工业大学在211大学中排名怎么样，除去985，比较顶尖 ...",
+   "sourceId": "net-知乎",
+   "sourceName": "互联网 · 知乎",
+   "sourceType": "net",
+   "url": "https://www.zhihu.com/question/484091454",
+   "publishedAt": "2026-10-27T23:46",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "合肥工业大学在211大学中排名怎么样，除去985，比较顶尖 ...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "知乎"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学在211大学中排名怎么样，除去985，比较顶尖 ...</p>"
+   ],
    "demo": false
   },
   {
