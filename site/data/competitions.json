@@ -5,33 +5,6 @@
  "items": [
   {
    "tier": "B类",
-   "name": "全国大学生市场调查与分析大赛",
-   "related": false,
-   "keywords": [],
-   "level": "国家级",
-   "tracking": {
-    "status": "open",
-    "deadline": "2026-10-28",
-    "daysLeft": 0,
-    "eventAt": "",
-    "snippet": "10月28日前",
-    "how": {
-     "email": "jjxy@hfut.edu.cn",
-     "phone": "0551-63831807",
-     "url": "http://www.china-cssc.org"
-    },
-    "notices": [
-     {
-      "id": "web-9b78befe88dfd63e",
-      "title": "关于举办第十七届全国大学生市场调查与分析大赛校赛的通知",
-      "url": "https://jjxy.hfut.edu.cn/2026/0930/c9992a323564/page.htm",
-      "date": "2026-09-30"
-     }
-    ]
-   }
-  },
-  {
-   "tier": "B类",
    "name": "全国大学生职业规划大赛",
    "related": false,
    "keywords": [],
@@ -39,7 +12,7 @@
    "tracking": {
     "status": "open",
     "deadline": "2026-11-03",
-    "daysLeft": 6,
+    "daysLeft": 5,
     "eventAt": "",
     "snippet": "11 月 3 日前",
     "how": {
@@ -58,6 +31,33 @@
   },
   {
    "tier": "B类",
+   "name": "全国大学生市场调查与分析大赛",
+   "related": false,
+   "keywords": [],
+   "level": "国家级",
+   "tracking": {
+    "status": "open",
+    "deadline": "2026-11-10",
+    "daysLeft": 12,
+    "eventAt": "",
+    "snippet": "报名截止日期延至2026年11月10",
+    "how": {
+     "email": "jjxy@hfut.edu.cn",
+     "phone": "0551-63831807",
+     "url": "http://www.china-cssc.org"
+    },
+    "notices": [
+     {
+      "id": "web-9b78befe88dfd63e",
+      "title": "关于举办第十七届全国大学生市场调查与分析大赛校赛的通知",
+      "url": "https://jjxy.hfut.edu.cn/2026/0930/c9992a323564/page.htm",
+      "date": "2026-09-30"
+     }
+    ]
+   }
+  },
+  {
+   "tier": "B类",
    "name": "中国大学生物理学术竞赛",
    "related": false,
    "keywords": [],
@@ -65,7 +65,7 @@
    "tracking": {
     "status": "open",
     "deadline": "2026-12-04",
-    "daysLeft": 37,
+    "daysLeft": 36,
     "eventAt": "2026-12-06",
     "snippet": "报名截止时间：2026年12月4",
     "how": {
@@ -94,7 +94,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-07-01",
-    "daysLeft": -119,
+    "daysLeft": -120,
     "eventAt": "",
     "snippet": "7 月 1 日之前",
     "how": {
@@ -121,7 +121,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-09-23",
-    "daysLeft": -35,
+    "daysLeft": -36,
     "eventAt": "",
     "snippet": "截止时间：2026年9月23",
     "how": {
@@ -150,7 +150,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-10-10",
-    "daysLeft": -18,
+    "daysLeft": -19,
     "eventAt": "",
     "snippet": "10月10日，发布赛题，举行赛前",
     "how": {
@@ -1551,5 +1551,5 @@
    }
   }
  ],
- "trackedAt": "2026-10-28T16:01"
+ "trackedAt": "2026-10-29T00:01"
 }
