@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T10:55Z",
+ "generatedAt": "2026-10-28T18:56Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -487,6 +487,60 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/65/rB_xrGrZZmuAOZZzAAGFikVwRPw925.jpg\" alt=\"2027年CUPT校赛宣讲会\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/65/rB_xrGrZZmuAOZZzAAGFikVwRPw925.jpg",
+   "demo": false
+  },
+  {
+   "id": "bili-BV1EWnp6mExy",
+   "title": "最特别的人 | 合肥工业大学校园网络文明月系列短视频 @中国大学生在线",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1EWnp6mExy",
+   "publishedAt": "2026-10-28T18:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "#校园网络文明月#\n作品通过探究“特别”背后的真相\n警示观众在虚拟的网络社交中，当遇到看似完美的“定制化”人设时\n需保持理性和警惕，切勿轻易陷入情感陷阱\nvia.化学与化工学院\n作者：刘泰哲",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "合肥工业大学"
+   ],
+   "competition": null,
+   "content": [
+    "<p>#校园网络文明月#\n作品通过探究“特别”背后的真相\n警示观众在虚拟的网络社交中，当遇到看似完美的“定制化”人设时\n需保持理性和警惕，切勿轻易陷入情感陷阱\nvia.化学与化工学院\n作者：刘泰哲</p>"
+   ],
+   "bili": {
+    "author": "合肥工业大学",
+    "play": 173
+   },
+   "demo": false
+  },
+  {
+   "id": "bili-BV1urno6PEkj",
+   "title": "【合肥工业大学830电路】第5章5.2 正弦量的相量表示法（下） || 刘健/邱关源电路电气考研，关注我，课程持续更新~",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1urno6PEkj",
+   "publishedAt": "2026-10-28T16:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "张哥讲电路"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合工大电气学硕张哥，持续为大家奉上最正宗的合肥工业大学电气考研830电路课程~记得关注我哦~</p>"
+   ],
+   "bili": {
+    "author": "张哥讲电路",
+    "play": 2
+   },
    "demo": false
   },
   {
