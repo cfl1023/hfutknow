@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T08:56Z",
+ "generatedAt": "2026-10-28T16:56Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -575,6 +575,27 @@
    "competition": null,
    "content": [
     "<p>赣县区委常委、组织部部长刘宏春一行来校交流</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-ebf1829df93da3bb",
+   "title": "关于开展2026-2027学年第一学期领导干部听课工作的通知",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "http://jpzx.hfut.edu.cn/info/1025/1303.htm",
+   "publishedAt": "2026-10-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于开展2026-2027学年第一学期领导干部听课工作的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于开展2026-2027学年第一学期领导干部听课工作的通知</p>"
    ],
    "demo": false
   },
@@ -4550,6 +4571,29 @@
     "author": "合肥工业大学",
     "play": 632
    },
+   "demo": false
+  },
+  {
+   "id": "web-ec2d847d6c0a4bfb",
+   "title": "2026年界首市宣传思想文化工作培训班在我校成功举办",
+   "sourceId": "hfut-jxjy",
+   "sourceName": "合肥工业大学继续教育学院",
+   "sourceType": "official",
+   "url": "https://jxjy.hfut.edu.cn/info/1051/4255.htm",
+   "publishedAt": "2026-10-21T16:56",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "2026年界首市宣传思想文化工作培训班在我校成功举办",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>2026年界首市宣传思想文化工作培训班在我校成功举办</p>"
+   ],
    "demo": false
   },
   {
