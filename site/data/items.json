@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T07:14Z",
+ "generatedAt": "2026-10-28T07:21Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4888,6 +4888,27 @@
    "competition": null,
    "content": [
     "<p>食品与生物工程学院举行上海本优机械集团有限公司捐赠仪式</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a320ce2db0c6823b",
+   "title": "体育部2026年高级专业技术职务申报人员公示",
+   "sourceId": "hfut-tiyu",
+   "sourceName": "合肥工业大学体育部",
+   "sourceType": "official",
+   "url": "https://tiyu.hfut.edu.cn/info/1052/2135.htm",
+   "publishedAt": "2026-10-21T07:21",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "体育部2026年高级专业技术职务申报人员公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>体育部2026年高级专业技术职务申报人员公示</p>"
    ],
    "demo": false
   },
