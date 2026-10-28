@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T16:26Z",
+ "generatedAt": "2026-10-29T00:26Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -382,6 +382,29 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/6B/rB_xrGrep2eABSWQAAGsWO82MW4037.jpg\" alt=\"机械工程学院减压手工坊之“一纸书签，满拾光阴”沉浸式创意书签活动\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/6B/rB_xrGrep2eABSWQAAGsWO82MW4037.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-0620efe12ca8bd75",
+   "title": "“形势与政策”教研室召开2025-2026学年第一学期集体备课会",
+   "sourceId": "hfut-mks",
+   "sourceName": "马克思主义学院",
+   "sourceType": "official",
+   "url": "https://mks.hfut.edu.cn/2025/1030/c8896a315969/page.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "“形势与政策”教研室召开2025-2026学年第一学期集体备课会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "教研室"
+   ],
+   "competition": null,
+   "content": [
+    "<p>“形势与政策”教研室召开2025-2026学年第一学期集体备课会</p>"
+   ],
    "demo": false
   },
   {
