@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T18:31Z",
+ "generatedAt": "2026-10-28T18:36Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -596,6 +596,30 @@
    "competition": null,
    "content": [
     "<p>关于开展2026-2027学年第一学期领导干部听课工作的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-3d1e7e90485ef7e6",
+   "title": "我院磁性材料与器件团队科研成果荣获2026奇瑞全球创新大会“星火奖”",
+   "sourceId": "hfut-mse",
+   "sourceName": "材料科学与工程学院",
+   "sourceType": "official",
+   "url": "https://mse.hfut.edu.cn/info/1045/11087.htm",
+   "publishedAt": "2026-10-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "我院磁性材料与器件团队科研成果荣获2026奇瑞全球创新大会“星火奖”",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "科研",
+    "成果"
+   ],
+   "competition": null,
+   "content": [
+    "<p>我院磁性材料与器件团队科研成果荣获2026奇瑞全球创新大会“星火奖”</p>"
    ],
    "demo": false
   },
