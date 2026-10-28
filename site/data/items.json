@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T09:09Z",
+ "generatedAt": "2026-10-28T17:11Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4574,6 +4574,27 @@
    "demo": false
   },
   {
+   "id": "web-aa5b1bf9b0444e5e",
+   "title": "合肥工业大学秋假运动科创营----机器人科创与体育运动的碰撞",
+   "sourceId": "hfut-jxjy",
+   "sourceName": "合肥工业大学继续教育学院",
+   "sourceType": "official",
+   "url": "https://jxjy.hfut.edu.cn/info/1050/4256.htm",
+   "publishedAt": "2026-10-21T17:11",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "合肥工业大学秋假运动科创营----机器人科创与体育运动的碰撞",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学秋假运动科创营----机器人科创与体育运动的碰撞</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-ec2d847d6c0a4bfb",
    "title": "2026年界首市宣传思想文化工作培训班在我校成功举办",
    "sourceId": "hfut-jxjy",
@@ -4782,27 +4803,6 @@
     "author": "未眠人张怀民",
     "play": 308
    },
-   "demo": false
-  },
-  {
-   "id": "web-aa5b1bf9b0444e5e",
-   "title": "合肥工业大学秋假运动科创营----机器人科创与体育运动的碰撞",
-   "sourceId": "hfut-jxjy",
-   "sourceName": "合肥工业大学继续教育学院",
-   "sourceType": "official",
-   "url": "https://jxjy.hfut.edu.cn/info/1050/4256.htm",
-   "publishedAt": "2026-10-21T09:09",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "合肥工业大学秋假运动科创营----机器人科创与体育运动的碰撞",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>合肥工业大学秋假运动科创营----机器人科创与体育运动的碰撞</p>"
-   ],
    "demo": false
   },
   {
