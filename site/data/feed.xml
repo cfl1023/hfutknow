@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 01:21:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:27:40 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -54,6 +54,14 @@
       <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
       <category>departments</category>
       <description>计算机与信息学院2026年高级专业技术职务申报人员材料公示</description>
+    </item>
+    <item>
+      <title>关于开展2026年大学生创新训练计划项目中期检查工作的通知</title>
+      <link>https://jwc.hfut.edu.cn/info/1248/6161.htm</link>
+      <guid isPermaLink="false">web-c344ccdd77b50e4c</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>关于开展2026年大学生创新训练计划项目中期检查工作的通知</description>
     </item>
     <item>
       <title>10月28日上午屯溪路校区教职工体检志愿者服务</title>
@@ -670,14 +678,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:57:00 +0000</pubDate>
       <category>arts</category>
       <description>11月12日，屯溪路校区田径场。各相关单位：根据学校年度工作安排，2026年合肥工业大学田径运动会定于11月12日—11月14日在屯溪路校区田径场举办。</description>
-    </item>
-    <item>
-      <title>体育部2026年第二批青年教师聘期考核材料公示</title>
-      <link>https://tiyu.hfut.edu.cn/info/1052/2089.htm</link>
-      <guid isPermaLink="false">web-c54b0260ed64c7cb</guid>
-      <pubDate>Fri, 23 Oct 2026 14:57:00 +0000</pubDate>
-      <category>arts</category>
-      <description>根据学校《关于开展2026年第二批引进人才聘期（中期）考核、青年教师、实验教师聘期考核等工作的通知》的精神，现对申报人员的材料予以公示，材料在屯溪路校区体育部208室，公示期为2026年7月6日至2026年7月8日（3个工作日）。</description>
     </item>
   </channel>
 </rss>

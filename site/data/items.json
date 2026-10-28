@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T01:21Z",
+ "generatedAt": "2026-10-28T01:27Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -334,6 +334,27 @@
    "competition": null,
    "content": [
     "<p>计算机与信息学院2026年高级专业技术职务申报人员材料公示</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-c344ccdd77b50e4c",
+   "title": "关于开展2026年大学生创新训练计划项目中期检查工作的通知",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1248/6161.htm",
+   "publishedAt": "2026-10-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于开展2026年大学生创新训练计划项目中期检查工作的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于开展2026年大学生创新训练计划项目中期检查工作的通知</p>"
    ],
    "demo": false
   },
