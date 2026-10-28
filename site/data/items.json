@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T03:56Z",
+ "generatedAt": "2026-10-28T04:02Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -355,6 +355,30 @@
    "competition": null,
    "content": [
     "<p>关于开展2026年大学生创新训练计划项目中期检查工作的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-9e05bb4793a00058",
+   "title": "微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1065/16638.htm",
+   "publishedAt": "2026-10-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "举行",
+    "座谈会"
+   ],
+   "competition": null,
+   "content": [
+    "<p>微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行</p>"
    ],
    "demo": false
   },

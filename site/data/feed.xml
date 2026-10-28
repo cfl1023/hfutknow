@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 03:56:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 04:02:22 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -62,6 +62,14 @@
       <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
       <category>campus</category>
       <description>关于开展2026年大学生创新训练计划项目中期检查工作的通知</description>
+    </item>
+    <item>
+      <title>微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行</title>
+      <link>https://ci.hfut.edu.cn/info/1065/16638.htm</link>
+      <guid isPermaLink="false">web-9e05bb4793a00058</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行</description>
     </item>
     <item>
       <title>10月28日上午屯溪路校区教职工体检志愿者服务</title>
@@ -670,14 +678,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:57:00 +0000</pubDate>
       <category>arts</category>
       <description>2026年8月6日，安徽省第十六届运动会高校部“建工资本杯”武术比赛于宿州学院教正式落幕。赛事由安徽省人民政府主办，安徽省教育厅、安徽省体育局、宿州市人民政府联合承办，属于安徽省最高规格A类高校武术竞技盛会。</description>
-    </item>
-    <item>
-      <title>关于举行2026年合肥工业大学田径运动会的通知</title>
-      <link>https://tiyu.hfut.edu.cn/info/1052/2122.htm</link>
-      <guid isPermaLink="false">web-44b9015a9e62b254</guid>
-      <pubDate>Fri, 23 Oct 2026 14:57:00 +0000</pubDate>
-      <category>arts</category>
-      <description>11月12日，屯溪路校区田径场。各相关单位：根据学校年度工作安排，2026年合肥工业大学田径运动会定于11月12日—11月14日在屯溪路校区田径场举办。</description>
     </item>
   </channel>
 </rss>
