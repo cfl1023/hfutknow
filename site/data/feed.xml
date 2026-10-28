@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 07:21:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 07:27:35 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>10月31日上午屯溪路校区教职工体检志愿者服务</title>
@@ -70,6 +70,14 @@
       <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
       <category>campus</category>
       <description>微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行</description>
+    </item>
+    <item>
+      <title>赣县区委常委、组织部部长刘宏春一行来校交流</title>
+      <link>https://hgxy.hfut.edu.cn/2026/1028/c14793a324188/page.htm</link>
+      <guid isPermaLink="false">web-95702b64043dee77</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>赣县区委常委、组织部部长刘宏春一行来校交流</description>
     </item>
     <item>
       <title>10月28日上午屯溪路校区教职工体检志愿者服务</title>
@@ -670,14 +678,6 @@ via.计算机与信息学院
       <pubDate>Fri, 23 Oct 2026 14:57:00 +0000</pubDate>
       <category>departments</category>
       <description>9月23日，会议室。为进一步强化青年教师立德树人理念，夯实教学基本功，提升体育课程教学业务能力与教学水平，做好学校青年教师教学基本功比赛参赛选拔工作，体育部于9月23日下午在会议室举办2026年青年教师教学基本功比赛预赛。</description>
-    </item>
-    <item>
-      <title>我校武术队在安徽省第十六届运动会高校部武术比赛中获2金2铜</title>
-      <link>https://tiyu.hfut.edu.cn/info/1051/2114.htm</link>
-      <guid isPermaLink="false">web-936d7b96948dc907</guid>
-      <pubDate>Fri, 23 Oct 2026 14:57:00 +0000</pubDate>
-      <category>arts</category>
-      <description>2026年8月6日，安徽省第十六届运动会高校部“建工资本杯”武术比赛于宿州学院教正式落幕。赛事由安徽省人民政府主办，安徽省教育厅、安徽省体育局、宿州市人民政府联合承办，属于安徽省最高规格A类高校武术竞技盛会。</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T07:21Z",
+ "generatedAt": "2026-10-28T07:27Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -379,6 +379,27 @@
    "competition": null,
    "content": [
     "<p>微机所82级电子计算机及应用（软件）专业校友返校座谈会顺利举行</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-95702b64043dee77",
+   "title": "赣县区委常委、组织部部长刘宏春一行来校交流",
+   "sourceId": "hfut-hgxy",
+   "sourceName": "化学与化工学院",
+   "sourceType": "official",
+   "url": "https://hgxy.hfut.edu.cn/2026/1028/c14793a324188/page.htm",
+   "publishedAt": "2026-10-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "赣县区委常委、组织部部长刘宏春一行来校交流",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>赣县区委常委、组织部部长刘宏春一行来校交流</p>"
    ],
    "demo": false
   },
