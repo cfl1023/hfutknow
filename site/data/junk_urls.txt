@@ -61,6 +61,7 @@ https://mse.hfut.edu.cn/info/1054/6724.htm
 https://mse.hfut.edu.cn/info/1054/6731.htm
 https://news.hfut.edu.cn/info/1011/79523.htm
 https://news.hfut.edu.cn/info/1011/79548.htm
+https://news.hfut.edu.cn/info/1011/79570.htm
 https://news.hfut.edu.cn/info/1018/79096.htm
 https://rjxy.hfut.edu.cn/info/1014/3732.htm
 https://rjxy.hfut.edu.cn/info/1015/3715.htm
@@ -107,6 +108,7 @@ https://wgyxy.hfut.edu.cn/2026/1022/c11993a324026/page.htm
 https://wlxy.hfut.edu.cn/info/1046/4188.htm
 https://www.hfut.edu.cn/info/1127/13245.htm
 https://www.hfut.edu.cn/info/1127/13249.htm
+https://www.hfut.edu.cn/info/1127/13251.htm
 https://www.hfut.edu.cn/info/1133/13226.htm
 https://www.hfut.edu.cn/info/1133/13239.htm
 https://www.most.gov.cn/index.html
@@ -125,3 +127,4 @@ https://xyy.hfut.edu.cn/2026/0513/c4797a319103/page.htm
 https://xyy.hfut.edu.cn/2026/0529/c4797a319392/page.htm
 https://xyy.hfut.edu.cn/2026/0930/c4798a323536/page.htm
 https://xyy.hfut.edu.cn/2026/1012/c4798a323725/page.htm
+https://yjsy.hfut.edu.cn/info/1004/1642.htm
