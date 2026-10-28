@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T07:53Z",
+ "generatedAt": "2026-10-28T15:57Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -139,6 +139,181 @@
   }
  ],
  "items": [
+  {
+   "id": "gg-1235475842768044032",
+   "title": "11月6日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-11-06T07:30+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-06｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-11-06T07:30+08:00",
+    "end": "2026-11-06T11:30+08:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-11-06",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-06｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhk6uAfncEAAIeYGCwsRI805.jpg\" alt=\"11月6日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhk6uAfncEAAIeYGCwsRI805.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1235475258811875328",
+   "title": "11月5日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-11-05T07:30+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-05｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-11-05T07:30+08:00",
+    "end": "2026-11-05T11:30+08:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-11-05",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-05｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkwSAPpHTAAIeYGCwsRI277.jpg\" alt=\"11月5日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkwSAPpHTAAIeYGCwsRI277.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1235474451303497728",
+   "title": "11月4日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-11-04T07:30+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-04｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-11-04T07:30+08:00",
+    "end": "2026-11-04T11:30+08:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-11-04",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-04｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkkaAehUnAAIeYGCwsRI830.jpg\" alt=\"11月4日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkkaAehUnAAIeYGCwsRI830.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1235473799873560576",
+   "title": "11月3日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-11-03T07:30+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-03｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-11-03T07:30+08:00",
+    "end": "2026-11-03T11:30+08:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-11-03",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-03｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkQqAYg7qAAIeYGCwsRI886.jpg\" alt=\"11月3日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkQqAYg7qAAIeYGCwsRI886.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1235472373424324608",
+   "title": "11月2日上午屯溪路校区教职工体检志愿者服务",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-11-02T07:30+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-02｜安徽省合肥市包河区合肥工业大学屯溪路校区医院",
+   "event": {
+    "start": "2026-11-02T07:30+08:00",
+    "end": "2026-11-02T11:30+08:00",
+    "location": "安徽省合肥市包河区合肥工业大学屯溪路校区医院"
+   },
+   "deadline": "2026-11-02",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-11-02｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkByAFQHPAAIeYGCwsRI736.jpg\" alt=\"11月2日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkByAFQHPAAIeYGCwsRI736.jpg",
+   "demo": false
+  },
   {
    "id": "gg-1232965758162829312",
    "title": "10月31日上午屯溪路校区教职工体检志愿者服务",
@@ -315,29 +490,6 @@
    "demo": false
   },
   {
-   "id": "web-bf360e7d4ddf8baa",
-   "title": "计算机与信息学院2026年高级专业技术职务申报人员材料公示",
-   "sourceId": "hfut-ci",
-   "sourceName": "计算机与信息学院（人工智能学院）",
-   "sourceType": "official",
-   "url": "https://ci.hfut.edu.cn/info/1063/16636.htm",
-   "publishedAt": "2026-10-28T09:00:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "departments",
-   "summary": "计算机与信息学院2026年高级专业技术职务申报人员材料公示",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>计算机与信息学院2026年高级专业技术职务申报人员材料公示</p>"
-   ],
-   "demo": false
-  },
-  {
    "id": "web-c344ccdd77b50e4c",
    "title": "关于开展2026年大学生创新训练计划项目中期检查工作的通知",
    "sourceId": "hfut-jwc",
@@ -383,6 +535,29 @@
    "demo": false
   },
   {
+   "id": "web-bf360e7d4ddf8baa",
+   "title": "计算机与信息学院2026年高级专业技术职务申报人员材料公示",
+   "sourceId": "hfut-ci",
+   "sourceName": "计算机与信息学院（人工智能学院）",
+   "sourceType": "official",
+   "url": "https://ci.hfut.edu.cn/info/1063/16636.htm",
+   "publishedAt": "2026-10-28T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "计算机与信息学院2026年高级专业技术职务申报人员材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>计算机与信息学院2026年高级专业技术职务申报人员材料公示</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-95702b64043dee77",
    "title": "赣县区委常委、组织部部长刘宏春一行来校交流",
    "sourceId": "hfut-hgxy",
@@ -401,6 +576,33 @@
    "content": [
     "<p>赣县区委常委、组织部部长刘宏春一行来校交流</p>"
    ],
+   "demo": false
+  },
+  {
+   "id": "bili-BV19Knb6WEMa",
+   "title": "今天分享一名合肥工业大学2026届建筑与艺术学院硕士，专业建筑学，方向建筑设计及其理论，校招收到的三份工作offer",
+   "sourceId": "bili-54958542",
+   "sourceName": "B站 · 合肥工业大学",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV19Knb6WEMa",
+   "publishedAt": "2026-10-28T08:40",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "life",
+   "summary": "-",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "新工科就业李哥"
+   ],
+   "competition": null,
+   "content": [
+    "<p>-</p>"
+   ],
+   "bili": {
+    "author": "新工科就业李哥",
+    "play": 89
+   },
    "demo": false
   },
   {
@@ -436,33 +638,6 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg\" alt=\"10月28日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYbyOAFNtgAAIeYGCwsRI189.jpg",
-   "demo": false
-  },
-  {
-   "id": "bili-BV19Knb6WEMa",
-   "title": "今天分享一名合肥工业大学2026届建筑与艺术学院硕士，专业建筑学，方向建筑设计及其理论，校招收到的三份工作offer",
-   "sourceId": "bili-54958542",
-   "sourceName": "B站 · 合肥工业大学",
-   "sourceType": "bili",
-   "url": "https://www.bilibili.com/video/BV19Knb6WEMa",
-   "publishedAt": "2026-10-28T00:40",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "life",
-   "summary": "-",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "新工科就业李哥"
-   ],
-   "competition": null,
-   "content": [
-    "<p>-</p>"
-   ],
-   "bili": {
-    "author": "新工科就业李哥",
-    "play": 0
-   },
    "demo": false
   },
   {
@@ -4378,6 +4553,73 @@
    "demo": false
   },
   {
+   "id": "web-a320ce2db0c6823b",
+   "title": "体育部2026年高级专业技术职务申报人员公示",
+   "sourceId": "hfut-tiyu",
+   "sourceName": "合肥工业大学体育部",
+   "sourceType": "official",
+   "url": "https://tiyu.hfut.edu.cn/info/1052/2135.htm",
+   "publishedAt": "2026-10-21T15:56",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "体育部2026年高级专业技术职务申报人员公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>体育部2026年高级专业技术职务申报人员公示</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-3f9065537ee1065b",
+   "title": "机械工程学院2025年度高级专业技术职务申报人员材料公示",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1053/5103.htm",
+   "publishedAt": "2026-10-21T15:56",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "机械工程学院2025年度高级专业技术职务申报人员材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>机械工程学院2025年度高级专业技术职务申报人员材料公示</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-130e3dd87e747fa0",
+   "title": "外国语学院2025年度高级专业技术职务申报人员业绩材料公示",
+   "sourceId": "hfut-wgyxy",
+   "sourceName": "外国语学院",
+   "sourceType": "official",
+   "url": "https://wgyxy.hfut.edu.cn/2026/1028/c6444a324189/page.htm",
+   "publishedAt": "2026-10-21T15:56",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "外国语学院2025年度高级专业技术职务申报人员业绩材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>外国语学院2025年度高级专业技术职务申报人员业绩材料公示</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "tb-11123354076",
    "title": "伴读可有带的",
    "sourceId": "tieba-合肥工业大学",
@@ -4909,50 +5151,6 @@
    "competition": null,
    "content": [
     "<p>食品与生物工程学院举行上海本优机械集团有限公司捐赠仪式</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-a320ce2db0c6823b",
-   "title": "体育部2026年高级专业技术职务申报人员公示",
-   "sourceId": "hfut-tiyu",
-   "sourceName": "合肥工业大学体育部",
-   "sourceType": "official",
-   "url": "https://tiyu.hfut.edu.cn/info/1052/2135.htm",
-   "publishedAt": "2026-10-21T07:21",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "体育部2026年高级专业技术职务申报人员公示",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>体育部2026年高级专业技术职务申报人员公示</p>"
-   ],
-   "demo": false
-  },
-  {
-   "id": "web-3f9065537ee1065b",
-   "title": "机械工程学院2025年度高级专业技术职务申报人员材料公示",
-   "sourceId": "hfut-jxxy",
-   "sourceName": "机械工程学院",
-   "sourceType": "official",
-   "url": "https://jxxy.hfut.edu.cn/info/1053/5103.htm",
-   "publishedAt": "2026-10-21T03:00",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "departments",
-   "summary": "机械工程学院2025年度高级专业技术职务申报人员材料公示",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "学院"
-   ],
-   "competition": null,
-   "content": [
-    "<p>机械工程学院2025年度高级专业技术职务申报人员材料公示</p>"
    ],
    "demo": false
   },

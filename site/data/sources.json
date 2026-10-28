@@ -799,7 +799,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 14
+   "count": 15
   },
   {
    "id": "hfut-mse",
@@ -2853,7 +2853,7 @@
    "type": "gg",
    "url": "https://community.hfut.edu.cn/",
    "category": "campus",
-   "count": 13,
+   "count": 18,
    "feed": {
     "type": "gg",
     "url": "",
