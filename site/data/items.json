@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T02:54Z",
+ "generatedAt": "2026-10-28T03:00Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4864,6 +4864,29 @@
    "competition": null,
    "content": [
     "<p>食品与生物工程学院举行上海本优机械集团有限公司捐赠仪式</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-3f9065537ee1065b",
+   "title": "机械工程学院2025年度高级专业技术职务申报人员材料公示",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1053/5103.htm",
+   "publishedAt": "2026-10-21T03:00",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "机械工程学院2025年度高级专业技术职务申报人员材料公示",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>机械工程学院2025年度高级专业技术职务申报人员材料公示</p>"
    ],
    "demo": false
   },
