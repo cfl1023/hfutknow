@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 23:33:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 23:40:08 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -375,6 +375,22 @@ via.微电子学院
       <description>学院组织76期发展对象班和预备党员班开展主题研讨交流活动</description>
     </item>
     <item>
+      <title>经济学院研究生会召开思想学习与作风培训暨第二次例会</title>
+      <link>https://jjxy.hfut.edu.cn/2026/1027/c9059a324146/page.htm</link>
+      <guid isPermaLink="false">web-af81717ebd5e5c31</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <category>departments</category>
+      <description>经济学院研究生会召开思想学习与作风培训暨第二次例会</description>
+    </item>
+    <item>
+      <title>经济学院第76期预备党员班集中观看纪念中国工农红军长征胜利90周年“思政大课”</title>
+      <link>https://jjxy.hfut.edu.cn/2026/1026/c9059a324100/page.htm</link>
+      <guid isPermaLink="false">web-78890fbe55e463f5</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <category>departments</category>
+      <description>经济学院第76期预备党员班集中观看纪念中国工农红军长征胜利90周年“思政大课”</description>
+    </item>
+    <item>
       <title>10月27日上午屯溪路校区教职工体检志愿者服务</title>
       <link>https://community.hfut.edu.cn/</link>
       <guid isPermaLink="false">gg-1232962244632117248</guid>
@@ -653,22 +669,6 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
       <category>campus</category>
       <description>贴吧讨论（10 回复）：工大杂谈 | 理性讨论工大自定义管科是不是ld的重大决策失误</description>
-    </item>
-    <item>
-      <title>求助今年创新班二次选拔后还能参加转专业吗？</title>
-      <link>https://tieba.baidu.com/p/11134912557</link>
-      <guid isPermaLink="false">tb-11134912557</guid>
-      <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
-      <category>academics</category>
-      <description>贴吧讨论（2 回复）：求助今年创新班二次选拔后还能参加转专业吗？</description>
-    </item>
-    <item>
-      <title>工大杂谈 | Hfuture自述和已上线功能</title>
-      <link>https://tieba.baidu.com/p/11134670153</link>
-      <guid isPermaLink="false">tb-11134670153</guid>
-      <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
-      <category>campus</category>
-      <description>贴吧讨论（4 回复）：工大杂谈 | Hfuture自述和已上线功能</description>
     </item>
   </channel>
 </rss>

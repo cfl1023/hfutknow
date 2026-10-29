@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T23:33Z",
+ "generatedAt": "2026-10-29T23:40Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -1324,6 +1324,53 @@
    "competition": null,
    "content": [
     "<p>学院组织76期发展对象班和预备党员班开展主题研讨交流活动</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-af81717ebd5e5c31",
+   "title": "经济学院研究生会召开思想学习与作风培训暨第二次例会",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1027/c9059a324146/page.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "经济学院研究生会召开思想学习与作风培训暨第二次例会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院",
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>经济学院研究生会召开思想学习与作风培训暨第二次例会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-78890fbe55e463f5",
+   "title": "经济学院第76期预备党员班集中观看纪念中国工农红军长征胜利90周年“思政大课”",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1026/c9059a324100/page.htm",
+   "publishedAt": "2026-10-27T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "经济学院第76期预备党员班集中观看纪念中国工农红军长征胜利90周年“思政大课”",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>经济学院第76期预备党员班集中观看纪念中国工农红军长征胜利90周年“思政大课”</p>"
    ],
    "demo": false
   },
@@ -5896,6 +5943,34 @@
    "competition": null,
    "content": [
     "<p>食品与生物工程学院举行上海本优机械集团有限公司捐赠仪式</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-43383c138f9c74b8",
+   "title": "经济学院举办2026年“新生杯”乒乓球赛院级选拔赛",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1021/c9059a323980/page.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "arts",
+   "summary": "经济学院举办2026年“新生杯”乒乓球赛院级选拔赛",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "球赛",
+    "学院"
+   ],
+   "competition": {
+    "name": "乒乓球赛院级选拔赛",
+    "ic": false,
+    "generic": true
+   },
+   "content": [
+    "<p>经济学院举办2026年“新生杯”乒乓球赛院级选拔赛</p>"
    ],
    "demo": false
   },
