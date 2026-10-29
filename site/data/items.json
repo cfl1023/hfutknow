@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T03:10Z",
+ "generatedAt": "2026-10-29T03:17Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4641,6 +4641,29 @@
    "competition": null,
    "content": [
     "<p>马克思主义学院举行“形势与政策”课联合集体备课会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-47dc50ac65b59eae",
+   "title": "【新闻动态】合肥工业大学协办2026中国国际...",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1029/c3312a324201/page.htm",
+   "publishedAt": "2026-10-22T03:17",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "【新闻动态】合肥工业大学协办2026中国国际...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "新闻"
+   ],
+   "competition": null,
+   "content": [
+    "<p>【新闻动态】合肥工业大学协办2026中国国际...</p>"
    ],
    "demo": false
   },
