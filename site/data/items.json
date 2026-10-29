@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T04:01Z",
+ "generatedAt": "2026-10-29T04:07Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4796,6 +4796,56 @@
    "competition": null,
    "content": [
     "<p>马克思主义学院举行“形势与政策”课联合集体备课会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-170c565f5da643f0",
+   "title": "关于开展2026-2027学年“斛兵石榴红”少数民族学生骨干培训班的通知",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1011/20232.htm",
+   "publishedAt": "2026-10-22T04:07",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "关于开展2026-2027学年“斛兵石榴红”少数民族学生骨干培训班的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于开展2026-2027学年“斛兵石榴红”少数民族学生骨干培训班的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-9f1404009f3ed697",
+   "title": "关于举办合肥工业大学第六届军事模型制作大赛的通知",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1011/20231.htm",
+   "publishedAt": "2026-10-22T04:07",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "关于举办合肥工业大学第六届军事模型制作大赛的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "大赛"
+   ],
+   "competition": {
+    "name": "第六届军事模型制作大赛",
+    "ic": false,
+    "generic": true
+   },
+   "content": [
+    "<p>关于举办合肥工业大学第六届军事模型制作大赛的通知</p>"
    ],
    "demo": false
   },
