@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 03:42:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 03:48:40 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -83,6 +83,14 @@
       <title>我校制药工程专业接受工程教育认证专家组现场考查</title>
       <link>https://www.hfut.edu.cn/info/1127/13256.htm</link>
       <guid isPermaLink="false">web-5e0dfaa92a7679d5</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>我校制药工程专业接受工程教育认证专家组现场考查</description>
+    </item>
+    <item>
+      <title>我校制药工程专业接受工程教育认证专家组现场考查</title>
+      <link>https://jwc.hfut.edu.cn/info/1245/6163.htm</link>
+      <guid isPermaLink="false">web-40a0a772befd9b3e</guid>
       <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
       <category>campus</category>
       <description>我校制药工程专业接受工程教育认证专家组现场考查</description>
@@ -288,6 +296,14 @@ via.微电子学院
       <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
       <category>departments</category>
       <description>经济学院2026年度申报高级专业技术职务人员材料公示</description>
+    </item>
+    <item>
+      <title>学院组织76期发展对象班和预备党员班开展主题研讨交流活动</title>
+      <link>https://wgyxy.hfut.edu.cn/2026/1028/c6442a324193/page.htm</link>
+      <guid isPermaLink="false">web-2a1f11f2b282370d</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <category>departments</category>
+      <description>学院组织76期发展对象班和预备党员班开展主题研讨交流活动</description>
     </item>
     <item>
       <title>10月27日上午屯溪路校区教职工体检志愿者服务</title>
@@ -654,22 +670,6 @@ via.经济学院
       <pubDate>Sat, 24 Oct 2026 16:14:00 +0000</pubDate>
       <category>life</category>
       <description>-</description>
-    </item>
-    <item>
-      <title>26超越卷（卷三）选题官方讲解</title>
-      <link>https://www.bilibili.com/video/BV1VbHP6xEAv</link>
-      <guid isPermaLink="false">bl-BV1VbHP6xEAv</guid>
-      <pubDate>Sat, 24 Oct 2026 16:13:00 +0000</pubDate>
-      <category>campus</category>
-      <description>数一 数三未讲到题目，后面会单独有个总讲评（专门数一 数三的内容）</description>
-    </item>
-    <item>
-      <title>求助大一新生问问期中</title>
-      <link>https://tieba.baidu.com/p/11087681358</link>
-      <guid isPermaLink="false">tb-11087681358</guid>
-      <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>贴吧讨论（1 回复）：求助大一新生问问期中</description>
     </item>
   </channel>
 </rss>
