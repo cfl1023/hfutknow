@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T08:16Z",
+ "generatedAt": "2026-10-29T08:22Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -2442,6 +2442,29 @@
    "competition": null,
    "content": [
     "<p>来自贴吧「合肥工业大学吧」的主题帖讨论。</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-a9dcde4229684aae",
+   "title": "机械工程学院第76期发展对象班开展主题研讨与实践活动",
+   "sourceId": "hfut-jxxy",
+   "sourceName": "机械工程学院",
+   "sourceType": "official",
+   "url": "https://jxxy.hfut.edu.cn/info/1038/5104.htm",
+   "publishedAt": "2026-10-24T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "机械工程学院第76期发展对象班开展主题研讨与实践活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>机械工程学院第76期发展对象班开展主题研讨与实践活动</p>"
    ],
    "demo": false
   },
