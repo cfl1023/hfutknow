@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T10:23Z",
+ "generatedAt": "2026-10-29T18:24Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -385,6 +385,41 @@
    "demo": false
   },
   {
+   "id": "gg-1235223052187598848",
+   "title": "第三十二期“观影悦己”心理电影沙龙",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-30T19:00+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "campus",
+   "summary": "思政学习｜主办 经济学院｜报告讲座｜主讲 周芸竹｜限 40 人｜报名截止 2026-10-30｜安徽省合肥市蜀山区安徽省合肥市蜀山区翡翠湖校区 翠六教 翠六教201",
+   "event": {
+    "start": "2026-10-30T19:00+08:00",
+    "end": "2026-10-30T22:00+08:00",
+    "location": "安徽省合肥市蜀山区安徽省合肥市蜀山区翡翠湖校区 翠六教 翠六教201"
+   },
+   "deadline": "2026-10-30",
+   "speaker": "周芸竹",
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "思政学习",
+    "合肥校区",
+    "报告讲座"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>思政学习｜主办 经济学院｜报告讲座｜主讲 周芸竹｜限 40 人｜报名截止 2026-10-30｜安徽省合肥市蜀山区安徽省合肥市蜀山区翡翠湖校区 翠六教 翠六教201</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/71/rB_xrGrgpeiAXsbOAAGsWekYgcQ756.jpg\" alt=\"第三十二期“观影悦己”心理电影沙龙\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/71/rB_xrGrgpeiAXsbOAAGsWekYgcQ756.jpg",
+   "demo": false
+  },
+  {
    "id": "web-0620efe12ca8bd75",
    "title": "“形势与政策”教研室召开2025-2026学年第一学期集体备课会",
    "sourceId": "hfut-mks",
@@ -720,6 +755,41 @@
     "author": "张哥讲电路",
     "play": 2
    },
+   "demo": false
+  },
+  {
+   "id": "gg-1235410842569408512",
+   "title": "第九届RC小车竞速赛",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-28T10:01+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "科技创新｜主办 汽车与交通工程学院｜科技竞赛★｜报名截止 2026-11-01",
+   "event": {
+    "start": "2026-10-28T10:01+08:00",
+    "end": "2026-11-01T10:00+08:00",
+    "location": null
+   },
+   "deadline": "2026-11-01",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "科技创新",
+    "合肥校区",
+    "科技竞赛★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>科技创新｜主办 汽车与交通工程学院｜科技竞赛★｜报名截止 2026-11-01</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/72/rB_xrGrhVpaAc4U_AAXIocoInp8380.jpg\" alt=\"第九届RC小车竞速赛\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/72/rB_xrGrhVpaAc4U_AAXIocoInp8380.jpg",
    "demo": false
   },
   {
