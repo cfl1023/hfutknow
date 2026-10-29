@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T03:29Z",
+ "generatedAt": "2026-10-29T03:36Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4752,6 +4752,29 @@
    "competition": null,
    "content": [
     "<p>马克思主义学院举行“形势与政策”课联合集体备课会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-b27a1296251a8d22",
+   "title": "关于开展2026年学生心理骨干培训工作的通知",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1060/20187.htm",
+   "publishedAt": "2026-10-22T03:36",
+   "dateEstimated": true,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "关于开展2026年学生心理骨干培训工作的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于开展2026年学生心理骨干培训工作的通知</p>"
    ],
    "demo": false
   },
