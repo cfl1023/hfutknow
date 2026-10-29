@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 03:23:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 03:29:53 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -78,6 +78,14 @@
       <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
       <category>academics</category>
       <description>关于2026-2027学年第一学期第10周考试安排的通知</description>
+    </item>
+    <item>
+      <title>我校制药工程专业接受工程教育认证专家组现场考查</title>
+      <link>https://www.hfut.edu.cn/info/1127/13256.htm</link>
+      <guid isPermaLink="false">web-5e0dfaa92a7679d5</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>我校制药工程专业接受工程教育认证专家组现场考查</description>
     </item>
     <item>
       <title>10月29日上午屯溪路校区教职工体检志愿者服务</title>
@@ -610,6 +618,14 @@ via.文法学院
       <description>关于举办第三届全国高校无机非金属材料青年教师讲课比赛的通知（第三轮）</description>
     </item>
     <item>
+      <title>我校制药工程专业接受工程教育认证专家组现场考查</title>
+      <link>https://news.hfut.edu.cn/info/1011/79578.htm</link>
+      <guid isPermaLink="false">web-ed8987d88a05ec5f</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0000</pubDate>
+      <category>campus</category>
+      <description>我校制药工程专业接受工程教育认证专家组现场考查</description>
+    </item>
+    <item>
       <title>【合肥工业大学830电路】第5章5.2 正弦量的相量表示法（上） || 刘健/邱关源电路电气考研，关注我，课程持续更新~</title>
       <link>https://www.bilibili.com/video/BV1HLHM6DE95</link>
       <guid isPermaLink="false">bili-BV1HLHM6DE95</guid>
@@ -654,22 +670,6 @@ via.经济学院
       <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
       <category>campus</category>
       <description>贴吧讨论（1 回复）：求助大一新生问问期中</description>
-    </item>
-    <item>
-      <title>工图C期中</title>
-      <link>https://tieba.baidu.com/p/11130144714</link>
-      <guid isPermaLink="false">tb-11130144714</guid>
-      <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>贴吧讨论（10 回复）：工图C期中</description>
-    </item>
-    <item>
-      <title>求助想咨询转专业流程</title>
-      <link>https://tieba.baidu.com/p/11030010941</link>
-      <guid isPermaLink="false">tb-11030010941</guid>
-      <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-      <category>academics</category>
-      <description>贴吧讨论（28 回复）：求助想咨询转专业流程</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T03:23Z",
+ "generatedAt": "2026-10-29T03:29Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -439,6 +439,27 @@
    "competition": null,
    "content": [
     "<p>关于2026-2027学年第一学期第10周考试安排的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-5e0dfaa92a7679d5",
+   "title": "我校制药工程专业接受工程教育认证专家组现场考查",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://www.hfut.edu.cn/info/1127/13256.htm",
+   "publishedAt": "2026-10-29T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "我校制药工程专业接受工程教育认证专家组现场考查",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>我校制药工程专业接受工程教育认证专家组现场考查</p>"
    ],
    "demo": false
   },
@@ -2044,6 +2065,27 @@
    "competition": null,
    "content": [
     "<p>关于举办第三届全国高校无机非金属材料青年教师讲课比赛的通知（第三轮）</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-ed8987d88a05ec5f",
+   "title": "我校制药工程专业接受工程教育认证专家组现场考查",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1011/79578.htm",
+   "publishedAt": "2026-10-25T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "我校制药工程专业接受工程教育认证专家组现场考查",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>我校制药工程专业接受工程教育认证专家组现场考查</p>"
    ],
    "demo": false
   },
@@ -16285,6 +16327,29 @@
    "competition": null,
    "content": [
     "<p>习近平总书记指引民族团结进步事业高质量发展</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-203e791b9bca8e19",
+   "title": "继续教育学院党支部开展党员集中学习暨“工业报国精神”主题研讨交流",
+   "sourceId": "hfut-jxjy",
+   "sourceName": "合肥工业大学继续教育学院",
+   "sourceType": "official",
+   "url": "https://jxjy.hfut.edu.cn/info/1048/4261.htm",
+   "publishedAt": "2026-09-23T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "继续教育学院党支部开展党员集中学习暨“工业报国精神”主题研讨交流",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>继续教育学院党支部开展党员集中学习暨“工业报国精神”主题研讨交流</p>"
    ],
    "demo": false
   },
