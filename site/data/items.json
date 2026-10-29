@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T00:46Z",
+ "generatedAt": "2026-10-29T00:53Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -417,6 +417,29 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcVuACFqgAAIeYGCwsRI218.jpg\" alt=\"10月30日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcVuACFqgAAIeYGCwsRI218.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-24178ab475783457",
+   "title": "关于2026-2027学年第一学期第10周考试安排的通知",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1249/6162.htm",
+   "publishedAt": "2026-10-29T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "academics",
+   "summary": "关于2026-2027学年第一学期第10周考试安排的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "考试"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于2026-2027学年第一学期第10周考试安排的通知</p>"
+   ],
    "demo": false
   },
   {
@@ -4618,6 +4641,27 @@
    "competition": null,
    "content": [
     "<p>马克思主义学院举行“形势与政策”课联合集体备课会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-1a4c15799f8b2973",
+   "title": "国家重点研发计划：“放射性同位素及药物体...",
+   "sourceId": "hfut-kyy",
+   "sourceName": "合肥工业大学科研院",
+   "sourceType": "official",
+   "url": "https://kyy.hfut.edu.cn/2026/1029/c3310a324196/page.htm",
+   "publishedAt": "2026-10-22T00:53",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "国家重点研发计划：“放射性同位素及药物体...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>国家重点研发计划：“放射性同位素及药物体...</p>"
    ],
    "demo": false
   },

@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:46:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:53:16 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -70,6 +70,14 @@
       <pubDate>Thu, 29 Oct 2026 23:30:00 +0000</pubDate>
       <category>recruitment</category>
       <description>公益服务｜主办 校医院｜公益服务时长★｜限 30 人｜报名截止 2026-10-30｜安徽省合肥市包河区合肥工业大学屯溪路校区医院</description>
+    </item>
+    <item>
+      <title>关于2026-2027学年第一学期第10周考试安排的通知</title>
+      <link>https://jwc.hfut.edu.cn/info/1249/6162.htm</link>
+      <guid isPermaLink="false">web-24178ab475783457</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+      <category>academics</category>
+      <description>关于2026-2027学年第一学期第10周考试安排的通知</description>
     </item>
     <item>
       <title>10月29日上午屯溪路校区教职工体检志愿者服务</title>
@@ -662,22 +670,6 @@ via.经济学院
       <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
       <category>campus</category>
       <description>贴吧讨论（10 回复）：男朋友考上合肥工业大学研究生了</description>
-    </item>
-    <item>
-      <title>目标合肥工业大学！28考研最新考情+就业前景+备考规划一站式解析｜择校第一课，少走备考弯路！</title>
-      <link>https://www.bilibili.com/video/BV1Cbnh6jEUa</link>
-      <guid isPermaLink="false">bili-BV1Cbnh6jEUa</guid>
-      <pubDate>Fri, 23 Oct 2026 20:06:00 +0000</pubDate>
-      <category>life</category>
-      <description>关于更多本院校的细节可看评论区加入我们的qq chat群！
-
-28考研入门：BV1PcNM6VEmd
-
-关于up：BV1iT816cE5X
-本科→考研→就业网站：BV1FKbC6FEsd
-0854专业方向介绍：BV16czFBFEMS
-通信电子区域择校汇总：BV1EptF6iEVw
-通信电子大类各阶段规划：BV1Ltu</description>
     </item>
   </channel>
 </rss>
