@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T09:03Z",
+ "generatedAt": "2026-10-30T17:06Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -3048,6 +3048,29 @@
     "author": "合肥工业大学",
     "play": 527
    },
+   "demo": false
+  },
+  {
+   "id": "web-13da777c66107325",
+   "title": "关于举行申报2026年高级职称汇报答辩评...",
+   "sourceId": "hfut-wfxy",
+   "sourceName": "文法学院",
+   "sourceType": "official",
+   "url": "https://wfxy.hfut.edu.cn/info/1062/4576.htm",
+   "publishedAt": "2026-10-23T17:06",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于举行申报2026年高级职称汇报答辩评...",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "举行"
+   ],
+   "competition": null,
+   "content": [
+    "<p>关于举行申报2026年高级职称汇报答辩评...</p>"
+   ],
    "demo": false
   },
   {
