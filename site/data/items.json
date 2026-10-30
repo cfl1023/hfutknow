@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T08:45Z",
+ "generatedAt": "2026-10-30T16:46Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -626,6 +626,29 @@
    "competition": null,
    "content": [
     "<p>学校三项成果获评2026年全国高校“一站式”学生社区风采展示活动优秀成果</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-dfeeb5ac8a82089e",
+   "title": "——马克思主义学院扎实开展2026年师德建设月活动",
+   "sourceId": "hfut-mks",
+   "sourceName": "马克思主义学院",
+   "sourceType": "official",
+   "url": "https://mks.hfut.edu.cn/2026/1030/c8882a324225/page.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "——马克思主义学院扎实开展2026年师德建设月活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>——马克思主义学院扎实开展2026年师德建设月活动</p>"
    ],
    "demo": false
   },
