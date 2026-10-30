@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T01:25Z",
+ "generatedAt": "2026-10-30T01:31Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -439,6 +439,29 @@
    "competition": null,
    "content": [
     "<p>“形势与政策”教研室召开2025-2026学年第一学期集体备课会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-d1591984c6b1cf21",
+   "title": "国家重点研发计划：“放射性同位素及药物体系性攻关”重点专项公开征集立项建议",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "http://kyy.hfut.edu.cn/2026/1029/c3310a324196/page.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "国家重点研发计划：“放射性同位素及药物体系性攻关”重点专项公开征集立项建议",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "立项"
+   ],
+   "competition": null,
+   "content": [
+    "<p>国家重点研发计划：“放射性同位素及药物体系性攻关”重点专项公开征集立项建议</p>"
    ],
    "demo": false
   },
