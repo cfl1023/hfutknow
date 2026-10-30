@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T16:56Z",
+ "generatedAt": "2026-10-30T17:01Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -649,6 +649,27 @@
    "competition": null,
    "content": [
     "<p>——马克思主义学院扎实开展2026年师德建设月活动</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-eb37a354faedf168",
+   "title": "【教育部官网】合肥工业大学：深挖校友资源，赋能精准帮扶",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1015/79631.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "【教育部官网】合肥工业大学：深挖校友资源，赋能精准帮扶",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>【教育部官网】合肥工业大学：深挖校友资源，赋能精准帮扶</p>"
    ],
    "demo": false
   },

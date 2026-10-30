@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 16:56:48 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:01:48 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -150,6 +150,14 @@
       <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
       <category>departments</category>
       <description>——马克思主义学院扎实开展2026年师德建设月活动</description>
+    </item>
+    <item>
+      <title>【教育部官网】合肥工业大学：深挖校友资源，赋能精准帮扶</title>
+      <link>https://news.hfut.edu.cn/info/1015/79631.htm</link>
+      <guid isPermaLink="false">web-eb37a354faedf168</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
+      <category>campus</category>
+      <description>【教育部官网】合肥工业大学：深挖校友资源，赋能精准帮扶</description>
     </item>
     <item>
       <title>【方脸问案】公司来了一个安徽大学毕业的硕士生，与他聊了聊安大与合肥工业大学（合工大）。发现他也没有拍硕士研究生毕业照片。</title>
@@ -661,14 +669,6 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
       <category>academics</category>
       <description>贴吧讨论（21 回复）：求助机械新大一小登保研求助</description>
-    </item>
-    <item>
-      <title>工图A期中考失误了，有一题貌似看错题目条件了，怎么办好焦虑啊啊</title>
-      <link>https://tieba.baidu.com/p/11127837136</link>
-      <guid isPermaLink="false">tb-11127837136</guid>
-      <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
-      <category>campus</category>
-      <description>贴吧讨论（1 回复）：工图A期中考失误了，有一题貌似看错题目条件了，怎么办好焦虑啊啊</description>
     </item>
   </channel>
 </rss>
