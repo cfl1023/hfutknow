@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T14:11Z",
+ "generatedAt": "2026-10-30T06:15Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -4554,6 +4554,27 @@
     "author": "疯狂矿泉水",
     "play": 1229
    },
+   "demo": false
+  },
+  {
+   "id": "web-66b5db45cb7ed54a",
+   "title": "关于2026-2027学年第一学期在学生中开展“传承红色薪火",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1011/20236.htm",
+   "publishedAt": "2026-10-23T06:15",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于2026-2027学年第一学期在学生中开展“传承红色薪火",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于2026-2027学年第一学期在学生中开展“传承红色薪火</p>"
+   ],
    "demo": false
   },
   {
