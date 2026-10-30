@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T01:31Z",
+ "generatedAt": "2026-10-30T01:38Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -462,6 +462,29 @@
    "competition": null,
    "content": [
     "<p>国家重点研发计划：“放射性同位素及药物体系性攻关”重点专项公开征集立项建议</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-395473fc1ec407f7",
+   "title": "薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办",
+   "sourceId": "hfut-mks",
+   "sourceName": "马克思主义学院",
+   "sourceType": "official",
+   "url": "https://mks.hfut.edu.cn/2026/1030/c8871a324215/page.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "成果"
+   ],
+   "competition": null,
+   "content": [
+    "<p>薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办</p>"
    ],
    "demo": false
   },

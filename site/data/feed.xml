@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 01:32:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:38:03 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -86,6 +86,14 @@
       <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
       <category>research</category>
       <description>国家重点研发计划：“放射性同位素及药物体系性攻关”重点专项公开征集立项建议</description>
+    </item>
+    <item>
+      <title>薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办</title>
+      <link>https://mks.hfut.edu.cn/2026/1030/c8871a324215/page.htm</link>
+      <guid isPermaLink="false">web-395473fc1ec407f7</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
+      <category>research</category>
+      <description>薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办</description>
     </item>
     <item>
       <title>10月30日上午屯溪路校区教职工体检志愿者服务</title>
@@ -661,14 +669,6 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
       <category>campus</category>
       <description>贴吧讨论（4 回复）：你说汪萌是不是有系统</description>
-    </item>
-    <item>
-      <title>求助比较好的社团</title>
-      <link>https://tieba.baidu.com/p/11135024669</link>
-      <guid isPermaLink="false">tb-11135024669</guid>
-      <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
-      <category>recruitment</category>
-      <description>贴吧讨论（15 回复）：求助比较好的社团</description>
     </item>
   </channel>
 </rss>
