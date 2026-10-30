@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T07:42Z",
+ "generatedAt": "2026-10-30T15:46Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -3060,6 +3060,27 @@
     "author": "张哥讲电路",
     "play": 23
    },
+   "demo": false
+  },
+  {
+   "id": "web-c3d5c3c73fbf6a68",
+   "title": "2026年海安市科技人才招商研修实训班在合肥工业大学开班",
+   "sourceId": "hfut-jxjy",
+   "sourceName": "合肥工业大学继续教育学院",
+   "sourceType": "official",
+   "url": "https://jxjy.hfut.edu.cn/info/1051/4267.htm",
+   "publishedAt": "2026-10-23T15:46",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "2026年海安市科技人才招商研修实训班在合肥工业大学开班",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>2026年海安市科技人才招商研修实训班在合肥工业大学开班</p>"
+   ],
    "demo": false
   },
   {
