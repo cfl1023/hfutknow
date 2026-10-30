@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T04:06Z",
+ "generatedAt": "2026-10-30T12:10Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -315,6 +315,27 @@
    "demo": false
   },
   {
+   "id": "web-adffe0bb80d3f457",
+   "title": "陈海嵩: 生态环境法典相关情况及贯彻落实",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://www.hfut.edu.cn/info/1133/13254.htm",
+   "publishedAt": "2026-10-31T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "campus",
+   "summary": "陈海嵩: 生态环境法典相关情况及贯彻落实",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>陈海嵩: 生态环境法典相关情况及贯彻落实</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "gg-1232965758162829312",
    "title": "10月31日上午屯溪路校区教职工体检志愿者服务",
    "sourceId": "gg-activity",
@@ -466,6 +487,30 @@
    "demo": false
   },
   {
+   "id": "web-b3b3043f3cc13148",
+   "title": "薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动",
+   "sourceId": "hfut-jwc",
+   "sourceName": "合肥工业大学教务处",
+   "sourceType": "official",
+   "url": "https://jwc.hfut.edu.cn/info/1245/6166.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "讲座",
+    "教务"
+   ],
+   "competition": null,
+   "content": [
+    "<p>薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-395473fc1ec407f7",
    "title": "薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办",
    "sourceId": "hfut-mks",
@@ -489,27 +534,30 @@
    "demo": false
   },
   {
-   "id": "web-b3b3043f3cc13148",
-   "title": "薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动",
-   "sourceId": "hfut-jwc",
-   "sourceName": "合肥工业大学教务处",
-   "sourceType": "official",
-   "url": "https://jwc.hfut.edu.cn/info/1245/6166.htm",
-   "publishedAt": "2026-10-30T09:00:00",
+   "id": "bili-BV1XTxN6PEep",
+   "title": "【方脸问案】公司来了一个安徽大学毕业的硕士生，与他聊了聊安大与合肥工业大学（合工大）。发现他也没有拍硕士研究生毕业照片。",
+   "sourceId": "bili-ff6ead9d",
+   "sourceName": "B站 · 合工大",
+   "sourceType": "bili",
+   "url": "https://www.bilibili.com/video/BV1XTxN6PEep",
+   "publishedAt": "2026-10-30T08:10",
    "dateEstimated": false,
-   "intent": "activity",
-   "category": "lectures",
-   "summary": "薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动",
+   "intent": "information",
+   "category": "life",
+   "summary": "-",
    "event": null,
    "requiresSignup": false,
    "tags": [
-    "讲座",
-    "教务"
+    "浅蓝影"
    ],
    "competition": null,
    "content": [
-    "<p>薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动</p>"
+    "<p>-</p>"
    ],
+   "bili": {
+    "author": "浅蓝影",
+    "play": 51
+   },
    "demo": false
   },
   {
@@ -545,33 +593,6 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcVuACFqgAAIeYGCwsRI218.jpg\" alt=\"10月30日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/63/rB_xrGrYcVuACFqgAAIeYGCwsRI218.jpg",
-   "demo": false
-  },
-  {
-   "id": "bili-BV1XTxN6PEep",
-   "title": "【方脸问案】公司来了一个安徽大学毕业的硕士生，与他聊了聊安大与合肥工业大学（合工大）。发现他也没有拍硕士研究生毕业照片。",
-   "sourceId": "bili-54958542",
-   "sourceName": "B站 · 合肥工业大学",
-   "sourceType": "bili",
-   "url": "https://www.bilibili.com/video/BV1XTxN6PEep",
-   "publishedAt": "2026-10-30T00:10",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "life",
-   "summary": "-",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "浅蓝影"
-   ],
-   "competition": null,
-   "content": [
-    "<p>-</p>"
-   ],
-   "bili": {
-    "author": "浅蓝影",
-    "play": 2
-   },
    "demo": false
   },
   {
@@ -2710,33 +2731,6 @@
    "demo": false
   },
   {
-   "id": "bili-BV1ZLnt6tEb8",
-   "title": "武汉理工大学VS合肥工业大学，应该怎么选？",
-   "sourceId": "bili-54958542",
-   "sourceName": "B站 · 合肥工业大学",
-   "sourceType": "bili",
-   "url": "https://www.bilibili.com/video/BV1ZLnt6tEb8",
-   "publishedAt": "2026-10-24T10:00",
-   "dateEstimated": false,
-   "intent": "information",
-   "category": "life",
-   "summary": "#武汉理工大学 #合肥工业大学 #院校 #专业 #家长必读",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [
-    "优志愿-祝校长"
-   ],
-   "competition": null,
-   "content": [
-    "<p>#武汉理工大学 #合肥工业大学 #院校 #专业 #家长必读</p>"
-   ],
-   "bili": {
-    "author": "优志愿-祝校长",
-    "play": 304
-   },
-   "demo": false
-  },
-  {
    "id": "web-a9dcde4229684aae",
    "title": "机械工程学院第76期发展对象班开展主题研讨与实践活动",
    "sourceId": "hfut-jxxy",
@@ -3697,6 +3691,50 @@
    "demo": false
   },
   {
+   "id": "web-3cadd2dda473695c",
+   "title": "关于在2026-2027学年第一学期在学生中开展主题班会的通知",
+   "sourceId": "hfut-xgb",
+   "sourceName": "党委学生工作部",
+   "sourceType": "official",
+   "url": "https://xgb.hfut.edu.cn/info/1011/20234.htm",
+   "publishedAt": "2026-10-23T12:10",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "关于在2026-2027学年第一学期在学生中开展主题班会的通知",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [],
+   "competition": null,
+   "content": [
+    "<p>关于在2026-2027学年第一学期在学生中开展主题班会的通知</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-44b6d3b45d6e7452",
+   "title": "30 10 2026年11月外国语学院“院领导接待日”安排表",
+   "sourceId": "hfut-wgyxy",
+   "sourceName": "外国语学院",
+   "sourceType": "official",
+   "url": "https://wgyxy.hfut.edu.cn/2026/1030/c6444a324218/page.htm",
+   "publishedAt": "2026-10-23T12:10",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "departments",
+   "summary": "30 10 2026年11月外国语学院“院领导接待日”安排表",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院"
+   ],
+   "competition": null,
+   "content": [
+    "<p>30 10 2026年11月外国语学院“院领导接待日”安排表</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "tb-11124742868",
    "title": "ok啊也是再次被工图击碎",
    "sourceId": "tieba-合肥工业大学",
@@ -4516,27 +4554,6 @@
     "author": "疯狂矿泉水",
     "play": 1229
    },
-   "demo": false
-  },
-  {
-   "id": "web-3cadd2dda473695c",
-   "title": "关于在2026-2027学年第一学期在学生中开展主题班会的通知",
-   "sourceId": "hfut-xgb",
-   "sourceName": "党委学生工作部",
-   "sourceType": "official",
-   "url": "https://xgb.hfut.edu.cn/info/1011/20234.htm",
-   "publishedAt": "2026-10-23T04:06",
-   "dateEstimated": true,
-   "intent": "information",
-   "category": "campus",
-   "summary": "关于在2026-2027学年第一学期在学生中开展主题班会的通知",
-   "event": null,
-   "requiresSignup": false,
-   "tags": [],
-   "competition": null,
-   "content": [
-    "<p>关于在2026-2027学年第一学期在学生中开展主题班会的通知</p>"
-   ],
    "demo": false
   },
   {
@@ -6116,6 +6133,58 @@
    },
    "content": [
     "<p>经济学院举办2026年“新生杯”乒乓球赛院级选拔赛</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-0dc7b85d5458d8be",
+   "title": "经济学院举办2026-2027学年第一次学生组织全员培训大会",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1021/c9059a323976/page.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "departments",
+   "summary": "经济学院举办2026-2027学年第一次学生组织全员培训大会",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "学院",
+    "培训"
+   ],
+   "competition": null,
+   "content": [
+    "<p>经济学院举办2026-2027学年第一次学生组织全员培训大会</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-041893b40a1afce5",
+   "title": "经济学院举办2026年校运动会院级选拔赛",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2026/1021/c9059a323978/page.htm",
+   "publishedAt": "2026-10-21T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "arts",
+   "summary": "经济学院举办2026年校运动会院级选拔赛",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "运动会",
+    "学院"
+   ],
+   "competition": {
+    "name": "2026年校运动会院级选拔赛",
+    "ic": false,
+    "generic": true
+   },
+   "content": [
+    "<p>经济学院举办2026年校运动会院级选拔赛</p>"
    ],
    "demo": false
   },
@@ -24202,6 +24271,30 @@
    "demo": false
   },
   {
+   "id": "web-95a8b636e5ac5f64",
+   "title": "覃雄合副教授国家社会科学基金后期资助项目拟立项",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2025/1204/c9996a316772/page.htm",
+   "publishedAt": "2025-12-04T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "覃雄合副教授国家社会科学基金后期资助项目拟立项",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "基金",
+    "立项"
+   ],
+   "competition": null,
+   "content": [
+    "<p>覃雄合副教授国家社会科学基金后期资助项目拟立项</p>"
+   ],
+   "demo": false
+  },
+  {
    "id": "web-a68ff3bc7f426782",
    "title": "学院举办2025年斛兵外语讲坛“科研产出大家说”暨研究生交流年会第九场学术报告",
    "sourceId": "hfut-wgyxy",
@@ -24527,6 +24620,30 @@
     "<p>学校将持续支持教师团队的建设与发展，进一步激发广大教师以黄大年同志为榜样，潜心教书育人、开拓科研创新，为推动教育高质量发展、实现高水平科技自立自强贡献更大力量。</p>",
     "<p>来源 | 教育部 食品与生物工程学院</p>",
     "<p>责编 | 卫婷婷 朱与欣</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-32b38bddc0d121ed",
+   "title": "我院彭飞、吴华清老师论文在《世界经济》发表",
+   "sourceId": "hfut-jjxy",
+   "sourceName": "经济学院",
+   "sourceType": "official",
+   "url": "https://jjxy.hfut.edu.cn/2025/0821/c9996a314138/page.htm",
+   "publishedAt": "2025-08-21T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "我院彭飞、吴华清老师论文在《世界经济》发表",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "论文",
+    "发表"
+   ],
+   "competition": null,
+   "content": [
+    "<p>我院彭飞、吴华清老师论文在《世界经济》发表</p>"
    ],
    "demo": false
   },
