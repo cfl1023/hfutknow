@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 12:10:46 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:11:48 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -96,28 +96,12 @@
       <description>国家重点研发计划：“放射性同位素及药物体系性攻关”重点专项公开征集立项建议</description>
     </item>
     <item>
-      <title>关于遴选校级实验室安全督查员的通知</title>
-      <link>https://sysb.hfut.edu.cn/info/1056/2417.htm</link>
-      <guid isPermaLink="false">web-075f37c0c5db570f</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
-      <category>research</category>
-      <description>关于遴选校级实验室安全督查员的通知</description>
-    </item>
-    <item>
       <title>薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动</title>
       <link>https://jwc.hfut.edu.cn/info/1245/6166.htm</link>
       <guid isPermaLink="false">web-b3b3043f3cc13148</guid>
       <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
       <category>lectures</category>
       <description>薪火传智 科创启萌：教务处党支部赴工大附中开展科普讲座活动</description>
-    </item>
-    <item>
-      <title>张永超: 超新星对暗物质相互作用的限制</title>
-      <link>https://wlxy.hfut.edu.cn/info/1048/4194.htm</link>
-      <guid isPermaLink="false">web-14bc8d70e4e6d0c8</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
-      <category>campus</category>
-      <description>张永超: 超新星对暗物质相互作用的限制</description>
     </item>
     <item>
       <title>薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办</title>
@@ -669,6 +653,22 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
       <category>careers</category>
       <description>贴吧讨论（15 回复）：工大杂谈 | 三无机械ldx秋招心得</description>
+    </item>
+    <item>
+      <title>水贴专区 | 我校一老师在网上无故骂人神经病，有小红薯号及截图证明。</title>
+      <link>https://tieba.baidu.com/p/11132865228</link>
+      <guid isPermaLink="false">tb-11132865228</guid>
+      <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
+      <category>services</category>
+      <description>贴吧讨论（1 回复）：水贴专区 | 我校一老师在网上无故骂人神经病，有小红薯号及截图证明。</description>
+    </item>
+    <item>
+      <title>【I在工大】来工大一年的槽点</title>
+      <link>https://tieba.baidu.com/p/11133651010</link>
+      <guid isPermaLink="false">tb-11133651010</guid>
+      <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
+      <category>campus</category>
+      <description>贴吧讨论（2 回复）：【I在工大】来工大一年的槽点</description>
     </item>
   </channel>
 </rss>
