@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T16:26Z",
+ "generatedAt": "2026-10-30T16:31Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -353,6 +353,31 @@
    "competition": null,
    "content": [
     "<p>万安伦: 出版学视域下的阅读学：学理阐释与前沿思考</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-73d6462a0424cf66",
+   "title": "周蔚华: 新闻传播学学术期刊鸟瞰与学术论文发表",
+   "sourceId": "hfut-edu",
+   "sourceName": "合肥工业大学官网",
+   "sourceType": "official",
+   "url": "https://www.hfut.edu.cn/info/1133/13267.htm",
+   "publishedAt": "2026-10-31T09:00:00",
+   "dateEstimated": false,
+   "intent": "information",
+   "category": "research",
+   "summary": "周蔚华: 新闻传播学学术期刊鸟瞰与学术论文发表",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "论文",
+    "发表",
+    "新闻"
+   ],
+   "competition": null,
+   "content": [
+    "<p>周蔚华: 新闻传播学学术期刊鸟瞰与学术论文发表</p>"
    ],
    "demo": false
   },
