@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 17:23:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:29:24 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -54,14 +54,6 @@
       <pubDate>Sun, 01 Nov 2026 16:00:00 +0000</pubDate>
       <category>recruitment</category>
       <description>公益服务｜主办 团委｜公益服务时长★｜限 21 人｜报名截止 2026-11-01｜安徽省合肥市蜀山区合肥工业大学</description>
-    </item>
-    <item>
-      <title>“学习贯彻二十届三中全会精神暨推进大中小学思政课一体化建设高层论坛”成功举办</title>
-      <link>https://mks.hfut.edu.cn/2024/1101/c8896a307914/page.htm</link>
-      <guid isPermaLink="false">web-3641d1de7385594f</guid>
-      <pubDate>Sun, 01 Nov 2026 09:00:00 +0000</pubDate>
-      <category>lectures</category>
-      <description>“学习贯彻二十届三中全会精神暨推进大中小学思政课一体化建设高层论坛”成功举办</description>
     </item>
     <item>
       <title>陈海嵩: 生态环境法典相关情况及贯彻落实</title>
@@ -678,6 +670,14 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 23:26:00 +0000</pubDate>
       <category>campus</category>
       <description>如何评价合肥工业大学（HFUT）？ - 知乎</description>
+    </item>
+    <item>
+      <title>c语言第一讲</title>
+      <link>https://www.bilibili.com/video/BV17RnU6pE6g</link>
+      <guid isPermaLink="false">bili-BV17RnU6pE6g</guid>
+      <pubDate>Sun, 25 Oct 2026 22:47:00 +0000</pubDate>
+      <category>life</category>
+      <description>后续会发布bd网盘ppt链接，应该在最后一节周例直播上</description>
     </item>
   </channel>
 </rss>
