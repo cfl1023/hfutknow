@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 14:46:48 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 14:51:48 +0800</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -126,14 +126,6 @@
       <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
       <category>research</category>
       <description>学校三项成果获评2026年全国高校“一站式”学生社区风采展示活动优秀成果</description>
-    </item>
-    <item>
-      <title>华南理工大学来校调研交流</title>
-      <link>https://www.hfut.edu.cn/info/1127/13264.htm</link>
-      <guid isPermaLink="false">web-298b44af4d457743</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0800</pubDate>
-      <category>campus</category>
-      <description>华南理工大学来校调研交流</description>
     </item>
     <item>
       <title>【方脸问案】公司来了一个安徽大学毕业的硕士生，与他聊了聊安大与合肥工业大学（合工大）。发现他也没有拍硕士研究生毕业照片。</title>
@@ -344,14 +336,6 @@ via.化学与化工学院
       <pubDate>Wed, 28 Oct 2026 09:00:00 +0800</pubDate>
       <category>skills</category>
       <description>我校举办2026年秋季学期党员基本培训第二次集中大课</description>
-    </item>
-    <item>
-      <title>华南理工大学来校调研交流</title>
-      <link>https://news.hfut.edu.cn/info/1011/79609.htm</link>
-      <guid isPermaLink="false">web-69b4b57b5d961cac</guid>
-      <pubDate>Wed, 28 Oct 2026 09:00:00 +0800</pubDate>
-      <category>campus</category>
-      <description>华南理工大学来校调研交流</description>
     </item>
     <item>
       <title>今天分享一名合肥工业大学2026届建筑与艺术学院硕士，专业建筑学，方向建筑设计及其理论，校招收到的三份工作offer</title>
@@ -669,6 +653,22 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
       <category>campus</category>
       <description>贴吧讨论（17 回复）：水贴专区 | 痛苦的大学四年</description>
+    </item>
+    <item>
+      <title>求助有没有人认识医生工的一个同学？</title>
+      <link>https://tieba.baidu.com/p/11127607522</link>
+      <guid isPermaLink="false">tb-11127607522</guid>
+      <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
+      <category>campus</category>
+      <description>贴吧讨论（1 回复）：求助有没有人认识医生工的一个同学？</description>
+    </item>
+    <item>
+      <title>求助想问一下智能化工创新班怎么样</title>
+      <link>https://tieba.baidu.com/p/11130903563</link>
+      <guid isPermaLink="false">tb-11130903563</guid>
+      <pubDate>Sun, 25 Oct 2026 17:38:00 +0800</pubDate>
+      <category>campus</category>
+      <description>贴吧讨论（40 回复）：求助想问一下智能化工创新班怎么样</description>
     </item>
   </channel>
 </rss>
