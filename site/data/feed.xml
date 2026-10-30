@@ -5,7 +5,7 @@
     <link>https://hfutknow.example</link>
     <description>合肥工业大学翡翠湖校区的讲座、活动、招新、奖学金与教务通知聚合站，全天自动更新。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 01:07:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:13:28 +0000</lastBuildDate>
     <atom:link href="https://hfutknow.example/data/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>11月6日上午屯溪路校区教职工体检志愿者服务</title>
@@ -78,14 +78,6 @@
       <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
       <category>departments</category>
       <description>“形势与政策”教研室召开2025-2026学年第一学期集体备课会</description>
-    </item>
-    <item>
-      <title>张永超: 超新星对暗物质相互作用的限制</title>
-      <link>https://wlxy.hfut.edu.cn/info/1048/4194.htm</link>
-      <guid isPermaLink="false">web-14bc8d70e4e6d0c8</guid>
-      <pubDate>Fri, 30 Oct 2026 09:00:00 +0000</pubDate>
-      <category>campus</category>
-      <description>张永超: 超新星对暗物质相互作用的限制</description>
     </item>
     <item>
       <title>10月30日上午屯溪路校区教职工体检志愿者服务</title>
@@ -669,6 +661,14 @@ via.文法学院
       <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
       <category>recruitment</category>
       <description>贴吧讨论（15 回复）：求助比较好的社团</description>
+    </item>
+    <item>
+      <title>大创与其他赛事有招人的吗？</title>
+      <link>https://tieba.baidu.com/p/11133966206</link>
+      <guid isPermaLink="false">tb-11133966206</guid>
+      <pubDate>Sun, 25 Oct 2026 17:38:00 +0000</pubDate>
+      <category>skills</category>
+      <description>贴吧讨论（3 回复）：大创与其他赛事有招人的吗？</description>
     </item>
   </channel>
 </rss>
