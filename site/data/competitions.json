@@ -12,7 +12,7 @@
    "tracking": {
     "status": "open",
     "deadline": "2026-11-03",
-    "daysLeft": 3,
+    "daysLeft": 4,
     "eventAt": "",
     "snippet": "11 月 3 日前",
     "how": {
@@ -52,7 +52,7 @@
    "tracking": {
     "status": "open",
     "deadline": "2026-11-10",
-    "daysLeft": 10,
+    "daysLeft": 11,
     "eventAt": "",
     "snippet": "报名截止日期延至2026年11月10",
     "how": {
@@ -79,7 +79,7 @@
    "tracking": {
     "status": "open",
     "deadline": "2026-12-04",
-    "daysLeft": 34,
+    "daysLeft": 35,
     "eventAt": "2026-12-06",
     "snippet": "报名截止时间：2026年12月4",
     "how": {
@@ -108,7 +108,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-07-01",
-    "daysLeft": -122,
+    "daysLeft": -121,
     "eventAt": "",
     "snippet": "7 月 1 日之前",
     "how": {
@@ -135,7 +135,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-09-23",
-    "daysLeft": -38,
+    "daysLeft": -37,
     "eventAt": "",
     "snippet": "截止时间：2026年9月23",
     "how": {
@@ -164,7 +164,7 @@
    "tracking": {
     "status": "closed",
     "deadline": "2026-10-10",
-    "daysLeft": -21,
+    "daysLeft": -20,
     "eventAt": "",
     "snippet": "10月10日，发布赛题，举行赛前",
     "how": {
@@ -1565,5 +1565,5 @@
    }
   }
  ],
- "trackedAt": "2026-10-31T00:21"
+ "trackedAt": "2026-10-30T16:24"
 }
