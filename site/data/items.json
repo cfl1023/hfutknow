@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T09:09Z",
+ "generatedAt": "2026-10-30T17:11Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -312,6 +312,41 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkByAFQHPAAIeYGCwsRI736.jpg\" alt=\"11月2日上午屯溪路校区教职工体检志愿者服务\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/73/rB_xrGrhkByAFQHPAAIeYGCwsRI736.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1236136921026265088",
+   "title": "青志联-“时代楷模”王戟同志先进事迹报告会临时志愿者",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-11-02T00:00+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "recruitment",
+   "summary": "公益服务｜主办 团委｜公益服务时长★｜限 21 人｜报名截止 2026-11-01｜安徽省合肥市蜀山区合肥工业大学",
+   "event": {
+    "start": "2026-11-02T00:00+08:00",
+    "end": "2026-11-02T00:00+08:00",
+    "location": "安徽省合肥市蜀山区合肥工业大学"
+   },
+   "deadline": "2026-11-01",
+   "speaker": null,
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "公益服务",
+    "合肥校区",
+    "公益服务时长★"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>公益服务｜主办 团委｜公益服务时长★｜限 21 人｜报名截止 2026-11-01｜安徽省合肥市蜀山区合肥工业大学</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/77/rB_xrGrj-iWAKGJmAAIdpZdberw332.jpg\" alt=\"青志联-“时代楷模”王戟同志先进事迹报告会临时志愿者\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/77/rB_xrGrj-iWAKGJmAAIdpZdberw332.jpg",
    "demo": false
   },
   {
