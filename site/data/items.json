@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T14:16Z",
+ "generatedAt": "2026-10-30T14:21Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -530,6 +530,33 @@
    "competition": null,
    "content": [
     "<p>薪火长征路，奋进新征程 ——我校第十届大学生讲思政课成果展示顺利举办</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-e6764df9e29fcc25",
+   "title": "我校学子在2026年中国计算机学会CCSP竞赛中斩获金奖",
+   "sourceId": "hfut-news",
+   "sourceName": "合肥工业大学新闻网",
+   "sourceType": "official",
+   "url": "https://news.hfut.edu.cn/info/1018/79629.htm",
+   "publishedAt": "2026-10-30T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "skills",
+   "summary": "我校学子在2026年中国计算机学会CCSP竞赛中斩获金奖",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "竞赛"
+   ],
+   "competition": {
+    "name": "2026年中国计算机学会CCSP竞赛",
+    "ic": false,
+    "generic": true
+   },
+   "content": [
+    "<p>我校学子在2026年中国计算机学会CCSP竞赛中斩获金奖</p>"
    ],
    "demo": false
   },
