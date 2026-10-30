@@ -21,7 +21,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 31
+   "count": 32
   },
   {
    "id": "hfut-news",
@@ -708,7 +708,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 29
+   "count": 30
   },
   {
    "id": "hfut-tuanwei",
