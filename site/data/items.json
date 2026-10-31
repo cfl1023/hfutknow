@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T05:57Z",
+ "generatedAt": "2026-10-31T14:01Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -369,6 +369,52 @@
    "competition": null,
    "content": [
     "<p>“学习贯彻二十届三中全会精神暨推进大中小学思政课一体化建设高层论坛”成功举办</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-cdf24aef259d07a5",
+   "title": "合肥工业大学介绍-掌上高考",
+   "sourceId": "net-web",
+   "sourceName": "互联网 · 网页",
+   "sourceType": "net",
+   "url": "https://www.gaokao.cn/school/63",
+   "publishedAt": "2026-10-31T14:01",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "合肥工业大学介绍-掌上高考",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "网页"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学介绍-掌上高考</p>"
+   ],
+   "demo": false
+  },
+  {
+   "id": "web-e4e2a8326b5a177b",
+   "title": "合肥工业大学-快懂百科",
+   "sourceId": "net-web",
+   "sourceName": "互联网 · 网页",
+   "sourceType": "net",
+   "url": "https://m.baike.com/wikiid/7176094229767258149",
+   "publishedAt": "2026-10-31T14:01",
+   "dateEstimated": true,
+   "intent": "information",
+   "category": "campus",
+   "summary": "合肥工业大学-快懂百科",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "网页"
+   ],
+   "competition": null,
+   "content": [
+    "<p>合肥工业大学-快懂百科</p>"
    ],
    "demo": false
   },
