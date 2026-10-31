@@ -476,7 +476,7 @@
     "enabled": true,
     "limit": 10
    },
-   "count": 26
+   "count": 27
   },
   {
    "id": "hfut-dekt",
@@ -2853,7 +2853,7 @@
    "type": "gg",
    "url": "https://community.hfut.edu.cn/",
    "category": "campus",
-   "count": 22,
+   "count": 25,
    "feed": {
     "type": "gg",
     "url": "",

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T03:53Z",
+ "generatedAt": "2026-10-31T11:57Z",
  "demo": false,
  "site": {
   "name": "工大知道",
@@ -347,6 +347,29 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/77/rB_xrGrj-iWAKGJmAAIdpZdberw332.jpg\" alt=\"青志联-“时代楷模”王戟同志先进事迹报告会临时志愿者\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/77/rB_xrGrj-iWAKGJmAAIdpZdberw332.jpg",
+   "demo": false
+  },
+  {
+   "id": "web-3641d1de7385594f",
+   "title": "“学习贯彻二十届三中全会精神暨推进大中小学思政课一体化建设高层论坛”成功举办",
+   "sourceId": "hfut-mks",
+   "sourceName": "马克思主义学院",
+   "sourceType": "official",
+   "url": "https://mks.hfut.edu.cn/2024/1101/c8896a307914/page.htm",
+   "publishedAt": "2026-11-01T09:00:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "lectures",
+   "summary": "“学习贯彻二十届三中全会精神暨推进大中小学思政课一体化建设高层论坛”成功举办",
+   "event": null,
+   "requiresSignup": false,
+   "tags": [
+    "论坛"
+   ],
+   "competition": null,
+   "content": [
+    "<p>“学习贯彻二十届三中全会精神暨推进大中小学思政课一体化建设高层论坛”成功举办</p>"
+   ],
    "demo": false
   },
   {
@@ -911,6 +934,111 @@
     "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/79/rB_xrGrkbSKAR8ljAAGwpLLY-s4413.jpg\" alt=\"合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周五）\" loading=\"lazy\"></p>"
    ],
    "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/79/rB_xrGrkbSKAR8ljAAGwpLLY-s4413.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1236262223316516864",
+   "title": "合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周四）",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-30T00:00+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "campus",
+   "summary": "体育健身｜主办 党委学生工作部（处）（党委研究生工作部合署）｜报告讲座｜主讲 党委学生工作部（处）统一组织｜限 500 人｜报名截止 2026-11-02｜安徽省合肥市蜀山区翡翠湖校区",
+   "event": {
+    "start": "2026-10-30T00:00+08:00",
+    "end": "2026-11-02T00:00+08:00",
+    "location": "安徽省合肥市蜀山区翡翠湖校区"
+   },
+   "deadline": "2026-11-02",
+   "speaker": "党委学生工作部（处）统一组织",
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "体育健身",
+    "合肥校区",
+    "报告讲座"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>体育健身｜主办 党委学生工作部（处）（党委研究生工作部合署）｜报告讲座｜主讲 党委学生工作部（处）统一组织｜限 500 人｜报名截止 2026-11-02｜安徽省合肥市蜀山区翡翠湖校区</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/79/rB_xrGrkcCGAH5UHAAGwpLLY-s4881.jpg\" alt=\"合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周四）\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/79/rB_xrGrkcCGAH5UHAAGwpLLY-s4881.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1236257129749544960",
+   "title": "合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周三）",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-30T00:00+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "campus",
+   "summary": "体育健身｜主办 党委学生工作部（处）（党委研究生工作部合署）｜报告讲座｜主讲 党委学生工作部（处）统一组织｜限 500 人｜报名截止 2026-11-02｜安徽省合肥市蜀山区翡翠湖校区",
+   "event": {
+    "start": "2026-10-30T00:00+08:00",
+    "end": "2026-11-02T00:00+08:00",
+    "location": "安徽省合肥市蜀山区翡翠湖校区"
+   },
+   "deadline": "2026-11-02",
+   "speaker": "党委学生工作部（处）统一组织",
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "体育健身",
+    "合肥校区",
+    "报告讲座"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>体育健身｜主办 党委学生工作部（处）（党委研究生工作部合署）｜报告讲座｜主讲 党委学生工作部（处）统一组织｜限 500 人｜报名截止 2026-11-02｜安徽省合肥市蜀山区翡翠湖校区</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/78/rB_xrGrkaxSALE4GAAGwpLLY-s4814.jpg\" alt=\"合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周三）\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/78/rB_xrGrkaxSALE4GAAGwpLLY-s4814.jpg",
+   "demo": false
+  },
+  {
+   "id": "gg-1236255403181080576",
+   "title": "合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周二）",
+   "sourceId": "gg-activity",
+   "sourceName": "逛逛 · 校园活动",
+   "sourceType": "gg",
+   "url": "https://community.hfut.edu.cn/",
+   "publishedAt": "2026-10-30T00:00+08:00",
+   "dateEstimated": false,
+   "intent": "activity",
+   "category": "campus",
+   "summary": "体育健身｜主办 党委学生工作部（处）（党委研究生工作部合署）｜报告讲座｜主讲 党委学生工作部（处）统一组织早锻炼｜限 500 人｜报名截止 2026-11-02｜安徽省合肥市蜀山区安徽省合肥市蜀山区翡翠湖校区",
+   "event": {
+    "start": "2026-10-30T00:00+08:00",
+    "end": "2026-11-03T00:00+08:00",
+    "location": "安徽省合肥市蜀山区安徽省合肥市蜀山区翡翠湖校区"
+   },
+   "deadline": "2026-11-02",
+   "speaker": "党委学生工作部（处）统一组织早锻炼",
+   "requiresSignup": true,
+   "activityStatus": "upcoming",
+   "tags": [
+    "体育健身",
+    "合肥校区",
+    "报告讲座"
+   ],
+   "competition": null,
+   "feed": true,
+   "content": [
+    "<p>体育健身｜主办 党委学生工作部（处）（党委研究生工作部合署）｜报告讲座｜主讲 党委学生工作部（处）统一组织早锻炼｜限 500 人｜报名截止 2026-11-02｜安徽省合肥市蜀山区安徽省合肥市蜀山区翡翠湖校区</p>",
+    "<p><img src=\"https://dekt.hfut.edu.cn/group1/M00/FE/78/rB_xrGrkY3mAVWxeAAGwpLLY-s4453.jpg\" alt=\"合肥工业大学“晨启青春，活力工大”早锻炼健身操项目报名（11月周二）\" loading=\"lazy\"></p>"
+   ],
+   "poster": "https://dekt.hfut.edu.cn/group1/M00/FE/78/rB_xrGrkY3mAVWxeAAGwpLLY-s4453.jpg",
    "demo": false
   },
   {
