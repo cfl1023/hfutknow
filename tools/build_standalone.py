@@ -42,11 +42,20 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     target = OUT / "工大知道.html"
     target.write_text(html, encoding="utf-8")
-    # 方便直接双击：同时放到工作区根目录
-    root_copy = ROOT.parent / "工大知道.html"
-    root_copy.write_bytes(target.read_bytes())
+    # 方便直接双击：工作区根目录 + 桌面 + 下载
+    import os
+    home = os.path.expanduser("~")
+    outs = [ROOT.parent / "工大知道.html",
+            Path(home) / "Desktop" / "工大知道.html",
+            Path(home) / "Downloads" / "工大知道.html"]
+    for dst in outs:
+        try:
+            if dst.parent.is_dir():
+                dst.write_bytes(target.read_bytes())
+        except OSError as exc:
+            print(f"跳过 {dst}: {exc}")
     print(f"{target}  ({target.stat().st_size / 1024 / 1024:.1f} MB, {len(items['items'])} 条)")
-    print(f"已复制到 {root_copy}")
+    print("已复制到 " + ", ".join(str(d) for d in outs))
 
 
 if __name__ == "__main__":
