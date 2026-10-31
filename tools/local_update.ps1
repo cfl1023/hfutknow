@@ -26,7 +26,6 @@ try {
     Log '--- start ---'
 
     & $py -m pipeline.sync --limit 24 --fast *>> $log
-    & $py tools/ingest_corpus.py *>> $log
     & $py tools/make_rss.py *>> $log
     & $py tools/clean_junk.py *>> $log
     & $py tools/build_tracking.py *>> $log

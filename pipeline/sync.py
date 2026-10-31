@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timedelta
 from typing import Any
 
-from . import bili, classify, common, competitions, fetchers, guang, summarize, websearch
+from . import classify, common, competitions, fetchers, summarize
 
 CAT_INTENT = {c["id"]: c["intent"] for c in common.load_config()["categories"]}
 
@@ -169,53 +169,7 @@ def main(argv: list[str] | None = None) -> int:
         if kept:
             print(f"  + {src['name']}: 新增 {kept} 条")
 
-    # B 站：真人学生视频（约每 3 小时刷一次，见 pipeline/bili.py）
-    bili_items = bili.fetch_items(cfg.get("biliKeywords") or ["合肥工业大学", "合工大"])
-    bili_new = 0
-    for it in bili_items:
-        if it["url"] in existing_urls:
-            continue
-        existing_urls.add(it["url"])
-        items.append(it)
-        bili_new += 1
-    if bili_new:
-        print(f"  + B站: 新增 {bili_new} 条")
-    total_new += bili_new
-
-    # 逛逛/社区活动（CAS 免登，本机专属；无凭据自动跳过）
-    try:
-        gg_items = guang.fetch_items()
-    except Exception as exc:
-        print(f"  × 逛逛: {exc}")
-        gg_items = []
-    gg_new = 0
-    gg_ids = {i["id"] for i in items}
-    for it in gg_items:
-        if it["id"] in gg_ids:
-            continue
-        gg_ids.add(it["id"])
-        items.append(it)
-        gg_new += 1
-    if gg_new:
-        print(f"  + 逛逛: 新增 {gg_new} 条")
-    total_new += gg_new
-
-    # 互联网搜索（Bing，约 2 小时一次；海外 runner 上稳定，本机可能被墙）
-    try:
-        web_items = websearch.fetch_items()
-    except Exception as exc:
-        print(f"  × 互联网搜索整体失败: {str(exc)[:80]}")
-        web_items = []
-    web_new = 0
-    for it in web_items:
-        if it["url"] in existing_urls or it["id"] in {i["id"] for i in items}:
-            continue
-        existing_urls.add(it["url"])
-        items.append(it)
-        web_new += 1
-    if web_new:
-        print(f"  + 互联网: 新增 {web_new} 条")
-    total_new += web_new
+    # 只保留官网 + 公众号：贴吧 / 逛逛 / B站 / 互联网搜索已按用户要求撤下
 
     items.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     payload["items"] = items
@@ -231,21 +185,6 @@ def main(argv: list[str] | None = None) -> int:
         counts[it["sourceId"]] = counts.get(it["sourceId"], 0) + 1
     sources_out = [{**s, "count": counts.get(s["id"], 0)} for s in cfg["sources"]]
     seen = {s["id"] for s in sources_out}
-    if counts.get("gg-activity"):
-        sources_out.append({"id": "gg-activity", "name": "逛逛 · 校园活动", "type": "gg",
-                            "url": "https://community.hfut.edu.cn/", "category": "campus",
-                            "count": counts["gg-activity"],
-                            "feed": {"type": "gg", "url": "", "enabled": True}})
-        seen.add("gg-activity")
-    for b_id, n in counts.items():
-        if b_id.startswith("bili-") and b_id not in seen:
-            name = next((i["sourceName"] for i in items if i["sourceId"] == b_id), "B站")
-            kw = name.replace("B站 · ", "")
-            sources_out.append({"id": b_id, "name": name, "type": "bili",
-                                "url": f"https://search.bilibili.com/all?keyword={kw}",
-                                "category": "life", "count": n,
-                                "feed": {"type": "bili", "url": "", "enabled": True}})
-
     if args.dry_run:
         print(f"\n[dry-run] 新增 {total_new} 条，未写入文件")
         return 0
@@ -271,7 +210,6 @@ def main(argv: list[str] | None = None) -> int:
         "sources": sorted(report.values(), key=lambda v: (-(v.get("new") or 0), v["name"])),
         "new": total_new,
         "total": len(items),
-        "biliNew": bili_new,
     }
     hist = ([run] + hist)[:40]
     rp.write_text(json.dumps({"latest": run, "history": hist}, ensure_ascii=False, indent=1),
